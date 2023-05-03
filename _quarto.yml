@@ -1,0 +1,130 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: Through the Looking Glass
+  subtitle: Coevolution, Polymorphism, and Sexual Reproduction
+  abstract: The following pages represent the first six chapters of a book (part 1).  The main goal was to present an introduction to the problem of sexual reproduction, with a focus on competition between sexual and asexual females.  But I also incorporated some ideas on genetic polymorphism and phenotypic plasticity with the aim of exploring “variation strategies” more generally.  Finally, I tried to weave in some history of the field, along with some philosophy of science.  
+  doi: TK
+  publisher: Scholarly Communication Department, Indiana University Bloomington Libraries
+  publisher-place: Bloomington, IN
+  author: 
+    - name: 
+        given: Curtis M.
+        family: Lively
+        literal: Curtis M. Lively
+      attributes:
+        corresponding: True
+      affiliations:
+        - name: Indiana University Bloomington
+          department: Biology
+          address:  Biology Bldg. 117B
+          city: Bloomington
+          region: IN
+          country: US
+          postal-code: 47405
+          url: https://biology.indiana.edu/index.html
+      email: clively@indiana.edu
+      url: https://biology.indiana.edu/about/faculty/lively-curt.html
+  date: last-modified
+  date-format: YYYY-MMMM-DD
+  language: en-US
+  downloads: [pdf, epub, docx]
+  sharing: [twitter, facebook, linkedin]
+  type: book
+
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+  appendices: 
+    - appendix.qmd
+  sidebar:
+    logo: images/cover2.jpg
+    tools: 
+      - icon: person
+        href: https://amaze2.github.io/
+      - icon: twitter
+        href: https://twitter.com/iulibraries?lang=en
+keyword: example, "library publishing", "scholarly communication", "indiana university bloomington", "indiana university libraries"
+  license: "CC BY"
+  cover-image: images/cover2.jpg
+  cover-image-alt: book cover in IU colors with title, author, and IU logo
+  site-url: https://iulibscholcomm.github.io/example-publication/
+  repo-url: https://github.com/IULibScholComm/example-publication
+  issue-url: https://github.com/IULibScholComm/example-publication/issues/new
+  pdf-url: https://github.com/IULibScholComm/example-publication/blob/main/docs/Example-Publication.pdf
+  repo-actions: [edit, issue, source]
+  favicon: images/cover2.jpg
+  # cookie-consent: false
+  comments:
+    hypothesis: 
+      theme: classic
+      showHighlights: whenSidebarOpen
+  search: 
+    location: sidebar
+    type: overlay
+    copy-button: true
+  page-navigation: true
+  back-to-top-navigation: true
+  image: images/cover2.jpg
+  reader-mode: true
+  google-analytics: "G-PT4W2H086H"
+  twitter-card: 
+    description: An example IUB Libraries Scholarly Communication publication
+    card-style: summary
+    site: "@iulibraries"
+  open-graph: true
+
+
+
+
+
+# references: 
+
+# citation:
+  # type: document
+  # publisher: Scholarly Communication Department, Indiana University Bloomington Libraries
+  # publisher-place: Bloomington, IN
+  # doi: TK
+
+# google-scholar: true
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    toc: true
+    toc-title: Contents
+    toc-expand: true
+    number-sections: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    copyright: Adam Mazel
+    date-modified: last-modified
+    license: "CC BY"
+  pdf:
+    documentclass: book
+    keep-tex: true
+    toc: true
+    toc-title: Contents
+    lof: true
+    lot: true
+    number-sections: true
+    fontsize: 11pt
+    linkcolor: cyan
+    papersize: letter
+  epub:
+    cover-image: images/cover2.jpg
+    toc: true
+    toc-title: Contents
+    number-sections: true
+
+
+
+
