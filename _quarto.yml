@@ -24,7 +24,7 @@ book:
       email: clively@indiana.edu
       url: https://biology.indiana.edu/about/faculty/lively-curt.html
   date: last-modified
-  date-format: "DD MMMM YYYYY"
+  date-format: "DD MMMM YYYY"
   # references: 
   cover-image-alt: book cover with title, author, and image of red queen chesspiece and two snails
   sharing: [twitter, facebook, linkedin]

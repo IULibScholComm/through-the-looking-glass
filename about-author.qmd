@@ -1,5 +1,4 @@
 ---
-title: "Curt Lively"
 about:
   template: jolla
   image: images/lively-curt-Mar2017.jpg
@@ -8,6 +7,8 @@ about:
       text: twitter
       href: https://twitter.com/curt_lively
 ---
+
+# About the Author {.unnumbered}
 
 Curt Lively is the Distinguished Professor of Biology at Indiana University Bloomington. 
 
