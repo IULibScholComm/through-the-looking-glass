@@ -1,4 +1,4 @@
-![](Picture1.svg){fig-alt="Elderly man with his hand on his face"}ZMD
+![](images/Picture1.svg){fig-alt="Elderly man with his hand on his face"}ZMD
 
 # Why Sex? {#sec-why-sex}
 
@@ -33,8 +33,7 @@ Several assumptions went into Maynard Smith\'s model for the cost of males. In p
 
 The two alternative costs of sex raise an immediate question. Does the cost of sex result from reduced relatedness between mother and offspring, or from the cost of producing males? Or is the cost some combination of both? These questions are not easy to answer; but there is an algebraic solution, which suggests that the (1) two costs are mutually exclusive and (2) that they apply to different kinds of uniparental progeny (Lively and Lloyd 1990). Roughly speaking, I think we can adopt the following rules for the purpose of this book. When considering the spread of a rare allele that induces self-fertilization in hermaphrodites, the appropriate cost is Williams\' cost of meiosis. Here we have a single population in which the selfing allele is under positive selection, because it has a transmission advantage. On the other hand, when we consider the spread of a clone into an obligately sexual population, we are dealing with competition between two different reproductively isolated groups. One group (the sexuals) produces males, which do not make offspring. The other group (asexuals) produces only females. Here the cost of sex stems from producing males. But the two costs do not combine. The cost of sex is not four-fold.
 
-  ---------------------------------------------------------------------------------------
-  ![Clonal invasion dynamics. Results from a simulation study in which a single clonal individual was introduced into a sexual population at generation 1000 (Lively 2009). The sexual population was initiated at carrying capacity: *K*~sex~ = 10000. Note that the asexual lineage replaces the sexual population in about 25 generations. The asexual population then attains a new carrying capacity at *K*~asex~ = 20000 individuals. The frequency of males in the sexual population was assumed to be 1/2. Annual reproduction, with non-overlapping generations, was also assumed.](images/Figure1.2.svg){#fig-1.2}
+![Clonal invasion dynamics. Results from a simulation study in which a single clonal individual was introduced into a sexual population at generation 1000 (Lively 2009). The sexual population was initiated at carrying capacity: *K*~sex~ = 10000. Note that the asexual lineage replaces the sexual population in about 25 generations. The asexual population then attains a new carrying capacity at *K*~asex~ = 20000 individuals. The frequency of males in the sexual population was assumed to be 1/2. Annual reproduction, with non-overlapping generations, was also assumed.](images/Figure1.2.svg){#fig-1.2}
   
 ### The cost of recombination
 
@@ -79,7 +78,7 @@ I now think that John Maynard Smith was correct. An essential feature had indeed
 3. The exchange of DNA between different parental chromosomes (recombination) is similarly paradoxical.
 4. Why then are recombination and cross-fertilization so common?
 
-::: {.callout-tip #sec-box1.1}
+::: {.callout-tip} {#sec-box1.1}
 
 ## Short definitions of terms, as used in this book. These definitions do not include all possible nuances for the terms.
 
@@ -105,7 +104,7 @@ I now think that John Maynard Smith was correct. An essential feature had indeed
 
 :::
 
-::: {.callout-note #sec-box1.2}
+::: {.callout-note}{#sec-box1.2}
 
 ## Box 1.2. 
 
@@ -119,11 +118,11 @@ Maynard Smith\'s (1978) model showing the cost of producing males\*. Let *N~asex
 
 The fold increase in frequency of asexuals, *F*, is the ratio of the frequency of asexuals at time 2 divided by the frequency of asexuals at time 1 giving:
 
-$$[F = \frac{N_{asex}(S_{asex}B_{asex})}{N_{asex}({S}_{asex}B_{asex}) + ({rN}_{sex}S_{sex}B_{sex})}/\frac{N_{asex}}{N_{asex} + N_{sex}}]$$
+$$F = \frac{N_{asex}(S_{asex}B_{asex})}{N_{asex}({S}_{asex}B_{asex}) + ({rN}_{sex}S_{sex}B_{sex})}/\frac{N_{asex}}{N_{asex} + N_{sex}}$$
 
 Under the all-else-equal assumption, *S~asex~* = *S~sex~* and *B~asex~* = *B~sex~*, giving:
 
-$$F = \frac{N_{asex}(S_{asex}B_{asex})}{N_{asex}({S}_{asex}B_{asex}) + ({rN}_{sex}S_{sex}B_{sex})}/\frac{N_{asex}}{N_{asex} + N_{sex}}$$
+$$F = \frac{N_{asex}}{N_{asex} + {rN}_{sex}}/\frac{N_{asex}}{N_{asex} + N_{sex}}$$
 
 Assuming that there is a single asexual female at time 1, we get
 

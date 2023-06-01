@@ -79,7 +79,6 @@ book:
     - part: "Back Matter"
       chapters:
         - references.qmd
-        - about-author.qmd
 citation:
   type: book
   medium: digital
