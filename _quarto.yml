@@ -4,11 +4,7 @@ project:
 
 book:
   title: Through the Looking Glass
-  subtitle: Coevolution, Polymorphism, and Sexual Reproduction
-  abstract: The following pages represent the first six chapters of a book (part 1).  The main goal was to present an introduction to the problem of sexual reproduction, with a focus on competition between sexual and asexual females.  But I also incorporated some ideas on genetic polymorphism and phenotypic plasticity with the aim of exploring “variation strategies” more generally.  Finally, I tried to weave in some history of the field, along with some philosophy of science.  
-  doi: TK
-  publisher: Scholarly Communication Department, Indiana University Bloomington Libraries
-  publisher-place: Bloomington, IN
+  subtitle: I. Why Cross-Fertilize?
   author: 
     - name: 
         given: Curtis M.
@@ -28,77 +24,78 @@ book:
       email: clively@indiana.edu
       url: https://biology.indiana.edu/about/faculty/lively-curt.html
   date: last-modified
-  date-format: YYYY-MMMM-DD
-  language: en-US
-  downloads: [pdf, epub, docx]
+  date-format: "DD MMMM YYYYY"
+  # references: 
+  cover-image-alt: book cover with title, author, and image of red queen chesspiece and two snails
   sharing: [twitter, facebook, linkedin]
-  type: book
-
-  chapters:
-    - index.qmd
-    - intro.qmd
-    - summary.qmd
-    - references.qmd
-
-bibliography: references.bib
-  appendices: 
-    - appendix.qmd
+  downloads: [pdf, epub, docx]
   sidebar:
-    logo: images/cover2.jpg
+    style: "floating"
+    logo: images/cover.jpg
+    search: true
     tools: 
-      - icon: person
-        href: https://amaze2.github.io/
+      - icon: person-circle
+        href: https://biology.indiana.edu/about/faculty/lively-curt.html
       - icon: twitter
-        href: https://twitter.com/iulibraries?lang=en
-keyword: example, "library publishing", "scholarly communication", "indiana university bloomington", "indiana university libraries"
-  license: "CC BY"
-  cover-image: images/cover2.jpg
-  cover-image-alt: book cover in IU colors with title, author, and IU logo
-  site-url: https://iulibscholcomm.github.io/example-publication/
-  repo-url: https://github.com/IULibScholComm/example-publication
-  issue-url: https://github.com/IULibScholComm/example-publication/issues/new
-  pdf-url: https://github.com/IULibScholComm/example-publication/blob/main/docs/Example-Publication.pdf
+        href: https://twitter.com/curt_lively
+  doi: TK
+  illustrator: Zoe Michelle Dinges
+  keyword: biology, "sexual reproduction", evolution, "evolutionary biology"
+  language: en-US
+  # license: "CC BY"
+  publisher: Scholarly Communication Department, Indiana University Bloomington Libraries
+  publisher-place: Bloomington, IN
+  status: "advance publication"
+  submitted: "01 June 2023"
+  type: book
+  favicon: images/cover.jpg
+  site-url: https://iulibscholcomm.github.io/through-the-looking-glass
+  repo-url: https://github.com/IULibScholComm/through-the-looking-glass
+  issue-url: https://github.com/IULibScholComm/through-the-looking-glass/issues/new
+  pdf-url: TK
   repo-actions: [edit, issue, source]
-  favicon: images/cover2.jpg
-  # cookie-consent: false
+  reader-mode: true
+  # google-analytics: "G-PT4W2H086H"
+  # cookie-consent: "implied"
+  page-navigation: true
+  back-to-top-navigation: true
+  image: images/cover.jpg
+  open-graph: true
+  twitter-card:  
+    card-style: summary
+    creator: "@curt_lively"
   comments:
     hypothesis: 
       theme: classic
       showHighlights: whenSidebarOpen
-  search: 
-    location: sidebar
-    type: overlay
-    copy-button: true
-  page-navigation: true
-  back-to-top-navigation: true
-  image: images/cover2.jpg
-  reader-mode: true
-  google-analytics: "G-PT4W2H086H"
-  twitter-card: 
-    description: An example IUB Libraries Scholarly Communication publication
-    card-style: summary
-    site: "@iulibraries"
-  open-graph: true
+      openSidebar: false
 
 
+  chapters:
+    - index.qmd
+    - part: "Part One: Why Cross-Fertilize?"
+      chapters:
+        - why-sex.qmd
+    - part: "Back Matter"
+      chapters:
+        - references.qmd
+        - about-author.qmd
+citation:
+  type: book
+  medium: digital
+  author: Curtis Lively
+  issued: 2023
+  title: "Through the Looking Glass: Coevolution, Polymorphism, and Sexual Reproduction"
+  publisher-place: Bloomington, Indiana, US
+  publisher: Indiana University Bloomington Libraries
 
-
-
-# references: 
-
-# citation:
-  # type: document
-  # publisher: Scholarly Communication Department, Indiana University Bloomington Libraries
-  # publisher-place: Bloomington, IN
-  # doi: TK
-
-# google-scholar: true
+fig-cap-location: margin
+bibliography: references.bib
 
 format:
   html:
-    theme:
-      light: flatly
-      dark: darkly
+    cover-image: images/cover.jpg
+    theme: journal
     toc: true
     toc-title: Contents
     toc-expand: true
@@ -107,9 +104,9 @@ format:
     link-external-newwindow: true
     copyright: Adam Mazel
     date-modified: last-modified
-    license: "CC BY"
+    # license: "CC BY"
   pdf:
-    documentclass: book
+    documentclass: scrbook
     keep-tex: true
     toc: true
     toc-title: Contents
@@ -120,11 +117,13 @@ format:
     linkcolor: cyan
     papersize: letter
   epub:
-    cover-image: images/cover2.jpg
+    cover-image: images/cover.png
     toc: true
     toc-title: Contents
     number-sections: true
-
-
-
-
+    citeproc: true
+    lang: en-US
+  docx:
+    toc: true
+    toc-title: Contents
+format-links: [pdf, epub, docx]

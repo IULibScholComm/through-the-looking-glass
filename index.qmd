@@ -1,5 +1,39 @@
-# Preface {.unnumbered}
+# Front Matter {.unnumbered}
 
-This is a Quarto book.
+## About
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+The following pages represent the first six chapters of a book (part 1).
+The main goal was to present an introduction to the problem of sexual
+reproduction, with a focus on competition between sexual and asexual
+females. But I also incorporated some ideas on genetic polymorphism and
+phenotypic plasticity with the aim of exploring "variation strategies"
+more generally. Finally, I tried to weave in some history of the field,
+along with some philosophy of science.
+
+## Acknowledgements
+
+Part 1 has benefitted from helpful comments from Amrita Bhattacharya,
+Zoe Dinges, Kara Million, Mike Wade, Jukka Jokela, Dorota Paczesniak,
+Steve Howard, Lynda Delph, Clark Craddock, Robert Vrijenhoek, Jan
+McKenzie, Owen Harmon, and especially Maurine Neiman. Additional
+comments are welcome by [email](mailto:clively@indiana.edu). Part 2 will focus
+on collaborative studies of host-parasite coevolution and the
+maintenance of sex in a freshwater New Zealand snail.
+
+Special thanks to Zoe Michelle Dinges (ZMD), who redrew the graphs and
+contributed original illustrations.
+
+I gratefully acknowledge support from the NSF OPUS program for the
+synthesis of biological research (DEB-1906465). I am also grateful to
+the Institute for Advanced Study in Berlin (Wissenschaftskolleg zu
+Berlin) for my stay as a "partner" during 2022-2023.
+
+## Copyright and License
+
+Copyright Curtis M. Lively 2023
+
+## How to Cite
+
+Lively, C. M. (2023, June ??). Through the Looking Glass: I. Why Cross-Fertilize? https://doi.org/\*\*\*\*\*\*\*\*\*
+
+## How to Use
