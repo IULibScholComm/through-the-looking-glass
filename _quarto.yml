@@ -104,6 +104,7 @@ format:
     copyright: Adam Mazel
     date-modified: last-modified
     # license: "CC BY"
+    format-links: [pdf, epub, docx]
   pdf:
     documentclass: scrbook
     keep-tex: true
@@ -122,7 +123,8 @@ format:
     number-sections: true
     citeproc: true
     lang: en-US
+    html-math-method: mathjax
   docx:
     toc: true
     toc-title: Contents
-format-links: [pdf, epub, docx]
+

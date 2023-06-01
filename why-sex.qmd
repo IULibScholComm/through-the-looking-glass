@@ -1,4 +1,4 @@
-![](images/Picture1.jpg){width=50% fig-alt="Elderly man with his hand on his face"}ZMD
+![](images/Picture1.jpg){width=40% fig-align="center" fig-alt="Elderly man with his hand on his face"}ZMD
 
 # Why Sex? {#sec-why-sex}
 
@@ -106,7 +106,7 @@ I now think that John Maynard Smith was correct. An essential feature had indeed
 
 ::: {.callout-note #sec-box1.2}
 
-## Box 1.2. 
+## Box 1.2
 
 Maynard Smith\'s (1978) model showing the cost of producing males\*. Let *N~asex~* be the number of asexual females at time 1, while *N~sex~* gives the total number of sexual individuals (males plus females) at time 1. Let *B~asex~* give the number of offspring produced by asexual females, and *S~asex~* gives the survival probability of asexual offspring to maturity. The number of surviving asexual offspring is then = *B~asex~S~asex~.* Similarly, let *B~sex~* be the number offspring produced by sexual females, and let *S~sex~* give the survival probability of sexually produced offspring. Maynard Smith assumed that all individuals reproduce once and then die. Let *r* be the frequency of females in the sexual population. The number of asexuals and sexuals at time 2 can then be calculated as is the table below. (Note, we do not assume that the population is at carrying capacity).  
 
