@@ -1,4 +1,4 @@
-![](images/Picture1.svg){fig-alt="Elderly man with his hand on his face"}ZMD
+![](images/Picture1.jpg){width=50% fig-alt="Elderly man with his hand on his face"}ZMD
 
 # Why Sex? {#sec-why-sex}
 
@@ -25,7 +25,7 @@ The \"cost of meiosis\" was proposed by George Williams (1975). His idea was sim
 
 The other way to look at the problem was proposed by John Maynard Smith (Maynard Smith 1971, 1978). Here the issue is not relatedness. The problem stems rather from the difference between sexuals and asexuals in their per-capita birth rates (@fig-1.1). Imagine a population of sexual individuals at carrying capacity (*K*~sex~). At *K*~sex~ the sexual females are, by definition, simply replacing themselves. This means that each sexual female is, on average, producing one son and one daughter. Both sons and daughters contribute genetically to the next generation, but only females give birth. Now, consider a mutation in a single female that causes her to reproduce asexually. She gives birth to two daughters instead of one daughter and one son. These two asexually produced daughters both give birth to two more daughters. Hence, after just two generations, the asexual female has four granddaughters, while the average sexual female has just one granddaughter (@fig-1.1). This asymmetry should lead to the rapid replacement sexual females by asexual females (@fig-1.2). And by \"rapid,\" I mean within tens of generations, even for very large populations (Lively 1996). We thus seek a selective force that can give an advantage to sexual reproduction on a very short time scale.
 
-![The cost of males. Imagine a single clonal female in a sexual population at carrying capacity, *K*~sex~. At *K*~sex~, the sexual females are, on average, producing one daughter and one son. In contrast, the clonal female produces two daughters and four granddaughters. Hence, the clonal lineage should rapidly eliminate the sexual population (@fig-1.2). However, in nature, asexual reproduction is very rare in both plants (Whitton et al. 2008) and animals (Vrijenhoek 1998). Hence the paradox. Why is sexual reproduction so costly and yet so common?](images/Figure1.1.svg){#fig-1.1}
+![The cost of males. Imagine a single clonal female in a sexual population at carrying capacity, *K*~sex~. At *K*~sex~, the sexual females are, on average, producing one daughter and one son. In contrast, the clonal female produces two daughters and four granddaughters. Hence, the clonal lineage should rapidly eliminate the sexual population (@fig-1.2). However, in nature, asexual reproduction is very rare in both plants (Whitton et al. 2008) and animals (Vrijenhoek 1998). Hence the paradox. Why is sexual reproduction so costly and yet so common?](images/fig1-1.jpg){#fig-1.1}
   
 Several assumptions went into Maynard Smith\'s model for the cost of males. In particular, he assumed that sexual females and asexual females make the same number of offspring, and that the survivorship of these offspring is also the same. Maynard Smith referred to this as the \"all-else-equal assumption.\" Unfortunately, some authors have taken the phrase \"all-else-equal\" to mean that everything else is exactly equal. But this is not the case. Maynard Smith did not assume, for example, that sexuals and asexuals have the same ploidy value[^2]. His model only assumes that sexual and asexual females have equal fecundities and survivorship probabilities (see @box1.2). Under this assumption, a very rare clone would double in frequency in the next generation. Maynard Smith called this doubling-when-rare the two-fold cost of sex.
 
@@ -33,13 +33,13 @@ Several assumptions went into Maynard Smith\'s model for the cost of males. In p
 
 The two alternative costs of sex raise an immediate question. Does the cost of sex result from reduced relatedness between mother and offspring, or from the cost of producing males? Or is the cost some combination of both? These questions are not easy to answer; but there is an algebraic solution, which suggests that the (1) two costs are mutually exclusive and (2) that they apply to different kinds of uniparental progeny (Lively and Lloyd 1990). Roughly speaking, I think we can adopt the following rules for the purpose of this book. When considering the spread of a rare allele that induces self-fertilization in hermaphrodites, the appropriate cost is Williams\' cost of meiosis. Here we have a single population in which the selfing allele is under positive selection, because it has a transmission advantage. On the other hand, when we consider the spread of a clone into an obligately sexual population, we are dealing with competition between two different reproductively isolated groups. One group (the sexuals) produces males, which do not make offspring. The other group (asexuals) produces only females. Here the cost of sex stems from producing males. But the two costs do not combine. The cost of sex is not four-fold.
 
-![Clonal invasion dynamics. Results from a simulation study in which a single clonal individual was introduced into a sexual population at generation 1000 (Lively 2009). The sexual population was initiated at carrying capacity: *K*~sex~ = 10000. Note that the asexual lineage replaces the sexual population in about 25 generations. The asexual population then attains a new carrying capacity at *K*~asex~ = 20000 individuals. The frequency of males in the sexual population was assumed to be 1/2. Annual reproduction, with non-overlapping generations, was also assumed.](images/Figure1.2.svg){#fig-1.2}
+![Clonal invasion dynamics. Results from a simulation study in which a single clonal individual was introduced into a sexual population at generation 1000 (Lively 2009). The sexual population was initiated at carrying capacity: *K*~sex~ = 10000. Note that the asexual lineage replaces the sexual population in about 25 generations. The asexual population then attains a new carrying capacity at *K*~asex~ = 20000 individuals. The frequency of males in the sexual population was assumed to be 1/2. Annual reproduction, with non-overlapping generations, was also assumed.](images/fig1-2.jpg){#fig-1.2}
   
 ### The cost of recombination
 
 There is another paradox of sexual reproduction known as the "cost of recombination." Here the competition is not between sexual and asexual females, or between outcrossing and selfing alleles, but rather between alleles that modify the rate of recombination. So instead of asking "why cross-fertilize?" we assume cross-fertilization and ask, why is there excess crossing-over during meiosis? Here is the paradox. If combinations of alleles at different loci are favored by natural selection (because together they create high-fitness offspring), then recombination would break these favorable allelic combinations apart. So, it makes no obvious sense to recombine more than needed for normal meiosis. Indeed, Lewontin (1971) formally showed that: *\... the mean fitness of the population at equilibrium is a maximum in the absence of recombination*[^3]. Hence, there are two interrelated anomalies: cross-fertilization per se and meiotic recombination. Ideally, any theory that explains the persistence of biparental sex could also solve the paradox of recombination. But this need not be the case. They could have different solutions.
 
-![Two flower morphs (distyly) in *Primula*.  Darwin found that the short-styled morph (left) is incompatible with other short-style morphs, and that the long styled morph (right) is incompatible with other long-style morphs.  But the two different morphs can cross-fertilize.  The arrows show movement of pollen from anthers to stigmas.  The “X” indicates incompatibility.  Redrawn from Darwin (1862) by ZMD.](images/Figure1.3.svg "Hand pollination experiment on *Primula*: a contrivance for cross-fertilization?"){#fig-1.3}
+![Two flower morphs (distyly) in *Primula*.  Darwin found that the short-styled morph (left) is incompatible with other short-style morphs, and that the long styled morph (right) is incompatible with other long-style morphs.  But the two different morphs can cross-fertilize.  The arrows show movement of pollen from anthers to stigmas.  The “X” indicates incompatibility.  Redrawn from Darwin (1862) by ZMD.](images/fig1-3.jpg "Hand pollination experiment on *Primula*: a contrivance for cross-fertilization?"){#fig-1.3}
 
 ### Darwin's view
 
@@ -78,7 +78,7 @@ I now think that John Maynard Smith was correct. An essential feature had indeed
 3. The exchange of DNA between different parental chromosomes (recombination) is similarly paradoxical.
 4. Why then are recombination and cross-fertilization so common?
 
-::: {.callout-tip} {#sec-box1.1}
+::: {.callout-tip #sec-box1.1}
 
 ## Short definitions of terms, as used in this book. These definitions do not include all possible nuances for the terms.
 
@@ -104,7 +104,7 @@ I now think that John Maynard Smith was correct. An essential feature had indeed
 
 :::
 
-::: {.callout-note}{#sec-box1.2}
+::: {.callout-note #sec-box1.2}
 
 ## Box 1.2. 
 
@@ -112,8 +112,8 @@ Maynard Smith\'s (1978) model showing the cost of producing males\*. Let *N~asex
 
 |                           |              **Time 1**              |                                               **Time 2**                                              |
 |:-------------------------:|:------------------------------------:|:-----------------------------------------------------------------------------------------------------:|
-|   **Number of asexuals**  |                N~asex~               |                                   $${N~asex~}({S~asex~}{B~asex~})$$                                   |
-|   **Number of sexuals**   |                N~sex~                |                                    $${rN~sex~}({S~sex~}{B~sex~})$$                                    |
+|   **Number of asexuals**  |              $$N~asex~$$             |                                   $${N~asex~}({S~asex~}{B~asex~})$$                                   |
+|   **Number of sexuals**   |              $$N~sex~$$              |                                    $${rN~sex~}({S~sex~}{B~sex~})$$                                    |
 | **Frequency of asexuals** | $$\frac{N~asex~}{N~asex~ + N~sex~}$$ | $$\frac{N_{asex}({S}_{asex}B_{asex})}{N_{asex}({S}_{asex}B_{asex}) + {rN}_{sex}({S}_{sex}B_{sex})}$$  |
 
 The fold increase in frequency of asexuals, *F*, is the ratio of the frequency of asexuals at time 2 divided by the frequency of asexuals at time 1 giving:
