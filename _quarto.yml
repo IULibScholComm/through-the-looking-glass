@@ -13,7 +13,9 @@ book:
       attributes:
         corresponding: True
       affiliations:
-        - name: Indiana University Bloomington
+        - name: | 
+                  Indiana University Bloomington
+                  Department of Biology
           department: Biology
           address:  Biology Bldg. 117B
           city: Bloomington
@@ -104,7 +106,6 @@ format:
     copyright: Adam Mazel
     date-modified: last-modified
     # license: "CC BY"
-    format-links: [pdf, epub, docx]
   pdf:
     documentclass: scrbook
     keep-tex: true
