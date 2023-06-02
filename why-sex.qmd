@@ -104,45 +104,43 @@ I now think that John Maynard Smith was correct. An essential feature had indeed
 
 :::
 
-::: {.callout-note #sec-box1.2}
+::: {.callout-note}
 
 ## Box 1.2
 
-Maynard Smith\'s (1978) model showing the cost of producing males\*. Let *N~asex~* be the number of asexual females at time 1, while *N~sex~* gives the total number of sexual individuals (males plus females) at time 1. Let *B~asex~* give the number of offspring produced by asexual females, and *S~asex~* gives the survival probability of asexual offspring to maturity. The number of surviving asexual offspring is then = *B~asex~S~asex~.* Similarly, let *B~sex~* be the number offspring produced by sexual females, and let *S~sex~* give the survival probability of sexually produced offspring. Maynard Smith assumed that all individuals reproduce once and then die. Let *r* be the frequency of females in the sexual population. The number of asexuals and sexuals at time 2 can then be calculated as is the table below. (Note, we do not assume that the population is at carrying capacity).  
+Maynard Smith\'s (1978) model showing the cost of producing males.^[I used slightly different variable names, and I tried to simplify JMS's original model.] Let *N~asex~* be the number of asexual females at time 1, while *N~sex~* gives the total number of sexual individuals (males plus females) at time 1. Let *B~asex~* give the number of offspring produced by asexual females, and *S~asex~* gives the survival probability of asexual offspring to maturity. The number of surviving asexual offspring is then = *B~asex~S~asex~.* Similarly, let *B~sex~* be the number offspring produced by sexual females, and let *S~sex~* give the survival probability of sexually produced offspring. Maynard Smith assumed that all individuals reproduce once and then die. Let *r* be the frequency of females in the sexual population. The number of asexuals and sexuals at time 2 can then be calculated as is the table below. (Note, we do not assume that the population is at carrying capacity).  
 
 |                           |              **Time 1**              |                                               **Time 2**                                              |
 |:-------------------------:|:------------------------------------:|:-----------------------------------------------------------------------------------------------------:|
-|   **Number of asexuals**  |              $$N~asex~$$             |                                   $${N~asex~}({S~asex~}{B~asex~})$$                                   |
-|   **Number of sexuals**   |              $$N~sex~$$              |                                    $${rN~sex~}({S~sex~}{B~sex~})$$                                    |
-| **Frequency of asexuals** | $$\frac{N~asex~}{N~asex~ + N~sex~}$$ | $$\frac{N_{asex}({S}_{asex}B_{asex})}{N_{asex}({S}_{asex}B_{asex}) + {rN}_{sex}({S}_{sex}B_{sex})}$$  |
+|   **Number of asexuals**  |                $N~asex~$               |                                       $N~asex~(S~asex~B~asex~)$                                       |
+|   **Number of sexuals**   |                $N~sex~$                |                                     $rN~sex~(S~sex~B~sex~)$                                     |
+| **Frequency of asexuals** |  $\frac{N~asex~}{N~asex~ + N~sex~}$  |  $\frac{N~asex(S~asex~B~asex~)}{N~asex~(S~asex~B~asex~) + rN~sex~(S~sex~B~sex~)}$   |
 
 The fold increase in frequency of asexuals, *F*, is the ratio of the frequency of asexuals at time 2 divided by the frequency of asexuals at time 1 giving:
 
-$$F = \frac{N_{asex}(S_{asex}B_{asex})}{N_{asex}({S}_{asex}B_{asex}) + ({rN}_{sex}S_{sex}B_{sex})}/\frac{N_{asex}}{N_{asex} + N_{sex}}$$
+$$F = \frac{N~asex(S~asex~B~asex~)}{N~asex~(S~asex~B~asex~) + r(N~sex~S~sex~B~sex~)}/\frac{N~asex~}{N~asex~ + N~sex~}$$
 
 Under the all-else-equal assumption, *S~asex~* = *S~sex~* and *B~asex~* = *B~sex~*, giving:
 
-$$F = \frac{N_{asex}}{N_{asex} + {rN}_{sex}}/\frac{N_{asex}}{N_{asex} + N_{sex}}$$
+$$F = \frac{N~asex~}{N~asex~ + rN~sex~}/\frac{N~asex~}{N~asex~ + N~sex~}$$
 
 Assuming that there is a single asexual female at time 1, we get
 
-$$F = \frac{1}{1 + {rN}_{sex}}/\frac{1}{1 + N_{sex}} = \frac{1 + N_{sex}}{1 + {rN}_{sex}}$$
+$$F = \frac{1}{1 + rN~sex~}/\frac{1}{1 + N~sex~} = \frac{1 + N~sex~}{1 + rN~sex~}$$
 
-If *N~sex~* is very large, the solution reduces to *F* $\approx$ 1/*r.* Hence, the fold increase in the frequency of asexuals, *F*, is inversely related to the frequency of females (*r*) in the sexual subpopulation. Assuming a 1:1 sex ratio, *r* = 0.5. Hence, for an equal sex ratio, the increase in asexuals is $\approx$ 2-fold. This  result gives the two-fold cost of males. Assuming "all-else-equal" a clone will double when rare when introduced into a large sexual population. 
-
-\*I used slightly different variable names, and I tried to simplify JMS's original model.   
+If $N~sex~$ is very large, the solution reduces to $F \approx 1/r$. Hence, the fold increase in the frequency of asexuals, $F$, is inversely related to the frequency of females $(r)$ in the sexual subpopulation. Assuming a 1:1 sex ratio, $r = 0.5$. Hence, for an equal sex ratio, the increase in asexuals is $\approx$ 2-fold. This  result gives the two-fold cost of males. Assuming "all-else-equal" a clone will double when rare when introduced into a large sexual population.    
 
 :::
 
-[^1]: It is not meiosis per se that is costly. As Williams realized, the cost stems from the reduction in relatedness between parent and outcrossed offspring. Indeed, in a later paper, Williams (1978) referred to the cost of meiosis as the "paradox of kin selection." Why should organisms invest resources in kin with a relatively low level of relatedness (outcrossed progeny: *r* = 0.5), rather than in self-fertilized kin with a high level of relatedness (*r* = 1) (see Dagg 2016).
+[^1]: It is not meiosis per se that is costly. As Williams realized, the cost stems from the reduction in relatedness between parent and outcrossed offspring. Indeed, in a later paper, Williams (1978) referred to the cost of meiosis as the "paradox of kin selection." Why should organisms invest resources in kin with a relatively low level of relatedness (outcrossed progeny: $r = 0.5$), rather than in self-fertilized kin with a high level of relatedness ($r = 1$) (see Dagg 2016).
 
 [^2]: Asexuals are often polyploid versions of their sexual ancestors.
 
-[^3]: Lewontin (1971) was following up on Fisher\'s (1930) verbal suggestion that selection should act to reduce recombination. For example, Lewontin (1971) wrote: *I will show ... that Fisher's conjecture is indeed correct*. Importantly, in his last paragraph, Lewontin wonders why recombination rates are greater than zero, and he suggests that the answer, *must be sought in some more general long-term advantage for adaptation to a varying environment, or else to some mechanical necessity of recombination for the orderly distribution of chromosomes, as suggested by Darlington (1939).* See also Bell (1982, page 407).
+[^3]: Lewontin (1971) was following up on Fisher's (1930) verbal suggestion that selection should act to reduce recombination. For example, Lewontin (1971) wrote: *I will show ... that Fisher's conjecture is indeed correct*. Importantly, in his last paragraph, Lewontin wonders why recombination rates are greater than zero, and he suggests that the answer, *must be sought in some more general long-term advantage for adaptation to a varying environment, or else to some mechanical necessity of recombination for the orderly distribution of chromosomes, as suggested by Darlington (1939).* See also Bell (1982, page 407).
 
 [^4]: For example, Darwin called the evolution of sterile castes in social insects an "insuperable difficulty" for his theory of evolution by natural selection (pages 236-238 in Darwin 1859).
 
-[^5]: Darwin (1860): *There is no greater mystery in the whole world, as it seems to me, than the existence of sexes, -- more especially since the discovery of Parthenogenesis*. Letter to J. S. Henslow. See [Darwin Correspondence Project](https://www.darwinproject.ac.uk/letter/DCP-LETT-2860.xml)
+[^5]: Darwin (1860): *There is no greater mystery in the whole world, as it seems to me, than the existence of sexes, -- more especially since the discovery of Parthenogenesis*. Letter to J. S. Henslow. See [Darwin Correspondence Project](https://www.darwinproject.ac.uk/letter/DCP-LETT-2860.xml).
 
 [^6]: The case could has been made that Charles Bonnet had discovered asexual reproduction in aphids in 1740 (see Lawrence 2009).
 
