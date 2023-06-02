@@ -114,11 +114,12 @@ format:
     lof: true
     lot: true
     number-sections: true
-    linkcolor: cyan
+    linkcolor: blue
     papersize: letter
     tbl-colwidths: [33, 33, 33]
-    df-print: paged
-    reference-location: margin
+    reference-location: block
+    citeproc: true
+    lang: en-US
   epub:
     cover-image: images/cover.png
     toc: true

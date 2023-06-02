@@ -175,6 +175,15 @@
 \makeatletter
 \makeatother
 \ifLuaTeX
+\usepackage[bidi=basic]{babel}
+\else
+\usepackage[bidi=default]{babel}
+\fi
+\babelprovide[main,import]{american}
+% get rid of language-specific shorthands (see #6817):
+\let\LanguageShortHands\languageshorthands
+\def\languageshorthands#1{}
+\ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
 \IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
@@ -182,8 +191,9 @@
 \urlstyle{same} % disable monospaced font for URLs
 \hypersetup{
   pdftitle={Through the Looking Glass},
+  pdflang={en-US},
   colorlinks=true,
-  linkcolor={cyan},
+  linkcolor={blue},
   filecolor={Maroon},
   citecolor={Blue},
   urlcolor={Blue},
@@ -203,7 +213,7 @@
 \begin{document}
 \frontmatter
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[boxrule=0pt, sharp corners, enhanced, frame hidden, interior hidden, borderline west={3pt}{0pt}{shadecolor}, breakable]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[sharp corners, enhanced, breakable, interior hidden, boxrule=0pt, borderline west={3pt}{0pt}{shadecolor}, frame hidden]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Contents}
 {
@@ -348,7 +358,7 @@ relatedness}\label{the-cost-of-meiosis-reduced-relatedness}}
 The "cost of meiosis" was proposed by George Williams (1975). His idea
 was simply that females are only half as related to their outcrossed
 offspring as they are to their self-fertilized or parthenogenetic
-offspring\sidenote{\footnotesize It is not meiosis per se that is costly. As Williams
+offspring\footnote{It is not meiosis per se that is costly. As Williams
   realized, the cost stems from the reduction in relatedness between
   parent and outcrossed offspring. Indeed, in a later paper, Williams
   (1978) referred to the cost of meiosis as the ``paradox of kin
@@ -413,7 +423,7 @@ to this as the ``all-else-equal assumption.'' Unfortunately, some
 authors have taken the phrase ``all-else-equal'' to mean that everything
 else is exactly equal. But this is not the case. Maynard Smith did not
 assume, for example, that sexuals and asexuals have the same ploidy
-value\sidenote{\footnotesize Asexuals are often polyploid versions of their sexual
+value\footnote{Asexuals are often polyploid versions of their sexual
   ancestors.}. His model only assumes that sexual and asexual females
 have equal fecundities and survivorship probabilities (see \textbf{Box
 1.2}). Under this assumption, a very rare clone would double in
@@ -476,7 +486,7 @@ recombination would break these favorable allelic combinations apart.
 So, it makes no obvious sense to recombine more than needed for normal
 meiosis. Indeed, Lewontin (1971) formally showed that: \emph{... the
 mean fitness of the population at equilibrium is a maximum in the
-absence of recombination}\sidenote{\footnotesize Lewontin (1971) was following up on
+absence of recombination}\footnote{Lewontin (1971) was following up on
   Fisher's (1930) verbal suggestion that selection should act to reduce
   recombination. For example, Lewontin (1971) wrote: \emph{I will show
   \ldots{} that Fisher's conjecture is indeed correct}. Importantly, in
@@ -548,7 +558,7 @@ subject is as yet hidden in darkness.
 
 Darwin\textquotesingle s question shows that the cross-fertilization is
 curious, even without considering the costs of sex. It also shows how
-Darwin was drawn to anomalies on theory\sidenote{\footnotesize For example, Darwin
+Darwin was drawn to anomalies on theory\footnote{For example, Darwin
   called the evolution of sterile castes in social insects an
   ``insuperable difficulty'' for his theory of evolution by natural
   selection (pages 236-238 in Darwin 1859).}.
@@ -571,13 +581,13 @@ prior to the publication of Darwin\textquotesingle s (1862) paper on
 observations on the successful development of adults from unfertilized
 eggs, which he called "parthenogenesis" (virgin birth). These were
 revolutionary observations, which caught Darwin\textquotesingle s
-attention\sidenote{\footnotesize Darwin (1860): \emph{There is no greater mystery in
+attention\footnote{Darwin (1860): \emph{There is no greater mystery in
   the whole world, as it seems to me, than the existence of sexes, --
   more especially since the discovery of Parthenogenesis}. Letter to J.
   S. Henslow. See
   \href{https://www.darwinproject.ac.uk/letter/DCP-LETT-2860.xml}{Darwin
   Correspondence Project}.}. However, von Siebold\textquotesingle s
-discovery of parthenogenesis\sidenote{\footnotesize The case could has been made that
+discovery of parthenogenesis\footnote{The case could has been made that
   Charles Bonnet had discovered asexual reproduction in aphids in 1740
   (see Lawrence 2009).} met with some hostility. Consider, for example,
 the following statement by Rudolf Wagner in a review of von
@@ -599,7 +609,7 @@ were discovered. (Emphasis added.)
 Apparently, Darwin did not find the idea of parthenogenesis distasteful.
 Instead, he wondered why it was not more common. For example, Darwin
 (1868) wrote: \emph{Parthenogenesis is no longer wonderful; in fact, the
-wonder is that it should not oftener occur}\sidenote{\footnotesize I suspect that
+wonder is that it should not oftener occur}\footnote{I suspect that
   Darwin used the phrase ``no longer wonderful'' to mean ``no longer
   astonishing.'' See
   https://www.merriam-webster.com/words-at-play/wonderful-word-history-evolution.}.
@@ -645,7 +655,7 @@ had indeed been overlooked: parasites.
   Why then are recombination and cross-fertilization so common?
 \end{enumerate}
 
-\begin{tcolorbox}[enhanced jigsaw, breakable, colbacktitle=quarto-callout-tip-color!10!white, toprule=.15mm, titlerule=0mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Box 1.1}, bottomrule=.15mm, coltitle=black, rightrule=.15mm, opacitybacktitle=0.6, left=2mm, toptitle=1mm, colframe=quarto-callout-tip-color-frame, arc=.35mm, opacityback=0, colback=white, leftrule=.75mm, bottomtitle=1mm]
+\begin{tcolorbox}[enhanced jigsaw, opacitybacktitle=0.6, colframe=quarto-callout-tip-color-frame, left=2mm, coltitle=black, arc=.35mm, breakable, bottomtitle=1mm, bottomrule=.15mm, toprule=.15mm, rightrule=.15mm, colback=white, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Box 1.1}, colbacktitle=quarto-callout-tip-color!10!white, titlerule=0mm, toptitle=1mm, opacityback=0, leftrule=.75mm]
 
 \textbf{Short definitions of terms, as used in this book. These
 definitions do not include all possible nuances for the terms.}
@@ -695,7 +705,7 @@ material by any mechanism.
 \section{Box 1.2}\label{box-1.2}}
 
 Maynard Smith's (1978) model showing the cost of producing
-males.\sidenote{\footnotesize I used slightly different variable names, and I tried to
+males.\footnote{I used slightly different variable names, and I tried to
   simplify JMS's original model.} Let \(N~asex~\) be the number of
 asexual females at time 1, while \(N~sex~\) gives the total number of
 sexual individuals (males plus females) at time 1. Let \(B~asex~\) give
