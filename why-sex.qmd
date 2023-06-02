@@ -116,7 +116,7 @@ Maynard Smith's (1978) model showing the cost of producing males.^[I used slight
 |:-------------------------:|:------------------------------------:|:-----------------------------------------------------------------------------------------------------:|
 |   **Number of asexuals**  |                $N~asex~$               |                                       $N~asex~(S~asex~B~asex~)$                                       |
 |   **Number of sexuals**   |                $N~sex~$                |                                     $rN~sex~(S~sex~B~sex~)$                                     |
-| **Frequency of asexuals** |  $\frac{N~asex~}{N~asex~ + N~sex~}$  |  \begin{split}\frac{N~asex(S~asex~B~asex~)}{N~asex~(S~asex~B~asex~) \\+ rN~sex~(S~sex~B~sex~)}\end{split}   |
+| **Frequency of asexuals** |  $\frac{N~asex~}{N~asex~ + N~sex~}$  |  $$\frac{N~asex(S~asex~B~asex~)}{N~asex~(S~asex~B~asex~)+rN~sex~(S~sex~B~sex~)}$$   |
 
 The fold increase in frequency of asexuals, $F$, is the ratio of the frequency of asexuals at time 2 divided by the frequency of asexuals at time 1 giving:
 

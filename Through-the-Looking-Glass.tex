@@ -213,7 +213,7 @@
 \begin{document}
 \frontmatter
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[breakable, borderline west={3pt}{0pt}{shadecolor}, interior hidden, frame hidden, boxrule=0pt, enhanced, sharp corners]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[frame hidden, enhanced, breakable, boxrule=0pt, sharp corners, borderline west={3pt}{0pt}{shadecolor}, interior hidden]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Contents}
 {
@@ -669,7 +669,7 @@ had indeed been overlooked: parasites.
   Why then are recombination and cross-fertilization so common?
 \end{enumerate}
 
-\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, opacitybacktitle=0.6, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Box 1.1}, left=2mm, breakable, toprule=.15mm, opacityback=0, arc=.35mm, rightrule=.15mm, bottomrule=.15mm, bottomtitle=1mm, colframe=quarto-callout-tip-color-frame, coltitle=black, titlerule=0mm, toptitle=1mm, colback=white, colbacktitle=quarto-callout-tip-color!10!white]
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-tip-color-frame, colback=white, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Box 1.1}, arc=.35mm, breakable, bottomrule=.15mm, coltitle=black, toptitle=1mm, left=2mm, leftrule=.75mm, toprule=.15mm, colbacktitle=quarto-callout-tip-color!10!white, opacityback=0, bottomtitle=1mm, opacitybacktitle=0.6, titlerule=0mm, rightrule=.15mm]
 
 \textbf{Short definitions of terms, as used in this book. These
 definitions do not include all possible nuances for the terms.}
@@ -715,7 +715,7 @@ material by any mechanism.
 
 \end{tcolorbox}
 
-\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, opacitybacktitle=0.6, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 1.2}, left=2mm, breakable, toprule=.15mm, opacityback=0, arc=.35mm, rightrule=.15mm, bottomrule=.15mm, bottomtitle=1mm, colframe=quarto-callout-note-color-frame, coltitle=black, titlerule=0mm, toptitle=1mm, colback=white, colbacktitle=quarto-callout-note-color!10!white]
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, colback=white, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 1.2}, arc=.35mm, breakable, bottomrule=.15mm, coltitle=black, toptitle=1mm, left=2mm, leftrule=.75mm, toprule=.15mm, colbacktitle=quarto-callout-note-color!10!white, opacityback=0, bottomtitle=1mm, opacitybacktitle=0.6, titlerule=0mm, rightrule=.15mm]
 
 Maynard Smith's (1978) model showing the cost of producing
 males.\footnotemark{} Let \(N~asex~\) be the number of asexual females
@@ -750,8 +750,8 @@ carrying capacity).
 \textbf{Number of asexuals} & \(N~asex~\) &
 \(N~asex~(S~asex~B~asex~)\) \\
 \textbf{Number of sexuals} & \(N~sex~\) & \(rN~sex~(S~sex~B~sex~)\) \\
-\textbf{Frequency of asexuals} & \(\frac{N~asex~}{N~asex~ + N~sex~}\)
-& \\
+\textbf{Frequency of asexuals} & \(\frac{N~asex~}{N~asex~ + N~sex~}\) &
+\(\frac{N~asex(S~asex~B~asex~)}{N~asex~(S~asex~B~asex~)+rN~sex~(S~sex~B~sex~)}\) \\
 \end{longtable}
 
 The fold increase in frequency of asexuals, \(F\), is the ratio of the
