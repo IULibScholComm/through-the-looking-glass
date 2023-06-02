@@ -114,9 +114,11 @@ format:
     lof: true
     lot: true
     number-sections: true
-    fontsize: 11pt
     linkcolor: cyan
     papersize: letter
+    tbl-colwidths: [33, 33, 33]
+    df-print: paged
+    reference-location: margin
   epub:
     cover-image: images/cover.png
     toc: true
