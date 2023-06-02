@@ -213,7 +213,7 @@
 \begin{document}
 \frontmatter
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[sharp corners, enhanced, breakable, interior hidden, boxrule=0pt, borderline west={3pt}{0pt}{shadecolor}, frame hidden]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[interior hidden, frame hidden, borderline west={3pt}{0pt}{shadecolor}, breakable, boxrule=0pt, sharp corners, enhanced]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Contents}
 {
@@ -655,7 +655,7 @@ had indeed been overlooked: parasites.
   Why then are recombination and cross-fertilization so common?
 \end{enumerate}
 
-\begin{tcolorbox}[enhanced jigsaw, opacitybacktitle=0.6, colframe=quarto-callout-tip-color-frame, left=2mm, coltitle=black, arc=.35mm, breakable, bottomtitle=1mm, bottomrule=.15mm, toprule=.15mm, rightrule=.15mm, colback=white, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Box 1.1}, colbacktitle=quarto-callout-tip-color!10!white, titlerule=0mm, toptitle=1mm, opacityback=0, leftrule=.75mm]
+\begin{tcolorbox}[enhanced jigsaw, opacityback=0, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Box 1.1}, coltitle=black, left=2mm, bottomrule=.15mm, toprule=.15mm, colbacktitle=quarto-callout-tip-color!10!white, colframe=quarto-callout-tip-color-frame, toptitle=1mm, opacitybacktitle=0.6, colback=white, titlerule=0mm, bottomtitle=1mm, breakable, leftrule=.75mm, arc=.35mm, rightrule=.15mm]
 
 \textbf{Short definitions of terms, as used in this book. These
 definitions do not include all possible nuances for the terms.}
@@ -701,24 +701,22 @@ material by any mechanism.
 
 \end{tcolorbox}
 
-\hypertarget{box-1.2}{%
-\section{Box 1.2}\label{box-1.2}}
+\begin{tcolorbox}[enhanced jigsaw, opacityback=0, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 1.2}, coltitle=black, left=2mm, bottomrule=.15mm, toprule=.15mm, colbacktitle=quarto-callout-note-color!10!white, colframe=quarto-callout-note-color-frame, toptitle=1mm, opacitybacktitle=0.6, colback=white, titlerule=0mm, bottomtitle=1mm, breakable, leftrule=.75mm, arc=.35mm, rightrule=.15mm]
 
 Maynard Smith's (1978) model showing the cost of producing
-males.\footnote{I used slightly different variable names, and I tried to
-  simplify JMS's original model.} Let \(N~asex~\) be the number of
-asexual females at time 1, while \(N~sex~\) gives the total number of
-sexual individuals (males plus females) at time 1. Let \(B~asex~\) give
-the number of offspring produced by asexual females, and \(S~asex~\)
-gives the survival probability of asexual offspring to maturity. The
-number of surviving asexual offspring is then \(= B~asex~S~asex~\).
-Similarly, let \(B~sex~\) be the number offspring produced by sexual
-females, and let \(S~sex~\) give the survival probability of sexually
-produced offspring. Maynard Smith assumed that all individuals reproduce
-once and then die. Let \(r\) be the frequency of females in the sexual
-population. The number of asexuals and sexuals at time 2 can then be
-calculated as is the table below. (Note, we do not assume that the
-population is at carrying capacity).
+males.\footnotemark{} Let \(N~asex~\) be the number of asexual females
+at time 1, while \(N~sex~\) gives the total number of sexual individuals
+(males plus females) at time 1. Let \(B~asex~\) give the number of
+offspring produced by asexual females, and \(S~asex~\) gives the
+survival probability of asexual offspring to maturity. The number of
+surviving asexual offspring is then \(= B~asex~S~asex~\). Similarly, let
+\(B~sex~\) be the number offspring produced by sexual females, and let
+\(S~sex~\) give the survival probability of sexually produced offspring.
+Maynard Smith assumed that all individuals reproduce once and then die.
+Let \(r\) be the frequency of females in the sexual population. The
+number of asexuals and sexuals at time 2 can then be calculated as is
+the table below. (Note, we do not assume that the population is at
+carrying capacity).
 
 \begin{longtable}[]{@{}
   >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3300}}
@@ -766,6 +764,11 @@ equal sex ratio, the increase in asexuals is \(\approx\) 2-fold. This
 result gives the two-fold cost of males. Assuming ``all-else-equal'' a
 clone will double when rare when introduced into a large sexual
 population.
+
+\end{tcolorbox}
+
+\footnotetext{I used slightly different variable names, and I tried to
+simplify JMS's original model.}
 
 \part{Back Matter}
 

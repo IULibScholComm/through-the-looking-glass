@@ -106,6 +106,8 @@ I now think that John Maynard Smith was correct. An essential feature had indeed
 
 :::
 
+::: {.callout-note} 
+
 ## Box 1.2
 
 Maynard Smith's (1978) model showing the cost of producing males.^[I used slightly different variable names, and I tried to simplify JMS's original model.] Let $N~asex~$ be the number of asexual females at time 1, while $N~sex~$ gives the total number of sexual individuals (males plus females) at time 1. Let $B~asex~$ give the number of offspring produced by asexual females, and $S~asex~$ gives the survival probability of asexual offspring to maturity. The number of surviving asexual offspring is then $= B~asex~S~asex~$. Similarly, let $B~sex~$ be the number offspring produced by sexual females, and let $S~sex~$ give the survival probability of sexually produced offspring. Maynard Smith assumed that all individuals reproduce once and then die. Let $r$ be the frequency of females in the sexual population. The number of asexuals and sexuals at time 2 can then be calculated as is the table below. (Note, we do not assume that the population is at carrying capacity).  
@@ -128,7 +130,9 @@ Assuming that there is a single asexual female at time 1, we get
 
 $$F = \frac{1}{1 + rN~sex~}/\frac{1}{1 + N~sex~} = \frac{1 + N~sex~}{1 + rN~sex~}$$
 
-If $N~sex~$ is very large, the solution reduces to $F \approx 1/r$. Hence, the fold increase in the frequency of asexuals, $F$, is inversely related to the frequency of females $(r)$ in the sexual subpopulation. Assuming a 1:1 sex ratio, $r = 0.5$. Hence, for an equal sex ratio, the increase in asexuals is $\approx$ 2-fold. This  result gives the two-fold cost of males. Assuming "all-else-equal" a clone will double when rare when introduced into a large sexual population.  
+If $N~sex~$ is very large, the solution reduces to $F \approx 1/r$. Hence, the fold increase in the frequency of asexuals, $F$, is inversely related to the frequency of females $(r)$ in the sexual subpopulation. Assuming a 1:1 sex ratio, $r = 0.5$. Hence, for an equal sex ratio, the increase in asexuals is $\approx$ 2-fold. This  result gives the two-fold cost of males. Assuming "all-else-equal" a clone will double when rare when introduced into a large sexual population. 
+
+:::
 
 [^1]: It is not meiosis per se that is costly. As Williams realized, the cost stems from the reduction in relatedness between parent and outcrossed offspring. Indeed, in a later paper, Williams (1978) referred to the cost of meiosis as the "paradox of kin selection." Why should organisms invest resources in kin with a relatively low level of relatedness (outcrossed progeny: $r = 0.5$), rather than in self-fertilized kin with a high level of relatedness ($r = 1$) (see Dagg 2016).
 
