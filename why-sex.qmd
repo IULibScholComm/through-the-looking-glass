@@ -82,7 +82,7 @@ I now think that John Maynard Smith was correct. An essential feature had indeed
 
 ## Box 1.1
 
-### Short definitions of terms, as used in this book. These definitions do not include all possible nuances for the terms.
+**Short definitions of terms, as used in this book. These definitions do not include all possible nuances for the terms.**
 
 **Cost of males**. The reduction in the per-capita growth rate of sexual populations, due to the production of males. The idea would apply to any reproductive mode for which some portion of the population does not directly make offspring. The cost of males is the appropriate cost for considering sexual subpopulations in competition with coexisting, obligately asexual subpopulations. 
  

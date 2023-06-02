@@ -107,7 +107,7 @@ format:
     date-modified: last-modified
     # license: "CC BY"
   pdf:
-    documentclass: scrbook
+    documentclass: book
     keep-tex: true
     toc: true
     toc-title: Contents
@@ -124,7 +124,6 @@ format:
     number-sections: true
     citeproc: true
     lang: en-US
-    html-math-method: mathjax
   docx:
     toc: true
     toc-title: Contents
