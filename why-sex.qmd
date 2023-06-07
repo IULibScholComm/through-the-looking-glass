@@ -4,22 +4,22 @@
 
 ## The Question
 
-Most PhD programs require that students pass a preliminary examination. This was certainly true in my case. I was a PhD student at the University of Arizona studying rocky intertidal communities in the Northern Gulf of California. But the exams were not focused on our research. They were \"depth-of-knowledge\" exams. My question from Prof. Astrid Kodric-Brown instructed me to read the preface of G.C. Williams\' book, *Sex and Evolution*, which contains the following text (Williams 1975):
+Most PhD programs require that students pass a preliminary examination. This was certainly true in my case. I was a PhD student at the University of Arizona studying rocky intertidal communities in the Northern Gulf of California. But the exams were not focused on our research. They were "depth-of-knowledge" exams. My question from Prof. Astrid Kodric-Brown instructed me to read the preface of G.C. Williams' book, *Sex and Evolution*, which contains the following text (Williams 1975):
 
-> This book is written from a conviction that the prevalence of sexual reproduction in higher plants and animals is inconsistent with current evolutionary theory\.... Many well informed readers may disagree with much of my reasoning, but I hope to at least convince them that here is a crisis at hand in evolutionary biology\...
+> This book is written from a conviction that the prevalence of sexual reproduction in higher plants and animals is inconsistent with current evolutionary theory.... Many well informed readers may disagree with much of my reasoning, but I hope to at least convince them that here is a crisis at hand in evolutionary biology...
 
 The question was something like this: *why does Williams think that sexual reproduction poses a crisis for evolutionary biology, and what is the solution*? A crisis? That was news to me. How could there be a crisis on evolutionary biology 40-plus years after the modern synthesis? My graduate course in theoretical population genetics did not mention any crises. I was not convinced. And a little freaked out.
 
-The structure of our exams was very loose. I don\'t remember having a deadline to produce a written answer, but I do remember that I spent several months on just this one question. During much of this time, I was doing field work in Sonora, Mexico, sometimes under very harsh conditions. But the more I studied the question, the more fascinated I became. I came to think that there was, indeed, a very real anomaly presented by sexual reproduction. Williams was right. Perhaps I was especially interested in this anomaly because I had read Thomas Kuhn\'s \"The Structure of Scientific Revolutions\" as an undergraduate (Kuhn 1970). Kuhn made the case that dissecting anomalies can lead to interesting advances, and that made sense to me. While I eventually produced an essay to address the question, the answer felt incomplete. I wanted to know more. There were many hypotheses, but there was no clear general explanation. Many years later, I am still working on my prelim question. This book is my revised answer.
+The structure of our exams was very loose. I don't remember having a deadline to produce a written answer, but I do remember that I spent several months on just this one question. During much of this time, I was doing field work in Sonora, Mexico, sometimes under very harsh conditions. But the more I studied the question, the more fascinated I became. I came to think that there was, indeed, a very real anomaly presented by sexual reproduction. Williams was right. Perhaps I was especially interested in this anomaly because I had read Thomas Kuhn\'s \"The Structure of Scientific Revolutions\" as an undergraduate (Kuhn 1970). Kuhn made the case that dissecting anomalies can lead to interesting advances, and that made sense to me. While I eventually produced an essay to address the question, the answer felt incomplete. I wanted to know more. There were many hypotheses, but there was no clear general explanation. Many years later, I am still working on my prelim question. This book is my revised answer.
 
-## The problem
+## The Problem
 
 There are many problems with sexual reproduction, including the time spent finding mates and the risk of contracting sexually transmitted disease (review in Lehtonen et al. 2012). However, while important,
 these costs do not form the core of the paradox. Historically, the paradox of sex stems from two things: (1) the cost of meiosis, and (2) the cost of producing males.
 
 ### The cost of meiosis: reduced relatedness
 
-The \"cost of meiosis\" was proposed by George Williams (1975). His idea was simply that females are only half as related to their outcrossed offspring as they are to their self-fertilized or parthenogenetic offspring[^1]. (See **Box 1.1** for condensed definitions.) Williams' idea also had theoretical support, as R.A. Fisher had already shown that an allele causing self-fertilization would rapidly spread to fixation, barring severe inbreeding depression (Fisher 1941). So, why cross-fertilize? The persistence of cross-fertilization despite the cost of meiosis formed a paradox. This paradox created the crisis that Williams saw in evolutionary biology.
+The "cost of meiosis" was proposed by George Williams (1975). His idea was simply that females are only half as related to their outcrossed offspring as they are to their self-fertilized or parthenogenetic offspring[^1]. (See **Box 1.1** for condensed definitions.) Williams' idea also had theoretical support, as R.A. Fisher had already shown that an allele causing self-fertilization would rapidly spread to fixation, barring severe inbreeding depression (Fisher 1941). So, why cross-fertilize? The persistence of cross-fertilization despite the cost of meiosis formed a paradox. This paradox created the crisis that Williams saw in evolutionary biology.
 
 ### The cost of males
 
@@ -33,7 +33,7 @@ Several assumptions went into Maynard Smith\'s model for the cost of males. In p
 
 The two alternative costs of sex raise an immediate question. Does the cost of sex result from reduced relatedness between mother and offspring, or from the cost of producing males? Or is the cost some combination of both? These questions are not easy to answer; but there is an algebraic solution, which suggests that the (1) two costs are mutually exclusive and (2) that they apply to different kinds of uniparental progeny (Lively and Lloyd 1990). Roughly speaking, I think we can adopt the following rules for the purpose of this book. When considering the spread of a rare allele that induces self-fertilization in hermaphrodites, the appropriate cost is Williams\' cost of meiosis. Here we have a single population in which the selfing allele is under positive selection, because it has a transmission advantage. On the other hand, when we consider the spread of a clone into an obligately sexual population, we are dealing with competition between two different reproductively isolated groups. One group (the sexuals) produces males, which do not make offspring. The other group (asexuals) produces only females. Here the cost of sex stems from producing males. But the two costs do not combine. The cost of sex is not four-fold.
 
-![Clonal invasion dynamics. Results from a simulation study in which a single clonal individual was introduced into a sexual population at generation 1000 (Lively 2009). The sexual population was initiated at carrying capacity: $K~sex~ = 10000$. Note that the asexual lineage replaces the sexual population in about 25 generations. The asexual population then attains a new carrying capacity at $K~asex~ = 20000 individuals$. The frequency of males in the sexual population was assumed to be 1/2. Annual reproduction, with non-overlapping generations, was also assumed.](images/fig1-2.jpg){#fig-1.2}
+![Clonal invasion dynamics. Results from a simulation study in which a single clonal individual was introduced into a sexual population at generation 1000 (Lively 2009). The sexual population was initiated at carrying capacity: $K~sex~ = 10000$. Note that the asexual lineage replaces the sexual population in about 25 generations. The asexual population then attains a new carrying capacity at $K~asex~ = 20000$ individuals. The frequency of males in the sexual population was assumed to be 1/2. Annual reproduction, with non-overlapping generations, was also assumed.](images/fig1-2.jpg){#fig-1.2}
   
 ### The cost of recombination
 
@@ -122,7 +122,7 @@ The fold increase in frequency of asexuals, $F$, is the ratio of the frequency o
 
 $$F = \frac{N~asex(S~asex~B~asex~)}{N~asex~(S~asex~B~asex~) + r(N~sex~S~sex~B~sex~)}/\frac{N~asex~}{N~asex~ + N~sex~}$$
 
-Under the all-else-equal assumption, *S~asex~* = *S~sex~* and *B~asex~* = *B~sex~*, giving:
+Under the all-else-equal assumption, $S~asex~ = S~sex~$ and $B~asex~ = B~sex~$, giving:
 
 $$F = \frac{N~asex~}{N~asex~ + rN~sex~}/\frac{N~asex~}{N~asex~ + N~sex~}$$
 

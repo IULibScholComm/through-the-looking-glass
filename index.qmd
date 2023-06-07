@@ -15,7 +15,7 @@ along with some philosophy of science.
 Part 1 has benefitted from helpful comments from Amrita Bhattacharya,
 Zoe Dinges, Kara Million, Mike Wade, Jukka Jokela, Dorota Paczesniak,
 Steve Howard, Lynda Delph, Clark Craddock, Robert Vrijenhoek, Jan
-McKenzie, Owen Harmon, and especially Maurine Neiman. Additional
+McKenzie, Owen Harman, and especially Maurine Neiman. Additional
 comments are welcome by [email](mailto:clively@indiana.edu). Part 2 will focus
 on collaborative studies of host-parasite coevolution and the
 maintenance of sex in a freshwater New Zealand snail.

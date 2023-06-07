@@ -127,7 +127,11 @@ format:
     number-sections: true
     citeproc: true
     lang: en-US
+    fig-responsive: true
   docx:
     toc: true
     toc-title: Contents
-
+    citeproc: true
+    tbl-colwidths: [33, 33, 33]
+    lang: en-US
+    citation: true
