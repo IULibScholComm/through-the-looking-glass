@@ -5,7 +5,7 @@
 %
 \documentclass[
   letterpaper,
-]{book}
+]{scrbook}
 
 \usepackage{amsmath,amssymb}
 \usepackage{iftex}
@@ -39,6 +39,7 @@
   \KOMAoptions{parskip=half}}
 \makeatother
 \usepackage{xcolor}
+\usepackage[left=1in,marginparwidth=2.0666666666667in,textwidth=4.1333333333333in,marginparsep=0.3in]{geometry}
 \setlength{\emergencystretch}{3em} % prevent overfull lines
 \setcounter{secnumdepth}{5}
 % Make \paragraph and \subparagraph free-standing
@@ -214,7 +215,7 @@
 \begin{document}
 \frontmatter
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[enhanced, interior hidden, borderline west={3pt}{0pt}{shadecolor}, frame hidden, boxrule=0pt, breakable, sharp corners]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[breakable, interior hidden, borderline west={3pt}{0pt}{shadecolor}, boxrule=0pt, frame hidden, sharp corners, enhanced]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Contents}
 {
@@ -670,7 +671,7 @@ had indeed been overlooked: parasites.
   Why then are recombination and cross-fertilization so common?
 \end{enumerate}
 
-\begin{tcolorbox}[enhanced jigsaw, arc=.35mm, opacityback=0, left=2mm, opacitybacktitle=0.6, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Box 1.1}, rightrule=.15mm, breakable, titlerule=0mm, colframe=quarto-callout-tip-color-frame, leftrule=.75mm, colback=white, bottomrule=.15mm, toptitle=1mm, colbacktitle=quarto-callout-tip-color!10!white, bottomtitle=1mm, toprule=.15mm, coltitle=black]
+\begin{tcolorbox}[enhanced jigsaw, arc=.35mm, colbacktitle=quarto-callout-tip-color!10!white, coltitle=black, breakable, leftrule=.75mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Box 1.1}, opacitybacktitle=0.6, colframe=quarto-callout-tip-color-frame, colback=white, opacityback=0, rightrule=.15mm, bottomrule=.15mm, titlerule=0mm, toptitle=1mm, bottomtitle=1mm, left=2mm, toprule=.15mm]
 
 \textbf{Short definitions of terms, as used in this book. These
 definitions do not include all possible nuances for the terms.}
@@ -716,7 +717,7 @@ material by any mechanism.
 
 \end{tcolorbox}
 
-\begin{tcolorbox}[enhanced jigsaw, arc=.35mm, opacityback=0, left=2mm, opacitybacktitle=0.6, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 1.2}, rightrule=.15mm, breakable, titlerule=0mm, colframe=quarto-callout-note-color-frame, leftrule=.75mm, colback=white, bottomrule=.15mm, toptitle=1mm, colbacktitle=quarto-callout-note-color!10!white, bottomtitle=1mm, toprule=.15mm, coltitle=black]
+\begin{tcolorbox}[enhanced jigsaw, arc=.35mm, colbacktitle=quarto-callout-note-color!10!white, coltitle=black, breakable, leftrule=.75mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 1.2}, opacitybacktitle=0.6, colframe=quarto-callout-note-color-frame, colback=white, opacityback=0, rightrule=.15mm, bottomrule=.15mm, titlerule=0mm, toptitle=1mm, bottomtitle=1mm, left=2mm, toprule=.15mm]
 
 Maynard Smith's (1978) model showing the cost of producing
 males.\footnotemark{} Let \(N~asex~\) be the number of asexual females
