@@ -13,13 +13,13 @@ book:
       - name: | 
                 Indiana University Bloomington
                 Department of Biology
-      - department: Biology
-      - address:  Biology Bldg. 117B
-      - city: Bloomington
-      - region: IN
-      - country: US
-      - postal-code: 47405
-      - url: https://biology.indiana.edu/index.html
+        department: Biology
+        address:  Biology Bldg. 117B
+        city: Bloomington
+        region: IN
+        country: US
+        postal-code: 47405
+        url: https://biology.indiana.edu/index.html
     email: clively@indiana.edu
     url: https://biology.indiana.edu/about/faculty/lively-curt.html
   date: last-modified
@@ -63,12 +63,6 @@ book:
   twitter-card:  
     card-style: summary
     creator: "@curt_lively"
-  comments:
-    hypothesis: 
-      theme: classic
-      showHighlights: whenSidebarOpen
-      openSidebar: false
-
 
   chapters:
     - index.qmd
@@ -119,7 +113,6 @@ format:
     lang: en-US
   epub:
     epub-cover-image: images/cover.png
-    html-math-method: mathjax
     html-q-tags: true
     toc: true
     toc-title: Contents
