@@ -98,7 +98,7 @@ format:
     date-modified: last-modified
     # license: "CC BY"
   pdf:
-    documentclass: book
+    documentclass: scrbook
     keep-tex: true
     toc: true
     toc-title: Contents
@@ -109,7 +109,7 @@ format:
     papersize: letter
     tbl-colwidths: [33, 33, 33]
     reference-location: block
-    citeproc: true
+    cite-method: citeproc
     lang: en-US
   epub:
     epub-cover-image: images/cover.png
@@ -127,3 +127,4 @@ format:
     tbl-colwidths: [33, 33, 33]
     lang: en-US
     citation: true
+    reference-doc: custom-reference-doc.docx
