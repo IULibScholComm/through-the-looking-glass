@@ -98,7 +98,7 @@ format:
     date-modified: last-modified
     # license: "CC BY"
   pdf:
-    documentclass: scrbook
+    documentclass: book
     keep-tex: true
     toc: true
     toc-title: Contents
