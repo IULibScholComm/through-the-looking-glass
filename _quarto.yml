@@ -6,25 +6,22 @@ book:
   title: Through the Looking Glass
   subtitle: I. Why Cross-Fertilize?
   author: 
-    - name: 
-        given: Curtis M.
-        family: Lively
-        literal: Curtis M. Lively
-      attributes:
-        corresponding: True
-      affiliations:
-        - name: | 
-                  Indiana University Bloomington
-                  Department of Biology
-          department: Biology
-          address:  Biology Bldg. 117B
-          city: Bloomington
-          region: IN
-          country: US
-          postal-code: 47405
-          url: https://biology.indiana.edu/index.html
-      email: clively@indiana.edu
-      url: https://biology.indiana.edu/about/faculty/lively-curt.html
+    name: Curtis M. Lively
+    attributes:
+      corresponding: True
+    affiliations:
+      - name: | 
+                Indiana University Bloomington
+                Department of Biology
+      - department: Biology
+      - address:  Biology Bldg. 117B
+      - city: Bloomington
+      - region: IN
+      - country: US
+      - postal-code: 47405
+      - url: https://biology.indiana.edu/index.html
+    email: clively@indiana.edu
+    url: https://biology.indiana.edu/about/faculty/lively-curt.html
   date: last-modified
   date-format: "DD MMMM YYYY"
   # references: 
@@ -103,7 +100,7 @@ format:
     number-sections: true
     smooth-scroll: true
     link-external-newwindow: true
-    copyright: Adam Mazel
+    copyright: Curtis M. Lively
     date-modified: last-modified
     # license: "CC BY"
   pdf:
@@ -121,7 +118,9 @@ format:
     citeproc: true
     lang: en-US
   epub:
-    cover-image: images/cover.png
+    epub-cover-image: images/cover.png
+    html-math-method: mathjax
+    html-q-tags: true
     toc: true
     toc-title: Contents
     number-sections: true
