@@ -96,7 +96,15 @@ format:
     link-external-newwindow: true
     copyright: Curtis M. Lively
     date-modified: last-modified
-    # license: "CC BY"
+    license: "CC BY"
+    code-fold: true
+    code-tools: true
+    code-block-bg: true
+    code-block-border-left: "#31BAE9"
+    code-line-numbers: true
+    highlight-style: a11y
+    code-copy: hover
+    code-link: true
   pdf:
     documentclass: book
     keep-tex: true
@@ -111,6 +119,11 @@ format:
     reference-location: block
     cite-method: citeproc
     lang: en-US
+    code-line-numbers: true
+    code-block-bg: true
+    code-block-border-left: "#31BAE9"
+    highlight-style: a11y
+    output: true
   epub:
     epub-cover-image: images/cover.png
     html-q-tags: true
@@ -120,6 +133,11 @@ format:
     citeproc: true
     lang: en-US
     fig-responsive: true
+    code-fold: true
+    code-overflow: scroll
+    code-line-numbers: true
+    code-copy: hover
+    highlight-style: a11y
   docx:
     toc: true
     toc-title: Contents
@@ -128,3 +146,5 @@ format:
     lang: en-US
     citation: true
     reference-doc: custom-reference-doc.docx
+    highlight-style: a11y
+    output: true

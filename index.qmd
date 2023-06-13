@@ -2,31 +2,15 @@
 
 ## About
 
-The following pages represent the first six chapters of a book (part 1).
-The main goal was to present an introduction to the problem of sexual
-reproduction, with a focus on competition between sexual and asexual
-females. But I also incorporated some ideas on genetic polymorphism and
-phenotypic plasticity with the aim of exploring "variation strategies"
-more generally. Finally, I tried to weave in some history of the field,
-along with some philosophy of science.
+The following pages represent the first six chapters of a book (part 1). The main goal was to present an introduction to the problem of sexual reproduction, with a focus on competition between sexual and asexual females. But I also incorporated some ideas on genetic polymorphism and phenotypic plasticity with the aim of exploring "variation strategies" more generally. Finally, I tried to weave in some history of the field, along with some philosophy of science.
 
 ## Acknowledgements
 
-Part 1 has benefitted from helpful comments from Amrita Bhattacharya,
-Zoe Dinges, Kara Million, Mike Wade, Jukka Jokela, Dorota Paczesniak,
-Steve Howard, Lynda Delph, Clark Craddock, Robert Vrijenhoek, Jan
-McKenzie, Owen Harman, and especially Maurine Neiman. Additional
-comments are welcome by [email](mailto:clively@indiana.edu). Part 2 will focus
-on collaborative studies of host-parasite coevolution and the
-maintenance of sex in a freshwater New Zealand snail.
+Part 1 has benefitted from helpful comments from Amrita Bhattacharya, Zoe Dinges, Kara Million, Deanna Soper, Mike Wade, Jukka Jokela, Dorota Paczesniak, Steve Howard, Lynda Delph, Clark Craddock, Robert Vrijenhoek, Jan McKenzie, Mike Winterbourn, Stuart West, Oren Harman, and especially Maurine Neiman. Additional comments are welcome by email. Part 2 will focus on collaborative studies of host-parasite coevolution and the maintenance of sex in a freshwater New Zealand snail.
 
-Special thanks to Zoe Michelle Dinges (ZMD), who redrew the graphs and
-contributed original illustrations.
+Special thanks to Zoe Michelle Dinges (ZMD), who redrew the graphs and contributed original illustrations. Many thanks also to Adam Mazel from Indiana University Libraries for preparing the document for online publication.
 
-I gratefully acknowledge support from the NSF OPUS program for the
-synthesis of biological research (DEB-1906465). I am also grateful to
-the Institute for Advanced Study in Berlin (Wissenschaftskolleg zu
-Berlin) for my stay as a "partner" during 2022-2023.
+I gratefully acknowledge support from the NSF OPUS program for the synthesis of biological research (DEB-1906465). I am also grateful to the Institute for Advanced Study in Berlin (Wissenschaftskolleg zu Berlin) for my stay as a "partner" during 2022-2023.
 
 ## Copyright and License
 

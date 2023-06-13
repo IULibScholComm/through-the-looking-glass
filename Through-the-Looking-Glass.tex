@@ -51,6 +51,46 @@
   \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
 \fi
 
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{254,254,254}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.47,0.16,0.63}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.41,0.41,0.41}{#1}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.65,0.35,0.00}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.47,0.16,0.63}{#1}}
+\newcommand{\BuiltInTok}[1]{\textcolor[rgb]{0.33,0.33,0.33}{#1}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.00,0.50,0.00}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.41,0.41,0.41}{#1}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.41,0.41,0.41}{\textit{#1}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.85,0.12,0.09}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.85,0.12,0.09}{#1}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.47,0.16,0.63}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.47,0.16,0.63}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.41,0.41,0.41}{\textit{#1}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.47,0.16,0.63}{#1}}
+\newcommand{\ExtensionTok}[1]{\textcolor[rgb]{0.33,0.33,0.33}{#1}}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.65,0.35,0.00}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.02,0.16,0.49}{#1}}
+\newcommand{\ImportTok}[1]{\textcolor[rgb]{0.33,0.33,0.33}{#1}}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.41,0.41,0.41}{#1}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.85,0.12,0.09}{#1}}
+\newcommand{\NormalTok}[1]{\textcolor[rgb]{0.33,0.33,0.33}{#1}}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.00,0.46,0.62}{#1}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.85,0.12,0.09}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.47,0.16,0.63}{#1}}
+\newcommand{\RegionMarkerTok}[1]{\textcolor[rgb]{0.33,0.33,0.33}{#1}}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.46,0.62}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.00,0.50,0.00}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.00,0.50,0.00}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.65,0.35,0.00}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.00,0.50,0.00}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.41,0.41,0.41}{\textit{#1}}}
 
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
@@ -164,7 +204,7 @@
 \@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
 \makeatother
 \makeatletter
-\@ifundefined{shadecolor}{\definecolor{shadecolor}{rgb}{.97, .97, .97}}
+\@ifundefined{shadecolor}{\definecolor{shadecolor}{HTML}{31BAE9}}
 \makeatother
 \makeatletter
 \makeatother
@@ -209,12 +249,12 @@
 \makeatother
 \subtitle{I. Why Cross-Fertilize?}
 \author{Curtis M. Lively}
-\date{12 June 2023}
+\date{13 June 2023}
 
 \begin{document}
 \frontmatter
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[sharp corners, borderline west={3pt}{0pt}{shadecolor}, interior hidden, enhanced, breakable, boxrule=0pt, frame hidden]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[interior hidden, sharp corners, breakable, boxrule=0pt, frame hidden, borderline west={3pt}{0pt}{shadecolor}, enhanced]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Contents}
 {
@@ -254,15 +294,17 @@ along with some philosophy of science.
 \markright{Acknowledgements}
 
 Part 1 has benefitted from helpful comments from Amrita Bhattacharya,
-Zoe Dinges, Kara Million, Mike Wade, Jukka Jokela, Dorota Paczesniak,
-Steve Howard, Lynda Delph, Clark Craddock, Robert Vrijenhoek, Jan
-McKenzie, Owen Harman, and especially Maurine Neiman. Additional
-comments are welcome by \href{mailto:clively@indiana.edu}{email}. Part 2
-will focus on collaborative studies of host-parasite coevolution and the
-maintenance of sex in a freshwater New Zealand snail.
+Zoe Dinges, Kara Million, Deanna Soper, Mike Wade, Jukka Jokela, Dorota
+Paczesniak, Steve Howard, Lynda Delph, Clark Craddock, Robert
+Vrijenhoek, Jan McKenzie, Mike Winterbourn, Stuart West, Oren Harman,
+and especially Maurine Neiman. Additional comments are welcome by email.
+Part 2 will focus on collaborative studies of host-parasite coevolution
+and the maintenance of sex in a freshwater New Zealand snail.
 
 Special thanks to Zoe Michelle Dinges (ZMD), who redrew the graphs and
-contributed original illustrations.
+contributed original illustrations. Many thanks also to Adam Mazel from
+Indiana University Libraries for preparing the document for online
+publication.
 
 I gratefully acknowledge support from the NSF OPUS program for the
 synthesis of biological research (DEB-1906465). I am also grateful to
@@ -401,7 +443,7 @@ Hence, after just two generations, the asexual female has four
 granddaughters, while the average sexual female has just one
 granddaughter (Figure~\ref{fig-1.1}). This asymmetry should lead to the
 rapid replacement sexual females by asexual females
-(Figure~\ref{fig-1.2}). And by "rapid," I mean within tens of
+(Figure~\ref{fig-clonal}). And by "rapid," I mean within tens of
 generations, even for very large populations (Lively 1996). We thus seek
 a selective force that can give an advantage to sexual reproduction on a
 very short time scale.
@@ -413,7 +455,7 @@ female in a sexual population at carrying capacity, \(K~sex~\). At
 \(K~sex~\), the sexual females are, on average, producing one daughter
 and one son. In contrast, the clonal female produces two daughters and
 four granddaughters. Hence, the clonal lineage should rapidly eliminate
-the sexual population (Figure~\ref{fig-1.2}). However, in nature,
+the sexual population (Figure~\ref{fig-clonal}). However, in nature,
 asexual reproduction is very rare in both plants (Whitton et al.~2008)
 and animals (Vrijenhoek 1998). Hence the paradox. Why is sexual
 reproduction so costly and yet so common?}
@@ -462,19 +504,87 @@ sexuals) produces males, which do not make offspring. The other group
 producing males. But the two costs do not combine. The cost of sex is
 not four-fold.
 
-\begin{figure}
+\begin{Shaded}
+\begin{Highlighting}[numbers=left,,]
+\CommentTok{\# Simulation for competition between coexisting sexuals and asexuals, following}
+\CommentTok{\# Lively 2009.  the simulation assumes that carrying capacity is set by the}
+\CommentTok{\# parameters below, rather than being fixed.}
 
-\sidecaption{\label{fig-1.2}Clonal invasion dynamics. Results from a
-simulation study in which a single clonal individual was introduced into
-a sexual population at generation 1000 (Lively 2009). The sexual
-population was initiated at carrying capacity: \(K~sex~ = 10000\). Note
-that the asexual lineage replaces the sexual population in about 25
-generations. The asexual population then attains a new carrying capacity
-at \(K~asex~ = 20000\) individuals. The frequency of males in the sexual
-population was assumed to be 1/2. Annual reproduction, with
-non-overlapping generations, was also assumed.}
+\NormalTok{a }\OtherTok{=} \FloatTok{1e{-}04}  \CommentTok{\#a is a constant that gives the sensitivity to total population density}
+\NormalTok{d }\OtherTok{=} \DecValTok{1}  \CommentTok{\# d is the death rate.  Here I set d=1, meaning an annual species.}
+\NormalTok{b }\OtherTok{=} \DecValTok{3}  \CommentTok{\# b is the number of offspring prouduced by a single female (sexual or asexual)}
+\NormalTok{c }\OtherTok{=} \DecValTok{0}  \CommentTok{\# c is a constant that gives the sensitivity of the death rate to density.  Here set = 0.}
+\NormalTok{s }\OtherTok{=} \DecValTok{1}\SpecialCharTok{/}\DecValTok{2}  \CommentTok{\# s is the frequency of males in the sexual subpopulation.  (1{-}s) gives the freq of females in sexual popl}
 
-{\centering \includegraphics{images/fig1-2.jpg}
+
+\CommentTok{\# anayltical solutions: carrying capacities for sexual and asexuals are set by}
+\CommentTok{\# the parameters given above.  following Lively (2009) J Evol Biol. doi:}
+\CommentTok{\# 10.1111/j.1420{-}9101.2009.01824.x}
+\NormalTok{Ksex }\OtherTok{=}\NormalTok{ ((}\DecValTok{1} \SpecialCharTok{{-}}\NormalTok{ s) }\SpecialCharTok{*}\NormalTok{ b }\SpecialCharTok{{-}}\NormalTok{ d)}\SpecialCharTok{/}\NormalTok{((}\DecValTok{1} \SpecialCharTok{{-}}\NormalTok{ s) }\SpecialCharTok{*}\NormalTok{ a }\SpecialCharTok{+}\NormalTok{ c)  }\CommentTok{\#solution for carrying capacity of sexual population}
+\NormalTok{Kasex }\OtherTok{=}\NormalTok{ (b }\SpecialCharTok{{-}}\NormalTok{ d)}\SpecialCharTok{/}\NormalTok{(a }\SpecialCharTok{+}\NormalTok{ c)  }\CommentTok{\#solution for carrying capacity of asexual population}
+
+\CommentTok{\# intitial conditions.  Sex initiated at Ksex.  Asex at 0.}
+\NormalTok{Sex }\OtherTok{=}\NormalTok{ Ksex}
+\NormalTok{Asex }\OtherTok{=} \DecValTok{0}
+
+\NormalTok{Gasex }\OtherTok{=} \DecValTok{40}  \CommentTok{\#generation at which a single asexual female is introduced}
+
+\NormalTok{T }\OtherTok{=} \DecValTok{100}  \CommentTok{\# T is the number of time steps in addition to time step 0}
+\NormalTok{time }\OtherTok{=} \FunctionTok{c}\NormalTok{(}\DecValTok{1}\SpecialCharTok{:}\NormalTok{T)  }\CommentTok{\#sets up do loop for i = 1 to T}
+
+\NormalTok{outSex }\OtherTok{=} \FunctionTok{vector}\NormalTok{()  }\CommentTok{\# outSex vector}
+\NormalTok{outSex[}\DecValTok{1}\NormalTok{] }\OtherTok{=}\NormalTok{ Sex[}\DecValTok{1}\NormalTok{]}
+
+\NormalTok{outAsex }\OtherTok{=} \FunctionTok{vector}\NormalTok{()  }\CommentTok{\# outAsex  vector}
+\NormalTok{outAsex[}\DecValTok{1}\NormalTok{] }\OtherTok{=}\NormalTok{ Asex[}\DecValTok{1}\NormalTok{]}
+
+\ControlFlowTok{for}\NormalTok{ (i }\ControlFlowTok{in} \DecValTok{1}\SpecialCharTok{:}\NormalTok{T)  }\ControlFlowTok{for}\NormalTok{ (i }\ControlFlowTok{in} \DecValTok{1}\SpecialCharTok{:}\NormalTok{T)}
+\NormalTok{\{}
+\NormalTok{    outSex[i] }\OtherTok{=}\NormalTok{ Sex[i]}
+\NormalTok{    Sex[i }\SpecialCharTok{+} \DecValTok{1}\NormalTok{] }\OtherTok{=}\NormalTok{ Sex[i] }\SpecialCharTok{{-}}\NormalTok{ Sex[i] }\SpecialCharTok{*}\NormalTok{ (d }\SpecialCharTok{+}\NormalTok{ c }\SpecialCharTok{*}\NormalTok{ (Sex[i] }\SpecialCharTok{+}\NormalTok{ Asex[i])) }\SpecialCharTok{+}\NormalTok{ Sex[i] }\SpecialCharTok{*}\NormalTok{ (}\DecValTok{1} \SpecialCharTok{{-}}\NormalTok{ s) }\SpecialCharTok{*}
+\NormalTok{        (b }\SpecialCharTok{{-}}\NormalTok{ a }\SpecialCharTok{*}\NormalTok{ (Sex[i] }\SpecialCharTok{+}\NormalTok{ Asex[i]))}
+
+    \ControlFlowTok{if}\NormalTok{ (i }\SpecialCharTok{==}\NormalTok{ Gasex) \{}
+\NormalTok{        Asex[i] }\OtherTok{=}\NormalTok{ Asex[i] }\SpecialCharTok{+} \DecValTok{1}
+\NormalTok{    \}}
+
+\NormalTok{    outAsex[i] }\OtherTok{=}\NormalTok{ Asex[i]}
+\NormalTok{    Asex[i }\SpecialCharTok{+} \DecValTok{1}\NormalTok{] }\OtherTok{=}\NormalTok{ Asex[i] }\SpecialCharTok{{-}}\NormalTok{ Asex[i] }\SpecialCharTok{*}\NormalTok{ d }\SpecialCharTok{+}\NormalTok{ Asex[i] }\SpecialCharTok{*}\NormalTok{ (b }\SpecialCharTok{{-}}\NormalTok{ a }\SpecialCharTok{*}\NormalTok{ (Sex[i] }\SpecialCharTok{+}\NormalTok{ Asex[i]))}
+
+\NormalTok{\}}
+
+\NormalTok{Ksex}
+\NormalTok{Kasex}
+\CommentTok{\# Sex outSex}
+
+
+
+\FunctionTok{plot}\NormalTok{(time, outAsex, }\AttributeTok{type =} \StringTok{"l"}\NormalTok{, }\AttributeTok{col =} \StringTok{"blue"}\NormalTok{, }\AttributeTok{ylim =} \FunctionTok{c}\NormalTok{(}\DecValTok{0}\NormalTok{, }\DecValTok{20000}\NormalTok{), }\AttributeTok{xlab =} \StringTok{""}\NormalTok{, }\AttributeTok{ylab =} \StringTok{""}\NormalTok{)}
+\FunctionTok{par}\NormalTok{(}\AttributeTok{new =} \ConstantTok{TRUE}\NormalTok{)}
+\FunctionTok{plot}\NormalTok{(time, outSex, }\AttributeTok{type =} \StringTok{"l"}\NormalTok{, }\AttributeTok{col =} \StringTok{"red"}\NormalTok{, }\AttributeTok{ylim =} \FunctionTok{c}\NormalTok{(}\DecValTok{0}\NormalTok{, }\DecValTok{20000}\NormalTok{), }\AttributeTok{xlab =} \StringTok{"Generation"}\NormalTok{,}
+    \AttributeTok{ylab =} \StringTok{"Number"}\NormalTok{)}
+\FunctionTok{legend}\NormalTok{(}\DecValTok{70}\NormalTok{, }\DecValTok{17500}\NormalTok{, }\AttributeTok{legend =} \FunctionTok{c}\NormalTok{(}\StringTok{"Asexuals"}\NormalTok{, }\StringTok{"Sexuals"}\NormalTok{), }\AttributeTok{col =} \FunctionTok{c}\NormalTok{(}\StringTok{"blue"}\NormalTok{, }\StringTok{"red"}\NormalTok{), }\AttributeTok{lty =} \DecValTok{1}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] 10000
+[1] 20000
+\end{verbatim}
+
+\begin{figure}[H]
+
+\sidecaption{\label{fig-clonal}Results from a simulation study in which
+a single clonal individual was introduced into a sexual population at
+generation 1000 (Lively 2009). The sexual population was initiated at
+carrying capacity: \(K~sex~ = 10000\). Note that the asexual lineage
+replaces the sexual population in about 25 generations. The asexual
+population then attains a new carrying capacity at \(K~asex~ = 20000\)
+individuals. The frequency of males in the sexual population was assumed
+to be 1/2. Annual reproduction, with non-overlapping generations, was
+also assumed.}
+
+{\centering \includegraphics{why-sex_files/figure-pdf/fig-clonal-1.pdf}
 
 }
 
@@ -487,14 +597,14 @@ There is another paradox of sexual reproduction known as the ``cost of
 recombination.'' Here the competition is not between sexual and asexual
 females, or between outcrossing and selfing alleles, but rather between
 alleles that modify the rate of recombination. So instead of asking
-``why cross-fertilize?'' we assume cross-fertilization and ask, why is
-there excess crossing-over during meiosis? Here is the paradox. If
-combinations of alleles at different loci are favored by natural
-selection (because together they create high-fitness offspring), then
-recombination would break these favorable allelic combinations apart.
-So, it makes no obvious sense to recombine more than needed for normal
-meiosis. Indeed, Lewontin (1971) formally showed that: \emph{... the
-mean fitness of the population at equilibrium is a maximum in the
+``Why cross-fertilize?'' we can assume cross-fertilization and ask,
+``Why is there excess crossing-over during meiosis?'''' Here is the
+paradox. If combinations of alleles at different loci are favored by
+natural selection (because together they create high-fitness offspring),
+then recombination would break these favorable allelic combinations
+apart. So, it makes no obvious sense to recombine more than needed for
+normal meiosis. Indeed, Lewontin (1971) formally showed that: \emph{...
+the mean fitness of the population at equilibrium is a maximum in the
 absence of recombination}\footnote{Lewontin (1971) was following up on
   Fisher's (1930) verbal suggestion that selection should act to reduce
   recombination. For example, Lewontin (1971) wrote: \emph{I will show
@@ -510,6 +620,51 @@ and meiotic recombination. Ideally, any theory that explains the
 persistence of biparental sex could also solve the paradox of
 recombination. But this need not be the case. They could have different
 solutions.
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, toprule=.15mm, rightrule=.15mm, colback=white, colbacktitle=quarto-callout-tip-color!10!white, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Box 1.1}, breakable, titlerule=0mm, colframe=quarto-callout-tip-color-frame, left=2mm, bottomtitle=1mm, toptitle=1mm, coltitle=black, arc=.35mm, bottomrule=.15mm, opacityback=0, opacitybacktitle=0.6]
+
+\textbf{Short definitions of terms as used in this book. These
+definitions do not include all possible nuances.}
+
+\textbf{Cost of males}. The reduction in the per-capita growth rate of
+sexual populations, due to the production of males. The idea would apply
+to any reproductive mode for which some portion of the population does
+not directly make offspring. The cost of males is the appropriate cost
+for considering sexual subpopulations in competition with coexisting,
+obligately asexual subpopulations.
+
+\textbf{Cost of meiosis}. The reduction in relatedness between mother
+and offspring due to outcrossing. The cost of meiosis is the appropriate
+cost for considering the spread of alleles that induce
+self-fertilization.
+
+\textbf{Clone}. A lineage of parthenogenetic females descended from the
+same asexual female. Members of the same clone may have small genetic
+differences, which accumulate by mutation over time.
+
+\textbf{Cross-fertilization}. The exchange of gametes between different
+individuals, which may or may not be related.
+
+\textbf{Outcrossing}. A form of cross-fertilization, which specifies
+crossing between unrelated individuals.
+
+\textbf{Parthenogenesis}. Any form of asexual reproduction through ova.
+
+\textbf{Recombination}. Genetic exchange between homologous chromosomes
+during meiosis, especially when the exchange leads to gametes with
+allele combinations not represented on the parental chromosomes.
+
+\textbf{Self-fertilization}. The fusion of gametes from the same
+individual.
+
+\textbf{Sex/rec}. Shorthand for sexual reproduction and recombination.
+
+\textbf{Sexual reproduction}. I use the term here to mean
+cross-fertilization between unrelated individuals. However, the term is
+more general, and can be used to mean the incorporation of novel genetic
+material by any mechanism.
+
+\end{tcolorbox}
 
 \begin{figure}
 
@@ -565,12 +720,12 @@ sexual elements, instead of by a process of parthenogenesis. The whole
 subject is as yet hidden in darkness.
 \end{quote}
 
-Darwin\textquotesingle s question shows that the cross-fertilization is
-curious, even without considering the costs of sex. It also shows how
-Darwin was drawn to anomalies on theory\footnote{For example, Darwin
-  called the evolution of sterile castes in social insects an
-  ``insuperable difficulty'' for his theory of evolution by natural
-  selection (pages 236-238 in Darwin 1859).}.
+Darwin's question shows that the cross-fertilization is curious, even
+without considering the costs of sex. It also shows how Darwin was drawn
+to anomalies on theory\footnote{For example, Darwin called the evolution
+  of sterile castes in social insects an ``insuperable difficulty'' for
+  his theory of evolution by natural selection (pages 236-238 in Darwin
+  1859).}.
 
 It is interesting to note that, in Darwin's quote above, he switches
 from discussing mechanisms to prevent self-fertilization, such as
@@ -585,23 +740,24 @@ uniparental reproduction. Why cross-fertilize if either selfing or
 parthenogenesis is an option?
 
 There may be another reason why Darwin pivots to parthenogenesis. Just
-prior to the publication of Darwin\textquotesingle s (1862) paper on
-\emph{Primula}, Carl Theodor Ernst von Siebold (1856) published his
-observations on the successful development of adults from unfertilized
-eggs, which he called "parthenogenesis" (virgin birth). These were
-revolutionary observations, which caught Darwin\textquotesingle s
-attention\footnote{Darwin (1860): \emph{There is no greater mystery in
-  the whole world, as it seems to me, than the existence of sexes, --
-  more especially since the discovery of Parthenogenesis}. Letter to J.
-  S. Henslow. See
-  \href{https://www.darwinproject.ac.uk/letter/DCP-LETT-2860.xml}{Darwin
-  Correspondence Project}.}. However, von Siebold\textquotesingle s
-discovery of parthenogenesis\footnote{The case could has been made that
-  Charles Bonnet had discovered asexual reproduction in aphids in 1740
-  (see Lawrence 2009).} met with some hostility. Consider, for example,
-the following statement by Rudolf Wagner in a review of von
-Siebold\textquotesingle s book on parthenogenesis {[}as quoted from the
-original by Churchill (1979){]}:
+prior to the publication of Darwin's (1862) paper on \emph{Primula},
+Carl Theodor Ernst von Siebold (1856) published his observations on the
+successful development of adults from unfertilized eggs, which he called
+``parthenogenesis'' (virgin birth). These were revolutionary
+observations, which caught Darwin's attention. In a letter to his
+mentor, J.S. Henslow, Darwin mentioned von Siebold's discovery as
+follows: \emph{There is no greater mystery in the whole world, as it
+seems to me, than the existence of sexes, -- more especially since the
+discovery of Parthenogenesis}. Letter to J. S. Henslow. See
+\href{https://www.darwinproject.ac.uk/letter/DCP-LETT-2860.xml}{Darwin
+Correspondence Project}.
+
+However, the discovery of parthenogenesis\footnote{The case has been
+  made that Charles Bonnet had discovered asexual reproduction in aphids
+  in 1740 (see Lawrence 2009).} was met with some hostility. Consider,
+for example, the following statement by Rudolf Wagner in a review of von
+Siebold's book on parthenogenesis {[}as translated from the original
+German by Churchill (1979){]}:
 
 \begin{quote}
 I must unfortunately say that one of the most unpleasant of facts,
@@ -615,16 +771,18 @@ would be if suddenly one or more exceptions to the law of gravitation
 were discovered. (Emphasis added.)
 \end{quote}
 
-Apparently, Darwin did not find the idea of parthenogenesis distasteful.
-Instead, he wondered why it was not more common. For example, Darwin
-(1868) wrote: \emph{Parthenogenesis is no longer wonderful; in fact, the
-wonder is that it should not oftener occur}\footnote{I suspect that
-  Darwin used the phrase ``no longer wonderful'' to mean ``no longer
-  astonishing.'' See
+Clearly, Wagner was not pleased with the discovery of asexual
+reproduction, calling it unpleasant, unwelcome, and distasteful. By
+contrast, Darwin did not find the idea to be distasteful in any way. He
+wondered instead why it was not more common. For example, Darwin (1868)
+wrote: \emph{Parthenogenesis is no longer wonderful; in fact, the wonder
+is that it should not oftener occur}\footnote{I suspect that Darwin used
+  the phrase ``no longer wonderful'' to mean ``no longer astonishing.''
+  See
   https://www.merriam-webster.com/words-at-play/wonderful-word-history-evolution.}.
 
 Over 100 years later, W. D. Hamilton (1975) was also pondering the
-evolution of outcrossing, and he wrote something very similar to Darwin:
+evolution of outcrossing, and he wrote something conceptually similar:
 
 \begin{quote}
 \ldots complete inbreeding abandons the obviously important advantages
@@ -664,53 +822,7 @@ had indeed been overlooked: parasites.
   Why then are recombination and cross-fertilization so common?
 \end{enumerate}
 
-\begin{tcolorbox}[enhanced jigsaw, coltitle=black, titlerule=0mm, colframe=quarto-callout-tip-color-frame, opacityback=0, bottomrule=.15mm, colbacktitle=quarto-callout-tip-color!10!white, toprule=.15mm, left=2mm, toptitle=1mm, bottomtitle=1mm, colback=white, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Box 1.1}, leftrule=.75mm, opacitybacktitle=0.6, breakable, arc=.35mm, rightrule=.15mm]
-
-\textbf{Short definitions of terms, as used in this book. These
-definitions do not include all possible nuances for the terms.}
-
-\textbf{Cost of males}. The reduction in the per-capita growth rate of
-sexual populations, due to the production of males. The idea would apply
-to any reproductive mode for which some portion of the population does
-not directly make offspring. The cost of males is the appropriate cost
-for considering sexual subpopulations in competition with coexisting,
-obligately asexual subpopulations.
-
-\textbf{Cost of meiosis}. The reduction in relatedness between mother
-and offspring due to outcrossing. The cost of meiosis is the appropriate
-cost for considering the spread of alleles that induce
-self-fertilization.
-
-\textbf{Clone}. A lineage of parthenogenetic females descended from the
-same asexual female. Members of the same clone may have small genetic
-differences, which accumulate by mutation over time.
-
-\textbf{Cross-fertilization}. The exchange of gametes between different
-individuals, which may or may not be related.
-
-\textbf{Outcrossing}. A form of cross-fertilization, which specifies
-crossing between unrelated individuals.
-
-\textbf{Parthenogenesis}. Any form of asexual reproduction through ova.
-
-\textbf{Recombination}. I use the term here to mean genetic exchange
-between homologous chromosomes during meiosis, especially when the
-exchange leads to gametes with allele combinations not represented in
-the parental chromosomes.
-
-\textbf{Self-fertilization}. The fusion of gametes from the same
-individual.
-
-\textbf{Sex/rec}. Shorthand for sexual reproduction and recombination.
-
-\textbf{Sexual reproduction}. I use the term here to mean
-cross-fertilization between unrelated individuals. However, the term is
-more general, and can be used to mean the incorporation of novel genetic
-material by any mechanism.
-
-\end{tcolorbox}
-
-\begin{tcolorbox}[enhanced jigsaw, coltitle=black, titlerule=0mm, colframe=quarto-callout-note-color-frame, opacityback=0, bottomrule=.15mm, colbacktitle=quarto-callout-note-color!10!white, toprule=.15mm, left=2mm, toptitle=1mm, bottomtitle=1mm, colback=white, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 1.2}, leftrule=.75mm, opacitybacktitle=0.6, breakable, arc=.35mm, rightrule=.15mm]
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, toprule=.15mm, rightrule=.15mm, colback=white, colbacktitle=quarto-callout-note-color!10!white, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 1.2}, breakable, titlerule=0mm, colframe=quarto-callout-note-color-frame, left=2mm, bottomtitle=1mm, toptitle=1mm, coltitle=black, arc=.35mm, bottomrule=.15mm, opacityback=0, opacitybacktitle=0.6]
 
 Maynard Smith's (1978) model showing the cost of producing
 males.\footnotemark{} Let \(N~asex~\) be the number of asexual females
