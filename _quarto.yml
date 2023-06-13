@@ -119,6 +119,9 @@ format:
     reference-location: block
     cite-method: citeproc
     lang: en-US
+    echo: false
+    warning: false
+    error: false
     code-line-numbers: true
     code-block-bg: true
     code-block-border-left: "#31BAE9"
