@@ -150,4 +150,7 @@ format:
     citation: true
     reference-doc: custom-reference-doc.docx
     highlight-style: a11y
+    echo: false
+    warning: false
+    error: false
     output: true
