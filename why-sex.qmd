@@ -213,4 +213,4 @@ If $N~sex~$ is very large, the solution reduces to $F \approx 1/r$. Hence, the f
 
 [^5]: The case has been made that Charles Bonnet had discovered asexual reproduction in aphids in 1740 (see Lawrence 2009).
 
-[^6]: I suspect that Darwin used the phrase "no longer wonderful" to mean "no longer astonishing." See https://www.merriam-webster.com/words-at-play/wonderful-word-history-evolution.
+[^6]: I suspect that Darwin used the phrase "no longer wonderful" to mean "no longer astonishing." See <https://www.merriam-webster.com/words-at-play/wonderful-word-history-evolution>.
