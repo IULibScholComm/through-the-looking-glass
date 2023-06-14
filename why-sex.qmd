@@ -1,4 +1,4 @@
-![](images/Picture1.jpg){width=40% fig-align="center" fig-alt="Elderly man with his hand on his face"}ZMD
+![](images/Picture1.jpg){width=40% fig-align="center" fig-alt="Elderly Darwin with his hand on his face"}
 
 # Why Sex? {#sec-why-sex}
 
@@ -150,7 +150,7 @@ Darwin's question shows that the cross-fertilization is curious, even without co
 
 It is interesting to note that, in Darwin's quote above, he switches from discussing mechanisms to prevent self-fertilization, such as distyly, to discussing parthenogenesis. Self-fertilization is a sexual process (involving the formation and fusion of gametes from the same parent), while parthenogenesis is an asexual process that does not generally involve meiosis and syngamy (review in Bell 1982). But parthenogenesis and self-fertilization are conceptually related, as they are both uniparental forms of reproduction. Hence, it makes sense that Darwin would switch back and forth between these two different forms of uniparental reproduction. Why cross-fertilize if either selfing or parthenogenesis is an option?
 
-There may be another reason why Darwin pivots to parthenogenesis. Just prior to the publication of Darwin's (1862) paper on *Primula*, Carl Theodor Ernst von Siebold (1856) published his observations on the successful development of adults from unfertilized eggs, which he called "parthenogenesis" (virgin birth). These were revolutionary observations, which caught Darwin's attention. In a letter to his mentor, J.S. Henslow, Darwin mentioned von Siebold’s discovery as follows: *There is no greater mystery in the whole world, as it seems to me, than the existence of sexes, -- more especially since the discovery of Parthenogenesis*. Letter to J. S. Henslow. See [Darwin Correspondence Project](https://www.darwinproject.ac.uk/letter/DCP-LETT-2860.xml).
+There may be another reason why Darwin pivots to parthenogenesis. Just prior to the publication of Darwin's (1862) paper on *Primula*, Carl Theodor Ernst von Siebold (1856) published his observations on the successful development of adults from unfertilized eggs, which he called "parthenogenesis" (virgin birth). These were revolutionary observations, which caught Darwin's attention. In a letter to his mentor, J.S. Henslow, Darwin mentioned von Siebold’s discovery as follows: *There is no greater mystery in the whole world, as it seems to me, than the existence of sexes, -- more especially since the discovery of Parthenogenesis*. Letter to J. S. Henslow. See [Darwin Correspondence Project](https://www.darwinproject.ac.uk/letter/DCP-LETT-2869.xml).
 
 However, the discovery of parthenogenesis[^5] was met with some hostility. Consider, for example, the following statement by Rudolf Wagner in a review of von Siebold's book on parthenogenesis [as translated from the original German by Churchill (1979)]:
 
@@ -185,7 +185,7 @@ Maynard Smith's (1978) model showing the cost of producing males.^[I used slight
 |:-------------------------:|:------------------------------------:|:-----------------------------------------------------------------------------------------------------:|
 |   **Number of asexuals**  |                $N~asex~$               |                                       $N~asex~(S~asex~B~asex~)$                                       |
 |   **Number of sexuals**   |                $N~sex~$                |                                     $rN~sex~(S~sex~B~sex~)$                                     |
-| **Frequency of asexuals** |  $\frac{N~asex~}{N~asex~ + N~sex~}$  |  $$\frac{N~asex(S~asex~B~asex~)}{N~asex~(S~asex~B~asex~)+rN~sex~(S~sex~B~sex~)}$$   |
+| **Frequency of asexuals** |  $\frac{N~asex~}{N~asex~ + N~sex~}$  |  $\frac{N~asex(S~asex~B~asex~)}{N~asex~(S~asex~B~asex~)+rN~sex~(S~sex~B~sex~)}$   |
 
 The fold increase in frequency of asexuals, $F$, is the ratio of the frequency of asexuals at time 2 divided by the frequency of asexuals at time 1 giving:
 
