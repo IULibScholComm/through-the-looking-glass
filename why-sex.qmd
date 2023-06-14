@@ -23,9 +23,9 @@ The "cost of meiosis" was proposed by George Williams (1975). His idea was simpl
 
 ### The cost of males
 
-The other way to look at the problem was proposed by John Maynard Smith (Maynard Smith 1971, 1978). Here the issue is not relatedness. The problem stems rather from the difference between sexuals and asexuals in their per-capita birth rates (@fig-1.1). Imagine a population of sexual individuals at carrying capacity ($K~sex~$). At $K~sex~$ the sexual females are, by definition, simply replacing themselves. This means that each sexual female is, on average, producing one son and one daughter. Both sons and daughters contribute genetically to the next generation, but only females give birth. Now, consider a mutation in a single female that causes her to reproduce asexually. She gives birth to two daughters instead of one daughter and one son. These two asexually produced daughters both give birth to two more daughters. Hence, after just two generations, the asexual female has four granddaughters, while the average sexual female has just one granddaughter (@fig-1.1). This asymmetry should lead to the rapid replacement sexual females by asexual females (@fig-clonal). And by \"rapid,\" I mean within tens of generations, even for very large populations (Lively 1996). We thus seek a selective force that can give an advantage to sexual reproduction on a very short time scale.
+The other way to look at the problem was proposed by John Maynard Smith (Maynard Smith 1971, 1978). Here the issue is not relatedness. The problem stems rather from the difference between sexuals and asexuals in their per-capita birth rates (@fig-1.1). Imagine a population of sexual individuals at carrying capacity ($K_{sex}$). At $K_{sex}$ the sexual females are, by definition, simply replacing themselves. This means that each sexual female is, on average, producing one son and one daughter. Both sons and daughters contribute genetically to the next generation, but only females give birth. Now, consider a mutation in a single female that causes her to reproduce asexually. She gives birth to two daughters instead of one daughter and one son. These two asexually produced daughters both give birth to two more daughters. Hence, after just two generations, the asexual female has four granddaughters, while the average sexual female has just one granddaughter (@fig-1.1). This asymmetry should lead to the rapid replacement sexual females by asexual females (@fig-clonal). And by \"rapid,\" I mean within tens of generations, even for very large populations (Lively 1996). We thus seek a selective force that can give an advantage to sexual reproduction on a very short time scale.
 
-![The cost of males. Imagine a single clonal female in a sexual population at carrying capacity, $K~sex~$. At $K~sex~$, the sexual females are, on average, producing one daughter and one son. In contrast, the clonal female produces two daughters and four granddaughters. Hence, the clonal lineage should rapidly eliminate the sexual population (@fig-clonal). However, in nature, asexual reproduction is very rare in both plants (Whitton et al. 2008) and animals (Vrijenhoek 1998). Hence the paradox. Why is sexual reproduction so costly and yet so common?](images/fig1-1.jpg){#fig-1.1}
+![The cost of males. Imagine a single clonal female in a sexual population at carrying capacity, $K_{sex}$. At $K_{sex}$, the sexual females are, on average, producing one daughter and one son. In contrast, the clonal female produces two daughters and four granddaughters. Hence, the clonal lineage should rapidly eliminate the sexual population (@fig-clonal). However, in nature, asexual reproduction is very rare in both plants (Whitton et al. 2008) and animals (Vrijenhoek 1998). Hence the paradox. Why is sexual reproduction so costly and yet so common?](images/fig1-1.jpg){#fig-1.1}
   
 Several assumptions went into Maynard Smith\'s model for the cost of males. In particular, he assumed that sexual females and asexual females make the same number of offspring, and that the survivorship of these offspring is also the same. Maynard Smith referred to this as the "all-else-equal assumption." Unfortunately, some authors have taken the phrase "all-else-equal" to mean that everything else is exactly equal. But this is not the case. Maynard Smith did not assume, for example, that sexuals and asexuals have the same ploidy value[^2]. His model only assumes that sexual and asexual females have equal fecundities and survivorship probabilities (see **Box 1.2**). Under this assumption, a very rare clone would double in frequency in the next generation. Maynard Smith called this doubling-when-rare the two-fold cost of sex.
 
@@ -35,7 +35,7 @@ The two alternative costs of sex raise an immediate question. Does the cost of s
 
 ```{r}
 #| label: fig-clonal
-#| fig-cap: "Results from a simulation study in which a single clonal individual was introduced into a sexual population at generation 1000 (Lively 2009). The sexual population was initiated at carrying capacity: $K~sex~ = 10000$. Note that the asexual lineage replaces the sexual population in about 25 generations. The asexual population then attains a new carrying capacity at $K~asex~ = 20000$ individuals. The frequency of males in the sexual population was assumed to be 1/2. Annual reproduction, with non-overlapping generations, was also assumed."
+#| fig-cap: "Results from a simulation study in which a single clonal individual was introduced into a sexual population at generation 1000 (Lively 2009). The sexual population was initiated at carrying capacity: $K_{sex} = 10000$. Note that the asexual lineage replaces the sexual population in about 25 generations. The asexual population then attains a new carrying capacity at $K_{asex} = 20000$ individuals. The frequency of males in the sexual population was assumed to be 1/2. Annual reproduction, with non-overlapping generations, was also assumed."
 #| fig-alt: "Line plot of clonal invasion dynamics"
 #| results: hold
 #| code-fold: true
@@ -179,27 +179,27 @@ I now think that John Maynard Smith was correct. An essential feature had indeed
 
 ## Box 1.2
 
-Maynard Smith's (1978) model showing the cost of producing males.^[I used slightly different variable names, and I tried to simplify JMS's original model.] Let $N~asex~$ be the number of asexual females at time 1, while $N~sex~$ gives the total number of sexual individuals (males plus females) at time 1. Let $B~asex~$ give the number of offspring produced by asexual females, and $S~asex~$ gives the survival probability of asexual offspring to maturity. The number of surviving asexual offspring is then $= B~asex~S~asex~$. Similarly, let $B~sex~$ be the number offspring produced by sexual females, and let $S~sex~$ give the survival probability of sexually produced offspring. Maynard Smith assumed that all individuals reproduce once and then die. Let $r$ be the frequency of females in the sexual population. The number of asexuals and sexuals at time 2 can then be calculated as is the table below. (Note, we do not assume that the population is at carrying capacity).  
+Maynard Smith's (1978) model showing the cost of producing males.^[I used slightly different variable names, and I tried to simplify JMS's original model.] Let $N_{asex}$ be the number of asexual females at time 1, while $N_{sex}$ gives the total number of sexual individuals (males plus females) at time 1. Let $B_{asex}$ give the number of offspring produced by asexual females, and $S_{asex}$ gives the survival probability of asexual offspring to maturity. The number of surviving asexual offspring is then $= B_{asex}S_{asex}$. Similarly, let $B_{sex}$ be the number offspring produced by sexual females, and let $S_{sex}$ give the survival probability of sexually produced offspring. Maynard Smith assumed that all individuals reproduce once and then die. Let $r$ be the frequency of females in the sexual population. The number of asexuals and sexuals at time 2 can then be calculated as is the table below. (Note, we do not assume that the population is at carrying capacity).  
 
 |                           |              **Time 1**              |                                               **Time 2**                                              |
 |:-------------------------:|:------------------------------------:|:-----------------------------------------------------------------------------------------------------:|
-|   **Number of asexuals**  |                $N~asex~$               |                                       $N~asex~(S~asex~B~asex~)$                                       |
-|   **Number of sexuals**   |                $N~sex~$                |                                     $rN~sex~(S~sex~B~sex~)$                                     |
-| **Frequency of asexuals** |  $\frac{N~asex~}{N~asex~ + N~sex~}$  |  $\frac{N~asex(S~asex~B~asex~)}{N~asex~(S~asex~B~asex~)+rN~sex~(S~sex~B~sex~)}$   |
+|   **Number of asexuals**  |                $N_{asex}$               |                                       $N_{asex}(S_{asex}B_{asex})$                                       |
+|   **Number of sexuals**   |                $N_{sex}$                |                                     $rN_{sex}(S_{sex}B_{sex})$                                     |
+| **Frequency of asexuals** |  $\frac{N_{asex}}{N_{asex} + N_{sex}}$  |  $\frac{N_{asex}(S_{asex}B_{asex})}{N_{asex}(S_{asex}B_{asex})+rN_{sex}(S_{sex}B_{sex})}$   |
 
 The fold increase in frequency of asexuals, $F$, is the ratio of the frequency of asexuals at time 2 divided by the frequency of asexuals at time 1 giving:
 
-$$F = \frac{N~asex(S~asex~B~asex~)}{N~asex~(S~asex~B~asex~) + r(N~sex~S~sex~B~sex~)}/\frac{N~asex~}{N~asex~ + N~sex~}$$
+$$F = \frac{N_{asex}(S_{asex}B_{asex})}{N_{asex}(S_{asex}B_{asex}) + r(N_{sex}S_{sex}B_{sex})}/\frac{N_{asex}}{N_{asex} + N_{sex}}$$
 
-Under the all-else-equal assumption, $S~asex~ = S~sex~$ and $B~asex~ = B~sex~$, giving:
+Under the all-else-equal assumption, $S_{asex} = S_{sex}$ and $B_{asex} = B_{sex}$, giving:
 
-$$F = \frac{N~asex~}{N~asex~ + rN~sex~}/\frac{N~asex~}{N~asex~ + N~sex~}$$
+$$F = \frac{N_{asex}}{N_{asex} + rN_{sex}}/\frac{N_{asex}}{N_{asex} + N_{sex}}$$
 
 Assuming that there is a single asexual female at time 1, we get
 
-$$F = \frac{1}{1 + rN~sex~}/\frac{1}{1 + N~sex~} = \frac{1 + N~sex~}{1 + rN~sex~}$$
+$$F = \frac{1}{1 + rN_{sex}}/\frac{1}{1 + N_{sex}} = \frac{1 + N_{sex}}{1 + rN_{sex}}$$
 
-If $N~sex~$ is very large, the solution reduces to $F \approx 1/r$. Hence, the fold increase in the frequency of asexuals, $F$, is inversely related to the frequency of females $(r)$ in the sexual subpopulation. Assuming a 1:1 sex ratio, $r = 0.5$. Hence, for an equal sex ratio, the increase in asexuals is $\approx$ 2-fold. This  result gives the two-fold cost of males. Assuming "all-else-equal" a clone will double when rare when introduced into a large sexual population. 
+If $N_{sex}$ is very large, the solution reduces to $F \approx 1/r$. Hence, the fold increase in the frequency of asexuals, $F$, is inversely related to the frequency of females $(r)$ in the sexual subpopulation. Assuming a 1:1 sex ratio, $r = 0.5$. Hence, for an equal sex ratio, the increase in asexuals is $\approx$ 2-fold. This  result gives the two-fold cost of males. Assuming "all-else-equal" a clone will double when rare when introduced into a large sexual population. 
 
 :::
 
