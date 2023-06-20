@@ -1,3 +1,4 @@
+server: shiny
 project:
   type: book
   output-dir: docs
@@ -54,7 +55,6 @@ book:
   pdf-url: TK
   repo-actions: [edit, issue, source]
   reader-mode: true
-  # google-analytics: "G-PT4W2H086H"
   # cookie-consent: "implied"
   page-navigation: true
   back-to-top-navigation: true
