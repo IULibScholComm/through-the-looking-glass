@@ -115,7 +115,7 @@ format:
     number-sections: true
     linkcolor: blue
     papersize: letter
-    tbl-colwidths: [33, 33, 33]
+    # tbl-colwidths: [33, 33, 33]
     reference-location: block
     cite-method: citeproc
     lang: en-US
