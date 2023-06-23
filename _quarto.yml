@@ -1,4 +1,3 @@
-server: shiny
 project:
   type: book
   output-dir: docs
@@ -107,8 +106,8 @@ format:
     code-copy: hover
     code-link: true
     warning: false
-    error: false
     prompt: false
+    output: true
   pdf:
     documentclass: book
     keep-tex: true
