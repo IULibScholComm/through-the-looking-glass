@@ -146,6 +146,7 @@ format:
     highlight-style: a11y
     warning: false
     error: false
+    output: true
   docx:
     toc: true
     toc-title: Contents
