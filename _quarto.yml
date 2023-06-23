@@ -144,6 +144,8 @@ format:
     code-line-numbers: true
     code-copy: hover
     highlight-style: a11y
+    warning: false
+    error: false
   docx:
     toc: true
     toc-title: Contents
