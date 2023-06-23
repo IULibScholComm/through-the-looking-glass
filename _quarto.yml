@@ -108,6 +108,7 @@ format:
     code-link: true
     warning: false
     error: false
+    prompt: false
   pdf:
     documentclass: book
     keep-tex: true

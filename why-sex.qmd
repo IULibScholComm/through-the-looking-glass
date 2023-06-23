@@ -38,7 +38,8 @@ The two alternative costs of sex raise an immediate question. Does the cost of s
 #| label: fig-clonal
 #| fig-cap: "Results from a simulation study in which a single clonal individual was introduced into a sexual population at generation 1000 (Lively 2009). The sexual population was initiated at carrying capacity: $K_{sex} = 10000$. Note that the asexual lineage replaces the sexual population in about 25 generations. The asexual population then attains a new carrying capacity at $K_{asex} = 20000$ individuals. The frequency of males in the sexual population was assumed to be 1/2. Annual reproduction, with non-overlapping generations, was also assumed."
 #| fig-alt: "Line plot of clonal invasion dynamics"
-#| results: hold
+#| results: markup
+#| code-fold: true
 #| code-summary: R code for clonal invasion dynamics simulation visualization
 #| tidy: true
 
