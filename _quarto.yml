@@ -41,7 +41,7 @@ book:
   illustrator: Zoe Michelle Dinges
   keyword: biology, "sexual reproduction", evolution, "evolutionary biology"
   language: en-US
-  # license: "CC BY"
+  license: "CC BY"
   publisher: Scholarly Communication Department, Indiana University Bloomington Libraries
   publisher-place: Bloomington, IN
   status: "advance publication"
@@ -51,7 +51,7 @@ book:
   site-url: https://iulibscholcomm.github.io/through-the-looking-glass
   repo-url: https://github.com/IULibScholComm/through-the-looking-glass
   issue-url: https://github.com/IULibScholComm/through-the-looking-glass/issues/new
-  pdf-url: TK
+  pdf-url: https://iulibscholcomm.github.io/through-the-looking-glass/Through-the-Looking-Glass.pdf
   repo-actions: [edit, issue, source]
   reader-mode: true
   # cookie-consent: "implied"
@@ -118,7 +118,6 @@ format:
     number-sections: true
     linkcolor: blue
     papersize: letter
-    # tbl-colwidths: [33, 33, 33]
     reference-location: block
     cite-method: citeproc
     lang: en-US
@@ -151,7 +150,6 @@ format:
     toc: true
     toc-title: Contents
     citeproc: true
-    tbl-colwidths: [33, 33, 33]
     lang: en-US
     citation: true
     reference-doc: custom-reference-doc.docx

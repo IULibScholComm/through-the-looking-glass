@@ -1,4 +1,4 @@
-![](images/Picture1.jpg){width=40% fig-align="center" fig-alt="Elderly Darwin with his hand on his face"}
+![](images/Picture1.png){width=40% fig-align="center" fig-alt="Elderly Darwin with his hand on his face"}
 
 # Why Sex? {#sec-why-sex}
 
@@ -61,7 +61,7 @@ b <- 3.0
 # c is a constant that gives the sensitivity of the death rate to density.
 c <- 0
 # s is the frequency of males in the sexual subpopulation. (1-s) gives the freq of females in sexual pop.
-s = 0.5 
+s <- 0.5 
 
 
 # anayltical solutions: carrying capacities for sexual and asexuals are set by the parameters given above,
