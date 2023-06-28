@@ -109,7 +109,7 @@ format:
     prompt: false
     output: true
   pdf:
-    documentclass: book
+    documentclass: scrbook
     keep-tex: true
     toc: true
     toc-title: Contents
