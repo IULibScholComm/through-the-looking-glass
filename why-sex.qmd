@@ -55,7 +55,7 @@ c = 0  # c is a constant that gives the sensitivity of the death rate to density
 
 Fig12 <- data.frame("f" = 0, "Generation" = 0, "Asexuals" = 0, "Sexuals" = 0)
 
-for(f in c(0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8)){
+for(f in c(0.5, 0.6, 0.7, 0.8)){
 # anayltical solutions: carrying capacities for sexual and asexuals are set by the parameters given above,
 # following Lively (2009) J Evol Biol. doi: 10.1111/j.1420-9101.2009.01824.x
 Ksex = (f*b - d)/((f)*a + c) #solution for carrying capacity of sexual population
