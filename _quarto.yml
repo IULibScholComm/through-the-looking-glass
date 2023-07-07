@@ -104,7 +104,7 @@ format:
     code-overflow: scroll
     highlight-style: a11y
     code-copy: hover
-    code-link: true
+    code-link: false
     warning: false
     prompt: false
     output: true
