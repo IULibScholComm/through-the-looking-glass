@@ -41,6 +41,8 @@ The two alternative costs of sex raise an immediate question. Does the cost of s
 #| results: markup
 #| code-summary: R code for clonal invasion dynamics simulation visualization
 #| tidy: true
+#| cache: true
+#| freeze: auto
 
 library(plotly)
 library(ggthemes)
