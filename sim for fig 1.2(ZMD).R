@@ -83,4 +83,3 @@ ggplot(Fig12, aes(x=Generation, y=Number, color=Mode)) +
   annotate(geom = "text", x= 1040, y = 21500, label = "Asexuals", color = "#235FA4", size = 6, family = "Routed Gothic") +
   annotate(geom = "text", x= 1040, y = 1500, label = "Sexuals", color = "#FF4242", size = 6, family = "Routed Gothic") +
   theme(aspect.ratio = 1/1.5) + curtstheme +  theme(legend.position = "none")
-

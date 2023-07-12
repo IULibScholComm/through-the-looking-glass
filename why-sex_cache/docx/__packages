@@ -3,3 +3,5 @@ plotly
 ggthemes
 dplyr
 tidyr
+ggtext
+extrafont
