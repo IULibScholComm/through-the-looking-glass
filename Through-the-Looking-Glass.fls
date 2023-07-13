@@ -1350,8 +1350,8 @@ INPUT c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
 INPUT c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
 INPUT c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc
 INPUT c:/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc
-INPUT c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc
 INPUT c:/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc
+INPUT c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc
 INPUT c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc
 INPUT c:/texlive/2022/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb
 INPUT c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbx10.pfb

@@ -35,7 +35,7 @@ The two alternative costs of sex raise an immediate question. Does the cost of s
 
 ```{r}
 #| label: fig-clonal
-#| layout-ncol: 2
+#| layout-ncol: 1
 #| fig-cap: "Results from a simulation study in which a single clonal individual was introduced into a sexual population at generation 1000 (Lively 2009)...."
 #| fig-subcap:
 #|    - "Caption 1"

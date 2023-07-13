@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.4.18)  13 JUL 2023 11:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.4.18)  13 JUL 2023 14:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -865,9 +865,9 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 File: why-sex_files/figure-pdf/fig-clonal-1.pdf Graphic file (type pdf)
 <use why-sex_files/figure-pdf/fig-clonal-1.pdf>
 Package pdftex.def Info: why-sex_files/figure-pdf/fig-clonal-1.pdf  used on input line 484.
-(pdftex.def)             Requested size: 172.50427pt x 109.77545pt.
+(pdftex.def)             Requested size: 345.00856pt x 219.5509pt.
 
-Overfull \hbox (6.67093pt too wide) in paragraph at lines 480--485
+Overfull \hbox (6.67522pt too wide) in paragraph at lines 480--485
  [][] 
  []
 
@@ -875,37 +875,40 @@ Overfull \hbox (6.67093pt too wide) in paragraph at lines 480--485
 File: why-sex_files/figure-pdf/fig-clonal-2.pdf Graphic file (type pdf)
 <use why-sex_files/figure-pdf/fig-clonal-2.pdf>
 Package pdftex.def Info: why-sex_files/figure-pdf/fig-clonal-2.pdf  used on input line 498.
-(pdftex.def)             Requested size: 172.50427pt x 109.77545pt.
+(pdftex.def)             Requested size: 345.00856pt x 219.5509pt.
 
-Overfull \hbox (6.67093pt too wide) in paragraph at lines 494--499
+Overfull \hbox (6.67522pt too wide) in paragraph at lines 494--499
  [][] 
  []
 
-[8 <./why-sex_files/figure-pdf/fig-clonal-1.pdf> <./why-sex_files/figure-pdf/fig-clonal-2.pdf>]
+[8] [9 <./why-sex_files/figure-pdf/fig-clonal-1.pdf> <./why-sex_files/figure-pdf/fig-clonal-2.pdf>]
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 537.
- (c:/texlive/2022/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd) [9]
-Package marginnote Info: Margin note 18.1 is on absolute page 18 on input line 591.
+ (c:/texlive/2022/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
+Package marginnote Info: Margin note 18.1 is on absolute page 19 on input line 591.
+Package marginnote Info: xpos seems to be 107.26999pt on input line 591.
 
 Underfull \hbox (badness 1173) in paragraph at lines 591--591
 \T1/lmr/m/n/8 (+20) (dis-tyly) in \T1/lmr/m/it/8 (+20) Prim-ula\T1/lmr/m/n/8 (+20) . Dar-win
  []
 
-Package marginnote Info: xpos seems to be 161.26999pt on input line 591.
-<images/fig1-3.jpg, id=197, 448.67625pt x 207.27437pt>
+<images/fig1-3.jpg, id=196, 448.67625pt x 207.27437pt>
 File: images/fig1-3.jpg Graphic file (type jpg)
 <use images/fig1-3.jpg>
 Package pdftex.def Info: images/fig1-3.jpg  used on input line 592.
 (pdftex.def)             Requested size: 345.00938pt x 159.38351pt.
-[10 <./images/fig1-3.jpg>]
+[10] [11 <./images/fig1-3.jpg>]
 Overfull \hbox (0.52222pt too wide) in paragraph at lines 695--695
 [][][]\T1/lmr/m/n/8 (-20) I suspect that Darwin used the phrase ``no longer wonderful'' to mean ``no longer astonishing.''
  []
 
-[11]
+[12]
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 738.
- (c:/texlive/2022/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd) [12] [13] [14
+ (c:/texlive/2022/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] [15] [16] [17
+ [13] [14] [15
+
+] [16] [17
 
 ] [18
 
@@ -915,15 +918,15 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 33563 strings out of 476029
- 665215 string characters out of 5794158
- 1868340 words of memory out of 5000000
- 53168 multiletter control sequences out of 15000+600000
+ 33562 strings out of 476029
+ 665200 string characters out of 5794158
+ 1866340 words of memory out of 5000000
+ 53167 multiletter control sequences out of 15000+600000
  603587 words of font info for 181 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 86i,11n,89p,1085b,1043s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbx8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmri8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmro10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on Through-the-Looking-Glass.pdf (26 pages, 743090 bytes).
+ 86i,11n,89p,1085b,1039s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbx8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmri8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmro10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
+Output written on Through-the-Looking-Glass.pdf (26 pages, 742836 bytes).
 PDF statistics:
  433 PDF objects out of 1000 (max. 8388607)
  351 compressed objects within 4 object streams

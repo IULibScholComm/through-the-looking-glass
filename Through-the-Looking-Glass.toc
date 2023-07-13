@@ -14,6 +14,6 @@
 \contentsline {subsection}{\numberline {1.2.3}Contrasting the costs}{8}{subsection.1.2.3}%
 \contentsline {subsection}{\numberline {1.2.4}The cost of recombination}{8}{subsection.1.2.4}%
 \contentsline {subsection}{\numberline {1.2.5}Darwin's view}{10}{subsection.1.2.5}%
-\contentsline {section}{\numberline {1.3}Summary}{12}{section.1.3}%
+\contentsline {section}{\numberline {1.3}Summary}{13}{section.1.3}%
 \contentsline {part}{II\hspace {1em}Back Matter}{15}{part.2}%
 \contentsline {chapter}{References}{17}{chapter*.14}%
