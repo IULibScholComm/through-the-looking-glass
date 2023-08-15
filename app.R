@@ -20,9 +20,9 @@ ui <- fluidPage(
         sidebarPanel(
             sliderInput(inputId = "s",
                         label = "Frequency of males in the sexual subpopulation:",
-                        min = 0.2,
-                        max = 0.5,
-                        value = 0.35,
+                        min = 0.5,
+                        max = 0.8,
+                        value = 0.5,
                         step = 0.05)
       
         ),
