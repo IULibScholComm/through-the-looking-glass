@@ -68,6 +68,8 @@ book:
     - part: "Part One: Why Cross-Fertilize?"
       chapters:
         - why-sex.qmd
+        - eco-hyp.qmd
+        - rat-red.qmd
     - part: "Back Matter"
       chapters:
         - references.qmd
