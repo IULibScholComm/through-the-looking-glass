@@ -18,8 +18,9 @@ ui <- fluidPage(
   # Sidebar with a slider input for number of bins 
   sidebarLayout(
     sidebarPanel(
+     
       sliderInput(inputId = "f",
-                  label = "Frequency of females in the sexual subpopulation:",
+                  label = "Frequency of daughters produced by sexual females.",
                   min = 0.5,
                   max = 0.8,
                   value = 0.5,
@@ -29,7 +30,10 @@ ui <- fluidPage(
     
     # Show a plot of the generated distribution
     mainPanel(
-      plotOutput(outputId = "p")
+      plotOutput(outputId = "p"),
+      h3("Overview of interactive Shiny plot"),
+      p("This interactive plot shows the spread of a parthenogenetic lineage into a sexual population. The simulation begins with a sexual population at its carrying capacity. A single parthenogenetic female is introduced by the simulation at generation 1000. Note that the sexual population is rapidly eliminated by parthenogens."),
+      p("The slider on the left gives the frequency of daughters produced by sexual females. The default value is 50% daughters, leading to a 1:1 sex ratio in the sexual population. The slider can be moved to increase the frequency of daughters produced by sexual females. As this frequency increases, two things happen: (1) the carrying capacity of the sexual population increases, and (2) the rate of replacement of sexuals by asexuals slows down. Nonetheless, sexuals are replaced by asexuals within tens of generations."),
     )
   )
 )

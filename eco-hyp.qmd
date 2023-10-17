@@ -1,6 +1,6 @@
 ![](images/fig2-1.jpeg){fig-align="center" fig-alt="Two tickets and the Red Queen leading Alice around a tree"}
 
-# The Ecological Hypotheses
+# The Ecological Hypotheses {#sec-eco-hyp}
 
 The sex/recombination ("sex/rec") anomaly has attracted some of the best theoretical biologists over the last 50 years, leading to at least two dozen hypotheses to explain selection for recombination and/or the persistence of obligate sexual reproduction in natural populations (Kondrashov 1993). In what follows, I first focus on the ecological hypotheses. The ideas underlying these hypotheses provide a handle for understanding some of the foundational concepts in evolutionary ecology.  
 
@@ -59,7 +59,7 @@ One especially interesting aspect of the Tangled Bank Model is that the strength
 
 We can think of the contrast like this. Under the Lottery Model, changes in the environment will select against certain genotypes independent of whether they are common or rare. Selection seems unconditional (hard). Under the Tangled Bank, selection is always conditional (soft); there is an advantage to having a rare genotype, but this advantage only accrues under strong competition (high density). Soft selection may not be exactly the best possible phrase, but it contrasts nicely with hard selection.[^7]
 
-Two caveats are worth mentioning with respect to soft selection and the Tangled Bank Hypothesis. One is that polymorphism is only stable under a narrow range of patch-types frequencies. In addition, strong tradeoffs are required for the cost and benefits for morphs occupying different patches (Maynard Smith and Hoekstra 1980, Lively 1986a) (see also [Box 3.1](#callout-3.1)). The second caveat is that repeated mutation to asexual reproduction could lead to the accumulation of clonal diversity over time. Once all the niches are occupied by different specialized clones, there would be no advantage to sex. A diverse clonal population could then replace the sexual population (Bell 1982, Vrijenhoek and Parker 2009). This second caveat applies, in general, to any model of sex that relies on frequency-dependent selection. But the ideas could work if mutations to asex are rare. And, as I mentioned, sexuals and asexuals are known to coexist in some populations, which is consistent with the Tangled Bank and Frozen Niche-Variation Hypotheses (Vrijenhoek and Parker 2009). Coexistence, however, is also compatible with the Red Queen hypothesis, which we will now consider. 
+Two caveats are worth mentioning with respect to soft selection and the Tangled Bank Hypothesis. One is that polymorphism is only stable under a narrow range of patch-types frequencies. In addition, strong tradeoffs are required for the cost and benefits for morphs occupying different patches (Maynard Smith and Hoekstra 1980, Lively 1986a) (see also [Box 3.1](https://iulibscholcomm.github.io/through-the-looking-glass/eco-hyp.html#callout-4)). The second caveat is that repeated mutation to asexual reproduction could lead to the accumulation of clonal diversity over time. Once all the niches are occupied by different specialized clones, there would be no advantage to sex. A diverse clonal population could then replace the sexual population (Bell 1982, Vrijenhoek and Parker 2009). This second caveat applies, in general, to any model of sex that relies on frequency-dependent selection. But the ideas could work if mutations to asex are rare. And, as I mentioned, sexuals and asexuals are known to coexist in some populations, which is consistent with the Tangled Bank and Frozen Niche-Variation Hypotheses (Vrijenhoek and Parker 2009). Coexistence, however, is also compatible with the Red Queen hypothesis, which we will now consider. 
 
 ## The Red Queen Hypothesis
 
@@ -73,7 +73,7 @@ Now, what if the parasite dramatically reduces the reproductive success of infec
 
 This scenario of fluctuating selection for and against sex is just a special case of the more general idea that parasites will select against common genotypes within a diverse, sexual host population. As a rare host genotype becomes common, the parasites genotype that can infect it will be favored by natural selection. If the parasite is virulent (meaning that infection reduces host fitness), the targeted host genotype will decline in frequency, and a new host genotype will begin to increase in frequency. Under this logic, host-parasite coevolution will lead to the oscillation of genotypes in both the host and the parasite populations (@fig-2-4). These oscillations are now called Red Queen dynamics. Red Queen dynamics can lead to the maintenance of genetic polymorphism in sexual populations, and possibly protect sexual reproduction from replacement by asexual lineages. In addition, Red Queen dynamics could also favor recombination within a sexual population (Peters and Lively 1999, Schmid-Hempel and Jokela 2002, Peters and Lively 2007, Salathe et al. 2008). These related ideas are now called the Red Queen Hypothesis (following Bell 1982). 
 
-![Red Queen dynamics. The frequency of a single host genotype is shown along with the frequency of the only parasite genotype that can infect it. Note that the parasite tracks the host with a time lag. Results were extracted from a simulation of a sexual host population with nine possible genotypes coevolving with an asexual parasite with nine matching genotypes Lively (2009). The dashed line shows the average genotype frequency for hosts and parasites.](images/fig2-4.JPG){fig-alt="" #fig-2-4}
+![Red Queen dynamics. The frequency of a single host genotype is shown along with the frequency of the only parasite genotype that can infect it. Note that the parasite tracks the host with a time lag. Results were extracted from a simulation of a sexual host population with nine possible genotypes coevolving with an asexual parasite with nine matching genotypes Lively (2009). The dashed line shows the average genotype frequency for hosts and parasites.](images/fig2-4.jpeg){fig-alt="" #fig-2-4}
 
 ### An intersection of science and literature
 
@@ -162,12 +162,14 @@ Nonetheless, Levene's result suggests that overdominance for harmonic mean fitne
 | **AB** | $W_{AB1}$ = 1.00 | $W_{AB2}$ = 1.00 |  1.00 | 1.00 |
 | **BB** | $W_{BB1}$ = 0.50 | $W_{BB2}$ = 1.67 | 1.09 | 0.77 |
 
-Prout showed that there would be a stable multiple niche polymorphism, even under complete dominance, provided that the arithmetic mean fitness for BB is greater than 1, and that the harmonic mean fitness for the BB genotype is less than 1. So, clearly, overdominance for harmonic mean fitness is not required for a stable polymorphism. 
+Prout showed that there would be a stable multiple niche polymorphism, even under complete dominance, provided that the arithmetic mean fitness for BB is greater than 1, and that the harmonic mean fitness for the BB genotype is less than 1. So, clearly, overdominance for harmonic mean fitness is not required for a stable polymorphism.[^16]  
+
+The plot below shows $\mathrm{\Delta}q$ as a function of $q$ for Prout's model of dominance. Note that $\mathrm{\Delta}q$ is positive when $q$ is near zero, and that $\mathrm{\Delta}q$ is negative when $q$ is near 1. There is an interior equilibrium near $q = 0.5$.
+
+![](images/fig2-5.jpg){fig-alt="" width=65% fig-align="center"} 
+
+<!--The papers by Levene (1953) and Prout (1968) helped to lay the foundation for the fusion of population genetics and population ecology.-->
 :::
-
-![Plot showing $\mathrm{\Delta}q$ as a function of $q$ for Prout's model of dominance. Note that $\mathrm{\Delta}q$ is positive when $q$ is near zero, and that $\mathrm{\Delta}q$ is negative when $q$ is near 1. There is an interior equilibrium near $q = 0.5$.](images/fig2-5.jpg){fig-alt=""} 
-
-The papers by Levene (1953) and Prout (1968) helped to lay the foundation for the fusion of population genetics and population ecology.[^16] 
 
 
 [^1]: See Bell (1982) for a deeper historical view of the Lottery Model, which involves contributions by Maynard Smith and others, including Williams. I have tried to distill it down to a simple bet-hedging model here. The original formulation is more complex. 
@@ -200,4 +202,4 @@ The papers by Levene (1953) and Prout (1968) helped to lay the foundation for th
 
 [^15]: The basic idea comes from a paper by Hill and Robertson (1966), and is often called the Hill-Robertson effect (following Felsenstein 1974). A broader framework, housed under the more intuitive phrase “selective interference,” was recently given by Sarah Otto as part of a keynote lecture given to the American Genetic Association (Otto 2021).
 
-[^16]: The harmonic mean is not intuitive to most Biology students. So, I ask them this question: if you had a score of 100 on your first exam, and a score of 60 on your second exam, would you rather have your final grade calculated as the arithmetic mean or the harmonic mean of the two scores? After some thought, they all pick the arithmetic mean.  
+[^16]: The harmonic mean is not intuitive to most Biology students. So, I ask them this question: if you had a score of 100 on your first exam, and a score of 60 on your second exam, would you rather have your final grade calculated as the arithmetic mean or the harmonic mean of the two scores? After some thought, they all pick the arithmetic mean. That is because the harmonic mean weights low scores more heavily than high scores.

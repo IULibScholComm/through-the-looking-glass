@@ -209,12 +209,12 @@
 \makeatother
 \subtitle{I. Why Cross-Fertilize?}
 \author{Curtis M. Lively}
-\date{24 August 2023}
+\date{17 October 2023}
 
 \begin{document}
 \frontmatter
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[breakable, interior hidden, borderline west={3pt}{0pt}{shadecolor}, enhanced, frame hidden, sharp corners, boxrule=0pt]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[interior hidden, borderline west={3pt}{0pt}{shadecolor}, enhanced, breakable, frame hidden, sharp corners, boxrule=0pt]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Contents}
 {
@@ -372,11 +372,16 @@ relatedness}\label{the-cost-of-meiosis-reduced-relatedness}}
 The ``cost of meiosis'' was proposed by George Williams (1975). His idea
 was simply that females are only half as related to their outcrossed
 offspring as they are to their self-fertilized or parthenogenetic
-offspring.\footnote{See Bell (1982) for a deeper historical view of the
-  Lottery Model, which involves contributions by Maynard Smith and
-  others, including Williams. I have tried to distill it down to a
-  simple bet-hedging model here. The original formulation is more
-  complex.} (See \protect\hyperlink{callout-1}{Box 1.1} for condensed
+offspring.\footnote{I ran two years of field experiments designed to
+  test for random settlement by genetically determined morphs. I also
+  ran experiments designed to test for habitat selection by genetically
+  determined morphs. The results were always negative. I finally tested
+  for predator-induced development of the bent morph by placing
+  \emph{Acanthina} snails in quadrats where juvenile barnacles had
+  recently settled. I used herbivorous snails as a control. The results
+  showed that the presence of \emph{Acanthina} induced development of
+  the bent form, but the herbivorous snails did not. It was a thrilling
+  discovery.} (See \protect\hyperlink{callout-1}{Box 1.1} for condensed
 definitions.) Williams' idea also had theoretical support, as R.A.
 Fisher had already shown that an allele causing self-fertilization would
 rapidly spread to fixation, barring severe inbreeding depression (Fisher
@@ -434,14 +439,18 @@ to this as the ``all-else-equal assumption.'' Unfortunately, some
 authors have taken the phrase ``all-else-equal'' to mean that everything
 else is exactly equal. But this is not the case. Maynard Smith did not
 assume, for example, that sexuals and asexuals have the same ploidy
-value.\footnote{The variance in \(x\) is equal to the average of the
-  squared deviations from the mean:
-  \(var(x) = \frac{1}{N}\sum_{i = 1}^{N}{(x_{i} - \overline{x})^{2}}\)}
-His model only assumes that sexual and asexual females have equal
-fecundities and survivorship probabilities (see
-\protect\hyperlink{callout-2}{Box 1.2}). Under this assumption, a very
-rare clone would double in frequency in the next generation. Maynard
-Smith called this doubling-when-rare the two-fold cost of sex.
+value.\footnote{Plasticity is more mainstream now than it was in the
+  1980s. One reviewer of my paper was incredulous and recommended
+  rejection from \emph{Evolution} because the bent morph was not
+  ``genetically determined.'' The Associate Editor (John Endler)
+  rejected the review and accepted the paper. Clearly, it is the
+  developmental strategy that is genetically determined, not the morph
+  per se (see also Lively et al.~2000, Hazel et al.~2004).} His model
+only assumes that sexual and asexual females have equal fecundities and
+survivorship probabilities (see \protect\hyperlink{callout-2}{Box 1.2}).
+Under this assumption, a very rare clone would double in frequency in
+the next generation. Maynard Smith called this doubling-when-rare the
+two-fold cost of sex.
 
 \hypertarget{contrasting-the-costs}{%
 \subsection{Contrasting the costs}\label{contrasting-the-costs}}
@@ -518,16 +527,18 @@ then recombination would break these favorable allelic combinations
 apart. So, it makes no obvious sense to recombine more than needed for
 normal meiosis. Indeed, Lewontin (1971) formally showed that:
 \emph{\ldots{} the mean fitness of the population at equilibrium is a
-maximum in the absence of recombination}.\footnote{The geometric mean is
-  the \(N^{th}\) root of the product of \(N\) observations. Compared to
-  the arithmetic mean, the geometric mean gives more weight to small
-  values.} Hence, there are two interrelated anomalies:
+maximum in the absence of recombination}.\footnote{Facultative
+  parthenogenesis is used to mean environmentally cued production of
+  parthenogenetic females. I was originally planning to work on a
+  nematode population that produced a mixture of sexual males and
+  females at high density but only parthenogenetic females at low
+  density.} Hence, there are two interrelated anomalies:
 cross-fertilization per se and meiotic recombination. Ideally, any
 theory that explains the persistence of biparental sex could also solve
 the paradox of recombination. But this need not be the case. They could
 have different solutions.
 
-\begin{tcolorbox}[enhanced jigsaw, breakable, colbacktitle=quarto-callout-tip-color!10!white, arc=.35mm, colframe=quarto-callout-tip-color-frame, opacitybacktitle=0.6, opacityback=0, bottomtitle=1mm, colback=white, rightrule=.15mm, toptitle=1mm, titlerule=0mm, bottomrule=.15mm, coltitle=black, toprule=.15mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Box 1.1}, left=2mm, leftrule=.75mm]
+\begin{tcolorbox}[enhanced jigsaw, left=2mm, bottomtitle=1mm, opacitybacktitle=0.6, breakable, leftrule=.75mm, coltitle=black, titlerule=0mm, opacityback=0, arc=.35mm, colback=white, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Box 1.1}, toprule=.15mm, rightrule=.15mm, bottomrule=.15mm, colframe=quarto-callout-tip-color-frame, toptitle=1mm, colbacktitle=quarto-callout-tip-color!10!white]
 
 \textbf{Short definitions of terms as used in this book. These
 definitions do not include all possible nuances.}
@@ -624,11 +635,9 @@ sexual elements, instead of by a process of parthenogenesis. The whole
 subject is as yet hidden in darkness.'' Darwin's question shows that the
 cross-fertilization is curious, even without considering the costs of
 sex. It also shows how Darwin was drawn to anomalies on
-theory\footnote{The bet-hedging idea dates to Daniel Bernoulli, a
-  mathematical physicist, writing in 1738. Steve Stearns (2000) provides
-  an important, fascinating review of how evolutionary biologists
-  (beginning with Cohen (1966)) and economists, have borrowed from
-  Bernoulli's conceptual framework.}.
+theory\footnote{We were trained ask questions first and then seek
+  suitable organisms to address the questions. This was the tradition
+  before model-systems research took over (Churchill 1997).}.
 
 It is interesting to note that, in Darwin's quote above, he switches
 from discussing mechanisms to prevent self-fertilization, such as
@@ -655,18 +664,12 @@ discovery of Parthenogenesis}. Letter to J. S. Henslow. See
 \href{https://www.darwinproject.ac.uk/letter/DCP-LETT-2869.xml}{Darwin
 Correspondence Project}.
 
-However, the discovery of parthenogenesis\footnote{Vrijenhoek studied
-  the coexistence of sexual fish with multiple clonal genotypes of
-  asexual congeners in natural populations. He mainly envisioned the
-  Frozen Niche Hypothesis as a model to explain the coexistence of
-  multiple clones, but it can also explain the coexistence of sexual and
-  asexual modes of reproduction if clonal diversity is low, and the
-  clones do not compete strongly. See, for example pages 112-113 in
-  Vrijenhoek and Parker (2009): ``The Frozen Niche-Variation Model
-  (Vrijenhoek 1978, 1979) was directly stimulated by Roughgarden's
-  (1972) ideas and a need to explain the stable coexistence of*
-  Poeciliopsis *fish clones in spatially heterogeneous desert streams
-  (Vrijenhoek 1978).''} was met with some hostility. Consider, for
+However, the discovery of parthenogenesis\footnote{Prof.~Winterbourn was
+  supportive of my work from this first day. He shared his knowledge of
+  the snail system and of freshwater ecology, in general, with great
+  enthusiasm. In addition, Mike met with my Ph.D.~students and took them
+  into the field. This book would not have been possible without
+  Prof.~Winterbourn.} was met with some hostility. Consider, for
 example, the following statement by Rudolf Wagner in his 1857 review of
 von Siebold's book on parthenogenesis {[}as translated from the original
 German by Churchill (1979){]}: ``I must unfortunately say that one of
@@ -684,10 +687,10 @@ reproduction, calling it unpleasant, unwelcome, and distasteful. By
 contrast, Darwin did not find the idea to be distasteful in any way. He
 wondered instead why it was not more common. For example, Darwin (1868)
 wrote: \emph{Parthenogenesis is no longer wonderful; in fact, the wonder
-is that it should not oftener occur}.\footnote{Soft selection in
-  theoretical population genetics can also mean that the contribution of
-  offspring from different demes in a metapopulation is unrelated to
-  differences in mean fitness among demes.}
+is that it should not oftener occur}.\footnote{See also Elliott and
+  Brook (2007). They point out crucial differences between Chamberlin
+  and Platt including that Chamberlin allowed for multiple ideas to be
+  partially correct, which is important for Chapter~\ref{sec-chap6}.}
 
 Over 100 years later, W. D. Hamilton (1975) was also pondering the
 evolution of outcrossing, and he wrote something conceptually similar:
@@ -723,7 +726,7 @@ had indeed been overlooked: parasites.
   Why then are recombination and cross-fertilization so common?
 \end{enumerate}
 
-\begin{tcolorbox}[enhanced jigsaw, breakable, colbacktitle=quarto-callout-note-color!10!white, arc=.35mm, colframe=quarto-callout-note-color-frame, opacitybacktitle=0.6, opacityback=0, bottomtitle=1mm, colback=white, rightrule=.15mm, toptitle=1mm, titlerule=0mm, bottomrule=.15mm, coltitle=black, toprule=.15mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 1.2}, left=2mm, leftrule=.75mm]
+\begin{tcolorbox}[enhanced jigsaw, left=2mm, bottomtitle=1mm, opacitybacktitle=0.6, breakable, leftrule=.75mm, coltitle=black, titlerule=0mm, opacityback=0, arc=.35mm, colback=white, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 1.2}, toprule=.15mm, rightrule=.15mm, bottomrule=.15mm, colframe=quarto-callout-note-color-frame, toptitle=1mm, colbacktitle=quarto-callout-note-color!10!white]
 
 Maynard Smith's (1978) model showing the cost of producing
 males.\footnotemark{} Let \(N_{asex}\) be the number of asexual females
@@ -788,14 +791,14 @@ population.
 
 \end{tcolorbox}
 
-\footnotetext{Wallace (1975) explains that the source of the terms
-``soft'' and ``hard'' stem from financial discussions of soft currencies
-vs hard currencies in monetary exchanges. Soft currencies only have
-value within their home country. In contrast, hard currencies can be
-exchanged overseas for currencies with similar buying power.}
+\footnotetext{With respect to \emph{Potamopyrgus} (along with a
+parthenogenetic beetle) Maynard Smith (1978, page 65) wrote, ``Further
+Investigations of these cases could be most interesting.'' When I met
+JMS, I did not know (or did not remember) that he had written this. But
+I think that he was correct.}
 
-\hypertarget{the-ecological-hypotheses}{%
-\chapter{The Ecological Hypotheses}\label{the-ecological-hypotheses}}
+\hypertarget{sec-eco-hyp}{%
+\chapter{The Ecological Hypotheses}\label{sec-eco-hyp}}
 
 \begin{figure}
 
@@ -830,11 +833,16 @@ different tickets (sex), you increase the probability of winning
 something, but the reward is smaller. Williams referred to the idea as
 the aphid-rotifer model, but the idea has since come to be known as the
 Lottery Model (following Bell 1982), which is a more descriptive
-phrase.\footnote{See Bell (1982) for a deeper historical view of the
-  Lottery Model, which involves contributions by Maynard Smith and
-  others, including Williams. I have tried to distill it down to a
-  simple bet-hedging model here. The original formulation is more
-  complex.}
+phrase.\footnote{I ran two years of field experiments designed to test
+  for random settlement by genetically determined morphs. I also ran
+  experiments designed to test for habitat selection by genetically
+  determined morphs. The results were always negative. I finally tested
+  for predator-induced development of the bent morph by placing
+  \emph{Acanthina} snails in quadrats where juvenile barnacles had
+  recently settled. I used herbivorous snails as a control. The results
+  showed that the presence of \emph{Acanthina} induced development of
+  the bent form, but the herbivorous snails did not. It was a thrilling
+  discovery.}
 
 In my evolution course, I ask a form of Williams' question, but with a
 slight twist:
@@ -891,14 +899,20 @@ Year & Monoculture & Polyculture \\
 5 & 50 & 200 \\
 & & \\
 \textbf{Arithmetic mean} & \textbf{240} & 220 \\
-\textbf{Variance}\footnote{The variance in \(x\) is equal to the average
-  of the squared deviations from the mean:
-  \(var(x) = \frac{1}{N}\sum_{i = 1}^{N}{(x_{i} - \overline{x})^{2}}\)}
-& 19400 & 600 \\
-\textbf{Geometric mean (GM)}\footnote{The geometric mean is the
-  \(N^{th}\) root of the product of \(N\) observations. Compared to the
-  arithmetic mean, the geometric mean gives more weight to small values.}
-& 184 & \textbf{219} \\
+\textbf{Variance}\footnote{Plasticity is more mainstream now than it was
+  in the 1980s. One reviewer of my paper was incredulous and recommended
+  rejection from \emph{Evolution} because the bent morph was not
+  ``genetically determined.'' The Associate Editor (John Endler)
+  rejected the review and accepted the paper. Clearly, it is the
+  developmental strategy that is genetically determined, not the morph
+  per se (see also Lively et al.~2000, Hazel et al.~2004).} & 19400 &
+600 \\
+\textbf{Geometric mean (GM)}\footnote{Facultative parthenogenesis is
+  used to mean environmentally cued production of parthenogenetic
+  females. I was originally planning to work on a nematode population
+  that produced a mixture of sexual males and females at high density
+  but only parthenogenetic females at low density.} & 184 &
+\textbf{219} \\
 \textbf{Approximate GM} & 200 & \textbf{219} \\
 \end{longtable}
 
@@ -927,11 +941,10 @@ increases as the variance in \(x\) decreases. So, if selection operates
 to reduce the among-year variance in fitness, the outcome of selection
 will be reflected by an increase in the geometric mean. In general,
 evolutionary biologists use the geometric mean (rather than the
-arithmetic mean) to measure fitness over time.\footnote{The bet-hedging
-  idea dates to Daniel Bernoulli, a mathematical physicist, writing in
-  1738. Steve Stearns (2000) provides an important, fascinating review
-  of how evolutionary biologists (beginning with Cohen (1966)) and
-  economists, have borrowed from Bernoulli's conceptual framework.}
+arithmetic mean) to measure fitness over time.\footnote{We were trained
+  ask questions first and then seek suitable organisms to address the
+  questions. This was the tradition before model-systems research took
+  over (Churchill 1997).}
 
 Can sex be favored in variable environments as a bet-hedging strategy?
 It seems like a very sensible idea, provided that the production of
@@ -961,17 +974,11 @@ population, and perhaps displace it from one of its many niches. But a
 single clone could not completely replace the sexual population
 (Vrijenhoek 1979). This kind of process could explain those situations
 in which sexual and asexual females coexist, which was a major
-advance.\footnote{Vrijenhoek studied the coexistence of sexual fish with
-  multiple clonal genotypes of asexual congeners in natural populations.
-  He mainly envisioned the Frozen Niche Hypothesis as a model to explain
-  the coexistence of multiple clones, but it can also explain the
-  coexistence of sexual and asexual modes of reproduction if clonal
-  diversity is low, and the clones do not compete strongly. See, for
-  example pages 112-113 in Vrijenhoek and Parker (2009): ``The Frozen
-  Niche-Variation Model (Vrijenhoek 1978, 1979) was directly stimulated
-  by Roughgarden's (1972) ideas and a need to explain the stable
-  coexistence of* Poeciliopsis *fish clones in spatially heterogeneous
-  desert streams (Vrijenhoek 1978).''}
+advance.\footnote{Prof.~Winterbourn was supportive of my work from this
+  first day. He shared his knowledge of the snail system and of
+  freshwater ecology, in general, with great enthusiasm. In addition,
+  Mike met with my Ph.D.~students and took them into the field. This
+  book would not have been possible without Prof.~Winterbourn.}
 
 A conceptually similar model was independently developed by Graham Bell:
 the Tangled Bank Hypothesis (Bell 1982). Bell nabbed the name from the
@@ -1013,15 +1020,16 @@ For example, there would be no selection to utilize the resource of
 lower value (broccoli) if there were no competition for pizza. This kind
 of selection, where the advantage to being rare depends on population
 density, is sometimes referred to as ``soft'' selection (Wallace
-1975).\footnote{Soft selection in theoretical population genetics can
-  also mean that the contribution of offspring from different demes in a
-  metapopulation is unrelated to differences in mean fitness among
-  demes.} In other words, soft selection is selection that is both
-frequency-dependent and density-dependent. This idea contrasts nicely
-with the Lottery Model, where selection is both frequency- and
-density-independent, which is called ``hard'' selection. For our
-purposes, we can use Wallace's terminology to conceptually separate the
-Tangled Bank Hypothesis from the Lottery Model Figure~\ref{fig-2-2}.
+1975).\footnote{See also Elliott and Brook (2007). They point out
+  crucial differences between Chamberlin and Platt including that
+  Chamberlin allowed for multiple ideas to be partially correct, which
+  is important for Chapter~\ref{sec-chap6}.} In other words, soft
+selection is selection that is both frequency-dependent and
+density-dependent. This idea contrasts nicely with the Lottery Model,
+where selection is both frequency- and density-independent, which is
+called ``hard'' selection. For our purposes, we can use Wallace's
+terminology to conceptually separate the Tangled Bank Hypothesis from
+the Lottery Model Figure~\ref{fig-2-2}.
 
 \begin{figure}
 
@@ -1048,31 +1056,30 @@ Under the Tangled Bank, selection is always conditional (soft); there is
 an advantage to having a rare genotype, but this advantage only accrues
 under strong competition (high density). Soft selection may not be
 exactly the best possible phrase, but it contrasts nicely with hard
-selection.\footnote{Wallace (1975) explains that the source of the terms
-  ``soft'' and ``hard'' stem from financial discussions of soft
-  currencies vs hard currencies in monetary exchanges. Soft currencies
-  only have value within their home country. In contrast, hard
-  currencies can be exchanged overseas for currencies with similar
-  buying power.}
+selection.\footnote{With respect to \emph{Potamopyrgus} (along with a
+  parthenogenetic beetle) Maynard Smith (1978, page 65) wrote, ``Further
+  Investigations of these cases could be most interesting.'' When I met
+  JMS, I did not know (or did not remember) that he had written this.
+  But I think that he was correct.}
 
 Two caveats are worth mentioning with respect to soft selection and the
 Tangled Bank Hypothesis. One is that polymorphism is only stable under a
 narrow range of patch-types frequencies. In addition, strong tradeoffs
 are required for the cost and benefits for morphs occupying different
 patches (Maynard Smith and Hoekstra 1980, Lively 1986a) (see also
-\protect\hyperlink{callout-3.1}{Box 3.1}). The second caveat is that
-repeated mutation to asexual reproduction could lead to the accumulation
-of clonal diversity over time. Once all the niches are occupied by
-different specialized clones, there would be no advantage to sex. A
-diverse clonal population could then replace the sexual population (Bell
-1982, Vrijenhoek and Parker 2009). This second caveat applies, in
-general, to any model of sex that relies on frequency-dependent
-selection. But the ideas could work if mutations to asex are rare. And,
-as I mentioned, sexuals and asexuals are known to coexist in some
-populations, which is consistent with the Tangled Bank and Frozen
-Niche-Variation Hypotheses (Vrijenhoek and Parker 2009). Coexistence,
-however, is also compatible with the Red Queen hypothesis, which we will
-now consider.
+\href{https://iulibscholcomm.github.io/through-the-looking-glass/eco-hyp.html\#callout-4}{Box
+3.1}). The second caveat is that repeated mutation to asexual
+reproduction could lead to the accumulation of clonal diversity over
+time. Once all the niches are occupied by different specialized clones,
+there would be no advantage to sex. A diverse clonal population could
+then replace the sexual population (Bell 1982, Vrijenhoek and Parker
+2009). This second caveat applies, in general, to any model of sex that
+relies on frequency-dependent selection. But the ideas could work if
+mutations to asex are rare. And, as I mentioned, sexuals and asexuals
+are known to coexist in some populations, which is consistent with the
+Tangled Bank and Frozen Niche-Variation Hypotheses (Vrijenhoek and
+Parker 2009). Coexistence, however, is also compatible with the Red
+Queen hypothesis, which we will now consider.
 
 \hypertarget{the-red-queen-hypothesis}{%
 \section{The Red Queen Hypothesis}\label{the-red-queen-hypothesis}}
@@ -1081,11 +1088,9 @@ The Red Queen Hypothesis is like the Lottery Model in that it focusses
 on environmental change over time. However, under the Red Queen idea,
 the change is mediated by changes in coevolving biological antagonists
 such as parasites, rather than changes in the abiotic
-environments.\footnote{I use ``parasite'' here in the ecological sense
-  to include any organism that lives in, or on, its host, provided it
-  reduces the survivorship and/or fecundity of its host. As such, the
-  term includes both macroparasites (such as worms) and microparasites
-  (such as protozoans, bacteria, and viruses).} The distinction is
+environments.\footnote{This assumption turned out to be not strictly
+  true. Polyploid females occasionally produce males, although they seem
+  unlikely to be very fertile (Soper et al.~2013).} The distinction is
 important, as we will see.
 
 It may be helpful to revisit Figure~\ref{fig-1-2}, which shows the
@@ -1175,7 +1180,7 @@ sexual host population with nine possible genotypes coevolving with an
 asexual parasite with nine matching genotypes Lively (2009). The dashed
 line shows the average genotype frequency for hosts and parasites.}
 
-{\centering \includegraphics{images/fig2-4.JPG}
+{\centering \includegraphics{images/fig2-4.jpeg}
 
 }
 
@@ -1233,12 +1238,12 @@ just as it was!'' The Red Queen replies that of course, and then asks:
 to get somewhere else after running for a long time. The Red Queen then
 replies with this very famous quote: ``Now, \emph{here}, you see, it
 takes all the running \emph{you} can do to keep in the same place.'' It
-is a perfect metaphor for host-parasite coevolution\footnote{The
-  intersection between science and literature is not restricted to
-  selection for or against sex. For a fascinating essay on how the
-  biology of parasites meets literature, see Justyna Jajszczok's
-  dissertation (Jajszczok 2017).}. Host and parasite genotypes might
-oscillate as if they were running to stay in the same place.
+is a perfect metaphor for host-parasite coevolution\footnote{The group
+  included Mark McKone. Mark was a post-doc with David, and his comments
+  were especially influential. Fifteen years later, I would become
+  Ph.D.~advisor to one of Mark's star mentees at Carleton College,
+  Maurine Neiman.}. Host and parasite genotypes might oscillate as if
+they were running to stay in the same place.
 
 It seems unlikely that Lewis Carroll had coevolution in mind when
 writing these passages. But he was a mathematician at Oxford University
@@ -1269,13 +1274,11 @@ about macroevolution (speciation/extinction), while Bell's idea is about
 microevolution. Even though van Valen's use of the Red Queen metaphor
 was published first, I will use Bell's microevolutionary meaning, as it
 perfectly captures the oscillating nature of genotype frequencies during
-host-parasite coevolution.\footnote{I. M. Lerner used the Red Queen
-  metaphor as early as 1954, with respect to the selection needed to
-  maintain genetic homeostasis: ``The \emph{Alice in Wonderland}
-  situation in which `it takes all the running you can do to stay in the
-  same place' arises when a stationary level of performance can be
-  maintained only by application of the maximum selection
-  possible\ldots{}'' (See page 117 in Lerner (1954)).}
+host-parasite coevolution.\footnote{There we also some very interesting
+  outliers. Domesticated mammals had very strong positive residuals for
+  the rate of recombination. This result suggests that recombination was
+  selected by frequent changes in the targets of artificial selection by
+  humans.}
 
 \hypertarget{conceptual-roots-of-the-red-queen-hypothesis}{%
 \subsection{Conceptual roots of the Red Queen
@@ -1323,16 +1326,20 @@ species that are tightly coevolving in the absence of homogenizing gene
 flow. This quote seems to be the first to specifically identify
 coevolving pathogens as a primary source of selection favoring the
 mixing of genomes. Levin's idea was quickly followed by important
-conceptual contributions by Glesener \& Tilman (1978)\footnote{For
-  example, Glesener and Tilman write: ``Thus, sexuality not only is
-  favored under changed conditions but is, itself, capable of changing
-  the conditions. The sexuality of an organism's competitors, predators,
-  parasites, etc., will greatly increase the selective pressure for
-  sexuality on that organism as well.''}, Jaenike (1978)\footnote{Jaenike
-  focuses more on the recycling of genotypes: ``My hypothesis differs
-  from Levin's in that sex and recombination are advantageous not to
-  produce novel genotypes as such, but to produce rare genotypes, of
-  which novel ones are only a subset.''}, and Lloyd (1980). In
+conceptual contributions by Glesener \& Tilman (1978)\footnote{\begin{quote}
+  Therefore, we attempt to treat the same problem with several
+  alternative models each with different simplifications but with a
+  common biological assumption. Then, if these models, despite their
+  different assumptions, lead to similar results we have what we can
+  call a robust theorem which is relatively free of the details of the
+  model. Hence our truth is the intersection of independent lies (Levins
+  1966).
+  \end{quote}}, Jaenike (1978)\footnote{I was also persuaded by elegant
+  experimental studies on sweet vernal grass, which showed a
+  density-independent advantage to having a rare genotype (Antonovics
+  and Ellstrand 1984, Ellstrand and Antonovics 1985). Later studies
+  showed that the rare advantage was likely due to escape from infection
+  (Kelley et al.~1988, Kelley 1993, 1994).}, and Lloyd (1980). In
 particular, Lloyd writes: ``\ldots{} biological interactions are more
 likely than unpredictable physical conditions to provide the kind of
 relentless, repetitive change that is necessary for sexual parents to be
@@ -1359,10 +1366,19 @@ dependent (Red Queen). For example, parasites could be a source of
 directional selection for sex if they randomly changed which host
 genotypes they attacked. To my mind, that would be a Lottery Model. The
 Red Queen Hypothesis requires frequency-dependent selection generated by
-interactions between species.\footnote{I use ``frequency-dependent''
-  selection here to mean selection against common genotypes. A more
-  accurate phrase would be ``negative frequency-dependent'' selection.}
-This is an important distinction.
+interactions between species.\footnote{The partial correlation between
+  percent male and prevalence of infection, while controlling for
+  habitat, is highly significant (\(r = 0.36\), \(P < 0.001\)). However,
+  the partial correlation between percent male and habitat, while
+  controlling for prevalence of infection, is marginally significant
+  (\(r = 0.21\), \(P = 0.05\)). Similar results were gained after males
+  were excluded from the calculation of infection prevalence, which
+  controls for any sex-specific differences in susceptibility (as shown
+  in Figure~\ref{fig-3-4}); specifically, prevalence of infection in
+  females was significantly correlated with male frequency while
+  controlling for habitat (\(r = 0.37\), \(P < 0.001\)), but the
+  converse was not true (\(r = 0.19\), \(P = 0.06\)).} This is an
+important distinction.
 
 Taking this view, the Red Queen Hypothesis may seem more closely related
 to the Tangled Bank model than to the Lottery Model, as both the Red
@@ -1371,11 +1387,12 @@ the critical distinction here is that selection against common genotypes
 under the Tangled Bank relies on intraspecific competition in
 populations at carrying capacity (soft selection). The Red Queen relies
 on interspecific antagonistic coevolution, leading to parasite-mediated
-selection against common host genotypes.\footnote{This is not meant to
-  imply, however, that the strength of parasite-mediated selection under
-  the Red Queen Hypothesis must be independent of population size.
-  Indeed, as we will see, there are good reasons to think that the
-  strength of parasite-mediated selection depends on host density.}
+selection against common host genotypes.\footnote{Using computer
+  simulations, we recently found that detecting a significant positive
+  correlation between clonal diversity and infection prevalence would
+  only be expected in a fraction of parameter space, even when parasites
+  were solely responsible for the maintenance of diversity (Lively et
+  al.~2021).}
 
 In any case, looking back, it seems clear that the architects of the
 ecological hypotheses had two inter-related things in mind:
@@ -1395,12 +1412,9 @@ questions. But other ideas were also interesting, such as the idea that
 sexual reproduction is favored because it reduces the interference
 between alleles at different loci (review in Otto 2021). I will cover
 some special cases of this latter idea in
-Chapter~\ref{sec-chap6}.\footnote{The basic idea comes from a paper by
-  Hill and Robertson (1966), and is often called the Hill-Robertson
-  effect (following Felsenstein 1974). A broader framework, housed under
-  the more intuitive phrase ``selective interference,'' was recently
-  given by Sarah Otto as part of a keynote lecture given to the American
-  Genetic Association (Otto 2021).}
+Chapter~\ref{sec-chap6}.\footnote{In this smaller sample of 20 lakes,
+  the correlation between male frequency and infection prevalence was
+  positive but not statistically significant.}
 
 \hypertarget{summary-1}{%
 \section{Summary}\label{summary-1}}
@@ -1433,7 +1447,7 @@ Chapter~\ref{sec-chap6}.\footnote{The basic idea comes from a paper by
   Queen idea can perhaps also be seen as bet hedging.
 \end{enumerate}
 
-\begin{tcolorbox}[enhanced jigsaw, breakable, colbacktitle=quarto-callout-note-color!10!white, arc=.35mm, colframe=quarto-callout-note-color-frame, opacitybacktitle=0.6, opacityback=0, bottomtitle=1mm, colback=white, rightrule=.15mm, toptitle=1mm, titlerule=0mm, bottomrule=.15mm, coltitle=black, toprule=.15mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 2.1. Levene's model of multiple niche polymorphism.}, left=2mm, leftrule=.75mm]
+\begin{tcolorbox}[enhanced jigsaw, left=2mm, bottomtitle=1mm, opacitybacktitle=0.6, breakable, leftrule=.75mm, coltitle=black, titlerule=0mm, opacityback=0, arc=.35mm, colback=white, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 2.1. Levene's model of multiple niche polymorphism.}, toprule=.15mm, rightrule=.15mm, bottomrule=.15mm, colframe=quarto-callout-note-color-frame, toptitle=1mm, colbacktitle=quarto-callout-note-color!10!white]
 
 It was widely thought that heterozygote advantage was required to
 maintain polymorphism at a single locus with two alleles. In the
@@ -1558,32 +1572,657 @@ Prout showed that there would be a stable multiple niche polymorphism,
 even under complete dominance, provided that the arithmetic mean fitness
 for BB is greater than 1, and that the harmonic mean fitness for the BB
 genotype is less than 1. So, clearly, overdominance for harmonic mean
-fitness is not required for a stable polymorphism.
+fitness is not required for a stable polymorphism.\footnotemark{}
 
-\end{tcolorbox}
+The plot below shows \(\mathrm{\Delta}q\) as a function of \(q\) for
+Prout's model of dominance. Note that \(\mathrm{\Delta}q\) is positive
+when \(q\) is near zero, and that \(\mathrm{\Delta}q\) is negative when
+\(q\) is near 1. There is an interior equilibrium near \(q = 0.5\).
 
-\begin{figure}
+\begin{figure}[H]
 
-\sidecaption{Plot showing \(\mathrm{\Delta}q\) as a function of \(q\)
-for Prout's model of dominance. Note that \(\mathrm{\Delta}q\) is
-positive when \(q\) is near zero, and that \(\mathrm{\Delta}q\) is
-negative when \(q\) is near 1. There is an interior equilibrium near
-\(q = 0.5\).}
-
-{\centering \includegraphics{images/fig2-5.jpg}
+{\centering \includegraphics[width=0.65\textwidth,height=\textheight]{images/fig2-5.jpg}
 
 }
 
 \end{figure}
 
-The papers by Levene (1953) and Prout (1968) helped to lay the
-foundation for the fusion of population genetics and population
-ecology.\footnote{The harmonic mean is not intuitive to most Biology
-  students. So, I ask them this question: if you had a score of 100 on
-  your first exam, and a score of 60 on your second exam, would you
-  rather have your final grade calculated as the arithmetic mean or the
-  harmonic mean of the two scores? After some thought, they all pick the
-  arithmetic mean.}
+\end{tcolorbox}
+
+\footnotetext{\(r = 0.47\); \(P = 0.04\) for log\textsubscript{10}
+transformed data; \(N = 20\).}
+
+\hypertarget{contrasting-the-ecological-hypotheses}{%
+\chapter{Contrasting the Ecological
+Hypotheses}\label{contrasting-the-ecological-hypotheses}}
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.4\textwidth,height=\textheight]{images/fig3-1.jpeg}
+
+}
+
+\end{figure}
+
+As I mentioned in Chapter~\ref{sec-why-sex}, my dissertation focused on
+intertidal communities. I was especially interested in how two different
+barnacle morphs coexisted on rocky intertidal shores in the Northern
+Gulf of California. I had initially assumed that the two types were
+genetically determined and that they were likely to be different species
+(Figure~\ref{fig-3-2}). However, after years of false starts,\footnote{I
+  ran two years of field experiments designed to test for random
+  settlement by genetically determined morphs. I also ran experiments
+  designed to test for habitat selection by genetically determined
+  morphs. The results were always negative. I finally tested for
+  predator-induced development of the bent morph by placing
+  \emph{Acanthina} snails in quadrats where juvenile barnacles had
+  recently settled. I used herbivorous snails as a control. The results
+  showed that the presence of \emph{Acanthina} induced development of
+  the bent form, but the herbivorous snails did not. It was a thrilling
+  discovery.} I found that one of the two morphs was induced by chemical
+cues released by a predatory snail (Figure~\ref{fig-3-3}), and that the
+induced morph was more resistant to attack by this predator (Lively
+1986c).\footnote{Plasticity is more mainstream now than it was in the
+  1980s. One reviewer of my paper was incredulous and recommended
+  rejection from \emph{Evolution} because the bent morph was not
+  ``genetically determined.'' The Associate Editor (John Endler)
+  rejected the review and accepted the paper. Clearly, it is the
+  developmental strategy that is genetically determined, not the morph
+  per se (see also Lively et al.~2000, Hazel et al.~2004).} Hence, the
+two morphs are not different species, but rather the result of
+phenotypic plasticity. In a blink of a field season, I went from being a
+community ecologist to an evolutionary biologist.
+
+But why two morphs? Why didn't selection favor unconditional development
+of the predator-resistant morph? Using predator-exclusion cages, I found
+that predation was concentrated near crevices in the reef, which the
+snails used during high tide as refuges (Lively 1986b). As the tide
+receded, the snails moved out from these crevices onto the exposed rock
+surfaces to forage on barnacles. When the tide returned, the snails
+motored back to the crevices, presumably to hide from snail-crushing
+rays that came in with the tide. This back-and-forth movement of snails
+created high-predation zones near crevices and low-predation zones far
+from crevices (about 20cm away). This finding explained why the
+predation-resistant morph was almost always found near crevices. Field
+experiments also showed that the predator-resistant morph grew more
+slowly and was less fecund than the typical volcano-shaped morph (Lively
+1986b). Hence there is a trade-off. Taken together, the results
+suggested that plastic development was favored by natural selection to
+survive in the high-predation zones (\protect\hyperlink{callout-3}{Box
+3.1}). I would later come to think of adaptive plasticity as a type of
+variation strategy. Sexual reproduction can also be seen as a type of
+variation strategy (Lloyd 1984). And I was very fortunate to be able to
+study sexual reproduction after moving to New Zealand.
+
+\begin{figure}
+
+\sidecaption{\label{fig-3-2}The two morphs of the intertidal barnacle,
+\emph{Chthamalus anisopoma}. \textbf{Top}, the ``bent'' form is induced
+by exposure to chemical cues released by a specialized barnacle
+predator, the predatory gastropod \emph{Acanthina angelica}. The bent or
+``hooded'' form reduces the risk of successful attack by this predator.
+\textbf{Bottom}, the typical, conic form of the barnacle. The conic form
+is more fecund per unit size, and it grows more rapidly than the bent
+form, but it is also more susceptible to attack by the predator. Drawing
+by ZMD.}
+
+{\centering \includegraphics[width=0.4\textwidth,height=\textheight]{images/fig3-2.jpeg}
+
+}
+
+\end{figure}
+
+\begin{figure}
+
+\sidecaption{\label{fig-3-3}Line drawing of the predatory snail
+\emph{Acanthina angelica} attacking the bent form of the barnacle. Note
+that the predator has a spine on the outer margin of its shell. The
+spine is used to push through the opercular plates of barnacles, and it
+is very effective at penetrating and consuming the volcano-shaped form
+of the barnacle. The bent form of the barnacle is more resistant to
+attack of this kind because its aperture is less open to attack from
+above. Drawing by ZMD.}
+
+{\centering \includegraphics[width=0.4\textwidth,height=\textheight]{images/fig3-3.jpeg}
+
+}
+
+\end{figure}
+
+I moved to New Zealand in 1984 just after defending my dissertation. My
+reason for moving to New Zealand was simple: my spouse (Lynda Delph) was
+there. Lynda had moved to New Zealand to study the evolution of plant
+breeding systems with Prof.~David Lloyd. I did not have a job, but Lynda
+had a small stipend from the Fulbright Foundation. By the time I moved
+to New Zealand, we had only twelve dollars. But Lynda had found a flat
+in a dormitory at the University of Canterbury, where she worked as a
+``tutor.'' Tutors at the time were usually graduate students who served
+as mentors for the resident students. We made many good friends during
+our time as tutors, and it was a fascinating total immersion into Kiwi
+culture. We did not have to pay rent, and we could eat for free in the
+cafeteria. We could then spend Lynda's small Fulbright stipend on
+sampling trips.
+
+Then I got very lucky. I was awarded a three-year postdoctoral
+fellowship from the NZ University Grants Committee. I had applied to
+work on the evolution of facultatively parthenogenetic nematodes, which
+represented a combination of my interests in developmental plasticity
+and sex.\footnote{Facultative parthenogenesis is used to mean
+  environmentally cued production of parthenogenetic females. I was
+  originally planning to work on a nematode population that produced a
+  mixture of sexual males and females at high density but only
+  parthenogenetic females at low density.} These topics were also very
+interesting to Wally Clark, a conceptual pioneer in the evolution of
+plasticity. He was also head of the Zoology Department at the University
+of Canterbury. I would not have received funding without the support of
+Prof.~Clark. To my mind, the value of Clark's work remains
+underestimated in general, but it had a big influence on me (e.g., Clark
+1976).
+
+I began looking for natural systems to study facultative
+parthenogenesis.\footnote{We were trained ask questions first and then
+  seek suitable organisms to address the questions. This was the
+  tradition before model-systems research took over (Churchill 1997).}
+To this end, I was reading Graham Bell's incredible book on the
+evolution and genetics of sexual reproduction (Bell 1982). Searching the
+index, I found a reference to \emph{Potamopyrgus antipodarum}, a New
+Zealand freshwater snail. Bell had cited Mike Winterbourn's dissertation
+work on this snail (Winterbourn 1970). Luckily for me, Prof.~Winterbourn
+was just down the hall from me. I took the book to him, and I asked if
+the snails were, in fact, facultatively parthenogenetic. He said no; the
+snails were probably obligate asexuals, based on lab rearing experiments
+that he had done. He also said that most populations were all female,
+but some contained males. He then added that there was no obvious
+pattern to the distribution of males. Amazing! I immediately decided to
+work on these snails.\footnote{Prof.~Winterbourn was supportive of my
+  work from this first day. He shared his knowledge of the snail system
+  and of freshwater ecology, in general, with great enthusiasm. In
+  addition, Mike met with my Ph.D.~students and took them into the
+  field. This book would not have been possible without
+  Prof.~Winterbourn.}
+
+\hypertarget{the-method-of-multiple-working-hypotheses}{%
+\section{The Method of Multiple Working
+Hypotheses}\label{the-method-of-multiple-working-hypotheses}}
+
+As graduate students at the University of Arizona, we read some of the
+classics in the history and philosophy of science. Two of these papers
+concerned the method of contrasting multiple working hypotheses
+(Chamberlin 1890, Platt 1964).\footnote{See also Elliott and Brook
+  (2007). They point out crucial differences between Chamberlin and
+  Platt including that Chamberlin allowed for multiple ideas to be
+  partially correct, which is important for Chapter~\ref{sec-chap6}.}
+The idea is that multiple hypotheses should be simultaneously
+considered. Then, to the extent possible, the alternatives are forced to
+make different a priori predictions about the possible results. The hope
+is that all but one of the alternative hypotheses would be eliminated,
+leading to a ``strong inference'' that the remaining hypothesis is
+supported (Platt 1964). Thus, the focus is on falsifying one or more of
+the alternatives, rather than proving one of them (Popper 1959). Graham
+Bell used this same method to contrast the ecological models for sex by
+using data on the geographic distribution of asexual individuals across
+many plant and animal taxa (Bell 1982). The data led him to reject the
+Lottery Model (Chapter~\ref{sec-eco-hyp}). I decided to focus a similar
+test directly on the New Zealand snails (Figure~\ref{fig-3-4}).
+
+\begin{figure}
+
+\sidecaption{\label{fig-3-4}The freshwater snail \emph{Potamopyrgus
+antipodarum}. This small (3 -- 6 mm) prosobranch snail evolved from
+marine ancestors (Phillips and Lambert 1990). Associated with the
+invasion of freshwater, the snail evolved an internal brood pouch, where
+the embryos hatch and develop before crawling out as juveniles. The
+snail also evolved parthenogenetic reproduction. Parthenogenesis and
+brooding are both rare traits in invertebrates, but they are often found
+together (Lively and Johnson 1994). Some \emph{P. antipodarum}
+populations presently consist of a mixture of diploid sexual individuals
+and polyploid asexual females. The question under consideration here is,
+why have the sexual females persisted in these mixed population snails?
+What are the advantages of sexual reproduction? Photo credit: © Bart
+Zijlstra / \href{}{www.bartzijlstra.com}.}
+
+{\centering \includegraphics{images/fig3-4.png}
+
+}
+
+\end{figure}
+
+The snails (\emph{Potamopyrgus antipodarum}) are often called mud
+snails, but I think the term is a misnomer. They live on rocks and
+vegetation in some of the most beautiful clear lakes, rivers, and
+streams in New Zealand (``Potamo'' means river, not mud, in Greek). In
+any case, based on Winterbourn's ecological work, streams seemed more
+unstable than lakes, as water flow can vary dramatically, especially
+during heavy rains in the mountains (Winterbourn et al.~1981). Hence,
+under the Lottery Model, streams should have more sexual females (and
+males) than lakes, because streams have more disturbance and less
+competition (see Chapter~\ref{sec-eco-hyp} for a comparison of models).
+By contrast, it seemed that competition for resources should be greater
+in lakes than in streams. Indeed, lake populations of the snail can be
+extremely dense. So, under the Tangled Bank, there should be more sexual
+females in lakes, where competition for resources is expected to be
+high. Finally, under the Red Queen Hypothesis, there should be more
+sexual females where the risk of infection by coevolving parasites is
+higher. As such, the different hypotheses could be forced to make
+different predictions, with the important caveat that infection might be
+correlated with habitat.
+
+Some clarification regarding the prediction of the Red Queen Hypothesis
+might be useful here. Some people have asked me why the correlation
+between sex and infection is expected to be positive if, indeed,
+parasites are the selective force for sexual reproduction. For example,
+one could ask, if sex is so helpful in reducing infection risk, then
+shouldn't the highly sexual populations have fewer, not more, parasites?
+That could, of course, be expected in an experiment where hosts across
+all populations were exposed to the same number of parasites. Then the
+more genetically diverse populations with higher frequencies of sexual
+females might be expected to have a lower prevalence of infection. But
+it is not the case that all natural populations have the same risk of
+infection. The idea under the Red Queen Hypothesis is that asexual
+females would replace sexual females where the risk of infection is low,
+and that sexual females would persist where the risk of infection is
+high, provided that the parasites are highly virulent. That is how the
+positive correlation could be generated. Nonetheless, the data could be
+expected to be very messy, especially if the frequency of sex oscillates
+over time in response to coevolutionary games with parasites.
+
+The snails are infected by trematode worms, but I did not know anything
+about trematodes when I first began dissecting snails. I was just
+looking for males. Winterbourn told me that I would know a male snail
+when I saw one, as they have a penis just behind the right tentacle. But
+I had not observed any such structure on the many snails I collected
+from the streams around the university. I was beginning to think that I
+was missing something. Then one day, when I was dissecting a snail,
+hundreds of swimming things came out. Sperm, I thought. My first male! I
+took them to Wally Clark's research technician, Jan McKenzie, to put
+under her fancy microscope. She informed me that sperm do not have eyes,
+that they do not have spines on their tails, and that they are, in fact,
+orders of magnitude smaller than these wiggling beasts under her lens.
+She was not impressed. I had perfectly fit the Kiwi stereotype of North
+American ecologists: good with statistics, but no knowledge of real
+animals. She informed me that these swimming things were trematode
+larvae, \textbf{sterilizing parasites} of snails. Happily, we remained
+good friends, despite her disappointment in my training. And, I had
+found my first infection, which meant that I might be able to test the
+Red Queen.
+
+Perhaps embarrassingly, I had a scientific bias against the Red Queen
+going into the study. My bias was based on a study by May and Anderson
+(1983). They showed that parasites had to kill infected individuals for
+sex to be favored over asex in hosts. Parasites are usually not that
+virulent; hence it seemed to me that parasites could not provide
+sufficiently strong selection to \emph{generally} favor sex. I will
+return to this important paper in another chapter and discuss how key
+assumptions of their model have been relaxed.
+
+\hypertarget{a-side-story-on-jms}{%
+\subsection{A side story on JMS}\label{a-side-story-on-jms}}
+
+John Maynard Smith (JMS) was one of the most influential theoretical
+biologists in history of evolutionary thought. He was able to formulate
+and communicate novel ideas with apparent ease. Around the time that I
+was beginning to work on \emph{Potamopyrgus}, JMS came to New Zealand,
+along with his wife, Sheila. He was invited by David Lloyd to spend time
+at University of Canterbury and to deliver three public lectures, which
+were all fantastic. During this time, JMS spent several weeks in New
+Zealand. Lynda, David, and I were lucky enough to hang out with him
+quite a bit. JMS was a remarkable individual. He could talk with anyone
+and show a sincere interest in their work. One morning, I was sitting
+next to JMS in the tearoom in the old Zoology Department. I was scared
+speechless. He kindly asked me what I was working on, so I told him
+about the snails. He knew of them! In fact, he had covered them in his
+book, \emph{The Evolution of Sex}.\footnote{With respect to
+  \emph{Potamopyrgus} (along with a parthenogenetic beetle) Maynard
+  Smith (1978, page 65) wrote, ``Further Investigations of these cases
+  could be most interesting.'' When I met JMS, I did not know (or did
+  not remember) that he had written this. But I think that he was
+  correct.} He was very excited that I was working on these creatures,
+and he wanted to know my plan. I told him of my rough ideas for looking
+at the distribution of males as a way of contrasting the ecological
+hypotheses for sex. He looked directly at me, and said,``Interesting,
+but I hope the answer is not parasites'' (or something like that). I
+asked him, why not parasites? He laughed out loud, and with a big smile,
+he said: ``Because Bill Hamilton thought of it first!'' I could tell he
+was kidding. He then encouraged me to take the project on, and then he
+laughed again and added: ``Whatever you do, don't go and solve the
+problem of sex. Sex is too much bloody fun to have an answer!''
+
+Toward the end of their time in New Zealand, JMS, Sheila, David, Lynda,
+and I did a trip together around the South Island. The whole time was
+incredible. Just listening to David and John talk about evolutionary
+theory was a scientific dream. Towards the end of our trip, we were all
+together in a restaurant at the Hermitage (near Mt. Cook) on the night
+that JMS turned 65 and formally retired. Our server, a young alpinist
+working to support his climbing in the Southern Alps, asked JMS, ``I
+think that I saw a documentary about you. Are you famous?'' JMS (smiling
+and intrigued) asked the alpinist what he remembered. Without
+hesitation, the alpinist recited a perfect overview of evolution by
+natural selection. JMS was clearly touched. Almost exactly half-way
+around the world from Sussex England, in a small township in New
+Zealand, JMS met someone whom he had influenced with his work. And this
+was on the very night of his retirement.
+
+The next day, we drove to a small lake near Mt. Cook that David knew
+about: Lake Alexandrina. It was a glorious day, and we decided that we
+might as well collect some snails. JMS waded into the water and
+proceeded to collect a handful of \emph{Potamopyrgus} from the shallow
+rocks. He handed the snails to me. He then laughed and said, ``When you
+publish your study, I want to know the outcome for these exact snails.''
+As it turned out, Lake Alexandrina has a mixed population of sexual and
+asexual snails, and it has been the primary focus of our long-term
+studies on \emph{Potamopyrgus}. The snail team still refers to this
+original site of collection as ``JMS.'' Interestingly, JMS is one of the
+most dynamic sites in the whole lake.
+
+\hypertarget{the-distribution-of-male-snails}{%
+\section{The Distribution of Male
+Snails}\label{the-distribution-of-male-snails}}
+
+To contrast the alternative ecological hypotheses, I sampled snails from
+lakes and streams across the South Island of New Zealand. I could drive
+Lynda's Volkswagen bug to most of the lakes, but I had to backpack into
+many. Unfortunately, my time working in the Sonoran Desert had not
+prepared me for the steep climbs, heavy rains, and chest-deep river
+crossings on the South Island. I did not take enough food or dry clothes
+on one trip, and my desert hiking boots disintegrated. I got my butt
+kicked. But it was wonderful to have an excuse to see remote parts of
+the South Island, especially after I got better gear and gained a better
+understanding of the New Zealand bush.
+
+I collected and dissected hundreds of snails from each of 29 streams and
+22 lakes, mostly on the South Island. I recorded sex (male or female)
+and infection by the trematodes that Winterbourn (1973) described. I
+reasoned that the frequency of males in a population must be strongly
+correlated with the frequency of sexual females simply because males are
+only produced by sexual females.\footnote{This assumption turned out to
+  be not strictly true. Polyploid females occasionally produce males,
+  although they seem unlikely to be very fertile (Soper et al.~2013).}
+The results showed that there were more males in lakes than in streams,
+which was inconsistent with the Lottery Model, but it was consistent
+with the Tangled Bank Model. However, male frequency was better
+predicted by the frequency of trematode infection than by habitat
+\emph{per se} (Lively 1987). Hence, surprisingly, the results favored
+the Red Queen Hypothesis. I presented these findings to a small group at
+David Lloyd's flat, and they convinced me to submit to \emph{Nature}
+(Lively 1987).\footnote{The group included Mark McKone. Mark was a
+  post-doc with David, and his comments were especially influential.
+  Fifteen years later, I would become Ph.D.~advisor to one of Mark's
+  star mentees at Carleton College, Maurine Neiman.}
+
+A fascinating paper on the same topic was published in \emph{Nature} at
+about the same time. This paper was also based on a strong-inference
+test comparing the Red Queen and the Tangled Bank. The authors, Austin
+Burt and Graham Bell, examined recombination in mammals (Burt and Bell
+1987). They reasoned that under the Red Queen Hypothesis, longer-lived
+mammals would have higher rates of recombination because more genetic
+mixing would be favored as the asymmetry in host/parasite generation
+time increased. In contrast, the Tangled Bank Model predicted that
+shorter-lived mammals would have higher rates of recombination because
+they have larger litters, and recombination might lead to reduced
+competition among the more diverse offspring. Their results were
+stunning. Recombination was tightly and positively related to longevity
+in natural populations.\footnote{There we also some very interesting
+  outliers. Domesticated mammals had very strong positive residuals for
+  the rate of recombination. This result suggests that recombination was
+  selected by frequent changes in the targets of artificial selection by
+  humans.} The Red Queen was again supported.
+
+Based on these studies in \emph{Nature}, I was beginning to think that
+parasites might be a factor in selecting for cross-fertilization in
+hosts. But my study as well as the study of Burt and Bell (1987) were
+based on correlations. And every scientist knows that correlation is not
+causation. On the other hand, these correlations were predicted \emph{a
+priori} by Lloyd (1980) and others (e.g., Glesener and Tilman 1978, Bell
+1982). The Red Queen was supported by the data, but the data were not
+used to generate the hypothesis. Using the same data to both generate
+and substantiate hypotheses is where the problem arises with
+correlation, especially when multiple factors are considered in
+``fishing expeditions.'' But forcing different hypotheses to make
+different \emph{a priori} predictions about the direction of
+correlations is, to my mind, a powerful way to evaluate alternatives.
+
+As a brief aside, I cannot help but mention the human toll taken by R.A.
+Fisher's use of ``correlation is not causation'' as a way to plant doubt
+in the mind of smokers about the now-obvious risks of smoking (Gould
+1991, Stolley 1991). Fisher was a consultant for the tobacco industry,
+and he did the industry a great service at the cost of human lives. I
+would also add that no test statistic is causation; F statistics derived
+from analysis of variance are not causation. Causation might be inferred
+from well-designed experiments, but no statistical test is causation.
+Analytical theory is not causation either, as is well demonstrated by
+the theoretical literature on sex/recombination. Causation instead may
+be inferred when multiple independent lines of evidence point to similar
+solutions. I think that Levins (1966) was correct when he wrote, ``Hence
+our truth is the intersection of independent lies.\footnote{\begin{quote}
+  Therefore, we attempt to treat the same problem with several
+  alternative models each with different simplifications but with a
+  common biological assumption. Then, if these models, despite their
+  different assumptions, lead to similar results we have what we can
+  call a robust theorem which is relatively free of the details of the
+  model. Hence our truth is the intersection of independent lies (Levins
+  1966).
+  \end{quote}} Although he was referring specifically to mathematical
+models, the same principle applies to biological systems. Ideally, the
+multiple lines of evidence would include long-term field observations of
+individual populations, broader biogeographic patterns across
+populations, and direct experiments on multiple independent systems, as
+well as multiple theoretical forays into the conditions under which the
+hypothesis is expected to hold.
+
+In any case, my view by 1987 was that the Red Queen Hypothesis merited
+serious consideration.\footnote{I was also persuaded by elegant
+  experimental studies on sweet vernal grass, which showed a
+  density-independent advantage to having a rare genotype (Antonovics
+  and Ellstrand 1984, Ellstrand and Antonovics 1985). Later studies
+  showed that the rare advantage was likely due to escape from infection
+  (Kelley et al.~1988, Kelley 1993, 1994).} For my own data, I now asked
+whether the correlation between sex and infection was a ``red herring.''
+In other words, could the correlation be generated because of something
+else? Yes, it could. Here is how it might work. First, infection could
+be higher in dense host populations as expected under theory (Anderson
+and May 1979, May and Anderson 1979). Second, there might be more sex in
+dense populations because asexual reproduction is favored in sparse
+populations as a way for individuals to ensure reproduction even in the
+absence of conspecific mates (Tomlinson 1966, Gerritsen 1980, Lloyd
+1980). This latter idea is called the ``Reproductive Assurance
+Hypothesis.'' Hence, one could find a positive correlation between sex
+and infection as a simple consequence of epidemiology and selection for
+reproductive assurance. So, I decided to sample again, this time
+focusing on South Island lakes (Figure~\ref{fig-3-4} \&
+Figure~\ref{fig-3-5}) while also collecting data on snail density. The
+results were consistent with the epidemiological expectations, as there
+was a marginally significant positive relationship between snail density
+and infection prevalence, but there was no support for the Reproductive
+Assurance Hypothesis (Lively 1992). Finally, the previously observed
+positive relationship between sex and infection held
+(Figure~\ref{fig-3-4}).\footnote{The partial correlation between percent
+  male and prevalence of infection, while controlling for habitat, is
+  highly significant (\(r = 0.36\), \(P < 0.001\)). However, the partial
+  correlation between percent male and habitat, while controlling for
+  prevalence of infection, is marginally significant (\(r = 0.21\),
+  \(P = 0.05\)). Similar results were gained after males were excluded
+  from the calculation of infection prevalence, which controls for any
+  sex-specific differences in susceptibility (as shown in
+  Figure~\ref{fig-3-4}); specifically, prevalence of infection in
+  females was significantly correlated with male frequency while
+  controlling for habitat (\(r = 0.37\), \(P < 0.001\)), but the
+  converse was not true (\(r = 0.19\), \(P = 0.06\)).} The Red Queen was
+still in the running.
+
+\begin{figure}
+
+\sidecaption{\label{fig-3-5}Results from surveys of New Zealand lakes
+and streams showing percent males against the prevalence of female
+infection by all species of trematodes. Note the upper left side of the
+graph. There are no highly sexual populations where parasites are rare
+or absent, which suggests that asexuals have replaced sexuals were
+parasite-mediated selection is weak. This result is consistent with
+Lloyd's prediction given in Chapter~\ref{sec-eco-hyp}. Circles represent
+stream populations (Lively 1987) plus two river samples. Gray triangles
+represent lake populations (Lively 1987). Black triangles represent lake
+and tarn populations (Lively 1992). The correlation is positive and
+statistically significant.}
+
+{\centering \includegraphics{images/fig3-5.JPG}
+
+}
+
+\end{figure}
+
+These results suggested that parasite-mediated selection might
+contribute to the persistence of sex in mixed populations of sexual and
+asexual snails. It is of particular interest, perhaps, to note that
+there are no populations with a high proportion of males in samples
+where parasites were rare or absent (Figure~\ref{fig-3-5}). This finding
+is consistent with David Lloyd's 1980 prediction that asexuals should
+dominate in populations ``with a relaxation of biological hostility''
+(see above). But the results are messy.
+
+There are several reasons for why the results might be expected to be
+messy. One is that prevalence of infection might not give a good
+estimate of the strength of parasite-mediated selection (Lively 2001).
+For example, infected snails might die at a faster rate than uninfected
+snails because of the energetic demands of infection. In addition,
+infected snails are more likely than uninfected snails to forage after
+sunrise, which exposes them to predation by their final hosts, ducks
+(Levri and Lively 1996, Levri and Fisher 2000). Prevalence of infection
+might also fluctuate over time as the genetic diversity in the host
+population changes and/or as the final hosts move among locations. We
+now know that the prevalence of infection varies greatly among years and
+among sites in the same lake (Gibson et al.~2016). Thus, detecting a
+significant correlation between sex and infection could be dicey, even
+if parasites were solely responsible for the short-term maintenance of
+sex in mixed populations.\footnote{Using computer simulations, we
+  recently found that detecting a significant positive correlation
+  between clonal diversity and infection prevalence would only be
+  expected in a fraction of parameter space, even when parasites were
+  solely responsible for the maintenance of diversity (Lively et
+  al.~2021).}
+
+Along these lines, many of the points in Figure~\ref{fig-3-5} represent
+a single sample taken at one site at one point in time. This limitation
+likely introduces ``noise'' into the data, especially for samples where
+parasites are only periodically common. For this reason, Jukka Jokela
+and I selected 20 of the best sampled lakes from the data set given in
+Figure~\ref{fig-3-5}.\footnote{In this smaller sample of 20 lakes, the
+  correlation between male frequency and infection prevalence was
+  positive but not statistically significant.} We resampled all 20 lakes
+10 -- 15 years after my original samples. We found that prevalence of
+infection was highly correlated between sample periods as was male
+frequency (Lively and Jokela 2002). We then averaged the data for each
+lake under the assumption that the averages would better represent both
+the frequency of males and the prevalence of infection for each lake.
+With these data, the correlation between male frequency and infection
+prevalence was both positive and significant.\footnote{\(r = 0.47\);
+  \(P = 0.04\) for log\textsubscript{10} transformed data; \(N = 20\).}
+
+None of this is meant to imply proof of the Red Queen Hypothesis or that
+density dependence and random environmental change are not relevant for
+a full understanding of the problem.\footnote{I think density dependence
+  is critically important. Disease transmission is certainly density
+  dependent (Anderson and May 1979, May and Anderson 1979). Virulence
+  may also be density dependent (Lively et al.~1995, Bell et al.~2006,
+  Lively 2006). Habitat partitioning may also play a role in the
+  distribution of sexual females among depth-stratified habitats
+  (Negovetic and Jokela 2001).} But the results do imply that the Red
+Queen Hypothesis was (and still is) worthy of further study.
+
+\hypertarget{summary-2}{%
+\section{Summary}\label{summary-2}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  The co-occurrence of discrete morphs is inherently interesting to
+  evolutionary biologists. Genetic diversity is also inherently
+  interesting.
+\item
+  The New Zealand freshwater snail, \emph{Potamopyrgus antipodarum},
+  some populations contain both sexual and asexual females. Other
+  populations are mostly or completely parthenogenetic. This makes the
+  snail a very useful natural system for contrasting alternative
+  hypotheses for the maintenance of sexual reproduction.
+\item
+  The prevalence of sterilizing trematode larvae is a better predictor
+  sexual reproduction in the snail than habitat (lakes vs.~streams),
+  thus favoring the Red Queen Hypothesis over the alternative ecological
+  hypotheses.
+\item
+  Comparing the \emph{a priori} predictions of multiple working
+  hypotheses can be helpful to evaluate competing ideas. Field studies
+  of natural systems may be required to fully understand why
+  cross-fertilization is so common.
+\end{enumerate}
+
+\begin{figure}
+
+\sidecaption{\label{fig-3-6}The distribution of male and female
+\emph{Potamopyrgus antipodarum} across New Zealand. The percentage of
+males is given in blue; the percentage of females is given in red. Pie
+charts enclosed in boxes are for lakes and tarns that are very close
+together. The large pie on the left-hand side shows the average
+frequencies of males and females across all samples. (Redrawn from
+(Lively 1992).)}
+
+{\centering \includegraphics{images/fig3-6.JPG}
+
+}
+
+\end{figure}
+
+\begin{tcolorbox}[enhanced jigsaw, left=2mm, bottomtitle=1mm, opacitybacktitle=0.6, breakable, leftrule=.75mm, coltitle=black, titlerule=0mm, opacityback=0, arc=.35mm, colback=white, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 3.1.}, toprule=.15mm, rightrule=.15mm, bottomrule=.15mm, colframe=quarto-callout-note-color-frame, toptitle=1mm, colbacktitle=quarto-callout-note-color!10!white]
+
+As part of my dissertation research, I constructed a game-theoretic
+model of selection on three strategies:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  canalized development into a high-fecundity morph,
+\item
+  canalized development to a low-fecundity, predation-resistant morph,
+\item
+  induced development into the low fecundity defended morph in the
+  presence of predators.
+\end{enumerate}
+
+The model examined evolutionary stability for a range of frequencies for
+two patches (high predation risk and low predation risk) across a range
+of values for the accuracy of the cue predicting future predation risk
+(Lively 1986a).
+
+An example of the output is shown below. The results show that any of
+the three strategies can be an ESS in part of the parameter
+space.\footnotemark{} High reliability of the cue and intermediate patch
+frequencies favor the plastic strategy. Genetic polymorphism is expected
+under a relatively narrow set of conditions. Mixtures of constitutive
+and plastic strategies can also be stable. Note that changing the patch
+frequencies leads to evolutionary change. For example, reducing the
+frequency of the low-risk patch can lead to a selective sweep (arrow a).
+It can also lead to the evolution of plasticity (arrow b) and the
+evolution of canalized development (arrow c). Increasing the accuracy of
+the cue can also lead to the evolution of plasticity. It might be
+especially interesting to note that the trajectory of arrow b would give
+the appearance of saltatory change followed by stasis (i.e., punctuated
+equilibrium) (Levinton 1988). Also note that the conditions for a
+genetic polymorphism are relatively narrow. Redrawn from (Lively 1999b)
+assuming a small cost to plasticity.
+
+\begin{figure}[H]
+
+{\centering \includegraphics{images/fig3-7.JPG}
+
+}
+
+\end{figure}
+
+\end{tcolorbox}
+
+\footnotetext{``Parameter space'' represents all possible combinations
+of variables as defined by the model. In
+\protect\hyperlink{callout-4}{Box 3.1}, different strategies are favored
+for different combinations of variables (i.e., different parts of the
+parameter space).}
 
 \hypertarget{sec-chap6}{%
 \chapter{The Ratchet and the Red Queen}\label{sec-chap6}}

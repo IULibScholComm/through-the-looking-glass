@@ -69,6 +69,7 @@ book:
       chapters:
         - why-sex.qmd
         - eco-hyp.qmd
+        - eco-hyp-cont.qmd
         - rat-red.qmd
     - part: "Back Matter"
       chapters:
