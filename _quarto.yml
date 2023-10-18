@@ -111,6 +111,8 @@ format:
     warning: false
     prompt: false
     output: true
+    include-in-header: 
+      - text: <meta name="google-site-verification" content="eJHds-HZowhP4fOmzTkps1RTCDKNi3ViSQ2BSaFVA7Y" />
   pdf:
     documentclass: book
     keep-tex: true
