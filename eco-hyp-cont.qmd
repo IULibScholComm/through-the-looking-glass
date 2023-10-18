@@ -66,7 +66,7 @@ None of this is meant to imply proof of the Red Queen Hypothesis or that density
 
 1.  The co-occurrence of discrete morphs is inherently interesting to evolutionary biologists. Genetic diversity is also inherently interesting.  
 
-2.  The New Zealand freshwater snail, *Potamopyrgus antipodarum*, some populations contain both sexual and asexual females. Other populations are mostly or completely parthenogenetic. This makes the snail a very useful natural system for contrasting alternative hypotheses for the maintenance of sexual reproduction. 
+2.  Some populations of the New Zealand freshwater snail, *Potamopyrgus antipodarum*, contain both sexual and asexual females. Other populations are mostly or completely parthenogenetic. This makes the snail a very useful natural system for contrasting alternative hypotheses for the maintenance of sexual reproduction. 
 
 3.  The prevalence of sterilizing trematode larvae is a better predictor sexual reproduction in the snail than habitat (lakes vs. streams), thus favoring the Red Queen Hypothesis over the alternative ecological hypotheses.  
 
