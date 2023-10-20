@@ -37,7 +37,7 @@ book:
         href: https://biology.indiana.edu/about/faculty/lively-curt.html
       - icon: twitter
         href: https://twitter.com/curt_lively
-  doi: TK
+  doi: 10.5967/gbd3-ka07
   illustrator: Zoe Michelle Dinges
   keyword: biology, "sexual reproduction", evolution, "evolutionary biology"
   language: en-US
@@ -81,7 +81,7 @@ citation:
   issued: 2023
   title: "Through the Looking Glass: Coevolution, Polymorphism, and Sexual Reproduction"
   publisher-place: Bloomington, Indiana, US
-  publisher: Indiana University Bloomington Libraries
+  publisher: Indiana University Libraries Publishing
 
 fig-cap-location: margin
 bibliography: references.bib
