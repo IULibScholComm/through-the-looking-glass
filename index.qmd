@@ -21,8 +21,8 @@ Copyright Curtis M. Lively 2023
 
 ## Publisher Information
 
-[Indiana University Libraries Publishing](https://libraries.indiana.edu/)
+[Indiana University Libraries Publishing](https://libraries.indiana.edu/scholarly-communication)
 
 ## How to Cite
 
-Lively, C. (2023). *Through the Looking Glass: I. Why Cross-Fertilize?* IU Libraries Publishing. https://doi.org/10.5967/GBD3-KA07
+Lively, C. (2023). *Through the Looking Glass: I. Why Cross-Fertilize?* IU Libraries Publishing. <https://doi.org/10.5967/GBD3-KA07>
