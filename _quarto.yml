@@ -83,6 +83,8 @@ citation:
   publisher-place: Bloomington, Indiana, US
   publisher: Indiana University Libraries Publishing
 
+google-scholar: true
+
 fig-cap-location: margin
 bibliography: references.bib
 
