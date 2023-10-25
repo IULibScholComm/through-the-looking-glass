@@ -214,7 +214,7 @@
 \begin{document}
 \frontmatter
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[frame hidden, interior hidden, boxrule=0pt, sharp corners, breakable, borderline west={3pt}{0pt}{shadecolor}, enhanced]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[sharp corners, interior hidden, enhanced, frame hidden, borderline west={3pt}{0pt}{shadecolor}, breakable, boxrule=0pt]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Contents}
 {
@@ -409,8 +409,8 @@ the average sexual female has just one granddaughter
 (Figure~\ref{fig-1.1}). This asymmetry should lead to the rapid
 replacement of sexual females by asexual females (Figure~\ref{fig-1-2}).
 And by ``rapid,'' I mean within tens of generations, even for very large
-populations (Lively 1996). We thus seek a selective force that can give
-an advantage to sexual reproduction on a very short time scale.
+populations (C. M. Lively 1996). We thus seek a selective force that can
+give an advantage to sexual reproduction on a very short time scale.
 
 \begin{figure}
 
@@ -444,12 +444,12 @@ value.\footnote{Plasticity is more mainstream now than it was in the
   ``genetically determined.'' The Associate Editor (John Endler)
   rejected the review and accepted the paper. Clearly, it is the
   developmental strategy that is genetically determined, not the morph
-  per se (see also Lively et al.~2000, Hazel et al.~2004).} His model
-only assumes that sexual and asexual females have equal fecundities and
-survivorship probabilities (see \protect\hyperlink{callout-2}{Box 1.2}).
-Under this assumption, a very rare clone would double in frequency in
-the next generation. Maynard Smith called this doubling-when-rare the
-two-fold cost of sex.
+  per se (see also C. M. Lively et al. 2000; Hazel, Smock, and Lively
+  2004).} His model only assumes that sexual and asexual females have
+equal fecundities and survivorship probabilities (see
+\protect\hyperlink{callout-2}{Box 1.2}). Under this assumption, a very
+rare clone would double in frequency in the next generation. Maynard
+Smith called this doubling-when-rare the two-fold cost of sex.
 
 \hypertarget{contrasting-the-costs}{%
 \subsection{Contrasting the costs}\label{contrasting-the-costs}}
@@ -460,18 +460,19 @@ offspring, or from the cost of producing males? Or is the cost some
 combination of both? These questions are not easy to answer; but there
 is an algebraic solution, which suggests that the (1) two costs are
 mutually exclusive and (2) that they apply to different kinds of
-uniparental progeny (Lively and Lloyd 1990). Roughly speaking, I think
-we can adopt the following rules for the purpose of this book. When
-considering the spread of a rare allele that induces self-fertilization
-in hermaphrodites, the appropriate cost is Williams' cost of meiosis.
-Here we have a single population in which the selfing allele is under
-positive selection because it has a transmission advantage. On the other
-hand, when we consider the spread of a clone into an obligately sexual
-population, we are dealing with competition between two different
-reproductively isolated groups. One group (the sexuals) produces males,
-which do not make offspring. The other group (asexuals) produces only
-females. Here the cost of sex stems from producing males. But the two
-costs do not combine. The cost of sex is not four-fold.
+uniparental progeny (C. M. Lively and Lloyd 1990). Roughly speaking, I
+think we can adopt the following rules for the purpose of this book.
+When considering the spread of a rare allele that induces
+self-fertilization in hermaphrodites, the appropriate cost is Williams'
+cost of meiosis. Here we have a single population in which the selfing
+allele is under positive selection because it has a transmission
+advantage. On the other hand, when we consider the spread of a clone
+into an obligately sexual population, we are dealing with competition
+between two different reproductively isolated groups. One group (the
+sexuals) produces males, which do not make offspring. The other group
+(asexuals) produces only females. Here the cost of sex stems from
+producing males. But the two costs do not combine. The cost of sex is
+not four-fold.
 
 \hypertarget{fig-1-2}{}
 {
@@ -489,21 +490,21 @@ costs do not combine. The cost of sex is not four-fold.
 
 \label{fig-1-2}Clonal invasion dynamics. Results from a simulation study
 in which a single clonal individual was introduced into a sexual
-population (Lively 2009). \textbf{A} (top). Results for a 1:1 sex ratio
-in the sexual population. Here the frequency of daughters produced by
-sexual females was 1/2. The sexual population was initiated at carrying
-capacity: \(K_{sex}\) = 10,000. A single parthenogenetic female was
-introduced by the simulation at generation 1,000. Note that the asexual
-lineage replaces the sexual population in about 25 generations, and that
-it reaches a higher carrying capacity \(K_{asex}\) = 20,000. \textbf{B}
-(bottom). Results for a female-biased sexual population. Here the
-frequency of daughters produced by sexual females was 0.8. The sexual
-population was initiated at carrying capacity: \(K_{sex}\) = 17,500. As
-above, a single parthenogenetic female was introduced into the
-population at generation 1,000. Note that the asexual lineage replaces
-the sexual population, but it takes longer. The simulation assumes
-annual reproduction and non-overlapping generations. The R code for the
-simulation, including interactive graphical output, can be found
+population (C. M. Lively 2009). \textbf{A} (top). Results for a 1:1 sex
+ratio in the sexual population. Here the frequency of daughters produced
+by sexual females was 1/2. The sexual population was initiated at
+carrying capacity: \(K_{sex}\) = 10,000. A single parthenogenetic female
+was introduced by the simulation at generation 1,000. Note that the
+asexual lineage replaces the sexual population in about 25 generations,
+and that it reaches a higher carrying capacity \(K_{asex}\) = 20,000.
+\textbf{B} (bottom). Results for a female-biased sexual population. Here
+the frequency of daughters produced by sexual females was 0.8. The
+sexual population was initiated at carrying capacity: \(K_{sex}\) =
+17,500. As above, a single parthenogenetic female was introduced into
+the population at generation 1,000. Note that the asexual lineage
+replaces the sexual population, but it takes longer. The simulation
+assumes annual reproduction and non-overlapping generations. The R code
+for the simulation, including interactive graphical output, can be found
 \href{https://raw.githubusercontent.com/IULibScholComm/through-the-looking-glass/main/sim\%20for\%20fig\%201.2(ZMD).R}{here}.
 The interactive graph can also be run
 \href{https://connect.posit.iu.edu/clonal-invasion-dynamics/}{here} for
@@ -536,7 +537,7 @@ recombination. Ideally, any theory that explains the persistence of
 biparental sex could also solve the paradox of recombination. But this
 need not be the case. They could have different solutions.
 
-\begin{tcolorbox}[enhanced jigsaw, left=2mm, toprule=.15mm, colback=white, toptitle=1mm, colframe=quarto-callout-tip-color-frame, bottomrule=.15mm, breakable, rightrule=.15mm, opacityback=0, titlerule=0mm, bottomtitle=1mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Box 1.1}, colbacktitle=quarto-callout-tip-color!10!white, arc=.35mm, opacitybacktitle=0.6, coltitle=black, leftrule=.75mm]
+\begin{tcolorbox}[enhanced jigsaw, colback=white, opacitybacktitle=0.6, bottomrule=.15mm, rightrule=.15mm, leftrule=.75mm, opacityback=0, toptitle=1mm, breakable, coltitle=black, titlerule=0mm, left=2mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Box 1.1}, bottomtitle=1mm, colframe=quarto-callout-tip-color-frame, colbacktitle=quarto-callout-tip-color!10!white, arc=.35mm, toprule=.15mm]
 
 \textbf{Short definitions of terms as used in this book. These
 definitions do not include all possible nuances.}
@@ -642,7 +643,7 @@ from discussing mechanisms to prevent self-fertilization, such as
 distyly, to discussing parthenogenesis. Self-fertilization is a sexual
 process (involving the formation and fusion of gametes from the same
 parent), while parthenogenesis is an asexual process that does not
-generally involve meiosis and syngamy (review in Bell 1982). But
+generally involve meiosis and syngamy (review in G. Bell 1982). But
 parthenogenesis and self-fertilization are conceptually related, as they
 are both uniparental forms of reproduction. Hence, it makes sense that
 Darwin would switch back and forth between these two different forms of
@@ -684,9 +685,10 @@ contrast, Darwin did not find the idea to be distasteful in any way. He
 wondered instead why it was not more common. For example, Darwin (1868)
 wrote, ``Parthenogenesis is no longer wonderful; in fact, the wonder is
 that it should not oftener occur.''\footnote{See also Elliott and Brook
-  (2007). They point out crucial differences between Chamberlin and
-  Platt including that Chamberlin allowed for multiple ideas to be
-  partially correct, which is important for Chapter~\ref{sec-chap6}.}
+  (Elliott and Brook 2007). They point out crucial differences between
+  Chamberlin and Platt including that Chamberlin allowed for multiple
+  ideas to be partially correct, which is important for
+  Chapter~\ref{sec-chap6}.}
 
 Over 100 years later, W. D. Hamilton (1975) was also pondering the
 evolution of outcrossing, and he wrote something conceptually similar:
@@ -722,7 +724,7 @@ had indeed been overlooked: parasites.
   Why then are recombination and cross-fertilization so common?
 \end{enumerate}
 
-\begin{tcolorbox}[enhanced jigsaw, left=2mm, toprule=.15mm, colback=white, toptitle=1mm, colframe=quarto-callout-note-color-frame, bottomrule=.15mm, breakable, rightrule=.15mm, opacityback=0, titlerule=0mm, bottomtitle=1mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 1.2}, colbacktitle=quarto-callout-note-color!10!white, arc=.35mm, opacitybacktitle=0.6, coltitle=black, leftrule=.75mm]
+\begin{tcolorbox}[enhanced jigsaw, colback=white, opacitybacktitle=0.6, bottomrule=.15mm, rightrule=.15mm, leftrule=.75mm, opacityback=0, toptitle=1mm, breakable, coltitle=black, titlerule=0mm, left=2mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 1.2}, bottomtitle=1mm, colframe=quarto-callout-note-color-frame, colbacktitle=quarto-callout-note-color!10!white, arc=.35mm, toprule=.15mm]
 
 Maynard Smith's (1978) model showing the cost of producing
 males.\footnotemark{} Let \(N_{asex}\) be the number of asexual females
@@ -788,7 +790,7 @@ population.
 \end{tcolorbox}
 
 \footnotetext{With respect to \emph{Potamopyrgus} (along with a
-parthenogenetic beetle) Maynard Smith (1978, page 65) wrote, ``Further
+parthenogenetic beetle) Maynard Smith (1978, 65) wrote, ``Further
 Investigations of these cases could be most interesting.'' When I met
 JMS, I did not know (or did not remember) that he had written this. But
 I think that he was correct.}
@@ -828,7 +830,7 @@ wins, you get \emph{N} times the reward. If you choose \emph{N}
 different tickets (sex), you increase the probability of winning
 something, but the reward is smaller. Williams refers to the idea as the
 aphid-rotifer model, but the idea has since come to be known as the
-Lottery Model (following Bell 1982), which is a more descriptive
+Lottery Model (following G. Bell 1982), which is a more descriptive
 phrase.\footnote{I ran two years of field experiments designed to test
   for random settlement by genetically determined morphs. I also ran
   experiments designed to test for habitat selection by genetically
@@ -901,8 +903,8 @@ Year & Monoculture & Polyculture \\
   ``genetically determined.'' The Associate Editor (John Endler)
   rejected the review and accepted the paper. Clearly, it is the
   developmental strategy that is genetically determined, not the morph
-  per se (see also Lively et al.~2000, Hazel et al.~2004).} & 19400 &
-600 \\
+  per se (see also C. M. Lively et al. 2000; Hazel, Smock, and Lively
+  2004).} & 19400 & 600 \\
 \textbf{Geometric mean (GM)}\footnote{Facultative parthenogenesis is
   used to mean environmentally cued production of parthenogenetic
   females. I was originally planning to work on a nematode population
@@ -1015,11 +1017,11 @@ For example, there would be no selection to utilize the resource of
 lower value (broccoli) if there were no competition for pizza. This kind
 of selection, where the advantage to being rare depends on population
 density, is sometimes referred to as ``soft'' selection (Wallace
-1975).\footnote{See also Elliott and Brook (2007). They point out
-  crucial differences between Chamberlin and Platt including that
-  Chamberlin allowed for multiple ideas to be partially correct, which
-  is important for Chapter~\ref{sec-chap6}.} In other words, soft
-selection is selection that is both frequency-dependent and
+1975).\footnote{See also Elliott and Brook (Elliott and Brook 2007).
+  They point out crucial differences between Chamberlin and Platt
+  including that Chamberlin allowed for multiple ideas to be partially
+  correct, which is important for Chapter~\ref{sec-chap6}.} In other
+words, soft selection is selection that is both frequency-dependent and
 density-dependent. This idea contrasts nicely with the Lottery Model,
 where selection is both frequency- and density-independent, which is
 called ``hard'' selection. For our purposes, we can use Wallace's
@@ -1052,7 +1054,7 @@ an advantage to having a rare genotype, but this advantage only accrues
 under strong competition (high density). Soft selection may not be
 exactly the best possible phrase, but it contrasts nicely with hard
 selection.\footnote{With respect to \emph{Potamopyrgus} (along with a
-  parthenogenetic beetle) Maynard Smith (1978, page 65) wrote, ``Further
+  parthenogenetic beetle) Maynard Smith (1978, 65) wrote, ``Further
   Investigations of these cases could be most interesting.'' When I met
   JMS, I did not know (or did not remember) that he had written this.
   But I think that he was correct.}
@@ -1061,13 +1063,13 @@ Two caveats are worth mentioning with respect to soft selection and the
 Tangled Bank Hypothesis. One is that polymorphism is only stable under a
 narrow range of patch-types frequencies. In addition, strong tradeoffs
 are required for the cost and benefits for morphs occupying different
-patches (Smith and Hoekstra 1980; Lively 1986) (see also
+patches (Smith and Hoekstra 1980; C. M. Lively 1986a) (see also
 \href{https://iulibscholcomm.github.io/through-the-looking-glass/eco-hyp-cont.html\#callout-4}{Box
 3.1}). The second caveat is that repeated mutation to asexual
 reproduction could lead to the accumulation of clonal diversity over
 time. Once all the niches are occupied by different specialized clones,
 there would be no advantage to sex. A diverse clonal population could
-then replace the sexual population (Bell 1982; Vrijenhoek and Parker
+then replace the sexual population (G. Bell 1982; Vrijenhoek and Parker
 2009). This second caveat applies, in general, to any model of sex that
 relies on frequency-dependent selection. But the ideas could work if
 mutations to asex are rare. And, as I mentioned, sexuals and asexuals
@@ -1085,7 +1087,7 @@ the change is mediated by changes in coevolving biological antagonists
 such as parasites, rather than changes in the abiotic
 environments.\footnote{This assumption turned out to be not strictly
   true. Polyploid females occasionally produce males, although they seem
-  unlikely to be very fertile (Soper et al.~2013).} The distinction is
+  unlikely to be very fertile (Soper et al. 2013).} The distinction is
 important, as we will see.
 
 It may be helpful to revisit Figure~\ref{fig-1-2}, which shows the
@@ -1163,7 +1165,7 @@ protect sexual reproduction from replacement by asexual lineages. In
 addition, Red Queen dynamics could also favor recombination within a
 sexual population (Peters and Lively 1999, 2007; Schmid-Hempel and
 Jokela 2002; Salathe et al. 2008). These related ideas are now called
-the Red Queen Hypothesis (following Bell 1982).
+the Red Queen Hypothesis (following G. Bell 1982).
 
 \begin{figure}
 
@@ -1172,8 +1174,9 @@ single host genotype is shown along with the frequency of the only
 parasite genotype that can infect it. Note that the parasite tracks the
 host with a time lag. Results were extracted from a simulation of a
 sexual host population with nine possible genotypes coevolving with an
-asexual parasite with nine matching genotypes (Lively 2009). The dashed
-line shows the average genotype frequency for hosts and parasites.}
+asexual parasite with nine matching genotypes (C. M. Lively 2009). The
+dashed line shows the average genotype frequency for hosts and
+parasites.}
 
 {\centering \includegraphics{images/fig2-4.jpeg}
 
@@ -1332,13 +1335,13 @@ conceptual contributions by Glesener \& Tilman\footnote{\begin{quote}
   \end{quote}} (1978), Jaenike\footnote{I was also persuaded by elegant
   experimental studies on sweet vernal grass, which showed a
   density-independent advantage to having a rare genotype (Antonovics
-  and Ellstrand 1984, Ellstrand and Antonovics 1985). Later studies
+  and Ellstrand 1984; Ellstrand and Antonovics 1985). Later studies
   showed that the rare advantage was likely due to escape from infection
-  (Kelley et al.~1988, Kelley 1993, 1994).} (1978), and Lloyd (1980). In
-particular, Lloyd writes, ``{[}B{]}iological interactions are more
-likely than unpredictable physical conditions to provide the kind of
-relentless, repetitive change that is necessary for sexual parents to be
-selected because of the genetic diversity that sex engenders.''
+  (Kelley, Antonovics, and Schmitt 1988; 1993; 1994).} (1978), and Lloyd
+(1980). In particular, Lloyd writes, ``{[}B{]}iological interactions are
+more likely than unpredictable physical conditions to provide the kind
+of relentless, repetitive change that is necessary for sexual parents to
+be selected because of the genetic diversity that sex engenders.''
 
 Lloyd then turns this abstract idea into a specific prediction, which I
 would later test: ``If this proves to be so, we will then be able to
@@ -1386,8 +1389,8 @@ selection against common host genotypes.\footnote{Using computer
   simulations, we recently found that detecting a significant positive
   correlation between clonal diversity and infection prevalence would
   only be expected in a fraction of parameter space, even when parasites
-  were solely responsible for the maintenance of diversity (Lively et
-  al.~2021).}
+  were solely responsible for the maintenance of diversity (Curtis M.
+  Lively, Xu, and Ben-Ami 2021).}
 
 In any case, looking back, it seems clear that the architects of the
 ecological hypotheses had two interrelated things in mind:
@@ -1420,7 +1423,7 @@ Chapter~\ref{sec-chap6}.\footnote{In this smaller sample of 20 lakes,
   Three ecological hypotheses have been proposed to explain the
   persistence of cross-fertilization in the face of competition with
   uniparental reproductive strategies, such as parthenogenesis or
-  self-fertilization (following Bell 1982).
+  self-fertilization (following G. Bell 1982).
 \item
   The Lottery Model is based on the possible advantages of diversifying
   offspring facing uncertain changes in the abiotic environment. Here
@@ -1442,7 +1445,7 @@ Chapter~\ref{sec-chap6}.\footnote{In this smaller sample of 20 lakes,
   Queen idea can perhaps also be seen as bet hedging.
 \end{enumerate}
 
-\begin{tcolorbox}[enhanced jigsaw, left=2mm, toprule=.15mm, colback=white, toptitle=1mm, colframe=quarto-callout-note-color-frame, bottomrule=.15mm, breakable, rightrule=.15mm, opacityback=0, titlerule=0mm, bottomtitle=1mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 2.1. Levene's model of multiple niche polymorphism.}, colbacktitle=quarto-callout-note-color!10!white, arc=.35mm, opacitybacktitle=0.6, coltitle=black, leftrule=.75mm]
+\begin{tcolorbox}[enhanced jigsaw, colback=white, opacitybacktitle=0.6, bottomrule=.15mm, rightrule=.15mm, leftrule=.75mm, opacityback=0, toptitle=1mm, breakable, coltitle=black, titlerule=0mm, left=2mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 2.1. Levene's model of multiple niche polymorphism.}, bottomtitle=1mm, colframe=quarto-callout-note-color-frame, colbacktitle=quarto-callout-note-color!10!white, arc=.35mm, toprule=.15mm]
 
 It was widely thought that heterozygote advantage was required to
 maintain polymorphism at a single locus with two alleles. In the
@@ -1616,32 +1619,32 @@ genetically determined and that they were likely to be different species
   the bent form, but the herbivorous snails did not. It was a thrilling
   discovery.} I found that one of the two morphs was induced by chemical
 cues released by a predatory snail (Figure~\ref{fig-3-3}), and that the
-induced morph was more resistant to attack by this predator (Lively
-1986c).\footnote{Plasticity is more mainstream now than it was in the
+induced morph was more resistant to attack by this predator
+(1986c).\footnote{Plasticity is more mainstream now than it was in the
   1980s. One reviewer of my paper was incredulous and recommended
   rejection from \emph{Evolution} because the bent morph was not
   ``genetically determined.'' The Associate Editor (John Endler)
   rejected the review and accepted the paper. Clearly, it is the
   developmental strategy that is genetically determined, not the morph
-  per se (see also Lively et al.~2000, Hazel et al.~2004).} Hence, the
-two morphs are not different species, but rather the result of
-phenotypic plasticity. In a blink of a field season, I went from being a
-community ecologist to an evolutionary biologist.
+  per se (see also C. M. Lively et al. 2000; Hazel, Smock, and Lively
+  2004).} Hence, the two morphs are not different species, but rather
+the result of phenotypic plasticity. In a blink of a field season, I
+went from being a community ecologist to an evolutionary biologist.
 
 But why two morphs? Why didn't selection favor unconditional development
 of the predator-resistant morph? Using predator-exclusion cages, I found
 that predation was concentrated near crevices in the reef, which the
-snails used during high tide as refuges (Lively 1986b). As the tide
-receded, the snails moved out from these crevices onto the exposed rock
-surfaces to forage on barnacles. When the tide returned, the snails
-motored back to the crevices, presumably to hide from snail-crushing
-rays that came in with the tide. This back-and-forth movement of snails
-created high-predation zones near crevices and low-predation zones far
-from crevices (about 20cm away). This finding explained why the
+snails used during high tide as refuges (1986b). As the tide receded,
+the snails moved out from these crevices onto the exposed rock surfaces
+to forage on barnacles. When the tide returned, the snails motored back
+to the crevices, presumably to hide from snail-crushing rays that came
+in with the tide. This back-and-forth movement of snails created
+high-predation zones near crevices and low-predation zones far from
+crevices (about 20cm away). This finding explained why the
 predation-resistant morph was almost always found near crevices. Field
 experiments also showed that the predator-resistant morph grew more
-slowly and was less fecund than the typical volcano-shaped morph (Lively
-1986b). Hence there is a trade-off. Taken together, the results
+slowly and was less fecund than the typical volcano-shaped morph (C. M.
+Lively 1986b). Hence there is a trade-off. Taken together, the results
 suggested that plastic development was favored by natural selection to
 survive in the high-predation zones (\protect\hyperlink{callout-4}{Box
 3.1}). I would later come to think of adaptive plasticity as a type of
@@ -1719,22 +1722,21 @@ parthenogenesis.\footnote{We were trained ask questions first and then
   seek suitable organisms to address the questions. This was the
   tradition before model-systems research took over (Churchill 1997).}
 To this end, I was reading Graham Bell's incredible book on the
-evolution and genetics of sexual reproduction (Bell 1982). Searching the
+evolution and genetics of sexual reproduction (1982). Searching the
 index, I found a reference to \emph{Potamopyrgus antipodarum}, a New
 Zealand freshwater snail. Bell had cited Mike Winterbourn's dissertation
-work on this snail (Winterbourn 1970). Luckily for me, Prof.~Winterbourn
-was just down the hall from me. I took the book to him, and I asked if
-the snails were, in fact, facultatively parthenogenetic. He said no; the
-snails were probably obligate asexuals, based on lab rearing experiments
-that he had done. He also said that most populations were all female,
-but some contained males. He then added that there was no obvious
-pattern to the distribution of males. Amazing! I immediately decided to
-work on these snails.\footnote{Prof.~Winterbourn was supportive of my
-  work from this first day. He shared his knowledge of the snail system
-  and of freshwater ecology, in general, with great enthusiasm. In
-  addition, Mike met with my Ph.D.~students and took them into the
-  field. This book would not have been possible without
-  Prof.~Winterbourn.}
+work on this snail (1970). Luckily for me, Prof.~Winterbourn was just
+down the hall from me. I took the book to him, and I asked if the snails
+were, in fact, facultatively parthenogenetic. He said no; the snails
+were probably obligate asexuals, based on lab rearing experiments that
+he had done. He also said that most populations were all female, but
+some contained males. He then added that there was no obvious pattern to
+the distribution of males. Amazing! I immediately decided to work on
+these snails.\footnote{Prof.~Winterbourn was supportive of my work from
+  this first day. He shared his knowledge of the snail system and of
+  freshwater ecology, in general, with great enthusiasm. In addition,
+  Mike met with my Ph.D.~students and took them into the field. This
+  book would not have been possible without Prof.~Winterbourn.}
 
 \hypertarget{the-method-of-multiple-working-hypotheses}{%
 \section{The Method of Multiple Working
@@ -1743,22 +1745,23 @@ Hypotheses}\label{the-method-of-multiple-working-hypotheses}}
 As graduate students at the University of Arizona, we read some of the
 classics in the history and philosophy of science. Two of these papers
 concerned the method of contrasting multiple working hypotheses
-(Chamberlin 1890, Platt 1964).\footnote{See also Elliott and Brook
-  (2007). They point out crucial differences between Chamberlin and
-  Platt including that Chamberlin allowed for multiple ideas to be
-  partially correct, which is important for Chapter~\ref{sec-chap6}.}
-The idea is that multiple hypotheses should be simultaneously
-considered. Then, to the extent possible, the alternatives are forced to
-make different a priori predictions about the possible results. The hope
-is that all but one of the alternative hypotheses would be eliminated,
-leading to a ``strong inference'' that the remaining hypothesis is
-supported (Platt 1964). Thus, the focus is on falsifying one or more of
-the alternatives, rather than proving one of them (Popper 1959). Graham
-Bell used this same method to contrast the ecological models for sex by
-using data on the geographic distribution of asexual individuals across
-many plant and animal taxa (Bell 1982). The data led him to reject the
-Lottery Model (Chapter~\ref{sec-eco-hyp}). I decided to focus a similar
-test directly on the New Zealand snails (Figure~\ref{fig-3-4}).
+(Chamberlin 1965; Platt 1964).\footnote{See also Elliott and Brook
+  (Elliott and Brook 2007). They point out crucial differences between
+  Chamberlin and Platt including that Chamberlin allowed for multiple
+  ideas to be partially correct, which is important for
+  Chapter~\ref{sec-chap6}.} The idea is that multiple hypotheses should
+be simultaneously considered. Then, to the extent possible, the
+alternatives are forced to make different \emph{a priori} predictions
+about the possible results. The hope is that all but one of the
+alternative hypotheses would be eliminated, leading to a ``strong
+inference'' that the remaining hypothesis is supported (Platt 1964).
+Thus, the focus is on falsifying one or more of the alternatives, rather
+than proving one of them (Popper 1959). Graham Bell used this same
+method to contrast the ecological models for sex by using data on the
+geographic distribution of asexual individuals across many plant and
+animal taxa (G. Bell 1982). The data led him to reject the Lottery Model
+(Chapter~\ref{sec-eco-hyp}). I decided to focus a similar test directly
+on the New Zealand snails (Figure~\ref{fig-3-4}).
 
 \begin{figure}
 
@@ -1769,7 +1772,7 @@ invasion of freshwater, the snail evolved an internal brood pouch, where
 the embryos hatch and develop before crawling out as juveniles. The
 snail also evolved parthenogenetic reproduction. Parthenogenesis and
 brooding are both rare traits in invertebrates, but they are often found
-together (Lively and Johnson 1994). Some \emph{P. antipodarum}
+together (Curtis M. Lively and Johnson 1994). Some \emph{P. antipodarum}
 populations presently consist of a mixture of diploid sexual individuals
 and polyploid asexual females. The question under consideration here is,
 why have the sexual females persisted in these mixed population snails?
@@ -1788,15 +1791,15 @@ vegetation in some of the most beautiful clear lakes, rivers, and
 streams in New Zealand (``Potamo'' means river, not mud, in Greek). In
 any case, based on Winterbourn's ecological work, streams seemed more
 unstable than lakes, as water flow can vary dramatically, especially
-during heavy rains in the mountains (Winterbourn et al.~1981). Hence,
-under the Lottery Model, streams should have more sexual females (and
-males) than lakes, because streams have more disturbance and less
-competition (see Chapter~\ref{sec-eco-hyp} for a comparison of models).
-By contrast, it seemed that competition for resources should be greater
-in lakes than in streams. Indeed, lake populations of the snail can be
-extremely dense. So, under the Tangled Bank, there should be more sexual
-females in lakes, where competition for resources is expected to be
-high. Finally, under the Red Queen Hypothesis, there should be more
+during heavy rains in the mountains (Winterbourn, Rounick, and Cowie
+1981). Hence, under the Lottery Model, streams should have more sexual
+females (and males) than lakes, because streams have more disturbance
+and less competition (see Chapter~\ref{sec-eco-hyp} for a comparison of
+models). By contrast, it seemed that competition for resources should be
+greater in lakes than in streams. Indeed, lake populations of the snail
+can be extremely dense. So, under the Tangled Bank, there should be more
+sexual females in lakes, where competition for resources is expected to
+be high. Finally, under the Red Queen Hypothesis, there should be more
 sexual females where the risk of infection by coevolving parasites is
 higher. As such, the different hypotheses could be forced to make
 different predictions, with the important caveat that infection might be
@@ -1834,21 +1837,21 @@ under her fancy microscope. She informed me that sperm do not have eyes,
 that they do not have spines on their tails, and that they are, in fact,
 orders of magnitude smaller than these wiggling beasts under her lens.
 She was not impressed. I had perfectly fit the Kiwi stereotype of North
-American ecologists: good with statistics, but no knowledge of real
+American ecologists: good with statistics but no knowledge of real
 animals. She informed me that these swimming things were trematode
 larvae, \textbf{sterilizing parasites} of snails. Happily, we remained
-good friends, despite her disappointment in my training. And, I had
-found my first infection, which meant that I might be able to test the
-Red Queen.
+good friends, despite her disappointment in my training. And I had found
+my first infection, which meant that I might be able to test the Red
+Queen.
 
 Perhaps embarrassingly, I had a scientific bias against the Red Queen
 going into the study. My bias was based on a study by May and Anderson
-(1983). They showed that parasites had to kill infected individuals for
-sex to be favored over asex in hosts. Parasites are usually not that
-virulent; hence it seemed to me that parasites could not provide
-sufficiently strong selection to \emph{generally} favor sex. I will
-return to this important paper in another chapter and discuss how key
-assumptions of their model have been relaxed.
+(May and Anderson 1983). They showed that parasites had to kill infected
+individuals for sex to be favored over asex in hosts. Parasites are
+usually not that virulent; hence, it seemed to me that parasites could
+not provide sufficiently strong selection to \emph{generally} favor sex.
+I will return to this important paper in another chapter and discuss how
+key assumptions of their model have been relaxed.
 
 \hypertarget{a-side-story-on-jms}{%
 \subsection{A side story on JMS}\label{a-side-story-on-jms}}
@@ -1868,18 +1871,18 @@ speechless. He kindly asked me what I was working on, so I told him
 about the snails. He knew of them! In fact, he had covered them in his
 book, \emph{The Evolution of Sex}.\footnote{With respect to
   \emph{Potamopyrgus} (along with a parthenogenetic beetle) Maynard
-  Smith (1978, page 65) wrote, ``Further Investigations of these cases
-  could be most interesting.'' When I met JMS, I did not know (or did
-  not remember) that he had written this. But I think that he was
-  correct.} He was very excited that I was working on these creatures,
-and he wanted to know my plan. I told him of my rough ideas for looking
-at the distribution of males as a way of contrasting the ecological
-hypotheses for sex. He looked directly at me, and said,``Interesting,
-but I hope the answer is not parasites'' (or something like that). I
-asked him, why not parasites? He laughed out loud, and with a big smile,
-he said: ``Because Bill Hamilton thought of it first!'' I could tell he
-was kidding. He then encouraged me to take the project on, and then he
-laughed again and added: ``Whatever you do, don't go and solve the
+  Smith (1978, 65) wrote, ``Further Investigations of these cases could
+  be most interesting.'' When I met JMS, I did not know (or did not
+  remember) that he had written this. But I think that he was correct.}
+He was very excited that I was working on these creatures, and he wanted
+to know my plan. I told him of my rough ideas for looking at the
+distribution of males as a way of contrasting the ecological hypotheses
+for sex. He looked directly at me, and said, ``Interesting, but I hope
+the answer is not parasites'' (or something like that). I asked him, why
+not parasites? He laughed out loud, and with a big smile he said:
+``Because Bill Hamilton thought of it first!'' I could tell he was
+kidding. He then encouraged me to take the project on, and then he
+laughed again and added, ``Whatever you do, don't go and solve the
 problem of sex. Sex is too much bloody fun to have an answer!''
 
 Toward the end of their time in New Zealand, JMS, Sheila, David, Lynda,
@@ -1926,51 +1929,51 @@ understanding of the New Zealand bush.
 
 I collected and dissected hundreds of snails from each of 29 streams and
 22 lakes, mostly on the South Island. I recorded sex (male or female)
-and infection by the trematodes that Winterbourn (1973) described. I
+and infection by the trematodes that Winterbourn (1973)described. I
 reasoned that the frequency of males in a population must be strongly
 correlated with the frequency of sexual females simply because males are
 only produced by sexual females.\footnote{This assumption turned out to
   be not strictly true. Polyploid females occasionally produce males,
-  although they seem unlikely to be very fertile (Soper et al.~2013).}
+  although they seem unlikely to be very fertile (Soper et al. 2013).}
 The results showed that there were more males in lakes than in streams,
 which was inconsistent with the Lottery Model, but it was consistent
 with the Tangled Bank Model. However, male frequency was better
 predicted by the frequency of trematode infection than by habitat
-\emph{per se} (Lively 1987). Hence, surprisingly, the results favored
-the Red Queen Hypothesis. I presented these findings to a small group at
-David Lloyd's flat, and they convinced me to submit to \emph{Nature}
-(Lively 1987).\footnote{The group included Mark McKone. Mark was a
-  post-doc with David, and his comments were especially influential.
+\emph{per se} (C. M. Lively 1987). Hence, surprisingly, the results
+favored the Red Queen Hypothesis. I presented these findings to a small
+group at David Lloyd's flat, and they convinced me to submit to
+\emph{Nature} (1987).\footnote{The group included Mark McKone. Mark was
+  a post-doc with David, and his comments were especially influential.
   Fifteen years later, I would become Ph.D.~advisor to one of Mark's
   star mentees at Carleton College, Maurine Neiman.}
 
 A fascinating paper on the same topic was published in \emph{Nature} at
 about the same time. This paper was also based on a strong-inference
 test comparing the Red Queen and the Tangled Bank. The authors, Austin
-Burt and Graham Bell, examined recombination in mammals (Burt and Bell
-1987). They reasoned that under the Red Queen Hypothesis, longer-lived
-mammals would have higher rates of recombination because more genetic
-mixing would be favored as the asymmetry in host/parasite generation
-time increased. In contrast, the Tangled Bank Model predicted that
-shorter-lived mammals would have higher rates of recombination because
-they have larger litters, and recombination might lead to reduced
-competition among the more diverse offspring. Their results were
-stunning. Recombination was tightly and positively related to longevity
-in natural populations.\footnote{There we also some very interesting
-  outliers. Domesticated mammals had very strong positive residuals for
-  the rate of recombination. This result suggests that recombination was
-  selected by frequent changes in the targets of artificial selection by
-  humans.} The Red Queen was again supported.
+Burt and Graham Bell, examined recombination in mammals (1987). They
+reasoned that under the Red Queen Hypothesis, longer-lived mammals would
+have higher rates of recombination because more genetic mixing would be
+favored as the asymmetry in host/parasite generation time increased. In
+contrast, the Tangled Bank Model predicted that shorter-lived mammals
+would have higher rates of recombination because they have larger
+litters, and recombination might lead to reduced competition among the
+more diverse offspring. Their results were stunning. Recombination was
+tightly and positively related to longevity in natural
+populations.\footnote{There we also some very interesting outliers.
+  Domesticated mammals had very strong positive residuals for the rate
+  of recombination. This result suggests that recombination was selected
+  by frequent changes in the targets of artificial selection by humans.}
+The Red Queen was again supported.
 
 Based on these studies in \emph{Nature}, I was beginning to think that
 parasites might be a factor in selecting for cross-fertilization in
 hosts. But my study as well as the study of Burt and Bell (1987) were
 based on correlations. And every scientist knows that correlation is not
 causation. On the other hand, these correlations were predicted \emph{a
-priori} by Lloyd (1980) and others (e.g., Glesener and Tilman 1978, Bell
-1982). The Red Queen was supported by the data, but the data were not
-used to generate the hypothesis. Using the same data to both generate
-and substantiate hypotheses is where the problem arises with
+priori} by Lloyd (1980) and others (e.g., Glesener and Tilman 1978; G.
+Bell 1982). The Red Queen was supported by the data, but the data were
+not used to generate the hypothesis. Using the same data to both
+generate and substantiate hypotheses is where the problem arises with
 correlation, especially when multiple factors are considered in
 ``fishing expeditions.'' But forcing different hypotheses to make
 different \emph{a priori} predictions about the direction of
@@ -1979,7 +1982,7 @@ correlations is, to my mind, a powerful way to evaluate alternatives.
 As a brief aside, I cannot help but mention the human toll taken by R.A.
 Fisher's use of ``correlation is not causation'' as a way to plant doubt
 in the mind of smokers about the now-obvious risks of smoking (Gould
-1991, Stolley 1991). Fisher was a consultant for the tobacco industry,
+1991; Stolley 1991). Fisher was a consultant for the tobacco industry,
 and he did the industry a great service at the cost of human lives. I
 would also add that no test statistic is causation; F statistics derived
 from analysis of variance are not causation. Causation might be inferred
@@ -1987,8 +1990,8 @@ from well-designed experiments, but no statistical test is causation.
 Analytical theory is not causation either, as is well demonstrated by
 the theoretical literature on sex/recombination. Causation instead may
 be inferred when multiple independent lines of evidence point to similar
-solutions. I think that Levins (1966) was correct when he wrote, ``Hence
-our truth is the intersection of independent lies.\footnote{\begin{quote}
+solutions. I think that Levins was correct when he wrote, ``Hence our
+truth is the intersection of independent lies'' (1966).\footnote{\begin{quote}
   Therefore, we attempt to treat the same problem with several
   alternative models each with different simplifications but with a
   common biological assumption. Then, if these models, despite their
@@ -2008,41 +2011,41 @@ In any case, my view by 1987 was that the Red Queen Hypothesis merited
 serious consideration.\footnote{I was also persuaded by elegant
   experimental studies on sweet vernal grass, which showed a
   density-independent advantage to having a rare genotype (Antonovics
-  and Ellstrand 1984, Ellstrand and Antonovics 1985). Later studies
+  and Ellstrand 1984; Ellstrand and Antonovics 1985). Later studies
   showed that the rare advantage was likely due to escape from infection
-  (Kelley et al.~1988, Kelley 1993, 1994).} For my own data, I now asked
-whether the correlation between sex and infection was a ``red herring.''
-In other words, could the correlation be generated because of something
-else? Yes, it could. Here is how it might work. First, infection could
-be higher in dense host populations as expected under theory (Anderson
-and May 1979, May and Anderson 1979). Second, there might be more sex in
-dense populations because asexual reproduction is favored in sparse
-populations as a way for individuals to ensure reproduction even in the
-absence of conspecific mates (Tomlinson 1966, Gerritsen 1980, Lloyd
-1980). This latter idea is called the ``Reproductive Assurance
-Hypothesis.'' Hence, one could find a positive correlation between sex
-and infection as a simple consequence of epidemiology and selection for
-reproductive assurance. So, I decided to sample again, this time
-focusing on South Island lakes (Figure~\ref{fig-3-5} \&
-Figure~\ref{fig-3-6}) while also collecting data on snail density. The
-results were consistent with the epidemiological expectations, as there
-was a marginally significant positive relationship between snail density
-and infection prevalence, but there was no support for the Reproductive
-Assurance Hypothesis (Lively 1992). Finally, the previously observed
-positive relationship between sex and infection held
-(Figure~\ref{fig-3-5}).\footnote{The partial correlation between percent
-  male and prevalence of infection, while controlling for habitat, is
-  highly significant (\(r = 0.36\), \(P < 0.001\)). However, the partial
-  correlation between percent male and habitat, while controlling for
-  prevalence of infection, is marginally significant (\(r = 0.21\),
-  \(P = 0.05\)). Similar results were gained after males were excluded
-  from the calculation of infection prevalence, which controls for any
-  sex-specific differences in susceptibility (as shown in
-  Figure~\ref{fig-3-5}); specifically, prevalence of infection in
-  females was significantly correlated with male frequency while
-  controlling for habitat (\(r = 0.37\), \(P < 0.001\)), but the
-  converse was not true (\(r = 0.19\), \(P = 0.06\)).} The Red Queen was
-still in the running.
+  (Kelley, Antonovics, and Schmitt 1988; 1993; 1994).} For my own data,
+I now asked whether the correlation between sex and infection was a
+``red herring.'' In other words, could the correlation be generated
+because of something else? Yes, it could. Here is how it might work.
+First, infection could be higher in dense host populations as expected
+under theory (Anderson and May 1979; May and Anderson 1979). Second,
+there might be more sex in dense populations because asexual
+reproduction is favored in sparse populations as a way for individuals
+to ensure reproduction even in the absence of conspecific mates
+(Tomlinson 1966; Gerritsen 1980; Lloyd 1980). This latter idea is called
+the ``Reproductive Assurance Hypothesis.'' Hence, one could find a
+positive correlation between sex and infection as a simple consequence
+of epidemiology and selection for reproductive assurance. So, I decided
+to sample again, this time focusing on South Island lakes
+(Figure~\ref{fig-3-5} \& Figure~\ref{fig-3-6}) while also collecting
+data on snail density. The results were consistent with the
+epidemiological expectations, as there was a marginally significant
+positive relationship between snail density and infection prevalence,
+but there was no support for the Reproductive Assurance Hypothesis (C.
+M. Lively 1992). Finally, the previously observed positive relationship
+between sex and infection held (Figure~\ref{fig-3-5}).\footnote{The
+  partial correlation between percent male and prevalence of infection,
+  while controlling for habitat, is highly significant (\(r = 0.36\),
+  \(P < 0.001\)). However, the partial correlation between percent male
+  and habitat, while controlling for prevalence of infection, is
+  marginally significant (\(r = 0.21\), \(P = 0.05\)). Similar results
+  were gained after males were excluded from the calculation of
+  infection prevalence, which controls for any sex-specific differences
+  in susceptibility (as shown in Figure~\ref{fig-3-5}); specifically,
+  prevalence of infection in females was significantly correlated with
+  male frequency while controlling for habitat (\(r = 0.37\),
+  \(P < 0.001\)), but the converse was not true (\(r = 0.19\),
+  \(P = 0.06\)).} The Red Queen was still in the running.
 
 \begin{figure}
 
@@ -2053,10 +2056,10 @@ graph. There are no highly sexual populations where parasites are rare
 or absent, which suggests that asexuals have replaced sexuals were
 parasite-mediated selection is weak. This result is consistent with
 Lloyd's prediction given in Chapter~\ref{sec-eco-hyp}. Circles represent
-stream populations (Lively 1987) plus two river samples. Gray triangles
-represent lake populations (Lively 1987). Black triangles represent lake
-and tarn populations (Lively 1992). The correlation is positive and
-statistically significant.}
+stream populations (C. M. Lively 1987) plus two river samples. Gray
+triangles represent lake populations (C. M. Lively 1987). Black
+triangles represent lake and tarn populations (C. M. Lively 1992). The
+correlation is positive and statistically significant.}
 
 {\centering \includegraphics{images/fig3-5.JPG}
 
@@ -2071,28 +2074,28 @@ there are no populations with a high proportion of males in samples
 where parasites were rare or absent (Figure~\ref{fig-3-5}). This finding
 is consistent with David Lloyd's 1980 prediction that asexuals should
 dominate in populations ``with a relaxation of biological hostility''
-(see above). But the results are messy.
+(see above) (1980). But the results are messy.
 
 There are several reasons for why the results might be expected to be
 messy. One is that prevalence of infection might not give a good
-estimate of the strength of parasite-mediated selection (Lively 2001).
-For example, infected snails might die at a faster rate than uninfected
-snails because of the energetic demands of infection. In addition,
-infected snails are more likely than uninfected snails to forage after
-sunrise, which exposes them to predation by their final hosts, ducks
-(Levri and Lively 1996, Levri and Fisher 2000). Prevalence of infection
-might also fluctuate over time as the genetic diversity in the host
-population changes and/or as the final hosts move among locations. We
-now know that the prevalence of infection varies greatly among years and
-among sites in the same lake (Gibson et al.~2016). Thus, detecting a
-significant correlation between sex and infection could be dicey, even
-if parasites were solely responsible for the short-term maintenance of
-sex in mixed populations.\footnote{Using computer simulations, we
-  recently found that detecting a significant positive correlation
-  between clonal diversity and infection prevalence would only be
-  expected in a fraction of parameter space, even when parasites were
-  solely responsible for the maintenance of diversity (Lively et
-  al.~2021).}
+estimate of the strength of parasite-mediated selection (C. M. Lively
+2001). For example, infected snails might die at a faster rate than
+uninfected snails because of the energetic demands of infection. In
+addition, infected snails are more likely than uninfected snails to
+forage after sunrise, which exposes them to predation by their final
+hosts, ducks (Levri and Lively 1996; Levri and Fisher 2000). Prevalence
+of infection might also fluctuate over time as the genetic diversity in
+the host population changes and/or as the final hosts move among
+locations. We now know that the prevalence of infection varies greatly
+among years and among sites in the same lake (Gibson, Jokela, and Lively
+2016). Thus, detecting a significant correlation between sex and
+infection could be dicey, even if parasites were solely responsible for
+the short-term maintenance of sex in mixed populations.\footnote{Using
+  computer simulations, we recently found that detecting a significant
+  positive correlation between clonal diversity and infection prevalence
+  would only be expected in a fraction of parameter space, even when
+  parasites were solely responsible for the maintenance of diversity
+  (Curtis M. Lively, Xu, and Ben-Ami 2021).}
 
 Along these lines, many of the points in Figure~\ref{fig-3-5} represent
 a single sample taken at one site at one point in time. This limitation
@@ -2104,23 +2107,24 @@ Figure~\ref{fig-3-5}.\footnote{In this smaller sample of 20 lakes, the
   positive but not statistically significant.} We resampled all 20 lakes
 10 -- 15 years after my original samples. We found that prevalence of
 infection was highly correlated between sample periods as was male
-frequency (Lively and Jokela 2002). We then averaged the data for each
-lake under the assumption that the averages would better represent both
-the frequency of males and the prevalence of infection for each lake.
-With these data, the correlation between male frequency and infection
-prevalence was both positive and significant.\footnote{\(r = 0.47\);
+frequency (C. M. Lively and Jokela 2002). We then averaged the data for
+each lake under the assumption that the averages would better represent
+both the frequency of males and the prevalence of infection for each
+lake. With these data, the correlation between male frequency and
+infection prevalence was both positive and significant.\footnote{\(r = 0.47\);
   \(P = 0.04\) for log\textsubscript{10} transformed data; \(N = 20\).}
 
 None of this is meant to imply proof of the Red Queen Hypothesis or that
 density dependence and random environmental change are not relevant for
 a full understanding of the problem.\footnote{I think density dependence
   is critically important. Disease transmission is certainly density
-  dependent (Anderson and May 1979, May and Anderson 1979). Virulence
-  may also be density dependent (Lively et al.~1995, Bell et al.~2006,
-  Lively 2006). Habitat partitioning may also play a role in the
-  distribution of sexual females among depth-stratified habitats
-  (Negovetic and Jokela 2001).} But the results do imply that the Red
-Queen Hypothesis was (and still is) worthy of further study.
+  dependent (Anderson and May 1979; May and Anderson 1979). Virulence
+  may also be density dependent (Curtis M. Lively et al. 1995; T. Bell,
+  Freckleton, and Lewis 2006; C. M. Lively 2006). Habitat partitioning
+  may also play a role in the distribution of sexual females among
+  depth-stratified habitats (Negovetic and Jokela 2001).} But the
+results do imply that the Red Queen Hypothesis was (and still is) worthy
+of further study.
 
 \hypertarget{summary-2}{%
 \section{Summary}\label{summary-2}}
@@ -2156,8 +2160,8 @@ Queen Hypothesis was (and still is) worthy of further study.
 males is given in blue; the percentage of females is given in red. Pie
 charts enclosed in boxes are for lakes and tarns that are very close
 together. The large pie on the left-hand side shows the average
-frequencies of males and females across all samples. (Redrawn from
-Lively (1992).)}
+frequencies of males and females across all samples. (Redrawn from C. M.
+Lively 1992.)}
 
 {\centering \includegraphics{images/fig3-6.JPG}
 
@@ -2165,7 +2169,7 @@ Lively (1992).)}
 
 \end{figure}
 
-\begin{tcolorbox}[enhanced jigsaw, left=2mm, toprule=.15mm, colback=white, toptitle=1mm, colframe=quarto-callout-note-color-frame, bottomrule=.15mm, breakable, rightrule=.15mm, opacityback=0, titlerule=0mm, bottomtitle=1mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 3.1.}, colbacktitle=quarto-callout-note-color!10!white, arc=.35mm, opacitybacktitle=0.6, coltitle=black, leftrule=.75mm]
+\begin{tcolorbox}[enhanced jigsaw, colback=white, opacitybacktitle=0.6, bottomrule=.15mm, rightrule=.15mm, leftrule=.75mm, opacityback=0, toptitle=1mm, breakable, coltitle=black, titlerule=0mm, left=2mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 3.1.}, bottomtitle=1mm, colframe=quarto-callout-note-color-frame, colbacktitle=quarto-callout-note-color!10!white, arc=.35mm, toprule=.15mm]
 
 As part of my dissertation research, I constructed a game-theoretic
 model of selection on three strategies:
@@ -2184,7 +2188,7 @@ model of selection on three strategies:
 The model examined evolutionary stability for a range of frequencies for
 two patches (high predation risk and low predation risk) across a range
 of values for the accuracy of the cue predicting future predation risk
-(Lively 1986a).
+(C. M. Lively 1986a).
 
 An example of the output is shown below. The results show that any of
 the three strategies can be an ESS in part of the parameter
@@ -2200,8 +2204,8 @@ the cue can also lead to the evolution of plasticity. It might be
 especially interesting to note that the trajectory of arrow b would give
 the appearance of saltatory change followed by stasis (i.e., punctuated
 equilibrium) (Levinton 1988). Also note that the conditions for a
-genetic polymorphism are relatively narrow. Redrawn from (Lively 1999b)
-assuming a small cost to plasticity.
+genetic polymorphism are relatively narrow. Redrawn from (C. M. Lively
+1999) assuming a small cost to plasticity.
 
 \begin{figure}[H]
 
@@ -2248,6 +2252,16 @@ to highlight the work of my incredible students and colleagues at IU.
 
 \hypertarget{refs}{}
 \begin{CSLReferences}{1}{0}
+\leavevmode\vadjust pre{\hypertarget{ref-anderson1979a}{}}%
+Anderson, R. M., and R. M. May. 1979. {``Population Biology of
+Infectious Diseases: Part 1.''} \emph{Nature} 280: 361--67.
+
+\leavevmode\vadjust pre{\hypertarget{ref-antonovics1984a}{}}%
+Antonovics, J., and N. C. Ellstrand. 1984. {``Experimental Studies of
+the Evolutionary Significance of Sexual Reproduction. I. A Test of the
+Frequency-Dependent Selection Hypothesis.''} \emph{Evolution} 38:
+103--15.
+
 \leavevmode\vadjust pre{\hypertarget{ref-bayley2010a}{}}%
 Bayley, M. n.d.a. {``Algebra in Wonderland.''} \emph{New York Times}.
 
@@ -2259,10 +2273,34 @@ Solved.''} \emph{New Scientist}.
 Bell, G. 1982. \emph{The Masterpiece of Nature: The Evolution and
 Genetics of Sexuality}. Berkeley: University of California Press.
 
+\leavevmode\vadjust pre{\hypertarget{ref-bell2006a}{}}%
+Bell, T., R. P. Freckleton, and O. T. Lewis. 2006. {``Plant Pathogens
+Drive Density-Dependent Seedling Mortality in a Tropical Tree.''}
+\emph{Ecology Letters} 9 (5): 569--74.
+\url{https://doi.org/10.1111/j.1461-0248.2006.00905.x}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-burt1987a}{}}%
+Burt, A., and G. Bell. 1987. {``Mammalian Chiasma Frequencies as a Test
+of Two Theories of Recombination.''} \emph{Nature} 326: 803--5.
+
+\leavevmode\vadjust pre{\hypertarget{ref-chamberlin1890a}{}}%
+Chamberlin, T. C. 1965. {``The Method of Multiple Working Hypotheses.''}
+\emph{Science} 148 (3671): 754--59.
+\url{https://doi.org/10.1126/science.148.3671.754}.
+
 \leavevmode\vadjust pre{\hypertarget{ref-churchill1979a}{}}%
 Churchill, F. B. 1979. {``Sex and the Single Organism: Biological
 Theories of Sex in Mid Nineteenth Century.''} \emph{Studies in the
 History of Biology} 3: 139--77.
+
+\leavevmode\vadjust pre{\hypertarget{ref-churchill1997a}{}}%
+---------. 1997. {``Life Before Model Systems: General Zoology at August
+Weismann's Institute.''} \emph{American Zoologist} 37: 260--68.
+
+\leavevmode\vadjust pre{\hypertarget{ref-clark1976a}{}}%
+Clark, W. C. 1976. {``The Environment and the Genotype in
+Polymorphism.''} \emph{Zoological Journal of the Linnean Society} 58:
+255--62.
 
 \leavevmode\vadjust pre{\hypertarget{ref-dagg2016a}{}}%
 Dagg, Joachim. 2016. {``On Recognising the Paradox of Sex.''}
@@ -2284,18 +2322,41 @@ Domestication.''} London: John Murray.
 ---------. n.d. {``Letter No. 2869.''} Darwin Correspondence Project.
 \url{https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2869.xml}.
 
+\leavevmode\vadjust pre{\hypertarget{ref-elliott2007a}{}}%
+Elliott, L. P., and B. W. Brook. 2007. {``Revisiting Chamberlin:
+Multiple Working Hypotheses for the 21st Century.''} \emph{Bioscience}
+57: 608--14.
+
+\leavevmode\vadjust pre{\hypertarget{ref-ellstrand1985a}{}}%
+Ellstrand, N. C., and J. Antonovics. 1985. {``Experimental Studies of
+the Evolutionary Significance of Sexual Reproduction II. A Test of the
+Density-Dependent Selection Hypothesis.''} \emph{Evolution} 39: 657--66.
+
 \leavevmode\vadjust pre{\hypertarget{ref-fisher1941a}{}}%
 Fisher, R. A. 1941. {``Average Excess and Average Effect of a Gene
 Substitution.''} \emph{Annals of Eugenics} 11: 53--63.
+
+\leavevmode\vadjust pre{\hypertarget{ref-gerritsen1980a}{}}%
+Gerritsen, J. 1980. {``Sex and Parthenogenesis in Sparse Populations.''}
+\emph{American Naturalist} 115: 718--42.
 
 \leavevmode\vadjust pre{\hypertarget{ref-ghiselin1974a}{}}%
 Ghiselin, M. T. 1974. \emph{The Economy of Nature and the Evolution of
 Sex}. Berkeley: University of California Press.
 
+\leavevmode\vadjust pre{\hypertarget{ref-gibson2016a}{}}%
+Gibson, A. K., J. Jokela, and C. M. Lively. 2016. {``Fine-Scale Spatial
+Covariation Between Infection Prevalence and Susceptibility in a Natural
+Population.''} \emph{American Naturalist} 188: 1--14.
+
 \leavevmode\vadjust pre{\hypertarget{ref-glesener1978a}{}}%
 Glesener, R. R., and D. Tilman. 1978. {``Sexuality and the Components of
 Environmental Uncertainty: Clues from Geographical Parthenogenesis in
 Terrestrial Animals.''} \emph{American Naturalist} 112: 659--73.
+
+\leavevmode\vadjust pre{\hypertarget{ref-gould1991a}{}}%
+Gould, S. J. 1991. {``The Smoking Gun of Eugenics.''} \emph{Natural
+History} 100: 8--17.
 
 \leavevmode\vadjust pre{\hypertarget{ref-hamilton1975a}{}}%
 Hamilton, W. D. 1975. {``Innate Social Aptitudes of Man: An Approach
@@ -2306,9 +2367,32 @@ by R. Fox, 133--53. London: Malaby Press.
 ---------. 2001. \emph{Narrow Roads of Gene Land}. Vol. 2. Oxford
 University Press.
 
+\leavevmode\vadjust pre{\hypertarget{ref-hazel2004a}{}}%
+Hazel, W., R. Smock, and C. M. Lively. 2004. {``The Ecological Genetics
+of Conditional Strategies.''} \emph{American Naturalist} 163: 888--900.
+
 \leavevmode\vadjust pre{\hypertarget{ref-jaenike1978a}{}}%
 Jaenike, J. 1978. {``A Hypothesis to Account for the Maintenance of Sex
 Within Populations.''} \emph{Evolutionary Theory} 3: 191--94.
+
+\leavevmode\vadjust pre{\hypertarget{ref-kelley1993a}{}}%
+Kelley, Steven E. 1993. {``Viruses and the Advantage of Sex in
+Anthoxanthum Odoratum: A Review.''} \emph{Plant Species Biology} 8
+(2-3): 217--23.
+\url{https://doi.org/10.1111/j.1442-1984.1993.tb00072.x}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-kelley1988a}{}}%
+Kelley, Steven E., J. Antonovics, and J. Schmitt. 1988. {``A Test of the
+Short-Term Advantage of Sexual Reproduction.''} \emph{Nature} 331:
+714--16.
+
+\leavevmode\vadjust pre{\hypertarget{ref-kelley1994a}{}}%
+Kelley, Steven E., J. Shykoff, William Donald Hamilton, and Jonathan
+Charles Howard. 1994. {``Viral Pathogens and the Advantage of Sex in the
+Perennial Grass \emph{Anthoxanthum Odoratum}.''} \emph{Philosophical
+Transactions of the Royal Society of London. Series B: Biological
+Sciences} 346 (1317): 295--302.
+\url{https://doi.org/10.1098/rstb.1994.0146}.
 
 \leavevmode\vadjust pre{\hypertarget{ref-kondrashov1993a}{}}%
 Kondrashov, A. S. 1993. {``Classification of Hypotheses on the Advantage
@@ -2330,6 +2414,27 @@ Niche Is Available.''} \emph{American Naturalist} 87: 331--33.
 Levin, D. A. 1975. {``Pest Pressure and Recombination Systems in
 Plants.''} \emph{American Naturalist} 109: 437--51.
 
+\leavevmode\vadjust pre{\hypertarget{ref-levins1966a}{}}%
+Levins, R. 1966. {``The Strategy of Model Building in Population
+Biology.''} \emph{American Scientist} 54: 421--31.
+
+\leavevmode\vadjust pre{\hypertarget{ref-levinton1988a}{}}%
+Levinton, J. 1988. \emph{Genetics, Paleontology, and Macroevolution}.
+Cambridge University Press.
+
+\leavevmode\vadjust pre{\hypertarget{ref-levri2000a}{}}%
+Levri, E. P., and L. M. Fisher. 2000. {``The Effect of a Trematode
+Parasite (Microphallus Sp.) on the Response of the Freshwater Snail
+\emph{Potamopyrgus Antipodarum} to Light and Gravity.''}
+\emph{Behaviour} 137 (9): 1141--51.
+\url{https://doi.org/10.1163/156853900502565}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-levri1996a}{}}%
+Levri, E. P., and C. M. Lively. 1996. {``The Effects of Size,
+Reproductive Condition, and Parasitism on Foraging Behaviour in a
+Freshwater Snail, \emph{Potamopyrgus Antipodarum}.''} \emph{Animal
+Behaviour} 51: 891--901.
+
 \leavevmode\vadjust pre{\hypertarget{ref-lewontin1971a}{}}%
 Lewontin, R. C. 1971. {``The Effect of Genetic Linkage on the Mean
 Fitness of a Population.''} In \emph{Proceedings of the National Academy
@@ -2337,26 +2442,103 @@ of Sciences of the United States of America}, 68:984--86. 5.
 \url{https://doi.org/10.1073/pnas.68.5.984}.
 
 \leavevmode\vadjust pre{\hypertarget{ref-lively1986a}{}}%
-Lively, C. M. 1986. {``Canalization Versus Developmental Conversion in a
-Spatially Variable Environment.''} \emph{American Naturalist} 128:
+Lively, C. M. 1986a. {``Canalization Versus Developmental Conversion in
+a Spatially Variable Environment.''} \emph{American Naturalist} 128:
 561--72.
+
+\leavevmode\vadjust pre{\hypertarget{ref-lively1986b}{}}%
+---------. 1986b. {``Competition, Comparative Life Histories, and
+Maintenance of Shell Dimorphism in a Barnacle.''} \emph{Ecology} 67:
+858--64.
+
+\leavevmode\vadjust pre{\hypertarget{ref-lively1986c}{}}%
+---------. 1986c. {``Predator-Induced Shell Dimorphism in the Acorn
+Barnacle Chthamalus Anisopoma.''} \emph{Evolution} 40: 232--42.
+\url{https://doi.org/10.1111/j.1558-5646.1986.tb00466.x}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-lively1987a}{}}%
+---------. 1987. {``Evidence from a New Zealand Snail for the
+Maintenance of Sex by Parasitism.''} \emph{Nature} 328: 519--21.
+
+\leavevmode\vadjust pre{\hypertarget{ref-lively1992a}{}}%
+---------. 1992. {``Parthenogenesis in a Freshwater Snail: Reproductive
+Assurance Versus Parasitic Release.''} \emph{Evolution} 46: 907--13.
 
 \leavevmode\vadjust pre{\hypertarget{ref-lively1996a}{}}%
 ---------. 1996. {``Host-Parasite Coevolution and Sex.''}
 \emph{Bioscience} 46: 107--9.
+
+\leavevmode\vadjust pre{\hypertarget{ref-lively1999b}{}}%
+---------. 1999. {``Developmental Strategies in Spatially Variable
+Environments: Barnacle Shell Dimorphism and Strategic Models of
+Selection.''} In \emph{The Ecology and Evolution of Inducible Defenses},
+edited by R. Tollrian and C. D. Harvell, 245--58. Princeton University
+Press.
+
+\leavevmode\vadjust pre{\hypertarget{ref-lively2001a}{}}%
+---------. 2001. {``Trematode Infection and the Distribution and
+Dynamics of Parthenogenetic Snail Populations.''} \emph{Parasitology}
+123: S19--26.
+
+\leavevmode\vadjust pre{\hypertarget{ref-lively2006a}{}}%
+---------. 2006. {``The Ecology of Virulence.''} \emph{Ecology Letters}
+9: 1089--95.
 
 \leavevmode\vadjust pre{\hypertarget{ref-lively2009a}{}}%
 ---------. 2009. {``The Maintenance of Sex: Host-Parasite Coevolution
 with Density-Dependent Virulence.''} \emph{Journal of Evolutionary
 Biology} 22: 2086--93.
 
+\leavevmode\vadjust pre{\hypertarget{ref-lively2000a}{}}%
+Lively, C. M., W. N. Hazel, M. J. Schellenberger, and K. S. Michelson.
+2000. {``Predator-Induced Defense: Variation for Inducibility in an
+Intertidal Barnacle.''} \emph{Ecology} 81: 1240--47.
+
+\leavevmode\vadjust pre{\hypertarget{ref-lively2002a}{}}%
+Lively, C. M., and J. Jokela. 2002. {``Temporal and Spatial
+Distributions of Parasites and Sex in a Freshwater Snail.''}
+\emph{Evolutionary Ecology Research} 4: 219--26.
+
 \leavevmode\vadjust pre{\hypertarget{ref-lively1990b}{}}%
 Lively, C. M., and D. G. Lloyd. 1990. {``The Cost of Biparental Sex
 Under Individual Selection.''} \emph{American Naturalist} 135: 489--500.
 
+\leavevmode\vadjust pre{\hypertarget{ref-lively1994b}{}}%
+Lively, Curtis M., and Steven G. Johnson. 1994. {``Brooding and the
+Evolution of Parthenogenesis: Strategy Models and Evidence from Aquatic
+Invertebrates.''} In \emph{Proceedings of the Royal Society of London.
+Series B: Biological Sciences}, 256:89--95. 1345.
+\url{https://doi.org/10.1098/rspb.1994.0054}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-lively1995a}{}}%
+Lively, Curtis M., Steven G. Johnson, Lynda F. Delph, and Keith Clay.
+1995. {``Thinning Reduces the Effect of Rust Infection on Jewelweed
+(Impatiens Capensis).''} \emph{Ecology} 76 (6): 1859--62.
+\url{https://doi.org/10.2307/1940718}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-lively2021a}{}}%
+Lively, Curtis M., Julie Xu, and Frida Ben-Ami. 2021. {``Causation
+Without Correlation: Parasite-Mediated Frequency-Dependent Selection and
+Infection Prevalence.''} \emph{Biology Letters} 17 (12): 20210321.
+\url{https://doi.org/10.1098/rsbl.2021.0321}.
+
 \leavevmode\vadjust pre{\hypertarget{ref-lloyd1980a}{}}%
 Lloyd, D. G. 1980. {``Benefits and Handicaps of Sexual Reproduction.''}
 \emph{Evolutionary Biology} 13: 69--111.
+
+\leavevmode\vadjust pre{\hypertarget{ref-lloyd1984a}{}}%
+---------. 1984. {``Variation Strategies of Plants in Hererogeneous
+Environments.''} \emph{Biological Journal of the Linnean Society} 21:
+357--85.
+
+\leavevmode\vadjust pre{\hypertarget{ref-may1979a}{}}%
+May, R. M., and R. M. Anderson. 1979. {``Population Biology of
+Infectious Diseases: Part II.''} \emph{Nature} 280: 455--61.
+
+\leavevmode\vadjust pre{\hypertarget{ref-may1983a}{}}%
+---------. 1983. {``Epidemiology and Genetics in the Coevolution of
+Parasites and Hosts.''} In \emph{Proceedings of the Royal Society of
+London b, Biological Sciences}, 219:281--313.
 
 \leavevmode\vadjust pre{\hypertarget{ref-maynard1971a}{}}%
 Maynard Smith, J. 1971. {``What Use Is Sex?''} \emph{Journal of
@@ -2376,6 +2558,11 @@ Meirmans, S. 2009. {``The Evolution of the Problem of Sex.''} In
 \emph{Lost Sex: The Evolutionary Biology of Parthenogenesis}, edited by
 I. Schön, K. Martens, and P. van Dijk, 21--46. London: Springer.
 
+\leavevmode\vadjust pre{\hypertarget{ref-negovetic2001a}{}}%
+Negovetic, S., and J. Jokela. 2001. {``Life History Variation,
+Phenotypic Plasticity and Maintenance of Subpopulation Structure in a
+Freshwater Snail.''} \emph{Ecology} 82: 2805--15.
+
 \leavevmode\vadjust pre{\hypertarget{ref-otto2021a}{}}%
 Otto, S. P. 2021. {``Selective Interference and the Evolution of Sex.''}
 \emph{Journal of Heredity} 112: 9--18.
@@ -2393,6 +2580,19 @@ Evolutionary Biology} 20: 1206--17.
 \leavevmode\vadjust pre{\hypertarget{ref-philippi1989a}{}}%
 Philippi, T., and J. Seger. 1989. {``Hedging One's Evolutionary Bets,
 Revisited.''} \emph{Trends in Ecology \& Evolution} 4: 41--44.
+
+\leavevmode\vadjust pre{\hypertarget{ref-phillips1990a}{}}%
+Phillips, Ngaire R., and David M. Lambert. 1990. {``A Cladistic Analysis
+of Species of the Molluscan Genus \emph{Potamopyrgus} Based on Allozyme
+Data.''} \emph{New Zealand Journal of Zoology} 17 (2): 257--63.
+\url{https://doi.org/10.1080/03014223.1990.10422600}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-platt1964a}{}}%
+Platt, J. R. 1964. {``Strong Inference.''} \emph{Science} 146: 347--53.
+
+\leavevmode\vadjust pre{\hypertarget{ref-popper1959a}{}}%
+Popper, K. 1959. \emph{The Logic of Scientific Discovery}. London:
+Hutchinson \& Company.
 
 \leavevmode\vadjust pre{\hypertarget{ref-prout1968a}{}}%
 Prout, T. 1968. {``Sufficient Conditions for Multiple Niche
@@ -2418,9 +2618,24 @@ Smith, J. Maynard, and R. Hoekstra. 1980. {``Polymorphism in a Varied
 Environment: How Robust Are the Models?''} \emph{Genetics Research} 35
 (1): 45--57. \url{https://doi.org/10.1017/S0016672300013926}.
 
+\leavevmode\vadjust pre{\hypertarget{ref-soper2013a}{}}%
+Soper, D. M., M. Neiman, O. P. Savytskyy, M. E. Zolan, and C. M. Lively.
+2013. {``Spermatozoa Production by Triploid Males in the New Zealand
+Freshwater Snail \emph{Potamopyrgus Antipodarum}.''} \emph{Biological
+Journal of the Linnean Society} 110: 227--34.
+
 \leavevmode\vadjust pre{\hypertarget{ref-stearns2000a}{}}%
 Stearns, S. C. 2000. {``Daniel Bernoulli (1738): Evolution and Economics
 Under Risk.''} \emph{Journal of Biosciences} 25: 221--28.
+
+\leavevmode\vadjust pre{\hypertarget{ref-stolley1991a}{}}%
+Stolley, P. D. 1991. {``When Genius Errs: R. A. Fisher and the Lung
+Cancer Controversy.''} \emph{American Journal of Epidemiology} 133:
+416--25.
+
+\leavevmode\vadjust pre{\hypertarget{ref-tomlinson1966a}{}}%
+Tomlinson, J. 1966. {``The Advantages of Hermaphroditism and
+Parthenogenesis.''} \emph{Journal of Theoretical Biology} 11: 54--58.
 
 \leavevmode\vadjust pre{\hypertarget{ref-valen1973a}{}}%
 Valen, L. van. 1973. {``A New Evolutionary Law.''} \emph{Evolutionary
@@ -2453,6 +2668,21 @@ Plant Sciences} 169: 169--82.
 \leavevmode\vadjust pre{\hypertarget{ref-williams1975a}{}}%
 Williams, G. C. 1975. \emph{Sex and Evolution}. Princeton University
 Press.
+
+\leavevmode\vadjust pre{\hypertarget{ref-winterbourn1970a}{}}%
+Winterbourn, M. J. 1970. {``The New Zealand Species of
+\emph{Potamopyrgus} (Gastropoda: Hydrobiidae).''} \emph{Malacologia} 10:
+283--321.
+
+\leavevmode\vadjust pre{\hypertarget{ref-winterbourn1973a}{}}%
+---------. 1973. {``Larval Trematoda Parasitizing the New Zealand
+Species of \emph{Potamopyrgus} (Gastropoda: Hydrobiidae).''} \emph{Mauri
+Ora} 2: 17--30.
+
+\leavevmode\vadjust pre{\hypertarget{ref-winterbourn1981a}{}}%
+Winterbourn, M. J., J. S. Rounick, and B. Cowie. 1981. {``Are New
+Zealand Stream Ecosystems Really Different?''} \emph{New Zealand Journal
+of Marine and Freshwater Research} 15: 321--28.
 
 \end{CSLReferences}
 
