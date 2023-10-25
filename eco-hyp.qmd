@@ -19,7 +19,7 @@ In my evolution course, I ask a form of Williams' question but with a slight twi
 
 Often the students rightfully want some clarification. They ask, for example, “Can we use pesticides?” But every time, most students choose the variable crop. I remind them that selecting the variable crop will reduce their yield by one half. They don't budge. I re-ask the question, doubling the relative yield for the monoculture from two-fold to four-fold. Then to 10-fold. Occasionally, one of the more risk-prone students will select the 10-fold higher yield, but most do not budge. They want genetic variation. I ask them why. Invariably, they say that the environment is going to change. They want to hedge their bets against an uncertain future. 
 
-Indeed, Williams' Lottery Model is about bet hedging. The gist of bet-hedging in evolutionary theory is that selection can act to reduce the variance in reproductive success over time, even if it also reduces the arithmetic mean across years [review in @philippi1989a]. Suppose, for example, that we have the following data for both a monoculture and a genetically variable polyculture (in arbitrary units). Let’s assume that the variation in yield is driven by annual variation in abiotic factors such as temperature or precipitation. The effect of planting a polyculture (bet-hedging) can be estimated from the geometric mean, which incorporates the variation in yield over time.   
+Indeed, Williams' Lottery Model is about bet hedging. The gist of bet hedging in evolutionary theory is that selection can act to reduce the variance in reproductive success over time, even if it also reduces the arithmetic mean across years [review in @philippi1989a]. Suppose, for example, that we have the following data for both a monoculture and a genetically variable polyculture (in arbitrary units). Let’s assume that the variation in yield is driven by annual variation in abiotic factors such as temperature or precipitation. The effect of planting a polyculture (bet-hedging) can be estimated from the geometric mean, which incorporates the variation in yield over time.   
 
 | Year | Monoculture | Polyculture |
 |------|-------------|-------------|
@@ -33,6 +33,8 @@ Indeed, Williams' Lottery Model is about bet hedging. The gist of bet-hedging in
 | **Variance**[^2] | 19400 | 600 |
 | **Geometric mean (GM)**[^3] | 184 | **219** |
 | **Approximate GM** | 200 | **219** |
+
+: Bet Hedging {#tbl-bh}
 
 In this example, we find that the monoculture has an arithmetic mean of 240, while the polyculture has an arithmetic mean of only 220. So, I might be inclined to plant the monoculture. However, the among-year variance is very high for the monoculture (relative to the polyculture), driven in large part by the low yields in years 4 and 5. By contrast, the geometric mean for the monoculture is 184, while the geometric mean for the polyculture is 219. Based on this, I might be inclined to plant the polyculture, as it reduces the cost of very low yield in bad years. I think the students see this intuitively. Over the long term, it is better to be risk-averse and plant the genetically variable polyculture. What if, for example, the monoculture produced no food in the last year? The geometric mean would be zero. That would be catastrophic. 
 
@@ -144,12 +146,13 @@ where the left-hand side gives the harmonic mean fitness for genotype BB over al
 
 But does this require that the AB genotype is the most fit in at least one niche? Levene gives a specific example to answer this question. He assumes two niches, where the proportion of survivors from both niches is equal (i.e., $c_{1} = c_{2} = 0.5$). He then assumes genotypic fitness values, as given in the following table. It is important to note that the heterozygous genotype is not the most fit genotype in either niche.                                         
 
-
 | Genotype | **Fitness Niche One** | **Fitness Niche Two** | **Arithmetic mean** |  **Harmonic mean** |
 | ---------| --------------------|---------------------|-----------| -------------- |
 | **AA** | $W_{AA1}$ = 1.50 | $W_{AA2}$ = 0.67 | 1.09 | 0.93 |
 | **AB** | $W_{AB1}$ = 1.00 | $W_{AB2}$ = 1.00 |  1.00 | 1.00 |
 | **BB** | $W_{BB1}$ = 0.67 | $W_{BB2}$ = 1.50 | 1.09 | 0.93 |
+
+: Levene's Example {#tbl-lev}
 
 For this example, the harmonic mean fitness for the heterozygote is greater than the harmonic mean fitness for either homozygote, thus meeting the conditions given by the equations above. Thus, the answer to Levene's question is Yes. It is possible to have a genetic polymorphism without having heterozygote advantage in any single niche. And, interestingly, the polymorphism is expected even though the arithmetic mean fitness of the heterozygote is less than the arithmetic mean fitness of either homozygote. Finally, based on this example, it seems that a trade-off is required, such that the AA genotype does best in one niche, and the BB genotype does best in the other niche. 
 
@@ -160,6 +163,8 @@ Nonetheless, Levene's result suggests that overdominance for harmonic mean fitne
 | **AA** | $W_{AA1}$ = 1.00 | $W_{AA2}$ = 1.00 | 1.00 | 1.00 |
 | **AB** | $W_{AB1}$ = 1.00 | $W_{AB2}$ = 1.00 |  1.00 | 1.00 |
 | **BB** | $W_{BB1}$ = 0.50 | $W_{BB2}$ = 1.67 | 1.09 | 0.77 |
+
+: Prout's Example {#tbl-pro}
 
 Prout showed that there would be a stable multiple niche polymorphism even under complete dominance, provided that the arithmetic mean fitness for BB is greater than one and the harmonic mean fitness for the BB genotype is less than one. So, clearly, overdominance for harmonic mean fitness is not required for a stable polymorphism.[^16]  
 

@@ -214,7 +214,7 @@
 \begin{document}
 \frontmatter
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[sharp corners, interior hidden, enhanced, frame hidden, borderline west={3pt}{0pt}{shadecolor}, breakable, boxrule=0pt]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[breakable, enhanced, interior hidden, boxrule=0pt, sharp corners, frame hidden, borderline west={3pt}{0pt}{shadecolor}]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Contents}
 {
@@ -537,7 +537,7 @@ recombination. Ideally, any theory that explains the persistence of
 biparental sex could also solve the paradox of recombination. But this
 need not be the case. They could have different solutions.
 
-\begin{tcolorbox}[enhanced jigsaw, colback=white, opacitybacktitle=0.6, bottomrule=.15mm, rightrule=.15mm, leftrule=.75mm, opacityback=0, toptitle=1mm, breakable, coltitle=black, titlerule=0mm, left=2mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Box 1.1}, bottomtitle=1mm, colframe=quarto-callout-tip-color-frame, colbacktitle=quarto-callout-tip-color!10!white, arc=.35mm, toprule=.15mm]
+\begin{tcolorbox}[enhanced jigsaw, opacitybacktitle=0.6, colbacktitle=quarto-callout-tip-color!10!white, arc=.35mm, left=2mm, toptitle=1mm, breakable, colback=white, coltitle=black, toprule=.15mm, leftrule=.75mm, colframe=quarto-callout-tip-color-frame, bottomrule=.15mm, titlerule=0mm, rightrule=.15mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Box 1.1}, bottomtitle=1mm, opacityback=0]
 
 \textbf{Short definitions of terms as used in this book. These
 definitions do not include all possible nuances.}
@@ -724,11 +724,11 @@ had indeed been overlooked: parasites.
   Why then are recombination and cross-fertilization so common?
 \end{enumerate}
 
-\begin{tcolorbox}[enhanced jigsaw, colback=white, opacitybacktitle=0.6, bottomrule=.15mm, rightrule=.15mm, leftrule=.75mm, opacityback=0, toptitle=1mm, breakable, coltitle=black, titlerule=0mm, left=2mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 1.2}, bottomtitle=1mm, colframe=quarto-callout-note-color-frame, colbacktitle=quarto-callout-note-color!10!white, arc=.35mm, toprule=.15mm]
+\begin{tcolorbox}[enhanced jigsaw, opacitybacktitle=0.6, colbacktitle=quarto-callout-note-color!10!white, arc=.35mm, left=2mm, toptitle=1mm, breakable, colback=white, coltitle=black, toprule=.15mm, leftrule=.75mm, colframe=quarto-callout-note-color-frame, bottomrule=.15mm, titlerule=0mm, rightrule=.15mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 1.2}, bottomtitle=1mm, opacityback=0]
 
 Maynard Smith's (1978) model showing the cost of producing
 males.\footnotemark{} Let \(N_{asex}\) be the number of asexual females
-at time 1, while \(N_{sex}\) gives the total number of sexual
+at time one, while \(N_{sex}\) gives the total number of sexual
 individuals (males plus females) at time one. Let \(B_{asex}\) give the
 number of offspring produced by asexual females, and \(S_{asex}\) gives
 the survival probability of asexual offspring to maturity. The number of
@@ -741,10 +741,21 @@ population. The number of asexuals and sexuals at time two can then be
 calculated as in the table below. (Note, we do not assume that the
 population is at carrying capacity).
 
+\hypertarget{tbl-t1t2}{}
 \begin{longtable}[]{@{}
-  >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.1607}}
-  >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2262}}
-  >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.6131}}@{}}
+  >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.1465}}
+  >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2611}}
+  >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.5924}}@{}}
+\caption{\label{tbl-t1t2}Maynard Smith's Model}\tabularnewline
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\centering
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+\textbf{Time One}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+\textbf{Time Two}
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\centering
 \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
@@ -872,10 +883,10 @@ They want genetic variation. I ask them why. Invariably, they say that
 the environment is going to change. They want to hedge their bets
 against an uncertain future.
 
-Indeed, Williams' Lottery Model is about bet hedging. The gist of
-bet-hedging in evolutionary theory is that selection can act to reduce
-the variance in reproductive success over time, even if it also reduces
-the arithmetic mean across years (review in Philippi and Seger 1989).
+Indeed, Williams' Lottery Model is about bet hedging. The gist of bet
+hedging in evolutionary theory is that selection can act to reduce the
+variance in reproductive success over time, even if it also reduces the
+arithmetic mean across years (review in Philippi and Seger 1989).
 Suppose, for example, that we have the following data for both a
 monoculture and a genetically variable polyculture (in arbitrary units).
 Let's assume that the variation in yield is driven by annual variation
@@ -883,7 +894,13 @@ in abiotic factors such as temperature or precipitation. The effect of
 planting a polyculture (bet-hedging) can be estimated from the geometric
 mean, which incorporates the variation in yield over time.
 
+\hypertarget{tbl-bh}{}
 \begin{longtable}[]{@{}lll@{}}
+\caption{\label{tbl-bh}Bet Hedging}\tabularnewline
+\toprule\noalign{}
+Year & Monoculture & Polyculture \\
+\midrule\noalign{}
+\endfirsthead
 \toprule\noalign{}
 Year & Monoculture & Polyculture \\
 \midrule\noalign{}
@@ -1445,7 +1462,7 @@ Chapter~\ref{sec-chap6}.\footnote{In this smaller sample of 20 lakes,
   Queen idea can perhaps also be seen as bet hedging.
 \end{enumerate}
 
-\begin{tcolorbox}[enhanced jigsaw, colback=white, opacitybacktitle=0.6, bottomrule=.15mm, rightrule=.15mm, leftrule=.75mm, opacityback=0, toptitle=1mm, breakable, coltitle=black, titlerule=0mm, left=2mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 2.1. Levene's model of multiple niche polymorphism.}, bottomtitle=1mm, colframe=quarto-callout-note-color-frame, colbacktitle=quarto-callout-note-color!10!white, arc=.35mm, toprule=.15mm]
+\begin{tcolorbox}[enhanced jigsaw, opacitybacktitle=0.6, colbacktitle=quarto-callout-note-color!10!white, arc=.35mm, left=2mm, toptitle=1mm, breakable, colback=white, coltitle=black, toprule=.15mm, leftrule=.75mm, colframe=quarto-callout-note-color-frame, bottomrule=.15mm, titlerule=0mm, rightrule=.15mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 2.1. Levene's model of multiple niche polymorphism.}, bottomtitle=1mm, opacityback=0]
 
 It was widely thought that heterozygote advantage was required to
 maintain polymorphism at a single locus with two alleles. In the
@@ -1492,12 +1509,28 @@ fitness values, as given in the following table. It is important to note
 that the heterozygous genotype is not the most fit genotype in either
 niche.
 
+\hypertarget{tbl-lev}{}
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1200}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2667}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2800}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1467}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1867}}@{}}
+\caption{\label{tbl-lev}Levene's Example}\tabularnewline
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Genotype
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Fitness Niche One}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Fitness Niche Two}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Arithmetic mean}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Harmonic mean}
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Genotype
@@ -1539,12 +1572,28 @@ niches. Let the BB genotype have a fitness of 0.5 in niche one and a
 fitness of 1.67 in niche two. Assuming as above that both patches are
 equally common, we get the following table:
 
+\hypertarget{tbl-pro}{}
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1200}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2667}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2800}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1467}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1867}}@{}}
+\caption{\label{tbl-pro}Prout's Example}\tabularnewline
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Genotype
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Fitness Niche One}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Fitness Niche Two}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Arithmetic mean}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Harmonic mean}
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Genotype
@@ -2169,7 +2218,7 @@ Lively 1992.)}
 
 \end{figure}
 
-\begin{tcolorbox}[enhanced jigsaw, colback=white, opacitybacktitle=0.6, bottomrule=.15mm, rightrule=.15mm, leftrule=.75mm, opacityback=0, toptitle=1mm, breakable, coltitle=black, titlerule=0mm, left=2mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 3.1.}, bottomtitle=1mm, colframe=quarto-callout-note-color-frame, colbacktitle=quarto-callout-note-color!10!white, arc=.35mm, toprule=.15mm]
+\begin{tcolorbox}[enhanced jigsaw, opacitybacktitle=0.6, colbacktitle=quarto-callout-note-color!10!white, arc=.35mm, left=2mm, toptitle=1mm, breakable, colback=white, coltitle=black, toprule=.15mm, leftrule=.75mm, colframe=quarto-callout-note-color-frame, bottomrule=.15mm, titlerule=0mm, rightrule=.15mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 3.1.}, bottomtitle=1mm, opacityback=0]
 
 As part of my dissertation research, I constructed a game-theoretic
 model of selection on three strategies:
