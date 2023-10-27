@@ -87,7 +87,7 @@ google-scholar: true
 
 fig-cap-location: margin
 
-csl: council-of-science-editors-author-date.csl
+csl: apa.csl
 bibliography: references.bib
 
 format:
