@@ -3,8 +3,7 @@ project:
   output-dir: docs
 
 book:
-  title: Through the Looking Glass
-  subtitle: I. Why Cross-Fertilize?
+  title: "Through the Looking Glass: I. Why Cross-Fertilize?"
   author: 
     name: Curtis M. Lively
     attributes:
@@ -24,7 +23,7 @@ book:
     url: https://biology.indiana.edu/about/faculty/lively-curt.html
   date: last-modified
   date-format: "DD MMMM YYYY"
-  # references: 
+  references: references.bib
   cover-image-alt: book cover with title, author, and image of red queen chesspiece and two snails
   sharing: [twitter, facebook, linkedin]
   downloads: [pdf, epub, docx]
