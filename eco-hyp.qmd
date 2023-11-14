@@ -146,7 +146,7 @@ where the left-hand side gives the harmonic mean fitness for genotype BB over al
 
 But does this require that the AB genotype is the most fit in at least one niche? Levene gives a specific example to answer this question. He assumes two niches, where the proportion of survivors from both niches is equal (i.e., $c_{1} = c_{2} = 0.5$). He then assumes genotypic fitness values, as given in the following table. It is important to note that the heterozygous genotype is not the most fit genotype in either niche.                                         
 
-| Genotype | **Fitness Niche One** | **Fitness Niche Two** | **Arithmetic mean** |  **Harmonic mean** |
+| **Genotype** | **Fitness Niche One** | **Fitness Niche Two** | **Arithmetic mean** |  **Harmonic mean** |
 | ---------| --------------------|---------------------|-----------| -------------- |
 | **AA** | $W_{AA1}$ = 1.50 | $W_{AA2}$ = 0.67 | 1.09 | 0.93 |
 | **AB** | $W_{AB1}$ = 1.00 | $W_{AB2}$ = 1.00 |  1.00 | 1.00 |
@@ -158,7 +158,7 @@ For this example, the harmonic mean fitness for the heterozygote is greater than
 
 Nonetheless, Levene's result suggests that overdominance for harmonic mean fitness is required for multiple niche polymorphism [@prout1968a]. However, Timothy Prout showed that a polymorphism could be stable even if one allele is dominant, thus ruling out any kind of overdominance [-@prout1968a]. Let both the AA and AB genotypes have a fitness of one in both niches. Let the BB genotype have a fitness of 0.5 in niche one and a fitness of 1.67 in niche two. Assuming as above that both patches are equally common, we get the following table:
 
-| Genotype | **Fitness Niche One** | **Fitness Niche Two** | **Arithmetic mean** |  **Harmonic mean** |
+| **Genotype** | **Fitness Niche One** | **Fitness Niche Two** | **Arithmetic mean** |  **Harmonic mean** |
 | ---------| --------------------|---------------------|-----------| -------------- |
 | **AA** | $W_{AA1}$ = 1.00 | $W_{AA2}$ = 1.00 | 1.00 | 1.00 |
 | **AB** | $W_{AB1}$ = 1.00 | $W_{AB2}$ = 1.00 |  1.00 | 1.00 |

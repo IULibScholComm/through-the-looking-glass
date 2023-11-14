@@ -64,15 +64,11 @@ book:
 
   chapters:
     - index.qmd
-    - part: "Part One: Why Cross-Fertilize?"
-      chapters:
-        - why-sex.qmd
-        - eco-hyp.qmd
-        - eco-hyp-cont.qmd
-        - rat-red.qmd
-    - part: "Back Matter"
-      chapters:
-        - references.qmd
+    - why-sex.qmd
+    - eco-hyp.qmd
+    - eco-hyp-cont.qmd
+    - rat-red.qmd
+    - references.qmd
 citation:
   type: book
   medium: digital
