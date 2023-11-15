@@ -46,7 +46,7 @@ book:
   status: "advance publication"
   submitted: "01 June 2023"
   type: book
-  favicon: images/cover.jpg
+  favicon: images/favicon.ico
   site-url: https://iulibscholcomm.github.io/through-the-looking-glass
   repo-url: https://github.com/IULibScholComm/through-the-looking-glass
   issue-url: https://github.com/IULibScholComm/through-the-looking-glass/issues/new
