@@ -207,7 +207,7 @@
 \begin{document}
 \frontmatter
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[breakable, interior hidden, borderline west={3pt}{0pt}{shadecolor}, enhanced, frame hidden, boxrule=0pt, sharp corners]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[frame hidden, boxrule=0pt, breakable, interior hidden, borderline west={3pt}{0pt}{shadecolor}, enhanced, sharp corners]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Contents}
 {
@@ -465,43 +465,36 @@ which do not make offspring. The other group (asexuals) produces only
 females. Here the cost of sex stems from producing males. But the two
 costs do not combine. The cost of sex is not four-fold.
 
-\hypertarget{fig-1.2}{}
-{
-\makeatletter
-\def\LT@makecaption#1#2#3{%
-  \noalign{\smash{\hbox{\kern\textwidth\rlap{\kern\marginparsep
-  \parbox[t]{\marginparwidth}{%
-    \footnotesize{%
-      \vspace{(1.1\baselineskip)}
-    #1{#2: }\ignorespaces #3}}}}}}%
-    }
-\makeatother
+\begin{figure}
 
-{\includegraphics{images/fig1-3.jpg}}
-
-\label{fig-1.2}Clonal invasion dynamics. Results from a simulation study
-in which a single clonal individual was introduced into a sexual
-population (Lively 2009). \textbf{A} (top). Results for a 1:1 sex ratio
-in the sexual population. Here the frequency of daughters produced by
-sexual females was 1/2. The sexual population was initiated at carrying
-capacity: \(K_{sex}\) = 10,000. A single parthenogenetic female was
-introduced by the simulation at generation 1,000. Note that the asexual
-lineage replaces the sexual population in about 25 generations, and that
-it reaches a higher carrying capacity \(K_{asex}\) = 20,000. \textbf{B}
-(bottom). Results for a female-biased sexual population. Here the
-frequency of daughters produced by sexual females was 0.8. The sexual
-population was initiated at carrying capacity: \(K_{sex}\) = 17,500. As
-above, a single parthenogenetic female was introduced into the
-population at generation 1,000. Note that the asexual lineage replaces
-the sexual population, but it takes longer. The simulation assumes
-annual reproduction and non-overlapping generations. The R code for the
-simulation, including interactive graphical output, can be found
+\sidecaption[Clonal invasion dynamics]{\label{fig-1.2}Clonal invasion
+dynamics. Results from a simulation study in which a single clonal
+individual was introduced into a sexual population (Lively 2009).
+\textbf{A} (top). Results for a 1:1 sex ratio in the sexual population.
+Here the frequency of daughters produced by sexual females was 1/2. The
+sexual population was initiated at carrying capacity: \(K_{sex}\) =
+10,000. A single parthenogenetic female was introduced by the simulation
+at generation 1,000. Note that the asexual lineage replaces the sexual
+population in about 25 generations, and that it reaches a higher
+carrying capacity \(K_{asex}\) = 20,000. \textbf{B} (bottom). Results
+for a female-biased sexual population. Here the frequency of daughters
+produced by sexual females was 0.8. The sexual population was initiated
+at carrying capacity: \(K_{sex}\) = 17,500. As above, a single
+parthenogenetic female was introduced into the population at generation
+1,000. Note that the asexual lineage replaces the sexual population, but
+it takes longer. The simulation assumes annual reproduction and
+non-overlapping generations. The R code for the simulation, including
+interactive graphical output, can be found
 \href{https://raw.githubusercontent.com/IULibScholComm/through-the-looking-glass/main/sim\%20for\%20fig\%201.2(ZMD).R}{here}.
 The interactive graph can also be run
 \href{https://connect.posit.iu.edu/clonal-invasion-dynamics/}{here} for
-users without R.
+users without R.}
+
+{\centering \includegraphics{images/fig1-3.jpg}
 
 }
+
+\end{figure}
 
 \hypertarget{the-cost-of-recombination}{%
 \subsection{The cost of recombination}\label{the-cost-of-recombination}}
@@ -528,7 +521,7 @@ recombination. Ideally, any theory that explains the persistence of
 biparental sex could also solve the paradox of recombination. But this
 need not be the case. They could have different solutions.
 
-\begin{tcolorbox}[enhanced jigsaw, colbacktitle=quarto-callout-tip-color!10!white, breakable, arc=.35mm, bottomrule=.15mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Box 1.1}, left=2mm, colframe=quarto-callout-tip-color-frame, toprule=.15mm, coltitle=black, opacitybacktitle=0.6, colback=white, rightrule=.15mm, bottomtitle=1mm, toptitle=1mm, titlerule=0mm, leftrule=.75mm, opacityback=0]
+\begin{tcolorbox}[enhanced jigsaw, opacitybacktitle=0.6, titlerule=0mm, toprule=.15mm, bottomtitle=1mm, bottomrule=.15mm, coltitle=black, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Box 1.1}, colbacktitle=quarto-callout-tip-color!10!white, opacityback=0, leftrule=.75mm, rightrule=.15mm, toptitle=1mm, breakable, arc=.35mm, left=2mm, colback=white, colframe=quarto-callout-tip-color-frame]
 
 \textbf{Short definitions of terms as used in this book. These
 definitions do not include all possible nuances.}
@@ -716,7 +709,7 @@ had indeed been overlooked: parasites.
   Why then are recombination and cross-fertilization so common?
 \end{enumerate}
 
-\begin{tcolorbox}[enhanced jigsaw, colbacktitle=quarto-callout-note-color!10!white, breakable, arc=.35mm, bottomrule=.15mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 1.2}, left=2mm, colframe=quarto-callout-note-color-frame, toprule=.15mm, coltitle=black, opacitybacktitle=0.6, colback=white, rightrule=.15mm, bottomtitle=1mm, toptitle=1mm, titlerule=0mm, leftrule=.75mm, opacityback=0]
+\begin{tcolorbox}[enhanced jigsaw, opacitybacktitle=0.6, titlerule=0mm, toprule=.15mm, bottomtitle=1mm, bottomrule=.15mm, coltitle=black, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 1.2}, colbacktitle=quarto-callout-note-color!10!white, opacityback=0, leftrule=.75mm, rightrule=.15mm, toptitle=1mm, breakable, arc=.35mm, left=2mm, colback=white, colframe=quarto-callout-note-color-frame]
 
 Maynard Smith's (1978) model showing the cost of producing
 males.\footnotemark{} Let \(N_{asex}\) be the number of asexual females
@@ -1456,7 +1449,7 @@ Chapter~\ref{sec-chap6}.\footnote{In this smaller sample of 20 lakes,
   Queen idea can perhaps also be seen as bet hedging.
 \end{enumerate}
 
-\begin{tcolorbox}[enhanced jigsaw, colbacktitle=quarto-callout-note-color!10!white, breakable, arc=.35mm, bottomrule=.15mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 2.1. Levene's model of multiple niche polymorphism.}, left=2mm, colframe=quarto-callout-note-color-frame, toprule=.15mm, coltitle=black, opacitybacktitle=0.6, colback=white, rightrule=.15mm, bottomtitle=1mm, toptitle=1mm, titlerule=0mm, leftrule=.75mm, opacityback=0]
+\begin{tcolorbox}[enhanced jigsaw, opacitybacktitle=0.6, titlerule=0mm, toprule=.15mm, bottomtitle=1mm, bottomrule=.15mm, coltitle=black, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 2.1. Levene's model of multiple niche polymorphism.}, colbacktitle=quarto-callout-note-color!10!white, opacityback=0, leftrule=.75mm, rightrule=.15mm, toptitle=1mm, breakable, arc=.35mm, left=2mm, colback=white, colframe=quarto-callout-note-color-frame]
 
 It was widely thought that heterozygote advantage was required to
 maintain polymorphism at a single locus with two alleles. In the
@@ -2216,7 +2209,7 @@ from Lively 1992.)}
 
 \end{figure}
 
-\begin{tcolorbox}[enhanced jigsaw, colbacktitle=quarto-callout-note-color!10!white, breakable, arc=.35mm, bottomrule=.15mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 3.1.}, left=2mm, colframe=quarto-callout-note-color-frame, toprule=.15mm, coltitle=black, opacitybacktitle=0.6, colback=white, rightrule=.15mm, bottomtitle=1mm, toptitle=1mm, titlerule=0mm, leftrule=.75mm, opacityback=0]
+\begin{tcolorbox}[enhanced jigsaw, opacitybacktitle=0.6, titlerule=0mm, toprule=.15mm, bottomtitle=1mm, bottomrule=.15mm, coltitle=black, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 3.1.}, colbacktitle=quarto-callout-note-color!10!white, opacityback=0, leftrule=.75mm, rightrule=.15mm, toptitle=1mm, breakable, arc=.35mm, left=2mm, colback=white, colframe=quarto-callout-note-color-frame]
 
 As part of my dissertation research, I constructed a game-theoretic
 model of selection on three strategies:
@@ -2356,14 +2349,14 @@ females. Infected snails are sterilized (Figure~\ref{fig-4.1}).
 \begin{figure}
 
 \sidecaption[The life cycle of the trematode
-Microphallus]{\label{fig-4.1}Left panel: the life cycle of the trematode
-Microphallus. The adult worms live in the intestines of waterfowl and
-wading birds (black stilts). They produce cross-fertilized eggs, which
-are released into lakes and streams with the bird's feces. The eggs
-hatch following ingestion by snails. Infection results in the asexual
-production of hundreds of cysts (called metacercaria). These cysts
-``hatch'' and mature following ingestion by ducks, thus completing the
-life cycle. Drawing by Zoe M Dinges.}
+\emph{Microphallus}]{\label{fig-4.1}Left panel: the life cycle of the
+trematode \emph{Microphallus}. The adult worms live in the intestines of
+waterfowl and wading birds (black stilts). They produce cross-fertilized
+eggs, which are released into lakes and streams with the bird's feces.
+The eggs hatch following ingestion by snails. Infection results in the
+asexual production of hundreds of cysts (called metacercaria). These
+cysts ``hatch'' and mature following ingestion by ducks, thus completing
+the life cycle. Drawing by Zoe M Dinges.}
 
 {\centering \includegraphics{images/fig4-2.jpeg}
 
