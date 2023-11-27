@@ -207,7 +207,7 @@
 \begin{document}
 \frontmatter
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[frame hidden, boxrule=0pt, breakable, interior hidden, borderline west={3pt}{0pt}{shadecolor}, enhanced, sharp corners]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[breakable, sharp corners, boxrule=0pt, frame hidden, interior hidden, borderline west={3pt}{0pt}{shadecolor}, enhanced]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Contents}
 {
@@ -521,7 +521,7 @@ recombination. Ideally, any theory that explains the persistence of
 biparental sex could also solve the paradox of recombination. But this
 need not be the case. They could have different solutions.
 
-\begin{tcolorbox}[enhanced jigsaw, opacitybacktitle=0.6, titlerule=0mm, toprule=.15mm, bottomtitle=1mm, bottomrule=.15mm, coltitle=black, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Box 1.1}, colbacktitle=quarto-callout-tip-color!10!white, opacityback=0, leftrule=.75mm, rightrule=.15mm, toptitle=1mm, breakable, arc=.35mm, left=2mm, colback=white, colframe=quarto-callout-tip-color-frame]
+\begin{tcolorbox}[enhanced jigsaw, left=2mm, colback=white, toptitle=1mm, bottomtitle=1mm, opacitybacktitle=0.6, colframe=quarto-callout-tip-color-frame, colbacktitle=quarto-callout-tip-color!10!white, titlerule=0mm, coltitle=black, opacityback=0, toprule=.15mm, breakable, rightrule=.15mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Box 1.1}, bottomrule=.15mm, arc=.35mm, leftrule=.75mm]
 
 \textbf{Short definitions of terms as used in this book. These
 definitions do not include all possible nuances.}
@@ -670,10 +670,9 @@ contrast, Darwin did not find the idea to be distasteful in any way. He
 wondered instead why it was not more common. For example, Darwin (1868)
 wrote, ``Parthenogenesis is no longer wonderful; in fact, the wonder is
 that it should not oftener occur.''\footnote{See also Elliott and Brook
-  (Elliott \& Brook 2007). They point out crucial differences between
-  Chamberlin and Platt including that Chamberlin allowed for multiple
-  ideas to be partially correct, which is important for
-  Chapter~\ref{sec-chap6}.}
+  (2007). They point out crucial differences between Chamberlin and
+  Platt including that Chamberlin allowed for multiple ideas to be
+  partially correct, which is important for Chapter~\ref{sec-chap6}.}
 
 Over 100 years later, W. D. Hamilton (1975) was also pondering the
 evolution of outcrossing, and he wrote something conceptually similar:
@@ -709,7 +708,7 @@ had indeed been overlooked: parasites.
   Why then are recombination and cross-fertilization so common?
 \end{enumerate}
 
-\begin{tcolorbox}[enhanced jigsaw, opacitybacktitle=0.6, titlerule=0mm, toprule=.15mm, bottomtitle=1mm, bottomrule=.15mm, coltitle=black, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 1.2}, colbacktitle=quarto-callout-note-color!10!white, opacityback=0, leftrule=.75mm, rightrule=.15mm, toptitle=1mm, breakable, arc=.35mm, left=2mm, colback=white, colframe=quarto-callout-note-color-frame]
+\begin{tcolorbox}[enhanced jigsaw, left=2mm, colback=white, toptitle=1mm, bottomtitle=1mm, opacitybacktitle=0.6, colframe=quarto-callout-note-color-frame, colbacktitle=quarto-callout-note-color!10!white, titlerule=0mm, coltitle=black, opacityback=0, toprule=.15mm, breakable, rightrule=.15mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 1.2}, bottomrule=.15mm, arc=.35mm, leftrule=.75mm]
 
 Maynard Smith's (1978) model showing the cost of producing
 males.\footnotemark{} Let \(N_{asex}\) be the number of asexual females
@@ -983,18 +982,18 @@ A conceptually similar model was independently developed by Graham Bell:
 the Tangled Bank Hypothesis (1982). Bell nabbed the name from the last
 paragraph of the \emph{Origin of Species}, in which Darwin imagines life
 as an ``entangled bank'' of species interacting in a complex network.
-The core of the idea can be traced back to Howard Levene's pioneering
-model, which showed that polymorphism could be maintained in a spatially
-heterogeneous environment provided that different genotypes specialize
-on different resources (1953). Levene's model was a major advance, as it
-showed that genetic diversity could be maintained without heterozygote
-advantage (\protect\hyperlink{callout-2.1}{Box 2.1}). This was also one
-of the first models to fuse population genetics with ecology. But how
-does multiple niche polymorphism apply to sex? The idea is that if
-selection results in polymorphism, then a genetically diverse sexual
-population might be resistant to replacement by a clonal lineage that
-specializes on only one of the available resource types (as also in the
-Frozen Niche-Variation Model).
+The core of the idea can be traced back to Howard Levene's (1953)
+pioneering model, which showed that polymorphism could be maintained in
+a spatially heterogeneous environment provided that different genotypes
+specialize on different resources. Levene's model was a major advance,
+as it showed that genetic diversity could be maintained without
+heterozygote advantage (\protect\hyperlink{callout-2.1}{Box 2.1}). This
+was also one of the first models to fuse population genetics with
+ecology. But how does multiple niche polymorphism apply to sex? The idea
+is that if selection results in polymorphism, then a genetically diverse
+sexual population might be resistant to replacement by a clonal lineage
+that specializes on only one of the available resource types (as also in
+the Frozen Niche-Variation Model).
 
 Here is how I pose the Tangled Bank idea to my undergraduate students. I
 start by giving them a choice between two hypothetical resources, which
@@ -1018,10 +1017,10 @@ For example, there would be no selection to utilize the resource of
 lower value (broccoli) if there were no competition for pizza. This kind
 of selection, where the advantage to being rare depends on population
 density, is sometimes referred to as ``soft'' selection (Wallace
-1975).\footnote{See also Elliott and Brook (Elliott \& Brook 2007). They
-  point out crucial differences between Chamberlin and Platt including
-  that Chamberlin allowed for multiple ideas to be partially correct,
-  which is important for Chapter~\ref{sec-chap6}.} In other words, soft
+1975).\footnote{See also Elliott and Brook (2007). They point out
+  crucial differences between Chamberlin and Platt including that
+  Chamberlin allowed for multiple ideas to be partially correct, which
+  is important for Chapter~\ref{sec-chap6}.} In other words, soft
 selection is selection that is both frequency-dependent and
 density-dependent. This idea contrasts nicely with the Lottery Model,
 where selection is both frequency- and density-independent, which is
@@ -1299,16 +1298,16 @@ fluctuations and periodicities \ldots{} generated by life itself.''
 
 The quote does not specifically refer to parasites, but it does suggest
 that coevolutionary interactions, in general, could play a role in
-selecting for sex and recombination. In his memoirs, Hamilton clears
-this up, writing, ``At that stage when I wrote the review, although I
-had not seen the particular relevance that parasitism might have, I had
-for many years seen sex looming ahead and had reached a stage of being
-excited by the possible primary role of biotic interaction. I had
-decided that it was in aspects of the interspecies struggle, and not
-survival in an inanimate environment, that I had to search for the main
-factor. Adaptation to new physical habitats might be made possible
-through sexuality but these adaptations could not be the main reason for
-its existence'' (2001).
+selecting for sex and recombination. In his memoirs, Hamilton (2001)
+clears this up, writing, ``At that stage when I wrote the review,
+although I had not seen the particular relevance that parasitism might
+have, I had for many years seen sex looming ahead and had reached a
+stage of being excited by the possible primary role of biotic
+interaction. I had decided that it was in aspects of the interspecies
+struggle, and not survival in an inanimate environment, that I had to
+search for the main factor. Adaptation to new physical habitats might be
+made possible through sexuality but these adaptations could not be the
+main reason for its existence.''
 
 Note that, here, Hamilton is specifically contrasting host-parasite
 coevolution with the Lottery Model, which relies on random changes in
@@ -1345,12 +1344,11 @@ conceptual contributions by Glesener \& Tilman\footnote{\begin{quote}
 particular, Lloyd writes, ``{[}B{]}iological interactions are more
 likely than unpredictable physical conditions to provide the kind of
 relentless, repetitive change that is necessary for sexual parents to be
-selected because of the genetic diversity that sex engenders.''
-
-Lloyd then turns this abstract idea into a specific prediction, which I
-would later test: ``If this proves to be so, we will then be able to
-examine whether the occurrence of asexual reproduction is correlated
-with relaxation of the biological hostility of the environment.'' Notice
+selected because of the genetic diversity that sex engenders.'' Lloyd
+then turns this abstract idea into a specific prediction, which I would
+later test: ``If this proves to be so, we will then be able to examine
+whether the occurrence of asexual reproduction is correlated with
+relaxation of the biological hostility of the environment.'' Notice
 that, in the quotes presented above, both Hamilton and Lloyd were
 specifically predicting that coevolution is more important in selecting
 for sex than uncertain physical environments. But it is reasonable to
@@ -1449,7 +1447,7 @@ Chapter~\ref{sec-chap6}.\footnote{In this smaller sample of 20 lakes,
   Queen idea can perhaps also be seen as bet hedging.
 \end{enumerate}
 
-\begin{tcolorbox}[enhanced jigsaw, opacitybacktitle=0.6, titlerule=0mm, toprule=.15mm, bottomtitle=1mm, bottomrule=.15mm, coltitle=black, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 2.1. Levene's model of multiple niche polymorphism.}, colbacktitle=quarto-callout-note-color!10!white, opacityback=0, leftrule=.75mm, rightrule=.15mm, toptitle=1mm, breakable, arc=.35mm, left=2mm, colback=white, colframe=quarto-callout-note-color-frame]
+\begin{tcolorbox}[enhanced jigsaw, left=2mm, colback=white, toptitle=1mm, bottomtitle=1mm, opacitybacktitle=0.6, colframe=quarto-callout-note-color-frame, colbacktitle=quarto-callout-note-color!10!white, titlerule=0mm, coltitle=black, opacityback=0, toprule=.15mm, breakable, rightrule=.15mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 2.1. Levene's model of multiple niche polymorphism.}, bottomrule=.15mm, arc=.35mm, leftrule=.75mm]
 
 It was widely thought that heterozygote advantage was required to
 maintain polymorphism at a single locus with two alleles. In the
@@ -1783,22 +1781,22 @@ As graduate students at the University of Arizona, we read some of the
 classics in the history and philosophy of science. Two of these papers
 concerned the method of contrasting multiple working hypotheses
 (Chamberlin 1890; Platt 1964).\footnote{See also Elliott and Brook
-  (Elliott \& Brook 2007). They point out crucial differences between
-  Chamberlin and Platt including that Chamberlin allowed for multiple
-  ideas to be partially correct, which is important for
-  Chapter~\ref{sec-chap6}.} The idea is that multiple hypotheses should
-be simultaneously considered. Then, to the extent possible, the
-alternatives are forced to make different \emph{a priori} predictions
-about the possible results. The hope is that all but one of the
-alternative hypotheses would be eliminated, leading to a ``strong
-inference'' that the remaining hypothesis is supported (Platt 1964).
-Thus, the focus is on falsifying one or more of the alternatives, rather
-than proving one of them (Popper 1959). Graham Bell used this same
-method to contrast the ecological models for sex by using data on the
-geographic distribution of asexual individuals across many plant and
-animal taxa (Bell 1982). The data led him to reject the Lottery Model
-(Chapter~\ref{sec-eco-hyp}). I decided to focus a similar test directly
-on the New Zealand snails (Figure~\ref{fig-3-4}).
+  (2007). They point out crucial differences between Chamberlin and
+  Platt including that Chamberlin allowed for multiple ideas to be
+  partially correct, which is important for Chapter~\ref{sec-chap6}.}
+The idea is that multiple hypotheses should be simultaneously
+considered. Then, to the extent possible, the alternatives are forced to
+make different \emph{a priori} predictions about the possible results.
+The hope is that all but one of the alternative hypotheses would be
+eliminated, leading to a ``strong inference'' that the remaining
+hypothesis is supported (Platt 1964). Thus, the focus is on falsifying
+one or more of the alternatives, rather than proving one of them (Popper
+1959). Graham Bell used this same method to contrast the ecological
+models for sex by using data on the geographic distribution of asexual
+individuals across many plant and animal taxa (Bell 1982). The data led
+him to reject the Lottery Model (Chapter~\ref{sec-eco-hyp}). I decided
+to focus a similar test directly on the New Zealand snails
+(Figure~\ref{fig-3-4}).
 
 \begin{figure}
 
@@ -1967,7 +1965,7 @@ understanding of the New Zealand bush.
 
 I collected and dissected hundreds of snails from each of 29 streams and
 22 lakes, mostly on the South Island. I recorded sex (male or female)
-and infection by the trematodes that Winterbourn (1973)described. I
+and infection by the trematodes that Winterbourn (1973) described. I
 reasoned that the frequency of males in a population must be strongly
 correlated with the frequency of sexual females simply because males are
 only produced by sexual females.\footnote{This assumption turned out to
@@ -2028,8 +2026,8 @@ from well-designed experiments, but no statistical test is causation.
 Analytical theory is not causation either, as is well demonstrated by
 the theoretical literature on sex/recombination. Causation instead may
 be inferred when multiple independent lines of evidence point to similar
-solutions. I think that Levins was correct when he wrote, ``Hence our
-truth is the intersection of independent lies'' (1966).\footnote{\begin{quote}
+solutions. I think that Levins (1966) was correct when he wrote, ``Hence
+our truth is the intersection of independent lies.''\footnote{\begin{quote}
   Therefore, we attempt to treat the same problem with several
   alternative models each with different simplifications but with a
   common biological assumption. Then, if these models, despite their
@@ -2209,7 +2207,7 @@ from Lively 1992.)}
 
 \end{figure}
 
-\begin{tcolorbox}[enhanced jigsaw, opacitybacktitle=0.6, titlerule=0mm, toprule=.15mm, bottomtitle=1mm, bottomrule=.15mm, coltitle=black, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 3.1.}, colbacktitle=quarto-callout-note-color!10!white, opacityback=0, leftrule=.75mm, rightrule=.15mm, toptitle=1mm, breakable, arc=.35mm, left=2mm, colback=white, colframe=quarto-callout-note-color-frame]
+\begin{tcolorbox}[enhanced jigsaw, left=2mm, colback=white, toptitle=1mm, bottomtitle=1mm, opacitybacktitle=0.6, colframe=quarto-callout-note-color-frame, colbacktitle=quarto-callout-note-color!10!white, titlerule=0mm, coltitle=black, opacityback=0, toprule=.15mm, breakable, rightrule=.15mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 3.1.}, bottomrule=.15mm, arc=.35mm, leftrule=.75mm]
 
 As part of my dissertation research, I constructed a game-theoretic
 model of selection on three strategies:
@@ -2244,7 +2242,7 @@ the cue can also lead to the evolution of plasticity. It might be
 especially interesting to note that the trajectory of arrow b would give
 the appearance of saltatory change followed by stasis (i.e., punctuated
 equilibrium) (Levinton 1988). Also note that the conditions for a
-genetic polymorphism are relatively narrow. Redrawn from (Lively 1999a)
+genetic polymorphism are relatively narrow. Redrawn from Lively (1999a)
 assuming a small cost to plasticity.
 
 \begin{figure}[H]
