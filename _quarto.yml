@@ -81,8 +81,6 @@ citation:
 
 google-scholar: true
 
-fig-cap-location: margin
-
 csl: ecology-letters.csl
 bibliography: references.bib
 

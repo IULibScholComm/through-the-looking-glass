@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.361">
+<meta name="generator" content="quarto-1.4.521">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -22,7 +22,7 @@ ul.task-list li input[type="checkbox"] {
 }
 /* CSS for syntax highlighting */
 pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span { line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -58,6 +58,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
+  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -101,7 +102,13 @@ div.csl-indent {
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -110,6 +117,7 @@ div.csl-indent {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -122,7 +130,7 @@ div.csl-indent {
 <meta property="og:title" content="Through the Looking Glass: I. Why Cross-Fertilize? - 4&nbsp; Self- / Non-Self-Recognition and Local Adaptation">
 <meta property="og:description" content="">
 <meta property="og:image" content="https://iulibscholcomm.github.io/through-the-looking-glass/images/cover.jpg">
-<meta property="og:site-name" content="Through the Looking Glass: I. Why Cross-Fertilize?">
+<meta property="og:site_name" content="Through the Looking Glass: I. Why Cross-Fertilize?">
 <meta name="twitter:title" content="Through the Looking Glass: I. Why Cross-Fertilize? - 4&nbsp; Self- / Non-Self-Recognition and Local Adaptation">
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://iulibscholcomm.github.io/through-the-looking-glass/images/cover.jpg">
@@ -283,18 +291,18 @@ div.csl-indent {
 <meta name="citation_reference" content="citation_title=Are New Zealand stream ecosystems really different?;,citation_author=M. J. Winterbourn;,citation_author=J. S. Rounick;,citation_author=B. Cowie;,citation_publication_date=1981;,citation_cover_date=1981;,citation_year=1981;,citation_volume=15;,citation_journal_title=New Zealand Journal of Marine and Freshwater Research;">
 </head>
 
-<body class="nav-sidebar floating slimcontent">
+<body class="nav-sidebar floating">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./self-non.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Self- / Non-Self-Recognition and Local Adaptation</span></a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./self-non.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Self- / Non-Self-Recognition and Local Adaptation</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
@@ -304,7 +312,7 @@ div.csl-indent {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
       <a href="./index.html" class="sidebar-logo-link">
       <img src="./images/cover.jpg" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
@@ -421,7 +429,7 @@ div.csl-indent {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
@@ -432,10 +440,10 @@ div.csl-indent {
   <li><a href="#self--non-self-recognition" id="toc-self--non-self-recognition" class="nav-link" data-scroll-target="#self--non-self-recognition"><span class="header-section-number">4.2</span> Self- / Non-Self-Recognition</a></li>
   <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary"><span class="header-section-number">4.3</span> Summary</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/IULibScholComm/through-the-looking-glass/edit/main/self-non.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/IULibScholComm/through-the-looking-glass/issues/new" class="toc-action">Report an issue</a></p><p><a href="https://github.com/IULibScholComm/through-the-looking-glass/blob/main/self-non.qmd" class="toc-action">View source</a></p></div></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/IULibScholComm/through-the-looking-glass/edit/main/self-non.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/IULibScholComm/through-the-looking-glass/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/IULibScholComm/through-the-looking-glass/blob/main/self-non.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -458,78 +466,96 @@ div.csl-indent {
   </div>
   
 
+
 </header>
+
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/fig4-1.jpeg" class="img-fluid figure-img" style="width:50.0%" alt="Red Queen looks at her reflected face in hand-held mirror"></p>
+<p><img src="images/fig4-1.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%" data-fig-scap="Red Queen looking at reflection" alt="Red Queen looks at her reflected face in hand-held mirror"></p>
 </figure>
 </div>
 <p>One way to falsify the Red Queen is to experimentally show that the expectations of the hypothesis are not met. One expectation is that parasites would quickly become adapted to infecting their local host populations. Here is the logic. If parasites are closely tracking common host genotypes in their local (sympatric) populations, then they should be better, on average, at infecting sympatric hosts than foreign (allopatric) hosts. If this is not the case, then parasites would seem unlikely (at least to me) to be a factor selecting for sexual reproduction.</p>
 <p>I am often asked why we would expect the parasites to be better at infecting their local hosts instead of the opposite. Why shouldn’t hosts evolve to be more resistant to their local parasites than to allopatric parasites? It is a fair question. One common answer is that parasites are locally adapted to host populations because they have faster generation times. But that cannot be the whole answer. Theory has shown that parasites can be locally adapted even when there is no generation-time asymmetry <span class="citation" data-cites="lively1999a gandon2002a">(<a href="references.html#ref-gandon2002a" role="doc-biblioref">Gandon &amp; Michalakis 2002</a>; <a href="references.html#ref-lively1999a" role="doc-biblioref">Lively 1999</a>)</span>. Instead, I think the answer has more to do with the underlying genetic basis for infection.</p>
 <p>What, then, is the genetic basis for infection? This was unknown, but I was assuming that all animal hosts have a self- / non-self-recognition system, such that they can detect foreign tissues (e.g., parasites or tissue grafts) that do not match their own. Sponges, for example, accept tissue grafts from self, but reject grafts from unrelated individuals of the same species <span class="citation" data-cites="gaino1999a">(review in <a href="references.html#ref-gaino1999a" role="doc-biblioref">Elda Gaino &amp; Magnino 1999</a>)</span>. This ability to reject foreign tissues seems widely conserved <span class="citation" data-cites="buss1990a">(<a href="references.html#ref-buss1990a" role="doc-biblioref">Buss 1990</a>)</span>. I was also assuming that the self- / non-self-recognition system is genetically variable and that different host genotypes would dominate in different populations. Parasite genotypes that match the most common local host genotypes would be favored by natural selection, and these parasite genotypes should increase in frequency. This should lead to local adaptation by the parasites. Fortunately, one can test for local adaptation using reciprocal cross-inoculation experiments.</p>
-<section id="experimental-studies-of-local-adaption" class="level2 page-columns page-full" data-number="4.1">
+<section id="experimental-studies-of-local-adaption" class="level2" data-number="4.1">
 <h2 data-number="4.1" class="anchored" data-anchor-id="experimental-studies-of-local-adaption"><span class="header-section-number">4.1</span> Experimental Studies of Local Adaption</h2>
-<p>While I was still a post-doc in New Zealand, I set up two reciprocal cross-inoculation experiments to test for local adaptation by the parasites. I knew from my field surveys that one species of sterilizing trematode was especially common in lake populations of the snail. This species was not formally described, but Jan McKenzie sent it to a trematode expert in France, who thought it belonged in the genus <em>Microphallus</em>; hence I will refer to it as <em>Microphallus</em> sp.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> The life cycle of <em>Microphallus</em> turns out to be especially crucial to the story. The adult worms are tiny simultaneous hermaphrodites that live in the intestines of ducks. They cross-fertilize and produce eggs that are shed with the duck feces into the environment. In most trematodes, the eggs normally hatch in water, thereby releasing a swimming larval stage (miracidia), which actively swims to and penetrates the body of snails. This is the case for the trematodes that cause the human disease, Schistosomiasis. But, in this New Zealand species of <em>Microphallus</em>, the eggs hatch not in the environment but rather after being ingested by snails. The larvae then penetrate the snail from the inside. If the snail’s immune system does not recognize the larvae as foreign tissue, the larvae reproduce asexually, producing several hundred cysts (metacercaria) in the snail. These cysts completely replace the reproductive tissue in both males and females. Infected snails are sterilized (<a href="#fig-4.1">Figure&nbsp;<span>4.1</span></a>).</p>
-<div id="fig-4.1" class="quarto-layout-panel page-columns page-full">
-<p></p><figcaption>Figure&nbsp;4.1: <strong>Left panel:</strong> the life cycle of the trematode <em>Microphallus</em>. The adult worms live in the intestines of waterfowl and wading birds (black stilts). They produce cross-fertilized eggs, which are released into lakes and streams with the bird’s feces. The eggs hatch following ingestion by snails. Infection results in the asexual production of hundreds of cysts (called metacercaria). These cysts “hatch” and mature following ingestion by ducks, thus completing the life cycle. Drawing by Zoe M Dinges. <strong>Right panel:</strong> Infected female (top) and uninfected female (bottom) of <em>P. antipodarum</em> (Photo Credit: Gabe Harp). The snails had been removed from their shells. The golden cysts in the infected female (top) are <em>Microphallus</em> metacercaria. The white tissue of the uninfected female (bottom) is ovary.</figcaption><p></p>
-<figure class="figure page-columns page-full">
-<div class="quarto-layout-row quarto-layout-valign-top page-columns page-full">
-<div class="quarto-layout-cell page-columns page-full" style="flex-basis: 50.0%;justify-content: center;">
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="images/fig4-2.jpeg" class="img-fluid figure-img" alt=""></p>
-<figcaption class="figure-caption margin-caption">The life cycle of the trematode <em>Microphallus</em></figcaption>
+<p>While I was still a post-doc in New Zealand, I set up two reciprocal cross-inoculation experiments to test for local adaptation by the parasites. I knew from my field surveys that one species of sterilizing trematode was especially common in lake populations of the snail. This species was not formally described, but Jan McKenzie sent it to a trematode expert in France, who thought it belonged in the genus <em>Microphallus</em>; hence I will refer to it as <em>Microphallus</em> sp.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> The life cycle of <em>Microphallus</em> turns out to be especially crucial to the story. The adult worms are tiny simultaneous hermaphrodites that live in the intestines of ducks. They cross-fertilize and produce eggs that are shed with the duck feces into the environment. In most trematodes, the eggs normally hatch in water, thereby releasing a swimming larval stage (miracidia), which actively swims to and penetrates the body of snails. This is the case for the trematodes that cause the human disease, Schistosomiasis. But, in this New Zealand species of <em>Microphallus</em>, the eggs hatch not in the environment but rather after being ingested by snails. The larvae then penetrate the snail from the inside. If the snail’s immune system does not recognize the larvae as foreign tissue, the larvae reproduce asexually, producing several hundred cysts (metacercaria) in the snail. These cysts completely replace the reproductive tissue in both males and females. Infected snails are sterilized (<a href="#fig-4.1" class="quarto-xref">Figure&nbsp;<span>4.1</span></a>).</p>
+<div id="fig-4.1" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-4.1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-figure quarto-figure-center quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<figure class="figure">
+<p><img src="images/fig4-2.jpeg" class="img-fluid figure-img"></p>
+<figcaption>The life cycle of the trematode <em>Microphallus</em></figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<figure class="figure">
+<p><img src="images/fig4-3.jpg" class="img-fluid figure-img"></p>
+<figcaption>Infected female (top) and uninfected female (bottom) of <em>P. antipodarum</em></figcaption>
 </figure>
 </div>
 </div>
-<div class="quarto-layout-cell page-columns page-full" style="flex-basis: 50.0%;justify-content: center;">
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="images/fig4-3.jpg" class="img-fluid figure-img" alt=""></p>
-<figcaption class="figure-caption margin-caption">Infected female (top) and uninfected female (bottom) of <em>P. antipodarum</em></figcaption>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-4.1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4.1: <strong>Left panel:</strong> The adult worms live in the intestines of waterfowl and wading birds (black stilts). They produce cross-fertilized eggs, which are released into lakes and streams with the bird’s feces. The eggs hatch following ingestion by snails. Infection results in the asexual production of hundreds of cysts (called metacercaria). These cysts “hatch” and mature following ingestion by ducks, thus completing the life cycle. Drawing by Zoe M Dinges. <strong>Right panel:</strong> The snails had been removed from their shells. The golden cysts in the infected female (top) are <em>Microphallus</em> metacercaria. The white tissue of the uninfected female (bottom) is ovary. (Photo Credit: Gabe Harp)
+</figcaption>
 </figure>
 </div>
+<p>I set up an experiment in which I exposed snails from two different lakes to <em>Microphallus</em> eggs from both lakes. One lake was on the east side of the Southern Alps (Lake Alexandrina), and the other lake was on the west side of the alps (Lake Mapourika). I reasoned that gene flow between the two lakes was likely to be very low, so it seemed unlikely that gene flow could swamp out parasite-mediated selection (if present). But to get the eggs, I had to first complete the life cycle of the parasite in the lab. This had never been done. Eventually, I took the advice of Dr.&nbsp;David Blair, a friend and parasitologist at the University of Canterbury: I fed the cysts to lab mice. I then collected the mouse poo, washed it, and fed the slurry to snails. It seemed very unlikely to work, as ducks (not mice) were the vertebrate host, but I tried it anyway. It worked! I was able to experimentally infect snails in the lab. And, amazingly, the parasites from both lake populations were much more infective to snails from their same lake (<a href="#fig-4.2" class="quarto-xref">Figure&nbsp;<span>4.2</span></a>). In other words, the <em>Microphallus</em> parasites were locally adapted <span class="citation" data-cites="lively1989a">(<a href="references.html#ref-lively1989a" role="doc-biblioref">Lively 1989</a>)</span>. There was no reason based on this experiment to discard the Red Queen.</p>
+<div id="fig-4.2" class="quarto-figure quarto-figure-center anchored" data-fig-scap="Results of the first reciprocal cross-inoculation experiment" alt="">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-4.2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/fig4-4.png" class="img-fluid figure-img" data-fig-scap="Results of the first reciprocal cross-inoculation experiment" alt="">
 </div>
-</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-4.2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4.2: Results of the first reciprocal cross-inoculation experiment. The vertical bars show one SE of the mean. Redrawn from Lively <span class="citation" data-cites="lively1989a">(<a href="references.html#ref-lively1989a" role="doc-biblioref">1989</a>)</span>.
+</figcaption>
 </figure>
 </div>
-<p>I set up an experiment in which I exposed snails from two different lakes to <em>Microphallus</em> eggs from both lakes. One lake was on the east side of the Southern Alps (Lake Alexandrina), and the other lake was on the west side of the alps (Lake Mapourika). I reasoned that gene flow between the two lakes was likely to be very low, so it seemed unlikely that gene flow could swamp out parasite-mediated selection (if present). But to get the eggs, I had to first complete the life cycle of the parasite in the lab. This had never been done. Eventually, I took the advice of Dr.&nbsp;David Blair, a friend and parasitologist at the University of Canterbury: I fed the cysts to lab mice. I then collected the mouse poo, washed it, and fed the slurry to snails. It seemed very unlikely to work, as ducks (not mice) were the vertebrate host, but I tried it anyway. It worked! I was able to experimentally infect snails in the lab. And, amazingly, the parasites from both lake populations were much more infective to snails from their same lake (<a href="#fig-4.2">Figure&nbsp;<span>4.2</span></a>). In other words, the <em>Microphallus</em> parasites were locally adapted <span class="citation" data-cites="lively1989a">(<a href="references.html#ref-lively1989a" role="doc-biblioref">Lively 1989</a>)</span>. There was no reason based on this experiment to discard the Red Queen.</p>
-<div id="fig-4.2" class="quarto-figure quarto-figure-center anchored page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="images/fig4-4.png" class="img-fluid figure-img" alt=""></p>
-<figcaption class="figure-caption margin-caption">Figure&nbsp;4.2: Results of the first reciprocal cross-inoculation experiment. The vertical bars show one SE of the mean. Redrawn from Lively <span class="citation" data-cites="lively1989a">(<a href="references.html#ref-lively1989a" role="doc-biblioref">1989</a>)</span>.</figcaption>
-</figure>
+<p>On the other hand, there were only two lakes in the experiment, so it was unclear if local adaptation was generally true for <em>Microphallus</em>. So, I repeated the experiment <span class="citation" data-cites="lively1989a">(<a href="references.html#ref-lively1989a" role="doc-biblioref">Lively 1989</a>)</span>. This time I sampled three lakes, all on the west side of the alps. Two of the lakes were less than ten kilometers apart (Lakes Mapourika and Wahapo). The third lake (L. Paringa) was about 100 kilometers south of Lake Mapourika (see map in Lively <span class="citation" data-cites="lively1989a">(<a href="references.html#ref-lively1989a" role="doc-biblioref">1989</a>)</span>). It seemed likely to me that parasite gene flow would be very high between Mapourika and Wahapo, which might reduce or eliminate local adaptation in the parasite. I exposed snails from all three lakes to parasites from each of the three lakes in a fully reciprocal cross-inoculation experiment. Again, the results were very clear: the parasites (following passage through mice) from all three lakes were more infective to host snails from the same lake <span class="citation" data-cites="lively1989a">(<a href="references.html#ref-lively1989a" role="doc-biblioref">Lively 1989</a>)</span>. And, to my surprise, the distance between lakes did not matter to the strength of local adaptation (<a href="#fig-4.3" class="quarto-xref">Figure&nbsp;<span>4.3</span></a>). Taken together the results from two independent experiments showed strong adaption by parasites to local populations of their snail host. The results also suggested a genetic basis for host resistance and parasite infectivity, which is a crucial assumption of the Red Queen Hypothesis. Finally, the pattern of local parasite adaptation in the snail-trematode system would be found to be very robust in experiments conducted by me and my students after I moved to Indiana University (<a href="#fig-4.4" class="quarto-xref">Figure&nbsp;<span>4.4</span></a>).</p>
+<div id="fig-4.3" class="quarto-figure quarto-figure-center anchored" data-fig-scap="Results of the second reciprocal cross-inoculation experiment" alt="">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-4.3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/fig4-5.png" class="img-fluid figure-img" data-fig-scap="Results of the second reciprocal cross-inoculation experiment" alt="">
 </div>
-<p>On the other hand, there were only two lakes in the experiment, so it was unclear if local adaptation was generally true for <em>Microphallus</em>. So, I repeated the experiment <span class="citation" data-cites="lively1989a">(<a href="references.html#ref-lively1989a" role="doc-biblioref">Lively 1989</a>)</span>. This time I sampled three lakes, all on the west side of the alps. Two of the lakes were less than ten kilometers apart (Lakes Mapourika and Wahapo). The third lake (L. Paringa) was about 100 kilometers south of Lake Mapourika (see map in Lively <span class="citation" data-cites="lively1989a">(<a href="references.html#ref-lively1989a" role="doc-biblioref">1989</a>)</span>). It seemed likely to me that parasite gene flow would be very high between Mapourika and Wahapo, which might reduce or eliminate local adaptation in the parasite. I exposed snails from all three lakes to parasites from each of the three lakes in a fully reciprocal cross-inoculation experiment. Again, the results were very clear: the parasites (following passage through mice) from all three lakes were more infective to host snails from the same lake <span class="citation" data-cites="lively1989a">(<a href="references.html#ref-lively1989a" role="doc-biblioref">Lively 1989</a>)</span>. And, to my surprise, the distance between lakes did not matter to the strength of local adaptation (<a href="#fig-4.3">Figure&nbsp;<span>4.3</span></a>). Taken together the results from two independent experiments showed strong adaption by parasites to local populations of their snail host. The results also suggested a genetic basis for host resistance and parasite infectivity, which is a crucial assumption of the Red Queen Hypothesis. Finally, the pattern of local parasite adaptation in the snail-trematode system would be found to be very robust in experiments conducted by me and my students after I moved to Indiana University (<a href="#fig-4.4">Figure&nbsp;<span>4.4</span></a>).</p>
-<div id="fig-4.3" class="quarto-figure quarto-figure-center anchored page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="images/fig4-5.png" class="img-fluid figure-img" alt=""></p>
-<figcaption class="figure-caption margin-caption">Figure&nbsp;4.3: Results of the second reciprocal cross-inoculation experiment. Vertical bars show one SE of the mean. Redrawn from Lively <span class="citation" data-cites="lively1989a">(<a href="references.html#ref-lively1989a" role="doc-biblioref">1989</a>)</span>.</figcaption>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-4.3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4.3: Results of the second reciprocal cross-inoculation experiment. Vertical bars show one SE of the mean. Redrawn from Lively <span class="citation" data-cites="lively1989a">(<a href="references.html#ref-lively1989a" role="doc-biblioref">1989</a>)</span>.
+</figcaption>
 </figure>
 </div>
 <p>Does local adaptation by parasites mean that hosts are losing? If so, are hosts maladapted, as often claimed? No and no. The host population is evolving as fast as it can to resist infection by local parasites, and local parasites are tracking the genetic changes in their host populations (with a time lag). This tracking by parasites results in local adaption. In computer simulations, the change in host mean fitness oscillates over time from positive to negative and back. Parasite mean fitness also oscillates from positive to negative, but it is 180 degrees out of phase with the host <span class="citation" data-cites="lively1999a lively2022a">(<a href="references.html#ref-lively1999a" role="doc-biblioref">Lively 1999</a>; <a href="references.html#ref-lively2022a" role="doc-biblioref">Lively &amp; Wade 2022</a>)</span>. Thus, local parasite adaptation does not necessarily mean that the hosts are losing. Sometimes the host is winning (positive change in mean fitness) and the parasite is losing (negative change in mean fitness), and sometimes the host is losing and the parasite is winning. Over time, the average change in mean fitness for both species is zero.</p>
 <p>My early results on local adaptation, along with the results of Parker <span class="citation" data-cites="parker1985a">(<a href="references.html#ref-parker1985a" role="doc-biblioref">1985</a>)</span> and Ebert <span class="citation" data-cites="ebert1994a">(<a href="references.html#ref-ebert1994a" role="doc-biblioref">1994</a>)</span>, convinced me that host-parasite coevolution was interesting, whether or not it could explain sex.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> In addition, May and Anderson <span class="citation" data-cites="may1983a">(<a href="references.html#ref-may1983a" role="doc-biblioref">1983</a>)</span> had already ignited a general interest in parasites. They showed that, contrary to conventional wisdom, parasites would evolve to maximize their own rates of transmission without any “consideration” for the well-being of their hosts. This work, combined with Hamilton and Zuk’s model of parasite-mediated mate choice, along with Hamilton’s models on parasite-mediated selection for sex, lit up the field <span class="citation" data-cites="hamilton1980a hamilton1982a">(<a href="references.html#ref-hamilton1980a" role="doc-biblioref">Hamilton 1980</a>; <a href="references.html#ref-hamilton1982a" role="doc-biblioref">Hamilton &amp; Zuk 1982</a>)</span>. Fascinating work by Janice Moore on the evolution of adaptive, parasite-mediated modifications of host behavior piled on <span class="citation" data-cites="moore1984a">(<a href="references.html#ref-moore1984a" role="doc-biblioref">1984</a>)</span>. Soon, universities began to advertise for assistant professors working on host-parasite interactions. Then in 1998, Hudson et al.&nbsp;rocked the scientific world with a heroic field experiment, which showed that oscillations in Red Grouse densities were controlled by nematode infections <span class="citation" data-cites="hudson1998a">(<a href="references.html#ref-hudson1998a" role="doc-biblioref">1998</a>)</span>. Parasites were now on the map. An emerging new field called “ecology and evolution of infectious disease” was taking flight.</p>
-<div id="fig-4.4" class="quarto-figure quarto-figure-center anchored page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="images/fig4-6.png" class="img-fluid figure-img" alt=""></p>
-<figcaption class="figure-caption margin-caption">Figure&nbsp;4.4: Results from a meta-analysis of local adaption experiments. The “effect size” depends on the magnitude of the difference between the proportion of infection in sympatric vs allopatric hosts, where positive values indicate that the parasite is adapted to infecting snails from the local host population. Large effect sizes are indicative of stronger local adaptation by parasites. Positive effect sizes are shown in blue; negative effect sizes are shown in red. A statistical test on the effect sizes showed that, in general, the parasite is strongly adapted to infecting local populations of its host. There were 32 total sympatric/allopatric comparisons. <span class="citation" data-cites="lively2004a">(Redrawn from <a href="references.html#ref-lively2004a" role="doc-biblioref">Lively <em>et al.</em> 2004</a>)</span>.</figcaption>
+<div id="fig-4.4" class="quarto-figure quarto-figure-center anchored" data-fig-scap="Results from a meta-analysis of local adaption experiments" alt="">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-4.4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/fig4-6.png" class="img-fluid figure-img" data-fig-scap="Results from a meta-analysis of local adaption experiments" alt="">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-4.4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4.4: Results from a meta-analysis of local adaption experiments. The “effect size” depends on the magnitude of the difference between the proportion of infection in sympatric vs allopatric hosts, where positive values indicate that the parasite is adapted to infecting snails from the local host population. Large effect sizes are indicative of stronger local adaptation by parasites. Positive effect sizes are shown in blue; negative effect sizes are shown in red. A statistical test on the effect sizes showed that, in general, the parasite is strongly adapted to infecting local populations of its host. There were 32 total sympatric/allopatric comparisons. <span class="citation" data-cites="lively2004a">(Redrawn from <a href="references.html#ref-lively2004a" role="doc-biblioref">Lively <em>et al.</em> 2004</a>)</span>.
+</figcaption>
 </figure>
 </div>
 </section>
-<section id="self--non-self-recognition" class="level2 page-columns page-full" data-number="4.2">
+<section id="self--non-self-recognition" class="level2" data-number="4.2">
 <h2 data-number="4.2" class="anchored" data-anchor-id="self--non-self-recognition"><span class="header-section-number">4.2</span> Self- / Non-Self-Recognition</h2>
 <p>In my presentation thus far, I have been assuming that the molecules on the cell surfaces of parasites must mimic host molecules to evade detection. Otherwise, the parasites will be identified as foreign and killed by the host. In other words, there is a self- / non-self-recognition system in hosts, which is determined by a polymorphic set of alleles at one or more loci.</p>
 <p>Where did this idea for self- / non-self-recognition come from? I am embarrassed to say that I did not know before writing this chapter, and I am still not exactly sure, but the idea goes back at least to Sir Frank McFarland Burnet, who was cowinner of the 1960 Nobel Prize in Physiology and Medicine (with Sir Peter Medawar). Burnet was reviewing two studies, which showed recognition and rejection of genetically different competitors of the same species <span class="citation" data-cites="burnet1971a">(<a href="references.html#ref-burnet1971a" role="doc-biblioref">Burnet 1971</a>)</span>. The first study was from Hidemiti Oka <span class="citation" data-cites="oka1970a">(<a href="references.html#ref-oka1970a" role="doc-biblioref">1970</a>)</span>: “Here I shall explore the possibility that Oka’s <span class="citation" data-cites="oka1970a">(<a href="references.html#ref-oka1970a" role="doc-biblioref">1970</a>)</span> studies of colonial tunicates (<em>Botryllus</em>) … may throw light on primitive types of ‘self and not-self’ recognition from which adaptive immunity may have evolved.” Hidemiti Oka was a Japanese professor of biology in Tokyo. He was following up on a pioneering study by Bancroft <span class="citation" data-cites="bancroft1903a">(<a href="references.html#ref-bancroft1903a" role="doc-biblioref">1903</a>)</span>, who had shown that fragments from related colonies of a compound ascidian (<em>Botryllus schlosseri</em>) readily fused, whereas fragments from unrelated colonies rejected each other. Oka’s goal was to understand the genetic basis for this fusion/rejection. His study suggested that fusion was determined by multiple alleles (“perhaps several scores”) at a single locus. More specifically, Oka’s results suggested that fusion occurred between different colonies only if they shared at least one allele at this locus.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> To my mind, this was a major finding.</p>
-<p>It thus appears that Oka was inspired by Bancroft, and Burnet was inspired by Oka. How does Burnet fit in? Burnet first accepts Oka’s assumption that allorecognition depends on a single highly polymorphic locus (<a href="#fig-4.5">Figure&nbsp;<span>4.5</span></a>): “To summarize Oka’s work, it is convenient to accept his assumption, which is validated by much preliminary work, that fusion or rejection between colonies depends on a single locus with many alleles which can be referred to as recognition genes.” Burnet then suggests that this same mechanism could be co-opted as a defense against parasites and that such a mechanism could be the progenitor of the more sophisticated adaptive immune system in vertebrates. Burnet <span class="citation" data-cites="burnet1971a">(<a href="references.html#ref-burnet1971a" role="doc-biblioref">1971</a>)</span> writes:</p>
+<p>It thus appears that Oka was inspired by Bancroft, and Burnet was inspired by Oka. How does Burnet fit in? Burnet first accepts Oka’s assumption that allorecognition depends on a single highly polymorphic locus (<a href="#fig-4.5" class="quarto-xref">Figure&nbsp;<span>4.5</span></a>): “To summarize Oka’s work, it is convenient to accept his assumption, which is validated by much preliminary work, that fusion or rejection between colonies depends on a single locus with many alleles which can be referred to as recognition genes.” Burnet then suggests that this same mechanism could be co-opted as a defense against parasites and that such a mechanism could be the progenitor of the more sophisticated adaptive immune system in vertebrates. Burnet <span class="citation" data-cites="burnet1971a">(<a href="references.html#ref-burnet1971a" role="doc-biblioref">1971</a>)</span> writes:</p>
 <blockquote class="blockquote">
 <p>It is probably unwise to attempt to imagine the various steps by which such changes could be made. One can foresee a period of great research activity in these fields of tissue fusion and rejection in invertebrates and protochordates during the next decade. Undoubtedly a variety of intriguing phenomena will be uncovered, differing from group to group. Some may be further along the road toward adaptive immunity than the colonial ascidians. Much more extensive comparative studies are called for and in due course analysis of the results should allow a clear evolutionary history to emerge. Whatever form that history eventually takes we can be certain that gene duplication (gene expansion) plays a major part, and that progressive specialization of cell function and phenotypic restriction will be as conspicuous as it is in all other organs and functions.</p>
 </blockquote>
 <p>Wow. In retrospect, Burnet’s “attempt to imagine the various steps” does not seem at all unwise. In any case, he suggests that infection occurs when parasites have alleles that match their host’s genotype. Otherwise, the parasites are killed. This is the logic of what will later be called the “matching alleles model” for infection. I will flesh this idea out in a later chapter.</p>
-<div id="fig-4.5" class="quarto-figure quarto-figure-center anchored page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="images/fig4-7.jpeg" class="img-fluid figure-img" alt=""></p>
-<figcaption class="figure-caption margin-caption">Figure&nbsp;4.5: A model for self- / non-self-recognition <span class="citation" data-cites="oka1970a burnet1971a">(<a href="references.html#ref-burnet1971a" role="doc-biblioref">Burnet 1971</a>; <a href="references.html#ref-oka1970a" role="doc-biblioref">Oka 1970</a>)</span>. Cells sharing one or more alleles can rejoin after separation, as the receptors match. In contrast, cells that do not share an allele do not match and will not rejoin. Regions of fusion are shown in heavy lines. Burnett suggested that resistance in host-parasite interactions could have a similar mechanistic framework. Note that Burnett used “reciprocal” for matching cells with at least one matching allele, and “non-reciprocal” for cells in which none of the alleles matched. Redrawn from Burnet <span class="citation" data-cites="burnet1971a">(<a href="references.html#ref-burnet1971a" role="doc-biblioref">1971</a>)</span> by Zoe M Dinges.</figcaption>
+<div id="fig-4.5" class="quarto-figure quarto-figure-center anchored" data-fig-scap="A model for self- / non-self-recognition" alt="">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-4.5-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/fig4-7.jpeg" class="img-fluid figure-img" data-fig-scap="A model for self- / non-self-recognition" alt="">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-4.5-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4.5: A model for self- / non-self-recognition <span class="citation" data-cites="oka1970a burnet1971a">(<a href="references.html#ref-burnet1971a" role="doc-biblioref">Burnet 1971</a>; <a href="references.html#ref-oka1970a" role="doc-biblioref">Oka 1970</a>)</span>. Cells sharing one or more alleles can rejoin after separation, as the receptors match. In contrast, cells that do not share an allele do not match and will not rejoin. Regions of fusion are shown in heavy lines. Burnett suggested that resistance in host-parasite interactions could have a similar mechanistic framework. Note that Burnett used “reciprocal” for matching cells with at least one matching allele, and “non-reciprocal” for cells in which none of the alleles matched. Redrawn from Burnet <span class="citation" data-cites="burnet1971a">(<a href="references.html#ref-burnet1971a" role="doc-biblioref">1971</a>)</span> by Zoe M Dinges.
+</figcaption>
 </figure>
 </div>
 </section>
@@ -544,7 +570,7 @@ div.csl-indent {
 
 <!-- -->
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
 <div id="ref-bancroft1903a" class="csl-entry" role="listitem">
 Bancroft, F.W. (1903). Variation and fusion of colonies in compound ascidians. In: <em>Proceedings of the california academy of sciences</em>. pp. 137–186.
 </div>
@@ -601,14 +627,14 @@ Parker, M.A. (1985). Local population differentiation for compatibility in an an
 </div>
 </div>
 </section>
-<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<aside id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
 <hr>
 <ol>
 <li id="fn1"><p>The trematode worm was not formally described until 30 years later <span class="citation" data-cites="blasco-costa2019a">(<a href="references.html#ref-blasco-costa2019a" role="doc-biblioref">Blasco-Costa <em>et al.</em> 2019</a>)</span>. As it turns out, it belongs in the genus <em>Atriophallophorus</em>, rather than <em>Microphallus</em>, and it was very appropriately named after Mike Winterbourn: <em>A. winterbourni</em>. But I am going to call it <em>Microphallus</em> in this book, as that is what we called it in our early papers.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn2"><p>Dieter Ebert showed that parasites of <em>Daphnia</em> were locally adapted for both infectivity and transmission, which was a major advance.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn3"><p>In direct contrast, however, Oka found that cross-fertilization did not occur between <em>Botryllus</em> gametes that shared the same allele. As Oka noted, this result mirrors the S-allele system in plants: “The … situation corresponds exactly in its form to the homomorphic self-incompatibility prevailing among angiosperms.”<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
-</section>
+</aside>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -741,10 +767,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   if (showAllCode) {
     showAllCode.addEventListener("click", toggleCodeHandler(true));
   }
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/iulibscholcomm\.github\.io\/through-the-looking-glass");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -754,8 +797,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -768,6 +820,135 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    const typesetMath = (el) => {
+      if (window.MathJax) {
+        // MathJax Typeset
+        window.MathJax.typeset([el]);
+      } else if (window.katex) {
+        // KaTeX Render
+        var mathElements = el.getElementsByClassName("math");
+        var macros = [];
+        for (var i = 0; i < mathElements.length; i++) {
+          var texText = mathElements[i].firstChild;
+          if (mathElements[i].tagName == "SPAN") {
+            window.katex.render(texText.data, mathElements[i], {
+              displayMode: mathElements[i].classList.contains('display'),
+              throwOnError: false,
+              macros: macros,
+              fleqn: false
+            });
+          }
+        }
+      }
+    }
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        typesetMath(container);
+        return container.innerHTML
+      } else {
+        typesetMath(note);
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      typesetMath(note);
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -811,6 +992,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -836,6 +1018,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -893,30 +1101,16 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp("https:\/\/iulibscholcomm\.github\.io\/through-the-looking-glass");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-          // target, if specified
-          link.setAttribute("target", "_blank");
-      }
-    }
 });
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./eco-hyp-cont.html" class="pagination-link">
+      <a href="./eco-hyp-cont.html" class="pagination-link  aria-label=" &lt;span="" the="" ecological="" hypotheses&lt;="" span&gt;"="">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Contrasting the Ecological Hypotheses</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./rat-red.html" class="pagination-link">
+      <a href="./rat-red.html" class="pagination-link" aria-label="<span class='chapter-number'>5</span>&nbsp; <span class='chapter-title'>The Ratchet and the Red Queen</span>">
         <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">The Ratchet and the Red Queen</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
@@ -936,57 +1130,57 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb1-13"><a href="#cb1-13"></a>While I was still a post-doc in New Zealand, I set up two reciprocal cross-inoculation experiments to test for local adaptation by the parasites. I knew from my field surveys that one species of sterilizing trematode was especially common in lake populations of the snail. This species was not formally described, but Jan McKenzie sent it to a trematode expert in France, who thought it belonged in the genus *Microphallus*; hence I will refer to it as *Microphallus* sp.[^1] The life cycle of *Microphallus* turns out to be especially crucial to the story. The adult worms are tiny simultaneous hermaphrodites that live in the intestines of ducks. They cross-fertilize and produce eggs that are shed with the duck feces into the environment. In most trematodes, the eggs normally hatch in water, thereby releasing a swimming larval stage (miracidia), which actively swims to and penetrates the body of snails. This is the case for the trematodes that cause the human disease, Schistosomiasis. But, in this New Zealand species of *Microphallus*, the eggs hatch not in the environment but rather after being ingested by snails. The larvae then penetrate the snail from the inside. If the snail's immune system does not recognize the larvae as foreign tissue, the larvae reproduce asexually, producing several hundred cysts (metacercaria) in the snail. These cysts completely replace the reproductive tissue in both males and females. Infected snails are sterilized (@fig-4.1).  </span>
 <span id="cb1-14"><a href="#cb1-14"></a></span>
 <span id="cb1-15"><a href="#cb1-15"></a>::: {#fig-4.1 layout-ncol=2}</span>
-<span id="cb1-16"><a href="#cb1-16"></a></span>
-<span id="cb1-17"><a href="#cb1-17"></a><span class="al">![The life cycle of the trematode *Microphallus*](images/fig4-2.jpeg)</span>{fig-alt=""}</span>
-<span id="cb1-18"><a href="#cb1-18"></a></span>
-<span id="cb1-19"><a href="#cb1-19"></a><span class="al">![Infected female (top) and uninfected female (bottom) of *P. antipodarum*](images/fig4-3.jpg)</span>{fig-alt=""}</span>
-<span id="cb1-20"><a href="#cb1-20"></a></span>
-<span id="cb1-21"><a href="#cb1-21"></a>**Left panel:** the life cycle of the trematode *Microphallus*. The adult worms live in the intestines of waterfowl and wading birds (black stilts). They produce cross-fertilized eggs, which are released into lakes and streams with the bird’s feces. The eggs hatch following ingestion by snails. Infection results in the asexual production of hundreds of cysts (called metacercaria). These cysts "hatch" and mature following ingestion by ducks, thus completing the life cycle. Drawing by Zoe M Dinges. **Right panel:** Infected female (top) and uninfected female (bottom) of *P. antipodarum* (Photo Credit: Gabe Harp). The snails had been removed from their shells. The golden cysts in the infected female (top) are *Microphallus* metacercaria. The white tissue of the uninfected female (bottom) is ovary.     </span>
-<span id="cb1-22"><a href="#cb1-22"></a>:::</span>
-<span id="cb1-23"><a href="#cb1-23"></a></span>
-<span id="cb1-24"><a href="#cb1-24"></a>I set up an experiment in which I exposed snails from two different lakes to *Microphallus* eggs from both lakes. One lake was on the east side of the Southern Alps (Lake Alexandrina), and the other lake was on the west side of the alps (Lake Mapourika). I reasoned that gene flow between the two lakes was likely to be very low, so it seemed unlikely that gene flow could swamp out parasite-mediated selection (if present). But to get the eggs, I had to first complete the life cycle of the parasite in the lab. This had never been done. Eventually, I took the advice of Dr. David Blair, a friend and parasitologist at the University of Canterbury: I fed the cysts to lab mice. I then collected the mouse poo, washed it, and fed the slurry to snails. It seemed very unlikely to work, as ducks (not mice) were the vertebrate host, but I tried it anyway. It worked! I was able to experimentally infect snails in the lab. And, amazingly, the parasites from both lake populations were much more infective to snails from their same lake (@fig-4.2). In other words, the *Microphallus* parasites were locally adapted <span class="co">[</span><span class="ot">@lively1989a</span><span class="co">]</span>. There was no reason based on this experiment to discard the Red Queen.  </span>
-<span id="cb1-25"><a href="#cb1-25"></a></span>
-<span id="cb1-26"><a href="#cb1-26"></a>!<span class="co">[</span><span class="ot">Results of the first reciprocal cross-inoculation experiment. The vertical bars show one SE of the mean. Redrawn from Lively [-@lively1989a].</span><span class="co">](images/fig4-4.png)</span>{fig-alt="" fig-scap="Results of the first reciprocal cross-inoculation experiment" #fig-4.2}</span>
-<span id="cb1-27"><a href="#cb1-27"></a></span>
-<span id="cb1-28"><a href="#cb1-28"></a>On the other hand, there were only two lakes in the experiment, so it was unclear if local adaptation was generally true for *Microphallus*. So, I repeated the experiment <span class="co">[</span><span class="ot">@lively1989a</span><span class="co">]</span>. This time I sampled three lakes, all on the west side of the alps. Two of the lakes were less than ten kilometers apart (Lakes Mapourika and Wahapo). The third lake (L. Paringa) was about 100 kilometers south of Lake Mapourika (see map in Lively <span class="co">[</span><span class="ot">-@lively1989a</span><span class="co">]</span>). It seemed likely to me that parasite gene flow would be very high between Mapourika and Wahapo, which might reduce or eliminate local adaptation in the parasite. I exposed snails from all three lakes to parasites from each of the three lakes in a fully reciprocal cross-inoculation experiment. Again, the results were very clear: the parasites (following passage through mice) from all three lakes were more infective to host snails from the same lake <span class="co">[</span><span class="ot">@lively1989a</span><span class="co">]</span>. And, to my surprise, the distance between lakes did not matter to the strength of local adaptation (@fig-4.3). Taken together the results from two independent experiments showed strong adaption by parasites to local populations of their snail host. The results also suggested a genetic basis for host resistance and parasite infectivity, which is a crucial assumption of the Red Queen Hypothesis. Finally, the pattern of local parasite adaptation in the snail-trematode system would be found to be very robust in experiments conducted by me and my students after I moved to Indiana University (@fig-4.4).  </span>
-<span id="cb1-29"><a href="#cb1-29"></a></span>
-<span id="cb1-30"><a href="#cb1-30"></a>!<span class="co">[</span><span class="ot">Results of the second reciprocal cross-inoculation experiment. Vertical bars show one SE of the mean. Redrawn from Lively [-@lively1989a].</span><span class="co">](images/fig4-5.png)</span>{fig-alt="" fig-scap="Results of the second reciprocal cross-inoculation experiment" #fig-4.3}</span>
-<span id="cb1-31"><a href="#cb1-31"></a></span>
-<span id="cb1-32"><a href="#cb1-32"></a>Does local adaptation by parasites mean that hosts are losing? If so, are hosts maladapted, as often claimed? No and no. The host population is evolving as fast as it can to resist infection by local parasites, and local parasites are tracking the genetic changes in their host populations (with a time lag). This tracking by parasites results in local adaption. In computer simulations, the change in host mean fitness oscillates over time from positive to negative and back. Parasite mean fitness also oscillates from positive to negative, but it is 180 degrees out of phase with the host <span class="co">[</span><span class="ot">@lively1999a;@lively2022a</span><span class="co">]</span>. Thus, local parasite adaptation does not necessarily mean that the hosts are losing. Sometimes the host is winning (positive change in mean fitness) and the parasite is losing (negative change in mean fitness), and sometimes the host is losing and the parasite is winning. Over time, the average change in mean fitness for both species is zero.  </span>
-<span id="cb1-33"><a href="#cb1-33"></a></span>
-<span id="cb1-34"><a href="#cb1-34"></a>My early results on local adaptation, along with the results of Parker <span class="co">[</span><span class="ot">-@parker1985a</span><span class="co">]</span> and Ebert <span class="co">[</span><span class="ot">-@ebert1994a</span><span class="co">]</span>, convinced me that host-parasite coevolution was interesting, whether or not it could explain sex.<span class="ot">[^2]</span> In addition, May and Anderson <span class="co">[</span><span class="ot">-@may1983a</span><span class="co">]</span> had already ignited a general interest in parasites. They showed that, contrary to conventional wisdom, parasites would evolve to maximize their own rates of transmission without any "consideration" for the well-being of their hosts. This work, combined with Hamilton and Zuk's model of parasite-mediated mate choice, along with Hamilton's models on parasite-mediated selection for sex, lit up the field <span class="co">[</span><span class="ot">@hamilton1980a;@hamilton1982a</span><span class="co">]</span>. Fascinating work by Janice Moore on the evolution of adaptive, parasite-mediated modifications of host behavior piled on <span class="co">[</span><span class="ot">-@moore1984a</span><span class="co">]</span>. Soon, universities began to advertise for assistant professors working on host-parasite interactions. Then in 1998, Hudson et al. rocked the scientific world with a heroic field experiment, which showed that oscillations in Red Grouse densities were controlled by nematode infections <span class="co">[</span><span class="ot">-@hudson1998a</span><span class="co">]</span>. Parasites were now on the map. An emerging new field called "ecology and evolution of infectious disease" was taking flight.  </span>
-<span id="cb1-35"><a href="#cb1-35"></a></span>
-<span id="cb1-36"><a href="#cb1-36"></a>!<span class="co">[</span><span class="ot">Results from a meta-analysis of local adaption experiments. The "effect size" depends on the magnitude of the difference between the proportion of infection in sympatric vs allopatric hosts, where positive values indicate that the parasite is adapted to infecting snails from the local host population. Large effect sizes are indicative of stronger local adaptation by parasites. Positive effect sizes are shown in blue; negative effect sizes are shown in red. A statistical test on the effect sizes showed that, in general, the parasite is strongly adapted to infecting local populations of its host. There were 32 total sympatric/allopatric comparisons. [Redrawn from @lively2004a].</span><span class="co">](images/fig4-6.png)</span>{fig-alt="" fig-scap="Results from a meta-analysis of local adaption experiments" #fig-4.4}</span>
-<span id="cb1-37"><a href="#cb1-37"></a></span>
-<span id="cb1-38"><a href="#cb1-38"></a><span class="fu">## Self- / Non-Self-Recognition </span></span>
-<span id="cb1-39"><a href="#cb1-39"></a></span>
-<span id="cb1-40"><a href="#cb1-40"></a>In my presentation thus far, I have been assuming that the molecules on the cell surfaces of parasites must mimic host molecules to evade detection. Otherwise, the parasites will be identified as foreign and killed by the host. In other words, there is a self- / non-self-recognition system in hosts, which is determined by a polymorphic set of alleles at one or more loci.   </span>
-<span id="cb1-41"><a href="#cb1-41"></a></span>
-<span id="cb1-42"><a href="#cb1-42"></a>Where did this idea for self- / non-self-recognition come from? I am embarrassed to say that I did not know before writing this chapter, and I am still not exactly sure, but the idea goes back at least to Sir Frank McFarland Burnet, who was cowinner of the 1960 Nobel Prize in Physiology and Medicine (with Sir Peter Medawar). Burnet was reviewing two studies, which showed recognition and rejection of genetically different competitors of the same species <span class="co">[</span><span class="ot">@burnet1971a</span><span class="co">]</span>. The first study was from Hidemiti Oka <span class="co">[</span><span class="ot">-@oka1970a</span><span class="co">]</span>: "Here I shall explore the possibility that Oka's <span class="co">[</span><span class="ot">-@oka1970a</span><span class="co">]</span> studies of colonial tunicates (*Botryllus*) ... may throw light on primitive types of 'self and not-self' recognition from which adaptive immunity may have evolved." Hidemiti Oka was a Japanese professor of biology in Tokyo. He was following up on a pioneering study by Bancroft [-@bancroft1903a], who had shown that fragments from related colonies of a compound ascidian (*Botryllus schlosseri*) readily fused, whereas fragments from unrelated colonies rejected each other. Oka's goal was to understand the genetic basis for this fusion/rejection. His study suggested that fusion was determined by multiple alleles ("perhaps several scores") at a single locus. More specifically, Oka's results suggested that fusion occurred between different colonies only if they shared at least one allele at this locus.<span class="ot">[^3]</span> To my mind, this was a major finding.  </span>
-<span id="cb1-43"><a href="#cb1-43"></a></span>
-<span id="cb1-44"><a href="#cb1-44"></a>It thus appears that Oka was inspired by Bancroft, and Burnet was inspired by Oka. How does Burnet fit in? Burnet first accepts Oka's assumption that allorecognition depends on a single highly polymorphic locus (@fig-4.5): "To summarize Oka's work, it is convenient to accept his assumption, which is validated by much preliminary work, that fusion or rejection between colonies depends on a single locus with many alleles which can be referred to as recognition genes." Burnet then suggests that this same mechanism could be co-opted as a defense against parasites and that such a mechanism could be the progenitor of the more sophisticated adaptive immune system in vertebrates. Burnet <span class="co">[</span><span class="ot">-@burnet1971a</span><span class="co">]</span> writes: </span>
-<span id="cb1-45"><a href="#cb1-45"></a></span>
-<span id="cb1-46"><a href="#cb1-46"></a><span class="at">&gt; It is probably unwise to attempt to imagine the various steps by which such changes could be made. One can foresee a period of great research activity in these fields of tissue fusion and rejection in invertebrates and protochordates during the next decade. Undoubtedly a variety of intriguing phenomena will be uncovered, differing from group to group. Some may be further along the road toward adaptive immunity than the colonial ascidians. Much more extensive comparative studies are called for and in due course analysis of the results should allow a clear evolutionary history to emerge. Whatever form that history eventually takes we can be certain that gene duplication (gene expansion) plays a major part, and that progressive specialization of cell function and phenotypic restriction will be as conspicuous as it is in all other organs and functions. </span></span>
-<span id="cb1-47"><a href="#cb1-47"></a></span>
-<span id="cb1-48"><a href="#cb1-48"></a>Wow. In retrospect, Burnet's "attempt to imagine the various steps" does not seem at all unwise. In any case, he suggests that infection occurs when parasites have alleles that match their host's genotype. Otherwise, the parasites are killed. This is the logic of what will later be called the "matching alleles model" for infection. I will flesh this idea out in a later chapter.  </span>
-<span id="cb1-49"><a href="#cb1-49"></a></span>
-<span id="cb1-50"><a href="#cb1-50"></a>!<span class="co">[</span><span class="ot">A model for self- / non-self-recognition [@oka1970a;@burnet1971a]. Cells sharing one or more alleles can rejoin after separation, as the receptors match. In contrast, cells that do not share an allele do not match and will not rejoin. Regions of fusion are shown in heavy lines. Burnett suggested that resistance in host-parasite interactions could have a similar mechanistic framework. Note that Burnett used "reciprocal" for matching cells with at least one matching allele, and "non-reciprocal" for cells in which none of the alleles matched. Redrawn from Burnet [-@burnet1971a] by Zoe M Dinges.</span><span class="co">](images/fig4-7.jpeg)</span>{fig-alt="" fig-scap="A model for self- / non-self-recognition" #fig-4.5}</span>
-<span id="cb1-51"><a href="#cb1-51"></a></span>
-<span id="cb1-52"><a href="#cb1-52"></a><span class="fu">## Summary</span></span>
-<span id="cb1-53"><a href="#cb1-53"></a></span>
-<span id="cb1-54"><a href="#cb1-54"></a><span class="ss">1. </span>The most common trematode infection in lake populations of *P. antipodarum* is caused by a larval stage of *Microphallus* sp. (recently renamed to *Atriophallophorus winterbourni*). The trematode has a two-host life cycle (snails and waterfowl).  </span>
-<span id="cb1-55"><a href="#cb1-55"></a></span>
-<span id="cb1-56"><a href="#cb1-56"></a><span class="ss">2. </span>Experimental cross-inoculation experiments showed that *Microphallus* is more infectious to local lake populations of its snail host, *P. antipodarum*, than to remote host populations.  </span>
-<span id="cb1-57"><a href="#cb1-57"></a></span>
-<span id="cb1-58"><a href="#cb1-58"></a><span class="ss">3. </span>These results suggest that some kind of match by the parasite to the host is required for infection. This idea of matching is consistent with the idea of self- / non-self-recognition as the basis for immune defense. The gist of the original idea stems from experimental studies of colony fusion in tunicates.  </span>
-<span id="cb1-59"><a href="#cb1-59"></a></span>
-<span id="cb1-60"><a href="#cb1-60"></a><span class="ot">[^1]: </span>The trematode worm was not formally described until 30 years later <span class="co">[</span><span class="ot">@blasco-costa2019a</span><span class="co">]</span>. As it turns out, it belongs in the genus *Atriophallophorus*, rather than *Microphallus*, and it was very appropriately named after Mike Winterbourn: *A. winterbourni*. But I am going to call it *Microphallus* in this book, as that is what we called it in our early papers.  </span>
-<span id="cb1-61"><a href="#cb1-61"></a></span>
-<span id="cb1-62"><a href="#cb1-62"></a><span class="ot">[^2]: </span>Dieter Ebert showed that parasites of *Daphnia* were locally adapted for both infectivity and transmission, which was a major advance.  </span>
-<span id="cb1-63"><a href="#cb1-63"></a></span>
-<span id="cb1-64"><a href="#cb1-64"></a><span class="ot">[^3]: </span>In direct contrast, however, Oka found that cross-fertilization did not occur between *Botryllus* gametes that shared the same allele. As Oka noted, this result mirrors the S-allele system in plants: "The ... situation corresponds exactly in its form to the homomorphic self-incompatibility prevailing among angiosperms."</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-16"><a href="#cb1-16"></a><span class="al">![The life cycle of the trematode *Microphallus*](images/fig4-2.jpeg)</span>{fig-alt=""}</span>
+<span id="cb1-17"><a href="#cb1-17"></a></span>
+<span id="cb1-18"><a href="#cb1-18"></a><span class="al">![Infected female (top) and uninfected female (bottom) of *P. antipodarum*](images/fig4-3.jpg)</span>{fig-alt=""}</span>
+<span id="cb1-19"><a href="#cb1-19"></a></span>
+<span id="cb1-20"><a href="#cb1-20"></a>**Left panel:** The adult worms live in the intestines of waterfowl and wading birds (black stilts). They produce cross-fertilized eggs, which are released into lakes and streams with the bird’s feces. The eggs hatch following ingestion by snails. Infection results in the asexual production of hundreds of cysts (called metacercaria). These cysts "hatch" and mature following ingestion by ducks, thus completing the life cycle. Drawing by Zoe M Dinges. **Right panel:** The snails had been removed from their shells. The golden cysts in the infected female (top) are *Microphallus* metacercaria. The white tissue of the uninfected female (bottom) is ovary. (Photo Credit: Gabe Harp)     </span>
+<span id="cb1-21"><a href="#cb1-21"></a>:::</span>
+<span id="cb1-22"><a href="#cb1-22"></a></span>
+<span id="cb1-23"><a href="#cb1-23"></a>I set up an experiment in which I exposed snails from two different lakes to *Microphallus* eggs from both lakes. One lake was on the east side of the Southern Alps (Lake Alexandrina), and the other lake was on the west side of the alps (Lake Mapourika). I reasoned that gene flow between the two lakes was likely to be very low, so it seemed unlikely that gene flow could swamp out parasite-mediated selection (if present). But to get the eggs, I had to first complete the life cycle of the parasite in the lab. This had never been done. Eventually, I took the advice of Dr. David Blair, a friend and parasitologist at the University of Canterbury: I fed the cysts to lab mice. I then collected the mouse poo, washed it, and fed the slurry to snails. It seemed very unlikely to work, as ducks (not mice) were the vertebrate host, but I tried it anyway. It worked! I was able to experimentally infect snails in the lab. And, amazingly, the parasites from both lake populations were much more infective to snails from their same lake (@fig-4.2). In other words, the *Microphallus* parasites were locally adapted <span class="co">[</span><span class="ot">@lively1989a</span><span class="co">]</span>. There was no reason based on this experiment to discard the Red Queen.  </span>
+<span id="cb1-24"><a href="#cb1-24"></a></span>
+<span id="cb1-25"><a href="#cb1-25"></a>!<span class="co">[</span><span class="ot">Results of the first reciprocal cross-inoculation experiment. The vertical bars show one SE of the mean. Redrawn from Lively [-@lively1989a].</span><span class="co">](images/fig4-4.png)</span>{fig-alt="" fig-scap="Results of the first reciprocal cross-inoculation experiment" #fig-4.2}</span>
+<span id="cb1-26"><a href="#cb1-26"></a></span>
+<span id="cb1-27"><a href="#cb1-27"></a>On the other hand, there were only two lakes in the experiment, so it was unclear if local adaptation was generally true for *Microphallus*. So, I repeated the experiment <span class="co">[</span><span class="ot">@lively1989a</span><span class="co">]</span>. This time I sampled three lakes, all on the west side of the alps. Two of the lakes were less than ten kilometers apart (Lakes Mapourika and Wahapo). The third lake (L. Paringa) was about 100 kilometers south of Lake Mapourika (see map in Lively <span class="co">[</span><span class="ot">-@lively1989a</span><span class="co">]</span>). It seemed likely to me that parasite gene flow would be very high between Mapourika and Wahapo, which might reduce or eliminate local adaptation in the parasite. I exposed snails from all three lakes to parasites from each of the three lakes in a fully reciprocal cross-inoculation experiment. Again, the results were very clear: the parasites (following passage through mice) from all three lakes were more infective to host snails from the same lake <span class="co">[</span><span class="ot">@lively1989a</span><span class="co">]</span>. And, to my surprise, the distance between lakes did not matter to the strength of local adaptation (@fig-4.3). Taken together the results from two independent experiments showed strong adaption by parasites to local populations of their snail host. The results also suggested a genetic basis for host resistance and parasite infectivity, which is a crucial assumption of the Red Queen Hypothesis. Finally, the pattern of local parasite adaptation in the snail-trematode system would be found to be very robust in experiments conducted by me and my students after I moved to Indiana University (@fig-4.4).  </span>
+<span id="cb1-28"><a href="#cb1-28"></a></span>
+<span id="cb1-29"><a href="#cb1-29"></a>!<span class="co">[</span><span class="ot">Results of the second reciprocal cross-inoculation experiment. Vertical bars show one SE of the mean. Redrawn from Lively [-@lively1989a].</span><span class="co">](images/fig4-5.png)</span>{fig-alt="" fig-scap="Results of the second reciprocal cross-inoculation experiment" #fig-4.3}</span>
+<span id="cb1-30"><a href="#cb1-30"></a></span>
+<span id="cb1-31"><a href="#cb1-31"></a>Does local adaptation by parasites mean that hosts are losing? If so, are hosts maladapted, as often claimed? No and no. The host population is evolving as fast as it can to resist infection by local parasites, and local parasites are tracking the genetic changes in their host populations (with a time lag). This tracking by parasites results in local adaption. In computer simulations, the change in host mean fitness oscillates over time from positive to negative and back. Parasite mean fitness also oscillates from positive to negative, but it is 180 degrees out of phase with the host <span class="co">[</span><span class="ot">@lively1999a;@lively2022a</span><span class="co">]</span>. Thus, local parasite adaptation does not necessarily mean that the hosts are losing. Sometimes the host is winning (positive change in mean fitness) and the parasite is losing (negative change in mean fitness), and sometimes the host is losing and the parasite is winning. Over time, the average change in mean fitness for both species is zero.  </span>
+<span id="cb1-32"><a href="#cb1-32"></a></span>
+<span id="cb1-33"><a href="#cb1-33"></a>My early results on local adaptation, along with the results of Parker <span class="co">[</span><span class="ot">-@parker1985a</span><span class="co">]</span> and Ebert <span class="co">[</span><span class="ot">-@ebert1994a</span><span class="co">]</span>, convinced me that host-parasite coevolution was interesting, whether or not it could explain sex.<span class="ot">[^2]</span> In addition, May and Anderson <span class="co">[</span><span class="ot">-@may1983a</span><span class="co">]</span> had already ignited a general interest in parasites. They showed that, contrary to conventional wisdom, parasites would evolve to maximize their own rates of transmission without any "consideration" for the well-being of their hosts. This work, combined with Hamilton and Zuk's model of parasite-mediated mate choice, along with Hamilton's models on parasite-mediated selection for sex, lit up the field <span class="co">[</span><span class="ot">@hamilton1980a;@hamilton1982a</span><span class="co">]</span>. Fascinating work by Janice Moore on the evolution of adaptive, parasite-mediated modifications of host behavior piled on <span class="co">[</span><span class="ot">-@moore1984a</span><span class="co">]</span>. Soon, universities began to advertise for assistant professors working on host-parasite interactions. Then in 1998, Hudson et al. rocked the scientific world with a heroic field experiment, which showed that oscillations in Red Grouse densities were controlled by nematode infections <span class="co">[</span><span class="ot">-@hudson1998a</span><span class="co">]</span>. Parasites were now on the map. An emerging new field called "ecology and evolution of infectious disease" was taking flight.  </span>
+<span id="cb1-34"><a href="#cb1-34"></a></span>
+<span id="cb1-35"><a href="#cb1-35"></a>!<span class="co">[</span><span class="ot">Results from a meta-analysis of local adaption experiments. The "effect size" depends on the magnitude of the difference between the proportion of infection in sympatric vs allopatric hosts, where positive values indicate that the parasite is adapted to infecting snails from the local host population. Large effect sizes are indicative of stronger local adaptation by parasites. Positive effect sizes are shown in blue; negative effect sizes are shown in red. A statistical test on the effect sizes showed that, in general, the parasite is strongly adapted to infecting local populations of its host. There were 32 total sympatric/allopatric comparisons. [Redrawn from @lively2004a].</span><span class="co">](images/fig4-6.png)</span>{fig-alt="" fig-scap="Results from a meta-analysis of local adaption experiments" #fig-4.4}</span>
+<span id="cb1-36"><a href="#cb1-36"></a></span>
+<span id="cb1-37"><a href="#cb1-37"></a><span class="fu">## Self- / Non-Self-Recognition </span></span>
+<span id="cb1-38"><a href="#cb1-38"></a></span>
+<span id="cb1-39"><a href="#cb1-39"></a>In my presentation thus far, I have been assuming that the molecules on the cell surfaces of parasites must mimic host molecules to evade detection. Otherwise, the parasites will be identified as foreign and killed by the host. In other words, there is a self- / non-self-recognition system in hosts, which is determined by a polymorphic set of alleles at one or more loci.   </span>
+<span id="cb1-40"><a href="#cb1-40"></a></span>
+<span id="cb1-41"><a href="#cb1-41"></a>Where did this idea for self- / non-self-recognition come from? I am embarrassed to say that I did not know before writing this chapter, and I am still not exactly sure, but the idea goes back at least to Sir Frank McFarland Burnet, who was cowinner of the 1960 Nobel Prize in Physiology and Medicine (with Sir Peter Medawar). Burnet was reviewing two studies, which showed recognition and rejection of genetically different competitors of the same species <span class="co">[</span><span class="ot">@burnet1971a</span><span class="co">]</span>. The first study was from Hidemiti Oka <span class="co">[</span><span class="ot">-@oka1970a</span><span class="co">]</span>: "Here I shall explore the possibility that Oka's <span class="co">[</span><span class="ot">-@oka1970a</span><span class="co">]</span> studies of colonial tunicates (*Botryllus*) ... may throw light on primitive types of 'self and not-self' recognition from which adaptive immunity may have evolved." Hidemiti Oka was a Japanese professor of biology in Tokyo. He was following up on a pioneering study by Bancroft [-@bancroft1903a], who had shown that fragments from related colonies of a compound ascidian (*Botryllus schlosseri*) readily fused, whereas fragments from unrelated colonies rejected each other. Oka's goal was to understand the genetic basis for this fusion/rejection. His study suggested that fusion was determined by multiple alleles ("perhaps several scores") at a single locus. More specifically, Oka's results suggested that fusion occurred between different colonies only if they shared at least one allele at this locus.<span class="ot">[^3]</span> To my mind, this was a major finding.  </span>
+<span id="cb1-42"><a href="#cb1-42"></a></span>
+<span id="cb1-43"><a href="#cb1-43"></a>It thus appears that Oka was inspired by Bancroft, and Burnet was inspired by Oka. How does Burnet fit in? Burnet first accepts Oka's assumption that allorecognition depends on a single highly polymorphic locus (@fig-4.5): "To summarize Oka's work, it is convenient to accept his assumption, which is validated by much preliminary work, that fusion or rejection between colonies depends on a single locus with many alleles which can be referred to as recognition genes." Burnet then suggests that this same mechanism could be co-opted as a defense against parasites and that such a mechanism could be the progenitor of the more sophisticated adaptive immune system in vertebrates. Burnet <span class="co">[</span><span class="ot">-@burnet1971a</span><span class="co">]</span> writes: </span>
+<span id="cb1-44"><a href="#cb1-44"></a></span>
+<span id="cb1-45"><a href="#cb1-45"></a><span class="at">&gt; It is probably unwise to attempt to imagine the various steps by which such changes could be made. One can foresee a period of great research activity in these fields of tissue fusion and rejection in invertebrates and protochordates during the next decade. Undoubtedly a variety of intriguing phenomena will be uncovered, differing from group to group. Some may be further along the road toward adaptive immunity than the colonial ascidians. Much more extensive comparative studies are called for and in due course analysis of the results should allow a clear evolutionary history to emerge. Whatever form that history eventually takes we can be certain that gene duplication (gene expansion) plays a major part, and that progressive specialization of cell function and phenotypic restriction will be as conspicuous as it is in all other organs and functions. </span></span>
+<span id="cb1-46"><a href="#cb1-46"></a></span>
+<span id="cb1-47"><a href="#cb1-47"></a>Wow. In retrospect, Burnet's "attempt to imagine the various steps" does not seem at all unwise. In any case, he suggests that infection occurs when parasites have alleles that match their host's genotype. Otherwise, the parasites are killed. This is the logic of what will later be called the "matching alleles model" for infection. I will flesh this idea out in a later chapter.  </span>
+<span id="cb1-48"><a href="#cb1-48"></a></span>
+<span id="cb1-49"><a href="#cb1-49"></a>!<span class="co">[</span><span class="ot">A model for self- / non-self-recognition [@oka1970a;@burnet1971a]. Cells sharing one or more alleles can rejoin after separation, as the receptors match. In contrast, cells that do not share an allele do not match and will not rejoin. Regions of fusion are shown in heavy lines. Burnett suggested that resistance in host-parasite interactions could have a similar mechanistic framework. Note that Burnett used "reciprocal" for matching cells with at least one matching allele, and "non-reciprocal" for cells in which none of the alleles matched. Redrawn from Burnet [-@burnet1971a] by Zoe M Dinges.</span><span class="co">](images/fig4-7.jpeg)</span>{fig-alt="" fig-scap="A model for self- / non-self-recognition" #fig-4.5}</span>
+<span id="cb1-50"><a href="#cb1-50"></a></span>
+<span id="cb1-51"><a href="#cb1-51"></a><span class="fu">## Summary</span></span>
+<span id="cb1-52"><a href="#cb1-52"></a></span>
+<span id="cb1-53"><a href="#cb1-53"></a><span class="ss">1. </span>The most common trematode infection in lake populations of *P. antipodarum* is caused by a larval stage of *Microphallus* sp. (recently renamed to *Atriophallophorus winterbourni*). The trematode has a two-host life cycle (snails and waterfowl).  </span>
+<span id="cb1-54"><a href="#cb1-54"></a></span>
+<span id="cb1-55"><a href="#cb1-55"></a><span class="ss">2. </span>Experimental cross-inoculation experiments showed that *Microphallus* is more infectious to local lake populations of its snail host, *P. antipodarum*, than to remote host populations.  </span>
+<span id="cb1-56"><a href="#cb1-56"></a></span>
+<span id="cb1-57"><a href="#cb1-57"></a><span class="ss">3. </span>These results suggest that some kind of match by the parasite to the host is required for infection. This idea of matching is consistent with the idea of self- / non-self-recognition as the basis for immune defense. The gist of the original idea stems from experimental studies of colony fusion in tunicates.  </span>
+<span id="cb1-58"><a href="#cb1-58"></a></span>
+<span id="cb1-59"><a href="#cb1-59"></a><span class="ot">[^1]: </span>The trematode worm was not formally described until 30 years later <span class="co">[</span><span class="ot">@blasco-costa2019a</span><span class="co">]</span>. As it turns out, it belongs in the genus *Atriophallophorus*, rather than *Microphallus*, and it was very appropriately named after Mike Winterbourn: *A. winterbourni*. But I am going to call it *Microphallus* in this book, as that is what we called it in our early papers.  </span>
+<span id="cb1-60"><a href="#cb1-60"></a></span>
+<span id="cb1-61"><a href="#cb1-61"></a><span class="ot">[^2]: </span>Dieter Ebert showed that parasites of *Daphnia* were locally adapted for both infectivity and transmission, which was a major advance.  </span>
+<span id="cb1-62"><a href="#cb1-62"></a></span>
+<span id="cb1-63"><a href="#cb1-63"></a><span class="ot">[^3]: </span>In direct contrast, however, Oka found that cross-fertilization did not occur between *Botryllus* gametes that shared the same allele. As Oka noted, this result mirrors the S-allele system in plants: "The ... situation corresponds exactly in its form to the homomorphic self-incompatibility prevailing among angiosperms."</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
+
 
 
 
