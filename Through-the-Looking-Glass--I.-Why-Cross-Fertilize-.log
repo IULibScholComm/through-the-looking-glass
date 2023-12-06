@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.4.18)  3 NOV 2023 13:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.4.18)  6 DEC 2023 14:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -809,262 +809,327 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 \tf@toc=\write4
 \openout4 = `Through-the-Looking-Glass--I.-Why-Cross-Fertilize-.toc'.
 
- [4] (./Through-the-Looking-Glass--I.-Why-Cross-Fertilize-.lof
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5
-
-]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 12.
- (c:/texlive/2022/texmf-dist/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6])
+ [4] (./Through-the-Looking-Glass--I.-Why-Cross-Fertilize-.lof)
 \tf@lof=\write5
 \openout5 = `Through-the-Looking-Glass--I.-Why-Cross-Fertilize-.lof'.
 
- [7] [8
+ [5
+
+] [6
 
 ] (./Through-the-Looking-Glass--I.-Why-Cross-Fertilize-.lot)
 \tf@lot=\write6
 \openout6 = `Through-the-Looking-Glass--I.-Why-Cross-Fertilize-.lot'.
 
- [9] [10
+ [7] [8
 
 ] [1
 
-] [2] [3
-
-] [4]
+] [2]
 \bbl@ensure@american {Chapter} 1.
-<images/Picture1.png, id=264, 162.6075pt x 205.4877pt>
-File: images/Picture1.png Graphic file (type png)
-<use images/Picture1.png>
-Package pdftex.def Info: images/Picture1.png  used on input line 305.
+<images/fig1-1.png, id=190, 162.6075pt x 205.4877pt>
+File: images/fig1-1.png Graphic file (type png)
+<use images/fig1-1.png>
+Package pdftex.def Info: images/fig1-1.png  used on input line 306.
 (pdftex.def)             Requested size: 138.0086pt x 174.40198pt.
-[5
+[3
 
- <./images/Picture1.png (PNG copy)>] [6]
-Package marginnote Info: Margin note 17.1 is on absolute page 17 on input line 419.
-Package marginnote Info: xpos seems to be 107.26999pt on input line 419.
-<images/fig1-1.jpg, id=293, 294.1389pt x 360.3864pt>
-File: images/fig1-1.jpg Graphic file (type jpg)
-<use images/fig1-1.jpg>
-Package pdftex.def Info: images/fig1-1.jpg  used on input line 420.
-(pdftex.def)             Requested size: 258.75774pt x 317.03651pt.
- [7 <./images/fig1-1.jpg>]
-<images/fig1-2.jpg, id=302, 361.35pt x 517.18219pt>
+ <./images/fig1-1.png (PNG copy)>] [4]
+Package marginnote Info: Margin note 13.1 is on absolute page 13 on input line 418.
+Package marginnote Info: xpos seems to be 107.26999pt on input line 418.
+<images/fig1-2.jpg, id=217, 294.1389pt x 360.3864pt>
 File: images/fig1-2.jpg Graphic file (type jpg)
 <use images/fig1-2.jpg>
-Package pdftex.def Info: images/fig1-2.jpg  used on input line 481.
-(pdftex.def)             Requested size: 345.00084pt x 493.78246pt.
-
+Package pdftex.def Info: images/fig1-2.jpg  used on input line 419.
+(pdftex.def)             Requested size: 258.75774pt x 317.03651pt.
+ [5 <./images/fig1-2.jpg>]
+Package marginnote Info: Margin note 14.1 is on absolute page 15 on input line 487.
+Package marginnote Info: xpos seems to be 107.26999pt on input line 487.
+<images/fig1-3_hr.png, id=233, 261.3765pt x 372.9132pt>
+File: images/fig1-3_hr.png Graphic file (type png)
+<use images/fig1-3_hr.png>
+Package pdftex.def Info: images/fig1-3_hr.png  used on input line 488.
+(pdftex.def)             Requested size: 261.37584pt x 372.91228pt.
+ [6] [7 <./images/fig1-3_hr.png>]
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 520.
+ (c:/texlive/2022/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8] [9 <./images/fig1-2.jpg>]
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 532.
- (c:/texlive/2022/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd) [10]
-Package marginnote Info: Margin note 21.1 is on absolute page 21 on input line 590.
-Package marginnote Info: xpos seems to be 107.26999pt on input line 590.
+ [8]
+Package marginnote Info: Margin note 17.1 is on absolute page 17 on input line 602.
+Package marginnote Info: xpos seems to be 107.26999pt on input line 602.
 
-Underfull \hbox (badness 1173) in paragraph at lines 590--590
+Underfull \hbox (badness 1173) in paragraph at lines 602--602
 \T1/lmr/m/n/8 (+20) (dis-tyly) in \T1/lmr/m/it/8 (+20) Prim-ula\T1/lmr/m/n/8 (+20) . Dar-win
  []
 
-<images/fig1-3.jpg, id=327, 614.295pt x 273.9033pt>
-File: images/fig1-3.jpg Graphic file (type jpg)
-<use images/fig1-3.jpg>
-Package pdftex.def Info: images/fig1-3.jpg  used on input line 591.
-(pdftex.def)             Requested size: 431.25021pt x 192.28685pt.
-
-Overfull \hbox (86.25021pt too wide) in paragraph at lines 591--592
- [][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11 <./images/fig1-3.jpg>] [12] [13]
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 719.
+<images/fig1-4.jpg, id=259, 614.295pt x 273.9033pt>
+File: images/fig1-4.jpg Graphic file (type jpg)
+<use images/fig1-4.jpg>
+Package pdftex.def Info: images/fig1-4.jpg  used on input line 603.
+(pdftex.def)             Requested size: 345.0058pt x 153.83199pt.
+[9 <./images/fig1-4.jpg>] [10]
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 707.
  (c:/texlive/2022/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 7851) has occurred while \output is active []
 
- [14] [15] [16
-
-]
+ [11] [12]
 \bbl@ensure@american {Chapter} 2.
-<images/fig2-1.jpeg, id=376, 302.0886pt x 201.1515pt>
+<images/fig2-1.jpeg, id=298, 302.0886pt x 201.1515pt>
 File: images/fig2-1.jpeg Graphic file (type jpg)
 <use images/fig2-1.jpeg>
-Package pdftex.def Info: images/fig2-1.jpeg  used on input line 806.
+Package pdftex.def Info: images/fig2-1.jpeg  used on input line 796.
 (pdftex.def)             Requested size: 302.10167pt x 201.1602pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17 <./images/fig2-1.jpeg>] [18] [19] [20]
-Package marginnote Info: Margin note 31.1 is on absolute page 32 on input line 1051.
-Package marginnote Info: xpos seems to be 161.26999pt on input line 1051.
-<images/fig2-2.jpeg, id=415, 314.6154pt x 321.6015pt>
-File: images/fig2-2.jpeg Graphic file (type jpg)
-<use images/fig2-2.jpeg>
-Package pdftex.def Info: images/fig2-2.jpeg  used on input line 1052.
-(pdftex.def)             Requested size: 258.76399pt x 264.5099pt.
- [21] [22 <./images/fig2-2.jpeg>]
-Package marginnote Info: Margin note 33.1 is on absolute page 34 on input line 1154.
+ [13
 
-Underfull \hbox (badness 1515) in paragraph at lines 1154--1154
-[]\T1/lmr/m/n/8 (+20) Figure 2.2: |[]Sim-u-la-tion model
- []
+ <./images/fig2-1.jpeg>] [14] [15] [16]
+Package marginnote Info: Margin note 25.1 is on absolute page 26 on input line 1034.
+Package marginnote Info: xpos seems to be 161.26999pt on input line 1034.
+<images/fig2-2_hr.png, id=338, 365.6862pt x 353.6412pt>
+File: images/fig2-2_hr.png Graphic file (type png)
+<use images/fig2-2_hr.png>
+Package pdftex.def Info: images/fig2-2_hr.png  used on input line 1035.
+(pdftex.def)             Requested size: 345.02287pt x 333.65846pt.
+ [17] [18 <./images/fig2-2_hr.png>] [19]
+Package marginnote Info: Margin note 28.1 is on absolute page 29 on input line 1139.
+Package marginnote Info: xpos seems to be 107.26999pt on input line 1139.
+<images/fig2-3_hr.png, id=366, 366.8907pt x 454.3374pt>
+File: images/fig2-3_hr.png Graphic file (type png)
+<use images/fig2-3_hr.png>
+Package pdftex.def Info: images/fig2-3_hr.png  used on input line 1140.
+(pdftex.def)             Requested size: 345.01164pt x 427.24359pt.
+Package marginnote Info: Margin note 28.2 is on absolute page 30 on input line 1174.
+Package marginnote Info: xpos seems to be 161.26999pt on input line 1174.
+<images/fig2-4_hr.png, id=368, 571.1739pt x 381.5856pt>
+File: images/fig2-4_hr.png Graphic file (type png)
+<use images/fig2-4_hr.png>
+Package pdftex.def Info: images/fig2-4_hr.png  used on input line 1175.
+(pdftex.def)             Requested size: 345.00784pt x 230.49026pt.
+ [20] [21 <./images/fig2-3_hr.png>]
+Underfull \vbox (badness 1931) has occurred while \output is active []
 
-Package marginnote Info: xpos seems to be 161.26999pt on input line 1154.
-<images/fig2-3.jpg, id=438, 505.13719pt x 660.21657pt>
-File: images/fig2-3.jpg Graphic file (type jpg)
-<use images/fig2-3.jpg>
-Package pdftex.def Info: images/fig2-3.jpg  used on input line 1155.
-(pdftex.def)             Requested size: 345.00717pt x 450.92592pt.
-[23] [24 <./images/fig2-3.jpg>]
-Package marginnote Info: Margin note 35.1 is on absolute page 35 on input line 1188.
-Package marginnote Info: xpos seems to be 107.26999pt on input line 1188.
-<images/fig2-4.jpeg, id=450, 638.385pt x 436.63126pt>
-File: images/fig2-4.jpeg Graphic file (type jpg)
-<use images/fig2-4.jpeg>
-Package pdftex.def Info: images/fig2-4.jpeg  used on input line 1189.
-(pdftex.def)             Requested size: 344.9955pt x 235.96391pt.
- [25 <./images/fig2-4.jpeg>] [26] [27] [28] [29]
-Overfull \hbox (8.57379pt too wide) in paragraph at lines 1513--1514
+ [22 <./images/fig2-4_hr.png>] [23] [24]
+Underfull \vbox (badness 1057) has occurred while \output is active []
+
+ [25] [26]
+Overfull \hbox (4.04872pt too wide) in paragraph at lines 1500--1501
 []\T1/lmr/m/n/10 (-20) Genotype  
  []
 
 
-Overfull \hbox (14.1601pt too wide) in paragraph at lines 1519--1520
-[]\T1/lmr/bx/n/10 (-20) Arithmetic 
- []
-
-
-Overfull \hbox (8.57379pt too wide) in paragraph at lines 1527--1528
+Overfull \hbox (4.04872pt too wide) in paragraph at lines 1514--1515
 []\T1/lmr/m/n/10 (-20) Genotype  
  []
 
 
-Overfull \hbox (14.1601pt too wide) in paragraph at lines 1533--1534
-[]\T1/lmr/bx/n/10 (-20) Arithmetic 
+Overfull \hbox (38.65135pt too wide) has occurred while \output is active
+[]\T1/lmr/m/sl/10 2.5.  APPENDIX A: LEVENE'S MODEL OF MULTIPLE NICHE POLYMORPHISM[] \T1/lmr/m/n/10 27
  []
 
-
-Overfull \hbox (8.57379pt too wide) in paragraph at lines 1576--1577
+[27]
+Overfull \hbox (4.49284pt too wide) in paragraph at lines 1563--1564
 []\T1/lmr/m/n/10 (-20) Genotype  
  []
 
 
-Overfull \hbox (14.1601pt too wide) in paragraph at lines 1582--1583
-[]\T1/lmr/bx/n/10 (-20) Arithmetic 
- []
-
-
-Overfull \hbox (8.57379pt too wide) in paragraph at lines 1590--1591
+Overfull \hbox (4.49284pt too wide) in paragraph at lines 1577--1578
 []\T1/lmr/m/n/10 (-20) Genotype  
  []
 
-
-Overfull \hbox (14.1601pt too wide) in paragraph at lines 1596--1597
-[]\T1/lmr/bx/n/10 (-20) Arithmetic 
- []
-
-<images/fig2-5.jpg, id=503, 236.38312pt x 135.50626pt>
-File: images/fig2-5.jpg Graphic file (type jpg)
-<use images/fig2-5.jpg>
-Package pdftex.def Info: images/fig2-5.jpg  used on input line 1622.
-(pdftex.def)             Requested size: 207.79416pt x 119.11766pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [30] [31] [32] [33 <./images/fig2-5.jpg>] [34
-
-]
+Package marginnote Info: Margin note 36.1 is on absolute page 36 on input line 1612.
+Package marginnote Info: xpos seems to be 161.26999pt on input line 1612.
+<images/fig2-5_hr.png, id=441, 594.7821pt x 343.0416pt>
+File: images/fig2-5_hr.png Graphic file (type png)
+<use images/fig2-5_hr.png>
+Package pdftex.def Info: images/fig2-5_hr.png  used on input line 1613.
+(pdftex.def)             Requested size: 345.01016pt x 198.98518pt.
+[28 <./images/fig2-5_hr.png>]
 \bbl@ensure@american {Chapter} 3.
-<images/fig3-1.jpeg, id=534, 145.0218pt x 204.2832pt>
+<images/fig3-1.jpeg, id=450, 145.0218pt x 204.2832pt>
 File: images/fig3-1.jpeg Graphic file (type jpg)
 <use images/fig3-1.jpeg>
-Package pdftex.def Info: images/fig3-1.jpeg  used on input line 1639.
+Package pdftex.def Info: images/fig3-1.jpeg  used on input line 1627.
 (pdftex.def)             Requested size: 138.00226pt x 194.39522pt.
-[35 <./images/fig3-1.jpeg>]
-Package marginnote Info: Margin note 46.1 is on absolute page 46 on input line 1706.
-Package marginnote Info: xpos seems to be 161.26999pt on input line 1706.
-<images/fig3-2.jpeg, id=547, 614.295pt x 794.97pt>
+[29
+
+ <./images/fig3-1.jpeg>]
+Package marginnote Info: Margin note 38.1 is on absolute page 38 on input line 1687.
+Package marginnote Info: xpos seems to be 161.26999pt on input line 1687.
+<images/fig3-2.jpeg, id=464, 614.295pt x 794.97pt>
 File: images/fig3-2.jpeg Graphic file (type jpg)
 <use images/fig3-2.jpeg>
-Package pdftex.def Info: images/fig3-2.jpeg  used on input line 1707.
+Package pdftex.def Info: images/fig3-2.jpeg  used on input line 1688.
 (pdftex.def)             Requested size: 137.99481pt x 178.58153pt.
-Package marginnote Info: Margin note 46.2 is on absolute page 47 on input line 1723.
-Package marginnote Info: xpos seems to be 107.26999pt on input line 1723.
-<images/fig3-3.jpeg, id=548, 465.9006pt x 520.8258pt>
+Package marginnote Info: Margin note 38.2 is on absolute page 39 on input line 1705.
+Package marginnote Info: xpos seems to be 107.26999pt on input line 1705.
+<images/fig3-3.jpeg, id=465, 465.9006pt x 520.8258pt>
 File: images/fig3-3.jpeg Graphic file (type jpg)
 <use images/fig3-3.jpeg>
-Package pdftex.def Info: images/fig3-3.jpeg  used on input line 1724.
+Package pdftex.def Info: images/fig3-3.jpeg  used on input line 1706.
 (pdftex.def)             Requested size: 137.99399pt x 154.26215pt.
- [36 <./images/fig3-2.jpeg>] [37 <./images/fig3-3.jpeg>]
-Package marginnote Info: Margin note 48.1 is on absolute page 49 on input line 1821.
-Package marginnote Info: xpos seems to be 107.26999pt on input line 1821.
-
-Underfull \hbox (badness 1194) in paragraph at lines 1821--1821
+ [30 <./images/fig3-2.jpeg>] [31 <./images/fig3-3.jpeg>]
+Package marginnote Info: Margin note 40.1 is on absolute page 41 on input line 1804.
+Package marginnote Info: xpos seems to be 107.26999pt on input line 1804.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1804.
+ (c:/texlive/2022/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Underfull \hbox (badness 1194) in paragraph at lines 1804--1804
 \T1/lmr/m/n/8 (+20) re-pro-duc-tion. Partheno-gen-e-sis
  []
 
-<images/fig3-4.jpeg, id=570, 1284.8pt x 857.2025pt>
+<images/fig3-4.jpeg, id=487, 1284.8pt x 857.2025pt>
 File: images/fig3-4.jpeg Graphic file (type jpg)
 <use images/fig3-4.jpeg>
-Package pdftex.def Info: images/fig3-4.jpeg  used on input line 1822.
+Package pdftex.def Info: images/fig3-4.jpeg  used on input line 1805.
 (pdftex.def)             Requested size: 344.99901pt x 230.17902pt.
-[38] [39 <./images/fig3-4.jpeg>] [40] [41] [42]
-Package marginnote Info: Margin note 53.1 is on absolute page 54 on input line 2103.
+[32]
+Underfull \vbox (badness 1762) has occurred while \output is active []
 
-Underfull \hbox (badness 1242) in paragraph at lines 2103--2103
+ [33 <./images/fig3-4.jpeg>] [34] [35] [36]
+Package marginnote Info: Margin note 45.1 is on absolute page 46 on input line 2088.
+
+Underfull \hbox (badness 1242) in paragraph at lines 2088--2088
 \T1/lmr/m/n/8 (+20) re-placed sex-u-als were parasite-
  []
 
-Package marginnote Info: xpos seems to be 161.26999pt on input line 2103.
-<images/fig3-5.JPG, id=616, 456.20438pt x 475.7775pt>
-File: images/fig3-5.JPG Graphic file (type jpg)
-<use images/fig3-5.JPG>
-Package pdftex.def Info: images/fig3-5.JPG  used on input line 2104.
-(pdftex.def)             Requested size: 345.00648pt x 359.80875pt.
-[43] [44 <./images/fig3-5.JPG>] [45]
-Package marginnote Info: Margin note 56.1 is on absolute page 57 on input line 2204.
-Package marginnote Info: xpos seems to be 107.26999pt on input line 2204.
-<images/fig3-6.JPG, id=645, 386.94562pt x 459.96844pt>
-File: images/fig3-6.JPG Graphic file (type jpg)
-<use images/fig3-6.JPG>
-Package pdftex.def Info: images/fig3-6.JPG  used on input line 2205.
-(pdftex.def)             Requested size: 345.00636pt x 410.1146pt.
-<images/fig3-7.JPG, id=647, 542.025pt x 291.33844pt>
-File: images/fig3-7.JPG Graphic file (type jpg)
-<use images/fig3-7.JPG>
-Package pdftex.def Info: images/fig3-7.JPG  used on input line 2251.
-(pdftex.def)             Requested size: 319.68445pt x 171.83038pt.
- [46] [47 <./images/fig3-6.JPG>] [48 <./images/fig3-7.JPG>]
+Package marginnote Info: xpos seems to be 161.26999pt on input line 2088.
+<images/fig3-5_hr.png, id=534, 590.9277pt x 584.4234pt>
+File: images/fig3-5_hr.png Graphic file (type png)
+<use images/fig3-5_hr.png>
+Package pdftex.def Info: images/fig3-5_hr.png  used on input line 2089.
+(pdftex.def)             Requested size: 345.01054pt x 341.21303pt.
+Package marginnote Info: Margin note 45.2 is on absolute page 47 on input line 2105.
+Package marginnote Info: xpos seems to be 107.26999pt on input line 2105.
+<images/fig3-6_hr.png, id=535, 614.295pt x 794.97pt>
+File: images/fig3-6_hr.png Graphic file (type png)
+<use images/fig3-6_hr.png>
+Package pdftex.def Info: images/fig3-6_hr.png  used on input line 2106.
+(pdftex.def)             Requested size: 345.0058pt x 446.4781pt.
+[37] [38 <./images/fig3-5_hr.png>] [39 <./images/fig3-6_hr.png>]
+Underfull \vbox (badness 6078) has occurred while \output is active []
+
+ [40]
+<images/fig3-7_hr.png, id=570, 606.8271pt x 315.3381pt>
+File: images/fig3-7_hr.png Graphic file (type png)
+<use images/fig3-7_hr.png>
+Package pdftex.def Info: images/fig3-7_hr.png  used on input line 2239.
+(pdftex.def)             Requested size: 319.68161pt x 166.12276pt.
+ [41] [42 <./images/fig3-7_hr.png>]
 \bbl@ensure@american {Chapter} 4.
-[49
+<images/fig4-1.jpeg, id=592, 132.0132pt x 123.5817pt>
+File: images/fig4-1.jpeg Graphic file (type jpg)
+<use images/fig4-1.jpeg>
+Package pdftex.def Info: images/fig4-1.jpeg  used on input line 2261.
+(pdftex.def)             Requested size: 172.51552pt x 161.49718pt.
+[43
 
-] [50
+ <./images/fig4-1.jpeg>]
 
-] [51] [52]
+LaTeX Warning: Reference `fig-4.1' on page 44 undefined on input line 2334.
+
+<images/fig4-2.jpeg, id=599, 614.295pt x 431.211pt>
+File: images/fig4-2.jpeg Graphic file (type jpg)
+<use images/fig4-2.jpeg>
+Package pdftex.def Info: images/fig4-2.jpeg  used on input line 2346.
+(pdftex.def)             Requested size: 172.49821pt x 121.08698pt.
+
+Overfull \hbox (6.66487pt too wide) in paragraph at lines 2342--2347
+ [][] 
+ []
+
+<images/fig4-3.jpg, id=600, 323.7696pt x 370.0224pt>
+File: images/fig4-3.jpg Graphic file (type jpg)
+<use images/fig4-3.jpg>
+Package pdftex.def Info: images/fig4-3.jpg  used on input line 2362.
+(pdftex.def)             Requested size: 172.50114pt x 197.14417pt.
+
+Overfull \hbox (6.6678pt too wide) in paragraph at lines 2358--2363
+ [][] 
+ []
+
+
+Overfull \hbox (31.08339pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 44 [][]\T1/lmr/m/sl/10 CHAPTER[] 4.  SELF- / NON-SELF-RECOGNITION AND LOCAL ADAPTATION[]
+ []
+
+[44]
+Package marginnote Info: Margin note 53.1 is on absolute page 54 on input line 2398.
+Package marginnote Info: xpos seems to be 161.26999pt on input line 2398.
+<images/fig4-4.png, id=608, 602.7318pt x 360.6273pt>
+File: images/fig4-4.png Graphic file (type png)
+<use images/fig4-4.png>
+Package pdftex.def Info: images/fig4-4.png  used on input line 2399.
+(pdftex.def)             Requested size: 345.00461pt x 206.42361pt.
+ [45 <./images/fig4-2.jpeg> <./images/fig4-3.jpg>]
+Package marginnote Info: Margin note 54.1 is on absolute page 55 on input line 2435.
+Package marginnote Info: xpos seems to be 107.26999pt on input line 2435.
+<images/fig4-5.png, id=615, 605.6226pt x 356.2911pt>
+File: images/fig4-5.png Graphic file (type png)
+<use images/fig4-5.png>
+Package pdftex.def Info: images/fig4-5.png  used on input line 2436.
+(pdftex.def)             Requested size: 345.0144pt x 202.97386pt.
+
+Overfull \hbox (31.08339pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 46 [][]\T1/lmr/m/sl/10 CHAPTER[] 4.  SELF- / NON-SELF-RECOGNITION AND LOCAL ADAPTATION[]
+ []
+
+[46 <./images/fig4-4.png>]
+Package marginnote Info: Margin note 55.1 is on absolute page 56 on input line 2492.
+Package marginnote Info: xpos seems to be 161.26999pt on input line 2492.
+<images/fig4-6.png, id=622, 604.1772pt x 613.3314pt>
+File: images/fig4-6.png Graphic file (type png)
+<use images/fig4-6.png>
+Package pdftex.def Info: images/fig4-6.png  used on input line 2493.
+(pdftex.def)             Requested size: 345.00224pt x 350.22955pt.
+ [47 <./images/fig4-5.png>]
+Overfull \hbox (31.08339pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 48 [][]\T1/lmr/m/sl/10 CHAPTER[] 4.  SELF- / NON-SELF-RECOGNITION AND LOCAL ADAPTATION[]
+ []
+
+[48 <./images/fig4-6.png>] [49]
+Package marginnote Info: Margin note 58.1 is on absolute page 58 on input line 2584.
+Package marginnote Info: xpos seems to be 161.26999pt on input line 2584.
+<images/fig4-7.jpeg, id=643, 474.8139pt x 495.5313pt>
+File: images/fig4-7.jpeg Graphic file (type jpg)
+<use images/fig4-7.jpeg>
+Package pdftex.def Info: images/fig4-7.jpeg  used on input line 2585.
+(pdftex.def)             Requested size: 344.99562pt x 360.04869pt.
+
+Overfull \hbox (31.08339pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 50 [][]\T1/lmr/m/sl/10 CHAPTER[] 4.  SELF- / NON-SELF-RECOGNITION AND LOCAL ADAPTATION[]
+ []
+
+[50 <./images/fig4-7.jpeg>] [51]
+Overfull \hbox (31.08339pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 52 [][]\T1/lmr/m/sl/10 CHAPTER[] 4.  SELF- / NON-SELF-RECOGNITION AND LOCAL ADAPTATION[]
+ []
+
+[52
+
+]
+\bbl@ensure@american {Chapter} 5.
+[53] [54
+
+]
 Underfull \vbox (badness 2698) has occurred while \output is active []
 
- [53
+ [55] [56] [57] [58] [59] [60] (./Through-the-Looking-Glass--I.-Why-Cross-Fertilize-.aux)
 
-] [54] [55] [56] [57] [58
+LaTeX Warning: There were undefined references.
 
-] (./Through-the-Looking-Glass--I.-Why-Cross-Fertilize-.aux) ) 
+ ) 
 Here is how much of TeX's memory you used:
- 34107 strings out of 476029
- 672849 string characters out of 5794158
- 1877340 words of memory out of 5000000
- 53306 multiletter control sequences out of 15000+600000
- 614944 words of font info for 262 fonts, out of 8000000 for 9000
+ 34207 strings out of 476029
+ 674785 string characters out of 5794158
+ 1866340 words of memory out of 5000000
+ 53355 multiletter control sequences out of 15000+600000
+ 615251 words of font info for 266 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 86i,11n,89p,1211b,1043s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 86i,11n,89p,1110b,1039s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{callout-4} has been referenced but does not exist, replaced by a fixed one
 
@@ -1077,11 +1142,11 @@ pdfTeX warning (dest): name{callout-2} has been referenced but does not exist, r
 
 pdfTeX warning (dest): name{callout-1} has been referenced but does not exist, replaced by a fixed one
 
-{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbx8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmri8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmro10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy7.pfb>
-Output written on Through-the-Looking-Glass--I.-Why-Cross-Fertilize-.pdf (68 pages, 3664068 bytes).
+{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbx8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmri8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmro10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy7.pfb>
+Output written on Through-the-Looking-Glass--I.-Why-Cross-Fertilize-.pdf (68 pages, 8464182 bytes).
 PDF statistics:
- 1115 PDF objects out of 1200 (max. 8388607)
- 966 compressed objects within 10 object streams
- 315 named destinations out of 1000 (max. 500000)
- 55645 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 1141 PDF objects out of 1200 (max. 8388607)
+ 973 compressed objects within 10 object streams
+ 351 named destinations out of 1000 (max. 500000)
+ 53656 words of extra memory for PDF output out of 61914 (max. 10000000)
 

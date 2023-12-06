@@ -3,31 +3,34 @@
 \contentsline {section}{About}{1}{section*.5}%
 \contentsline {section}{Acknowledgements}{1}{section*.6}%
 \contentsline {section}{Copyright and License}{1}{section*.7}%
-\contentsline {section}{Publisher Information}{2}{section*.8}%
+\contentsline {section}{Publisher}{2}{section*.8}%
 \contentsline {section}{How to Cite}{2}{section*.9}%
-\contentsline {part}{I\hspace {1em}Part One: Why Cross-Fertilize?}{3}{part.1}%
-\contentsline {chapter}{\numberline {1}Why Sex?}{5}{chapter.1}%
-\contentsline {section}{\numberline {1.1}The Question}{5}{section.1.1}%
-\contentsline {section}{\numberline {1.2}The Problem}{6}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}The cost of meiosis: reduced relatedness}{6}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}The cost of males}{7}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {1.2.3}Contrasting the costs}{8}{subsection.1.2.3}%
-\contentsline {subsection}{\numberline {1.2.4}The cost of recombination}{10}{subsection.1.2.4}%
-\contentsline {subsection}{\numberline {1.2.5}Darwin's view}{12}{subsection.1.2.5}%
-\contentsline {section}{\numberline {1.3}Summary}{13}{section.1.3}%
-\contentsline {chapter}{\numberline {2}The Ecological Hypotheses}{17}{chapter.2}%
-\contentsline {section}{\numberline {2.1}The Lottery Model}{18}{section.2.1}%
-\contentsline {section}{\numberline {2.2}The Tangled Bank/Frozen Niche-Variation Model}{20}{section.2.2}%
-\contentsline {section}{\numberline {2.3}The Red Queen Hypothesis}{22}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}An intersection of science and literature}{25}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Conceptual roots of the Red Queen Hypothesis}{27}{subsection.2.3.2}%
-\contentsline {section}{\numberline {2.4}Summary}{29}{section.2.4}%
-\contentsline {chapter}{\numberline {3}Contrasting the Ecological Hypotheses}{35}{chapter.3}%
-\contentsline {section}{\numberline {3.1}The Method of Multiple Working Hypotheses}{38}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}A side story on JMS}{40}{subsection.3.1.1}%
-\contentsline {section}{\numberline {3.2}The Distribution of Male Snails}{41}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Summary}{46}{section.3.3}%
-\contentsline {chapter}{\numberline {4}The Ratchet and the Red Queen}{49}{chapter.4}%
-\contentsline {section}{\numberline {4.1}The Problem}{49}{section.4.1}%
-\contentsline {part}{II\hspace {1em}Back Matter}{51}{part.2}%
-\contentsline {chapter}{References}{53}{chapter*.25}%
+\contentsline {chapter}{\numberline {1}Why Sex?}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}The Question}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}The Problem}{4}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}The cost of meiosis: reduced relatedness}{4}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}The cost of males}{5}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Contrasting the costs}{6}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}The cost of recombination}{6}{subsection.1.2.4}%
+\contentsline {subsection}{\numberline {1.2.5}Darwin's view}{9}{subsection.1.2.5}%
+\contentsline {section}{\numberline {1.3}Summary}{11}{section.1.3}%
+\contentsline {chapter}{\numberline {2}The Ecological Hypotheses}{13}{chapter.2}%
+\contentsline {section}{\numberline {2.1}The Lottery Model}{14}{section.2.1}%
+\contentsline {section}{\numberline {2.2}The Tangled Bank/Frozen Niche-Variation Model}{16}{section.2.2}%
+\contentsline {section}{\numberline {2.3}The Red Queen Hypothesis}{19}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}An intersection of science and literature}{20}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Conceptual roots of the Red Queen Hypothesis}{23}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}Summary}{26}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Appendix A: Levene's model of multiple niche polymorphism}{26}{section.2.5}%
+\contentsline {chapter}{\numberline {3}Contrasting the Ecological Hypotheses}{29}{chapter.3}%
+\contentsline {section}{\numberline {3.1}The Method of Multiple Working Hypotheses}{32}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}A side story on JMS}{34}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}The Distribution of Male Snails}{35}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Summary}{41}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Self- / Non-Self-Recognition and Local Adaptation}{43}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Experimental Studies of Local Adaption}{44}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Self- / Non-Self-Recognition}{47}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Summary}{50}{section.4.3}%
+\contentsline {chapter}{\numberline {5}The Ratchet and the Red Queen}{53}{chapter.5}%
+\contentsline {section}{\numberline {5.1}The Problem}{53}{section.5.1}%
+\contentsline {chapter}{References}{55}{chapter*.32}%
