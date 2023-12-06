@@ -52,7 +52,9 @@ As a brief aside, I cannot help but mention the human toll taken by R.A. Fisher'
 
 In any case, my view by 1987 was that the Red Queen Hypothesis merited serious consideration.[^12] For my own data, I now asked whether the correlation between sex and infection was a "red herring." In other words, could the correlation be generated because of something else? Yes, it could. Here is how it might work. First, infection could be higher in dense host populations as expected under theory [@anderson1979a;@may1979a]. Second, there might be more sex in dense populations because asexual reproduction is favored in sparse populations as a way for individuals to ensure reproduction even in the absence of conspecific mates [@tomlinson1966a;@gerritsen1980a;@lloyd1980a]. This latter idea is called the "Reproductive Assurance Hypothesis." Hence, one could find a positive correlation between sex and infection as a simple consequence of epidemiology and selection for reproductive assurance. So, I decided to sample again, this time focusing on South Island lakes (@fig-3-5 & @fig-3-6) while also collecting data on snail density. The results were consistent with the epidemiological expectations, as there was a marginally significant positive relationship between snail density and infection prevalence, but there was no support for the Reproductive Assurance Hypothesis [@lively1992a]. Finally, the previously observed positive relationship between sex and infection held (@fig-3-5).[^13] The Red Queen was still in the running. 
 
-![Results from surveys of New Zealand lakes and streams showing percent males against the prevalence of female infection by all species of trematodes. Note the upper left side of the graph. There are no highly sexual populations where parasites are rare or absent, which suggests that asexuals have replaced sexuals were parasite-mediated selection is weak. This result is consistent with Lloyd's prediction given in @sec-eco-hyp. Circles represent stream populations [@lively1987a] plus two river samples. Gray triangles represent lake populations [@lively1987a]. Black triangles represent lake and tarn populations [@lively1992a]. The correlation is positive and statistically significant.](images/fig3-5.JPG){#fig-3-5 fig-alt="" fig-scap="Results from surveys of New Zealand lakes and streams showing percent males against the prevalence of female infection by all species of trematodes"}
+![Results from surveys of New Zealand lakes and streams showing percent males against the prevalence of female infection by all species of trematodes. Note the upper left side of the graph. There are no highly sexual populations where parasites are rare or absent, which suggests that asexuals have replaced sexuals were parasite-mediated selection is weak. This result is consistent with Lloyd's prediction given in @sec-eco-hyp. Circles represent stream populations [@lively1987a] plus two river samples. Gray triangles represent lake populations [@lively1987a]. Black triangles represent lake and tarn populations [@lively1992a]. The correlation is positive and statistically significant.](images/fig3-5_hr.png){#fig-3-5 fig-alt="" fig-scap="Results from surveys of New Zealand lakes and streams showing percent males against the prevalence of female infection by all species of trematodes"}
+
+![The distribution of male and female *Potamopyrgus antipodarum* across New Zealand. The percentage of males is given in blue; the percentage of females is given in red. Pie charts enclosed in boxes are for lakes and tarns that are very close together. The large pie on the left-hand side shows the average frequencies of males and females across all samples. [Redrawn from @lively1992a.]](images/fig3-6_hr.png){#fig-3-6 fig-alt="" fig-scap="Distribution of male and female *Potamopyrgus antipodarum* across New Zealand"}
 
 These results suggested that parasite-mediated selection might contribute to the persistence of sex in mixed populations of sexual and asexual snails. It is of particular interest, perhaps, to note that there are no populations with a high proportion of males in samples where parasites were rare or absent (@fig-3-5). This finding is consistent with David Lloyd’s 1980 prediction that asexuals should dominate in populations "with a relaxation of biological hostility" (see above) [-@lloyd1980a]. But the results are messy. 
 
@@ -70,13 +72,13 @@ None of this is meant to imply proof of the Red Queen Hypothesis or that density
 
 3. The prevalence of sterilizing trematode larvae is a better predictor sexual reproduction in the snail than habitat (lakes vs. streams), thus favoring the Red Queen Hypothesis over the alternative ecological hypotheses. 
 
-4. Comparing the *a priori* predictions of multiple working hypotheses can be helpful to evaluate competing ideas. Field studies of natural systems may be required to fully understand why cross-fertilization is so common.
+4. Comparing the *a priori* predictions of multiple working hypotheses can be helpful to evaluate competing ideas. Field studies of natural systems may be required to fully understand why cross-fertilization is so common.  
 
-![The distribution of male and female *Potamopyrgus antipodarum* across New Zealand. The percentage of males is given in blue; the percentage of females is given in red. Pie charts enclosed in boxes are for lakes and tarns that are very close together. The large pie on the left-hand side shows the average frequencies of males and females across all samples. [Redrawn from @lively1992a.]](images/fig3-6.JPG){#fig-3-6 fig-alt="" fig-scap="Distribution of male and female *Potamopyrgus antipodarum* across New Zealand"}
+&nbsp;
 
 ::: {.callout-note #callout-4}
 
-## Box 3.1. {#callout-4}
+## Box 3.1 {#callout-4}
 
 As part of my dissertation research, I constructed a game-theoretic model of selection on three strategies: 
 
@@ -90,7 +92,7 @@ The model examined evolutionary stability for a range of frequencies for two pat
 
 An example of the output is shown below. The results show that any of the three strategies can be an ESS in part of the parameter space.[^18] High reliability of the cue and intermediate patch frequencies favor the plastic strategy. Genetic polymorphism is expected under a relatively narrow set of conditions. Mixtures of constitutive and plastic strategies can also be stable. Note that changing the patch frequencies leads to evolutionary change. For example, reducing the frequency of the low-risk patch can lead to a selective sweep (arrow a). It can also lead to the evolution of plasticity (arrow b) and the evolution of canalized development (arrow c). Increasing the accuracy of the cue can also lead to the evolution of plasticity. It might be especially interesting to note that the trajectory of arrow b would give the appearance of saltatory change followed by stasis (i.e., punctuated equilibrium) [@levinton1988a]. Also note that the conditions for a genetic polymorphism are relatively narrow. Redrawn from Lively [-@lively1999b] assuming a small cost to plasticity.
 
-![](images/fig3-7.JPG){fig-alt="" fig-align="center" fig-scap="Game-theoretic model of selection on three strategies"}
+![](images/fig3-7_hr.png){fig-alt="" fig-scap="Game-theoretic model of selection on three strategies"}
 
 :::
 

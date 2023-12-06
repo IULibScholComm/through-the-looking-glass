@@ -202,12 +202,12 @@
 
 \title{Through the Looking Glass: I. Why Cross-Fertilize?}
 \author{Curtis M. Lively}
-\date{27 November 2023}
+\date{06 December 2023}
 
 \begin{document}
 \frontmatter
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[breakable, sharp corners, boxrule=0pt, frame hidden, interior hidden, borderline west={3pt}{0pt}{shadecolor}, enhanced]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[borderline west={3pt}{0pt}{shadecolor}, breakable, enhanced, interior hidden, sharp corners, frame hidden, boxrule=0pt]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Contents}
 {
@@ -276,11 +276,11 @@ Copyright Curtis M. Lively 2023
 is licensed under a Creative Commons Attribution 4.0 International
 License.
 
-\hypertarget{publisher-information}{%
-\section*{Publisher Information}\label{publisher-information}}
-\addcontentsline{toc}{section}{Publisher Information}
+\hypertarget{publisher}{%
+\section*{Publisher}\label{publisher}}
+\addcontentsline{toc}{section}{Publisher}
 
-\markright{Publisher Information}
+\markright{Publisher}
 
 \href{https://libraries.indiana.edu/scholarly-communication}{Indiana
 University Libraries Publishing}
@@ -430,15 +430,10 @@ offspring is also the same. Maynard Smith referred to this as the
 the phrase ``all-else-equal'' to mean that everything else is exactly
 equal. But this is not the case. Maynard Smith did not assume, for
 example, that sexuals and asexuals have the same ploidy
-value.\footnote{Plasticity is more mainstream now than it was in the
-  1980s. One reviewer of my paper was incredulous and recommended
-  rejection from \emph{Evolution} because the bent morph was not
-  ``genetically determined.'' The Associate Editor (John Endler)
-  rejected the review and accepted the paper. Clearly, it is the
-  developmental strategy that is genetically determined, not the morph
-  per se (Hazel \emph{et al.} 2004; see also Lively \emph{et al.} 2000).}
-His model only assumes that sexual and asexual females have equal
-fecundities and survivorship probabilities (see
+value.\footnote{Dieter Ebert showed that parasites of \emph{Daphnia}
+  were locally adapted for both infectivity and transmission, which was
+  a major advance.} His model only assumes that sexual and asexual
+females have equal fecundities and survivorship probabilities (see
 \protect\hyperlink{callout-2}{Box 1.2}). Under this assumption, a very
 rare clone would double in frequency in the next generation. Maynard
 Smith called this doubling-when-rare the two-fold cost of sex.
@@ -490,7 +485,7 @@ The interactive graph can also be run
 \href{https://connect.posit.iu.edu/clonal-invasion-dynamics/}{here} for
 users without R.}
 
-{\centering \includegraphics{images/fig1-3.jpg}
+{\centering \includegraphics{images/fig1-3_hr.png}
 
 }
 
@@ -511,17 +506,18 @@ then recombination would break these favorable allelic combinations
 apart. So, it makes no obvious sense to recombine more than needed for
 normal meiosis. Indeed, Lewontin (1971) formally showed that ``the mean
 fitness of the population at equilibrium is a maximum in the absence of
-recombination.''\footnote{Facultative parthenogenesis is used to mean
-  environmentally cued production of parthenogenetic females. I was
-  originally planning to work on a nematode population that produced a
-  mixture of sexual males and females at high density but only
-  parthenogenetic females at low density.} Hence, there are two
-interrelated anomalies: cross-fertilization \emph{per se} and meiotic
-recombination. Ideally, any theory that explains the persistence of
-biparental sex could also solve the paradox of recombination. But this
-need not be the case. They could have different solutions.
+recombination.''\footnote{In direct contrast, however, Oka found that
+  cross-fertilization did not occur between \emph{Botryllus} gametes
+  that shared the same allele. As Oka noted, this result mirrors the
+  S-allele system in plants: ``The \ldots{} situation corresponds
+  exactly in its form to the homomorphic self-incompatibility prevailing
+  among angiosperms.''} Hence, there are two interrelated anomalies:
+cross-fertilization \emph{per se} and meiotic recombination. Ideally,
+any theory that explains the persistence of biparental sex could also
+solve the paradox of recombination. But this need not be the case. They
+could have different solutions.
 
-\begin{tcolorbox}[enhanced jigsaw, left=2mm, colback=white, toptitle=1mm, bottomtitle=1mm, opacitybacktitle=0.6, colframe=quarto-callout-tip-color-frame, colbacktitle=quarto-callout-tip-color!10!white, titlerule=0mm, coltitle=black, opacityback=0, toprule=.15mm, breakable, rightrule=.15mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Box 1.1}, bottomrule=.15mm, arc=.35mm, leftrule=.75mm]
+\begin{tcolorbox}[enhanced jigsaw, colbacktitle=quarto-callout-tip-color!10!white, arc=.35mm, colback=white, opacityback=0, toptitle=1mm, titlerule=0mm, rightrule=.15mm, coltitle=black, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Box 1.1}, colframe=quarto-callout-tip-color-frame, leftrule=.75mm, bottomtitle=1mm, opacitybacktitle=0.6, bottomrule=.15mm, toprule=.15mm, left=2mm, breakable]
 
 \textbf{Short definitions of terms as used in this book. These
 definitions do not include all possible nuances.}
@@ -708,7 +704,7 @@ had indeed been overlooked: parasites.
   Why then are recombination and cross-fertilization so common?
 \end{enumerate}
 
-\begin{tcolorbox}[enhanced jigsaw, left=2mm, colback=white, toptitle=1mm, bottomtitle=1mm, opacitybacktitle=0.6, colframe=quarto-callout-note-color-frame, colbacktitle=quarto-callout-note-color!10!white, titlerule=0mm, coltitle=black, opacityback=0, toprule=.15mm, breakable, rightrule=.15mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 1.2}, bottomrule=.15mm, arc=.35mm, leftrule=.75mm]
+\begin{tcolorbox}[enhanced jigsaw, colbacktitle=quarto-callout-note-color!10!white, arc=.35mm, colback=white, opacityback=0, toptitle=1mm, titlerule=0mm, rightrule=.15mm, coltitle=black, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 1.2}, colframe=quarto-callout-note-color-frame, leftrule=.75mm, bottomtitle=1mm, opacitybacktitle=0.6, bottomrule=.15mm, toprule=.15mm, left=2mm, breakable]
 
 Maynard Smith's (1978) model showing the cost of producing
 males.\footnotemark{} Let \(N_{asex}\) be the number of asexual females
@@ -897,20 +893,15 @@ Year & Monoculture & Polyculture \\
 5 & 50 & 200 \\
 & & \\
 \textbf{Arithmetic mean} & \textbf{240} & 220 \\
-\textbf{Variance}\footnote{Plasticity is more mainstream now than it was
-  in the 1980s. One reviewer of my paper was incredulous and recommended
-  rejection from \emph{Evolution} because the bent morph was not
-  ``genetically determined.'' The Associate Editor (John Endler)
-  rejected the review and accepted the paper. Clearly, it is the
-  developmental strategy that is genetically determined, not the morph
-  per se (Hazel \emph{et al.} 2004; see also Lively \emph{et al.} 2000).}
-& 19400 & 600 \\
-\textbf{Geometric mean (GM)}\footnote{Facultative parthenogenesis is
-  used to mean environmentally cued production of parthenogenetic
-  females. I was originally planning to work on a nematode population
-  that produced a mixture of sexual males and females at high density
-  but only parthenogenetic females at low density.} & 184 &
-\textbf{219} \\
+\textbf{Variance}\footnote{Dieter Ebert showed that parasites of
+  \emph{Daphnia} were locally adapted for both infectivity and
+  transmission, which was a major advance.} & 19400 & 600 \\
+\textbf{Geometric mean (GM)}\footnote{In direct contrast, however, Oka
+  found that cross-fertilization did not occur between \emph{Botryllus}
+  gametes that shared the same allele. As Oka noted, this result mirrors
+  the S-allele system in plants: ``The \ldots{} situation corresponds
+  exactly in its form to the homomorphic self-incompatibility prevailing
+  among angiosperms.''} & 184 & \textbf{219} \\
 \textbf{Approximate GM} & 200 & \textbf{219} \\
 \end{longtable}
 
@@ -1041,7 +1032,7 @@ environments. The Tangled Bank relies on soft selection in spatially
 variable environments. The Red Queen relies on frequency-dependent
 selection generated by coevolving antagonistic species.}
 
-{\centering \includegraphics[width=0.75\textwidth,height=\textheight]{images/fig2-2.jpeg}
+{\centering \includegraphics{images/fig2-2_hr.png}
 
 }
 
@@ -1146,7 +1137,7 @@ are less infected than the sexuals. Simulation model based on Lively
 (2009), which treats parasite virulence as a positive function of host
 density.}
 
-{\centering \includegraphics{images/fig2-3.jpg}
+{\centering \includegraphics{images/fig2-3_hr.png}
 
 }
 
@@ -1181,7 +1172,7 @@ coevolving with an asexual parasite with nine matching genotypes (Lively
 2009). The dashed line shows the average genotype frequency for hosts
 and parasites.}
 
-{\centering \includegraphics{images/fig2-4.jpeg}
+{\centering \includegraphics{images/fig2-4_hr.png}
 
 }
 
@@ -1447,7 +1438,9 @@ Chapter~\ref{sec-chap6}.\footnote{In this smaller sample of 20 lakes,
   Queen idea can perhaps also be seen as bet hedging.
 \end{enumerate}
 
-\begin{tcolorbox}[enhanced jigsaw, left=2mm, colback=white, toptitle=1mm, bottomtitle=1mm, opacitybacktitle=0.6, colframe=quarto-callout-note-color-frame, colbacktitle=quarto-callout-note-color!10!white, titlerule=0mm, coltitle=black, opacityback=0, toprule=.15mm, breakable, rightrule=.15mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 2.1. Levene's model of multiple niche polymorphism.}, bottomrule=.15mm, arc=.35mm, leftrule=.75mm]
+\hypertarget{appendix-a-levenes-model-of-multiple-niche-polymorphism}{%
+\section{Appendix A: Levene's model of multiple niche
+polymorphism}\label{appendix-a-levenes-model-of-multiple-niche-polymorphism}}
 
 It was widely thought that heterozygote advantage was required to
 maintain polymorphism at a single locus with two alleles. In the
@@ -1496,45 +1489,45 @@ niche.
 
 \hypertarget{tbl-lev}{}
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1200}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2667}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2800}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1467}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1867}}@{}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1250}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2375}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2375}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2125}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1875}}@{}}
 \caption{\label{tbl-lev}Levene's Example}\tabularnewline
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{Genotype}
+Genotype
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{Fitness Niche One}
+Fitness Niche One
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{Fitness Niche Two}
+Fitness Niche Two
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{Arithmetic mean}
+Arithmetic mean
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{Harmonic mean}
+Harmonic mean
 \end{minipage} \\
 \midrule\noalign{}
 \endfirsthead
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{Genotype}
+Genotype
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{Fitness Niche One}
+Fitness Niche One
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{Fitness Niche Two}
+Fitness Niche Two
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{Arithmetic mean}
+Arithmetic mean
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{Harmonic mean}
+Harmonic mean
 \end{minipage} \\
 \midrule\noalign{}
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-\textbf{AA} & \(W_{AA1}\) = 1.50 & \(W_{AA2}\) = 0.67 & 1.09 & 0.93 \\
-\textbf{AB} & \(W_{AB1}\) = 1.00 & \(W_{AB2}\) = 1.00 & 1.00 & 1.00 \\
-\textbf{BB} & \(W_{BB1}\) = 0.67 & \(W_{BB2}\) = 1.50 & 1.09 & 0.93 \\
+AA & \(W_{AA1}\) = 1.50 & \(W_{AA2}\) = 0.67 & 1.09 & 0.93 \\
+AB & \(W_{AB1}\) = 1.00 & \(W_{AB2}\) = 1.00 & 1.00 & 1.00 \\
+BB & \(W_{BB1}\) = 0.67 & \(W_{BB2}\) = 1.50 & 1.09 & 0.93 \\
 \end{longtable}
 
 For this example, the harmonic mean fitness for the heterozygote is
@@ -1559,70 +1552,69 @@ equally common, we get the following table:
 
 \hypertarget{tbl-pro}{}
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1200}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2667}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2800}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1467}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1867}}@{}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1235}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2346}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2346}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2099}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1975}}@{}}
 \caption{\label{tbl-pro}Prout's Example}\tabularnewline
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{Genotype}
+Genotype
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{Fitness Niche One}
+Fitness Niche One
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{Fitness Niche Two}
+Fitness Niche Two
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{Arithmetic mean}
+Arithmetic mean
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{Harmonic mean}
+Harmonic mean
 \end{minipage} \\
 \midrule\noalign{}
 \endfirsthead
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{Genotype}
+Genotype
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{Fitness Niche One}
+Fitness Niche One
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{Fitness Niche Two}
+Fitness Niche Two
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{Arithmetic mean}
+Arithmetic mean
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{Harmonic mean}
+Harmonic mean
 \end{minipage} \\
 \midrule\noalign{}
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-\textbf{AA} & \(W_{AA1}\) = 1.00 & \(W_{AA2}\) = 1.00 & 1.00 & 1.00 \\
-\textbf{AB} & \(W_{AB1}\) = 1.00 & \(W_{AB2}\) = 1.00 & 1.00 & 1.00 \\
-\textbf{BB} & \(W_{BB1}\) = 0.50 & \(W_{BB2}\) = 1.67 & 1.09 & 0.77 \\
+AA & \(W_{AA1}\) = 1.00 & \(W_{AA2}\) = 1.00 & 1.00 & 1.00 \\
+AB & \(W_{AB1}\) = 1.00 & \(W_{AB2}\) = 1.00 & 1.00 & 1.00 \\
+BB & \(W_{BB1}\) = 0.50 & \(W_{BB2}\) = 1.67 & 1.09 & 0.77 \\
 \end{longtable}
 
 Prout showed that there would be a stable multiple niche polymorphism
 even under complete dominance, provided that the arithmetic mean fitness
 for BB is greater than one and the harmonic mean fitness for the BB
 genotype is less than one. So, clearly, overdominance for harmonic mean
-fitness is not required for a stable polymorphism.\footnotemark{}
+fitness is not required for a stable polymorphism.\footnote{\(r = 0.47\);
+  \(P = 0.04\) for log\textsubscript{10} transformed data; \(N = 20\).}
 
 The plot below shows \(\mathrm{\Delta}q\) as a function of \(q\) for
 Prout's model of dominance. Note that \(\mathrm{\Delta}q\) is positive
 when \(q\) is near zero, and that \(\mathrm{\Delta}q\) is negative when
 \(q\) is near one. There is an interior equilibrium near \(q = 0.5\).
 
-\begin{figure}[H]
+\begin{figure}
 
-{\centering \includegraphics[width=0.65\textwidth,height=\textheight]{images/fig2-5.jpg}
+\sidecaption[Prout's model of dominance]{\(\mathrm{\Delta}q\) as a
+function of \(q\) for Prout's model of dominance}
+
+{\centering \includegraphics{images/fig2-5_hr.png}
 
 }
 
 \end{figure}
-
-\end{tcolorbox}
-
-\footnotetext{\(r = 0.47\); \(P = 0.04\) for log\textsubscript{10}
-transformed data; \(N = 20\).}
 
 \bookmarksetup{startatroot}
 
@@ -1652,17 +1644,12 @@ genetically determined and that they were likely to be different species
   book, as that is what we called it in our early papers.} I found that
 one of the two morphs was induced by chemical cues released by a
 predatory snail (Figure~\ref{fig-3-3}), and that the induced morph was
-more resistant to attack by this predator (1986c).\footnote{Plasticity
-  is more mainstream now than it was in the 1980s. One reviewer of my
-  paper was incredulous and recommended rejection from \emph{Evolution}
-  because the bent morph was not ``genetically determined.'' The
-  Associate Editor (John Endler) rejected the review and accepted the
-  paper. Clearly, it is the developmental strategy that is genetically
-  determined, not the morph per se (Hazel \emph{et al.} 2004; see also
-  Lively \emph{et al.} 2000).} Hence, the two morphs are not different
-species, but rather the result of phenotypic plasticity. In a blink of a
-field season, I went from being a community ecologist to an evolutionary
-biologist.
+more resistant to attack by this predator (1986c).\footnote{Dieter Ebert
+  showed that parasites of \emph{Daphnia} were locally adapted for both
+  infectivity and transmission, which was a major advance.} Hence, the
+two morphs are not different species, but rather the result of
+phenotypic plasticity. In a blink of a field season, I went from being a
+community ecologist to an evolutionary biologist.
 
 But why two morphs? Why didn't selection favor unconditional development
 of the predator-resistant morph? Using predator-exclusion cages, I found
@@ -1740,17 +1727,17 @@ Then I got very lucky. I was awarded a three-year postdoctoral
 fellowship from the NZ University Grants Committee. I had applied to
 work on the evolution of facultatively parthenogenetic nematodes, which
 represented a combination of my interests in developmental plasticity
-and sex.\footnote{Facultative parthenogenesis is used to mean
-  environmentally cued production of parthenogenetic females. I was
-  originally planning to work on a nematode population that produced a
-  mixture of sexual males and females at high density but only
-  parthenogenetic females at low density.} These topics were also very
-interesting to Wally Clark, a conceptual pioneer in the evolution of
-plasticity. He was also head of the Zoology Department at the University
-of Canterbury. I would not have received funding without the support of
-Prof.~Clark. To my mind, the value of Clark's work remains
-underestimated in general, but it had a big influence on me (e.g., Clark
-1976).
+and sex.\footnote{In direct contrast, however, Oka found that
+  cross-fertilization did not occur between \emph{Botryllus} gametes
+  that shared the same allele. As Oka noted, this result mirrors the
+  S-allele system in plants: ``The \ldots{} situation corresponds
+  exactly in its form to the homomorphic self-incompatibility prevailing
+  among angiosperms.''} These topics were also very interesting to Wally
+Clark, a conceptual pioneer in the evolution of plasticity. He was also
+head of the Zoology Department at the University of Canterbury. I would
+not have received funding without the support of Prof.~Clark. To my
+mind, the value of Clark's work remains underestimated in general, but
+it had a big influence on me (e.g., Clark 1976).
 
 I began looking for natural systems to study facultative
 parthenogenesis.\footnote{We were trained ask questions first and then
@@ -2099,7 +2086,24 @@ samples. Gray triangles represent lake populations (Lively 1987). Black
 triangles represent lake and tarn populations (Lively 1992). The
 correlation is positive and statistically significant.}
 
-{\centering \includegraphics{images/fig3-5.JPG}
+{\centering \includegraphics{images/fig3-5_hr.png}
+
+}
+
+\end{figure}
+
+\begin{figure}
+
+\sidecaption[Distribution of male and female \emph{Potamopyrgus
+antipodarum} across New Zealand]{\label{fig-3-6}The distribution of male
+and female \emph{Potamopyrgus antipodarum} across New Zealand. The
+percentage of males is given in blue; the percentage of females is given
+in red. Pie charts enclosed in boxes are for lakes and tarns that are
+very close together. The large pie on the left-hand side shows the
+average frequencies of males and females across all samples. (Redrawn
+from Lively 1992.)}
+
+{\centering \includegraphics{images/fig3-6_hr.png}
 
 }
 
@@ -2190,24 +2194,9 @@ Queen Hypothesis was (and still is) worthy of further study.
   cross-fertilization is so common.
 \end{enumerate}
 
-\begin{figure}
+~
 
-\sidecaption[Distribution of male and female \emph{Potamopyrgus
-antipodarum} across New Zealand]{\label{fig-3-6}The distribution of male
-and female \emph{Potamopyrgus antipodarum} across New Zealand. The
-percentage of males is given in blue; the percentage of females is given
-in red. Pie charts enclosed in boxes are for lakes and tarns that are
-very close together. The large pie on the left-hand side shows the
-average frequencies of males and females across all samples. (Redrawn
-from Lively 1992.)}
-
-{\centering \includegraphics{images/fig3-6.JPG}
-
-}
-
-\end{figure}
-
-\begin{tcolorbox}[enhanced jigsaw, left=2mm, colback=white, toptitle=1mm, bottomtitle=1mm, opacitybacktitle=0.6, colframe=quarto-callout-note-color-frame, colbacktitle=quarto-callout-note-color!10!white, titlerule=0mm, coltitle=black, opacityback=0, toprule=.15mm, breakable, rightrule=.15mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 3.1.}, bottomrule=.15mm, arc=.35mm, leftrule=.75mm]
+\begin{tcolorbox}[enhanced jigsaw, colbacktitle=quarto-callout-note-color!10!white, arc=.35mm, colback=white, opacityback=0, toptitle=1mm, titlerule=0mm, rightrule=.15mm, coltitle=black, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 3.1}, colframe=quarto-callout-note-color-frame, leftrule=.75mm, bottomtitle=1mm, opacitybacktitle=0.6, bottomrule=.15mm, toprule=.15mm, left=2mm, breakable]
 
 As part of my dissertation research, I constructed a game-theoretic
 model of selection on three strategies:
@@ -2247,7 +2236,7 @@ assuming a small cost to plasticity.
 
 \begin{figure}[H]
 
-{\centering \includegraphics{images/fig3-7.JPG}
+{\centering \includegraphics{images/fig3-7_hr.png}
 
 }
 
@@ -2263,9 +2252,9 @@ parameter space).}
 
 \bookmarksetup{startatroot}
 
-\hypertarget{selfnon-self-recognition-and-local-adaptation}{%
-\chapter{Self/Non-Self Recognition and Local
-Adaptation}\label{selfnon-self-recognition-and-local-adaptation}}
+\hypertarget{self--non-self-recognition-and-local-adaptation}{%
+\chapter{Self- / Non-Self-Recognition and Local
+Adaptation}\label{self--non-self-recognition-and-local-adaptation}}
 
 \begin{figure}
 
@@ -2297,13 +2286,13 @@ Instead, I think the answer has more to do with the underlying genetic
 basis for infection.
 
 What, then, is the genetic basis for infection? This was unknown, but I
-was assuming that all animal hosts have a self/non-self recognition
+was assuming that all animal hosts have a self- / non-self-recognition
 system, such that they can detect foreign tissues (e.g., parasites or
 tissue grafts) that do not match their own. Sponges, for example, accept
 tissue grafts from self, but reject grafts from unrelated individuals of
 the same species (review in Elda Gaino \& Magnino 1999). This ability to
 reject foreign tissues seems widely conserved (Buss 1990). I was also
-assuming that the self-/non-self-recognition system is genetically
+assuming that the self- / non-self-recognition system is genetically
 variable and that different host genotypes would dominate in different
 populations. Parasite genotypes that match the most common local host
 genotypes would be favored by natural selection, and these parasite
@@ -2346,21 +2335,276 @@ females. Infected snails are sterilized (Figure~\ref{fig-4.1}).
 
 \begin{figure}
 
-\sidecaption[The life cycle of the trematode
-\emph{Microphallus}]{\label{fig-4.1}Left panel: the life cycle of the
-trematode \emph{Microphallus}. The adult worms live in the intestines of
-waterfowl and wading birds (black stilts). They produce cross-fertilized
-eggs, which are released into lakes and streams with the bird's feces.
-The eggs hatch following ingestion by snails. Infection results in the
-asexual production of hundreds of cysts (called metacercaria). These
-cysts ``hatch'' and mature following ingestion by ducks, thus completing
-the life cycle. Drawing by Zoe M Dinges.}
+\begin{minipage}[t]{0.50\linewidth}
 
-{\centering \includegraphics{images/fig4-2.jpeg}
+{\centering 
+
+\raisebox{-\height}{
+
+\includegraphics{images/fig4-2.jpeg}
+
+}
+
+}
+
+\end{minipage}%
+%
+\begin{minipage}[t]{0.50\linewidth}
+
+{\centering 
+
+\raisebox{-\height}{
+
+\includegraphics{images/fig4-3.jpg}
+
+}
+
+}
+
+\end{minipage}%
+
+\end{figure}
+
+I set up an experiment in which I exposed snails from two different
+lakes to \emph{Microphallus} eggs from both lakes. One lake was on the
+east side of the Southern Alps (Lake Alexandrina), and the other lake
+was on the west side of the alps (Lake Mapourika). I reasoned that gene
+flow between the two lakes was likely to be very low, so it seemed
+unlikely that gene flow could swamp out parasite-mediated selection (if
+present). But to get the eggs, I had to first complete the life cycle of
+the parasite in the lab. This had never been done. Eventually, I took
+the advice of Dr.~David Blair, a friend and parasitologist at the
+University of Canterbury: I fed the cysts to lab mice. I then collected
+the mouse poo, washed it, and fed the slurry to snails. It seemed very
+unlikely to work, as ducks (not mice) were the vertebrate host, but I
+tried it anyway. It worked! I was able to experimentally infect snails
+in the lab. And, amazingly, the parasites from both lake populations
+were much more infective to snails from their same lake
+(Figure~\ref{fig-4.2}). In other words, the \emph{Microphallus}
+parasites were locally adapted (Lively 1989). There was no reason based
+on this experiment to discard the Red Queen.
+
+\begin{figure}
+
+\sidecaption[Results of the first reciprocal cross-inoculation
+experiment]{\label{fig-4.2}Results of the first reciprocal
+cross-inoculation experiment. The vertical bars show one SE of the mean.
+Redrawn from Lively (1989).}
+
+{\centering \includegraphics{images/fig4-4.png}
 
 }
 
 \end{figure}
+
+On the other hand, there were only two lakes in the experiment, so it
+was unclear if local adaptation was generally true for
+\emph{Microphallus}. So, I repeated the experiment (Lively 1989). This
+time I sampled three lakes, all on the west side of the alps. Two of the
+lakes were less than ten kilometers apart (Lakes Mapourika and Wahapo).
+The third lake (L. Paringa) was about 100 kilometers south of Lake
+Mapourika (see map in Lively (1989)). It seemed likely to me that
+parasite gene flow would be very high between Mapourika and Wahapo,
+which might reduce or eliminate local adaptation in the parasite. I
+exposed snails from all three lakes to parasites from each of the three
+lakes in a fully reciprocal cross-inoculation experiment. Again, the
+results were very clear: the parasites (following passage through mice)
+from all three lakes were more infective to host snails from the same
+lake (Lively 1989). And, to my surprise, the distance between lakes did
+not matter to the strength of local adaptation (Figure~\ref{fig-4.3}).
+Taken together the results from two independent experiments showed
+strong adaption by parasites to local populations of their snail host.
+The results also suggested a genetic basis for host resistance and
+parasite infectivity, which is a crucial assumption of the Red Queen
+Hypothesis. Finally, the pattern of local parasite adaptation in the
+snail-trematode system would be found to be very robust in experiments
+conducted by me and my students after I moved to Indiana University
+(Figure~\ref{fig-4.4}).
+
+\begin{figure}
+
+\sidecaption[Results of the second reciprocal cross-inoculation
+experiment]{\label{fig-4.3}Results of the second reciprocal
+cross-inoculation experiment. Vertical bars show one SE of the mean.
+Redrawn from Lively (1989).}
+
+{\centering \includegraphics{images/fig4-5.png}
+
+}
+
+\end{figure}
+
+Does local adaptation by parasites mean that hosts are losing? If so,
+are hosts maladapted, as often claimed? No and no. The host population
+is evolving as fast as it can to resist infection by local parasites,
+and local parasites are tracking the genetic changes in their host
+populations (with a time lag). This tracking by parasites results in
+local adaption. In computer simulations, the change in host mean fitness
+oscillates over time from positive to negative and back. Parasite mean
+fitness also oscillates from positive to negative, but it is 180 degrees
+out of phase with the host (Lively 1999b; Lively \& Wade 2022). Thus,
+local parasite adaptation does not necessarily mean that the hosts are
+losing. Sometimes the host is winning (positive change in mean fitness)
+and the parasite is losing (negative change in mean fitness), and
+sometimes the host is losing and the parasite is winning. Over time, the
+average change in mean fitness for both species is zero.
+
+My early results on local adaptation, along with the results of Parker
+(1985) and Ebert (1994), convinced me that host-parasite coevolution was
+interesting, whether or not it could explain sex.\footnote{Dieter Ebert
+  showed that parasites of \emph{Daphnia} were locally adapted for both
+  infectivity and transmission, which was a major advance.} In addition,
+May and Anderson (1983) had already ignited a general interest in
+parasites. They showed that, contrary to conventional wisdom, parasites
+would evolve to maximize their own rates of transmission without any
+``consideration'' for the well-being of their hosts. This work, combined
+with Hamilton and Zuk's model of parasite-mediated mate choice, along
+with Hamilton's models on parasite-mediated selection for sex, lit up
+the field (Hamilton 1980; Hamilton \& Zuk 1982). Fascinating work by
+Janice Moore on the evolution of adaptive, parasite-mediated
+modifications of host behavior piled on (1984). Soon, universities began
+to advertise for assistant professors working on host-parasite
+interactions. Then in 1998, Hudson et al.~rocked the scientific world
+with a heroic field experiment, which showed that oscillations in Red
+Grouse densities were controlled by nematode infections (1998).
+Parasites were now on the map. An emerging new field called ``ecology
+and evolution of infectious disease'' was taking flight.
+
+\begin{figure}
+
+\sidecaption[Results from a meta-analysis of local adaption
+experiments]{\label{fig-4.4}Results from a meta-analysis of local
+adaption experiments. The ``effect size'' depends on the magnitude of
+the difference between the proportion of infection in sympatric vs
+allopatric hosts, where positive values indicate that the parasite is
+adapted to infecting snails from the local host population. Large effect
+sizes are indicative of stronger local adaptation by parasites. Positive
+effect sizes are shown in blue; negative effect sizes are shown in red.
+A statistical test on the effect sizes showed that, in general, the
+parasite is strongly adapted to infecting local populations of its host.
+There were 32 total sympatric/allopatric comparisons. (Redrawn from
+Lively \emph{et al.} 2004).}
+
+{\centering \includegraphics{images/fig4-6.png}
+
+}
+
+\end{figure}
+
+\hypertarget{self--non-self-recognition}{%
+\section{Self- /
+Non-Self-Recognition}\label{self--non-self-recognition}}
+
+In my presentation thus far, I have been assuming that the molecules on
+the cell surfaces of parasites must mimic host molecules to evade
+detection. Otherwise, the parasites will be identified as foreign and
+killed by the host. In other words, there is a self- /
+non-self-recognition system in hosts, which is determined by a
+polymorphic set of alleles at one or more loci.
+
+Where did this idea for self- / non-self-recognition come from? I am
+embarrassed to say that I did not know before writing this chapter, and
+I am still not exactly sure, but the idea goes back at least to Sir
+Frank McFarland Burnet, who was cowinner of the 1960 Nobel Prize in
+Physiology and Medicine (with Sir Peter Medawar). Burnet was reviewing
+two studies, which showed recognition and rejection of genetically
+different competitors of the same species (Burnet 1971). The first study
+was from Hidemiti Oka (1970): ``Here I shall explore the possibility
+that Oka's (1970) studies of colonial tunicates (\emph{Botryllus})
+\ldots{} may throw light on primitive types of `self and not-self'
+recognition from which adaptive immunity may have evolved.'' Hidemiti
+Oka was a Japanese professor of biology in Tokyo. He was following up on
+a pioneering study by Bancroft (1903), who had shown that fragments from
+related colonies of a compound ascidian (\emph{Botryllus schlosseri})
+readily fused, whereas fragments from unrelated colonies rejected each
+other. Oka's goal was to understand the genetic basis for this
+fusion/rejection. His study suggested that fusion was determined by
+multiple alleles (``perhaps several scores'') at a single locus. More
+specifically, Oka's results suggested that fusion occurred between
+different colonies only if they shared at least one allele at this
+locus.\footnote{In direct contrast, however, Oka found that
+  cross-fertilization did not occur between \emph{Botryllus} gametes
+  that shared the same allele. As Oka noted, this result mirrors the
+  S-allele system in plants: ``The \ldots{} situation corresponds
+  exactly in its form to the homomorphic self-incompatibility prevailing
+  among angiosperms.''} To my mind, this was a major finding.
+
+It thus appears that Oka was inspired by Bancroft, and Burnet was
+inspired by Oka. How does Burnet fit in? Burnet first accepts Oka's
+assumption that allorecognition depends on a single highly polymorphic
+locus (Figure~\ref{fig-4.5}): ``To summarize Oka's work, it is
+convenient to accept his assumption, which is validated by much
+preliminary work, that fusion or rejection between colonies depends on a
+single locus with many alleles which can be referred to as recognition
+genes.'' Burnet then suggests that this same mechanism could be co-opted
+as a defense against parasites and that such a mechanism could be the
+progenitor of the more sophisticated adaptive immune system in
+vertebrates. Burnet (1971) writes:
+
+\begin{quote}
+It is probably unwise to attempt to imagine the various steps by which
+such changes could be made. One can foresee a period of great research
+activity in these fields of tissue fusion and rejection in invertebrates
+and protochordates during the next decade. Undoubtedly a variety of
+intriguing phenomena will be uncovered, differing from group to group.
+Some may be further along the road toward adaptive immunity than the
+colonial ascidians. Much more extensive comparative studies are called
+for and in due course analysis of the results should allow a clear
+evolutionary history to emerge. Whatever form that history eventually
+takes we can be certain that gene duplication (gene expansion) plays a
+major part, and that progressive specialization of cell function and
+phenotypic restriction will be as conspicuous as it is in all other
+organs and functions.
+\end{quote}
+
+Wow. In retrospect, Burnet's ``attempt to imagine the various steps''
+does not seem at all unwise. In any case, he suggests that infection
+occurs when parasites have alleles that match their host's genotype.
+Otherwise, the parasites are killed. This is the logic of what will
+later be called the ``matching alleles model'' for infection. I will
+flesh this idea out in a later chapter.
+
+\begin{figure}
+
+\sidecaption[A model for self- / non-self-recognition]{\label{fig-4.5}A
+model for self- / non-self-recognition (Burnet 1971; Oka 1970). Cells
+sharing one or more alleles can rejoin after separation, as the
+receptors match. In contrast, cells that do not share an allele do not
+match and will not rejoin. Regions of fusion are shown in heavy lines.
+Burnett suggested that resistance in host-parasite interactions could
+have a similar mechanistic framework. Note that Burnett used
+``reciprocal'' for matching cells with at least one matching allele, and
+``non-reciprocal'' for cells in which none of the alleles matched.
+Redrawn from Burnet (1971) by Zoe M Dinges.}
+
+{\centering \includegraphics{images/fig4-7.jpeg}
+
+}
+
+\end{figure}
+
+\hypertarget{summary-3}{%
+\section{Summary}\label{summary-3}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  The most common trematode infection in lake populations of \emph{P.
+  antipodarum} is caused by a larval stage of \emph{Microphallus} sp.
+  (recently renamed to \emph{Atriophallophorus winterbourni}). The
+  trematode has a two-host life cycle (snails and waterfowl).
+\item
+  Experimental cross-inoculation experiments showed that
+  \emph{Microphallus} is more infectious to local lake populations of
+  its snail host, \emph{P. antipodarum}, than to remote host
+  populations.
+\item
+  These results suggest that some kind of match by the parasite to the
+  host is required for infection. This idea of matching is consistent
+  with the idea of self- / non-self-recognition as the basis for immune
+  defense. The gist of the original idea stems from experimental studies
+  of colony fusion in tunicates.
+\end{enumerate}
 
 \bookmarksetup{startatroot}
 
@@ -2403,6 +2647,11 @@ evolutionary significance of sexual reproduction. I. A test of the
 frequency-dependent selection hypothesis. \emph{Evolution}, 38,
 103--115.
 
+\leavevmode\vadjust pre{\hypertarget{ref-bancroft1903a}{}}%
+Bancroft, F.W. (1903). Variation and fusion of colonies in compound
+ascidians. In: \emph{Proceedings of the california academy of sciences}.
+pp. 137--186.
+
 \leavevmode\vadjust pre{\hypertarget{ref-bayley2009a}{}}%
 Bayley, M. (2009). Alice's adventures in algebra: Wonderland solved.
 \emph{New Scientist}.
@@ -2427,6 +2676,11 @@ new species of \emph{atriophallophorus} deblock \& rosé, 1964
 (trematoda: Microphallidae) described from \emph{in vitro}-grown adults
 and metacercariae from \emph{{P}otamopyrgus antipodarum} (gray, 1843)
 (mollusca: tateidae)}. \emph{Journal of Helminthology}, 94, 1--15.
+
+\leavevmode\vadjust pre{\hypertarget{ref-burnet1971a}{}}%
+Burnet, F.M. (1971). "Self-recognition" in colonial marine forms and
+flowering plants in relation to the evolution of immunity.
+\emph{Nature}, 232, 230--235.
 
 \leavevmode\vadjust pre{\hypertarget{ref-burt1987a}{}}%
 Burt, A. \& Bell, G. (1987). Mammalian chiasma frequencies as a test of
@@ -2473,6 +2727,10 @@ domestication}. 1st edn. John Murray, London.
 Darwin, C. (n.d.).
 \href{https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2869.xml}{Letter
 no. 2869}. Darwin Correspondence Project.
+
+\leavevmode\vadjust pre{\hypertarget{ref-ebert1994a}{}}%
+Ebert, D. (1994). Virulence and local adaptation of a horizontally
+transmitted parasite. \emph{Science}, 265, 1084--1086.
 
 \leavevmode\vadjust pre{\hypertarget{ref-gaino1999a}{}}%
 Elda Gaino, G.B. \& Magnino, G. (1999).
@@ -2527,13 +2785,21 @@ Hamilton, W.D. (1975). Innate social aptitudes of man: An approach from
 evolutionary genetics. In: \emph{Biosocial anthropology} (ed. Fox, R.).
 Malaby Press, London, pp. 133--153.
 
+\leavevmode\vadjust pre{\hypertarget{ref-hamilton1980a}{}}%
+Hamilton, W.D. (1980). Sex versus non-sex versus parasite. \emph{Oikos},
+35, 282--290.
+
 \leavevmode\vadjust pre{\hypertarget{ref-hamilton2001a}{}}%
 Hamilton, W.D. (2001). \emph{Narrow roads of gene land: Volume 2:
 Evolution of sex}. Oxford University Press.
 
-\leavevmode\vadjust pre{\hypertarget{ref-hazel2004a}{}}%
-Hazel, W., Smock, R. \& Lively, C.M. (2004). The ecological genetics of
-conditional strategies. \emph{American Naturalist}, 163, 888--900.
+\leavevmode\vadjust pre{\hypertarget{ref-hamilton1982a}{}}%
+Hamilton, W.D. \& Zuk, M. (1982). Heritable true fitness and bright
+birds: A role for parasites? \emph{Science}, 218, 384--387.
+
+\leavevmode\vadjust pre{\hypertarget{ref-hudson1998a}{}}%
+Hudson, P.J., Dobson, A.P. \& Newborn, D. (1998). Prevention of
+population cycles by parasite removal. \emph{Science}, 282, 2256--2258.
 
 \leavevmode\vadjust pre{\hypertarget{ref-jaenike1978a}{}}%
 Jaenike, J. (1978). A hypothesis to account for the maintenance of sex
@@ -2623,6 +2889,10 @@ shell dimorphism in the acorn barnacle \emph{{C}hthamalus anisopoma}}.
 Lively, C.M. (1987). Evidence from a {New Zealand} snail for the
 maintenance of sex by parasitism. \emph{Nature}, 328, 519--521.
 
+\leavevmode\vadjust pre{\hypertarget{ref-lively1989a}{}}%
+Lively, C.M. (1989). Adaptation by a parasitic trematode to local
+populations of its snail host. \emph{Evolution}, 43, 1663--1671.
+
 \leavevmode\vadjust pre{\hypertarget{ref-lively1992a}{}}%
 Lively, C.M. (1992). Parthenogenesis in a freshwater snail: Reproductive
 assurance versus parasitic release. \emph{Evolution}, 46, 907--913.
@@ -2657,10 +2927,10 @@ Lively, C.M. (2009). The maintenance of sex: Host-parasite coevolution
 with density-dependent virulence. \emph{Journal of Evolutionary
 Biology}, 22, 2086--2093.
 
-\leavevmode\vadjust pre{\hypertarget{ref-lively2000a}{}}%
-Lively, C.M., Hazel, W.N., Schellenberger, M.J. \& Michelson, K.S.
-(2000). Predator-induced defense: Variation for inducibility in an
-intertidal barnacle. \emph{Ecology}, 81, 1240--1247.
+\leavevmode\vadjust pre{\hypertarget{ref-lively2004a}{}}%
+Lively, C.M., Dybdahl, M.F., Jokela, J., Osnas, E.E. \& Delph, L.F.
+(2004). Host sex and local adaptation by parasites in a snail-trematode
+interaction. \emph{American Naturalist}, 164, S6--S18.
 
 \leavevmode\vadjust pre{\hypertarget{ref-lively1994b}{}}%
 Lively, C.M. \& Johnson, S.G. (1994).
@@ -2683,6 +2953,12 @@ Research}, 4, 219--226.
 \leavevmode\vadjust pre{\hypertarget{ref-lively1990b}{}}%
 Lively, C.M. \& Lloyd, D.G. (1990). The cost of biparental sex under
 individual selection. \emph{American Naturalist}, 135, 489--500.
+
+\leavevmode\vadjust pre{\hypertarget{ref-lively2022a}{}}%
+Lively, C.M. \& Wade, M.J. (2022).
+\href{https://doi.org/10.1002/ece3.9136}{Host--parasite coevolution:
+Partitioning the effects of natural selection and environmental change
+using coupled price equations}. \emph{Ecology and Evolution}, 12, e9136.
 
 \leavevmode\vadjust pre{\hypertarget{ref-lively2021a}{}}%
 Lively, C.M., Xu, J. \& Ben-Ami, F. (2021).
@@ -2733,14 +3009,29 @@ Meirmans, S. (2009). The evolution of the problem of sex. In: \emph{Lost
 sex: The evolutionary biology of parthenogenesis} (eds. Schön, I.,
 Martens, K. \& Dijk, P. van). Springer, London, pp. 21--46.
 
+\leavevmode\vadjust pre{\hypertarget{ref-moore1984a}{}}%
+Moore, J. (1984). Altered behavioral responses in intermediate hosts: An
+acanthocephalan parasite strategy. \emph{American Naturalist}, 123,
+572--577.
+
 \leavevmode\vadjust pre{\hypertarget{ref-negovetic2001a}{}}%
 Negovetic, S. \& Jokela, J. (2001). Life history variation, phenotypic
 plasticity and maintenance of subpopulation structure in a freshwater
 snail. \emph{Ecology}, 82, 2805--2815.
 
+\leavevmode\vadjust pre{\hypertarget{ref-oka1970a}{}}%
+Oka, H. (1970). Colony specificity in compound ascidians: The genetic
+control of fusibility. In: \emph{Profiles of japanese science and
+scientists} (ed. Yukawa, H.). Kodansha, Tokyo, pp. 196--206.
+
 \leavevmode\vadjust pre{\hypertarget{ref-otto2021a}{}}%
 Otto, S.P. (2021). Selective interference and the evolution of sex.
 \emph{Journal of Heredity}, 112, 9--18.
+
+\leavevmode\vadjust pre{\hypertarget{ref-parker1985a}{}}%
+Parker, M.A. (1985). Local population differentiation for compatibility
+in an annual legume and its host-specific fungal pathogen.
+\emph{Evolution}, 39, 713--723.
 
 \leavevmode\vadjust pre{\hypertarget{ref-peters1999a}{}}%
 Peters, A.D. \& Lively, C.M. (1999). The {Red Queen} and fluctuating

@@ -12,14 +12,13 @@ Special thanks to Zoe Michelle Dinges (ZMD), who redrew the graphs and contribut
 
 This project was supported by the NSF OPUS program for the synthesis of biological research (DEB-1906465).  I am also grateful to the Institute for Advanced Study in Berlin (Wissenschaftskolleg zu Berlin) for my stay as a “partner” during 2022-2023.  
 
-
 ## Copyright and License
 
 Copyright Curtis M. Lively 2023
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Through the Looking Glass: I. Why Cross-Fertilize?</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://iulibscholcomm.github.io/through-the-looking-glass/" property="cc:attributionName" rel="cc:attributionURL">Curtis M. Lively</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 
-## Publisher Information
+## Publisher
 
 [Indiana University Libraries Publishing](https://libraries.indiana.edu/scholarly-communication)
 
