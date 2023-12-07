@@ -1,4 +1,4 @@
-![](images/fig2-1.jpeg){fig-align="center" fig-alt="Two tickets and Red Queen leading Alice around a tree" fig-scap="The Red Queen leads Alice around a tree"}
+![](images/fig2-1.jpeg){fig-align="center" fig-alt="Two tickets and Red Queen leading Alice around a tree"}
 
 # The Ecological Hypotheses {#sec-eco-hyp}
 
@@ -46,7 +46,7 @@ where $\overline{x}$ is the mean, and var($x$) is the variance in $x$. Note that
 
 Can sex be favored in variable environments as a bet-hedging strategy? It seems like a very sensible idea provided that the production of genetically variable progeny reduces the among-year variance in offspring survival. But remember, under a two-fold cost of sex, asexuals can replace large populations of sexuals in tens of generations (see @sec-why-sex). So, if the Lottery Model is correct, significant environmental change must occur very rapidly. The many thousands of years between ice ages, for example, would be too long. 
 
-## The Tangled Bank/Frozen Niche-Variation Model
+## The Tangled Bank / Frozen Niche-Variation Model {#sec-niche}
 
 Roughly speaking, the Lottery Model concerns the value of producing diverse offspring in a temporally variable abiotic environment. A different kind of model instead concerns the role of competition for different resource types that vary in space. Let us first consider the Frozen Niche-Variation Hypothesis of Robert Vrijenhoek. The key idea is that the clonal derivatives of sexual ancestors "freeze" some of the genetic variation in the sexual population. This frozen genotype then determines the resource niche of the clone. It seems reasonable to assume that the niche width of a single clone would be relatively narrow compared to the niche width of the genetically diverse sexual population. So, under this idea, a clone could invade a sexual population and perhaps displace it from one of its many niches. But a single clone could not completely replace the sexual population [@vrijenhoek1979a]. This kind of process could explain those situations in which sexual and asexual females coexist, which was a major advance.[^5]
 

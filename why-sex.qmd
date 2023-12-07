@@ -1,4 +1,4 @@
-![](images/fig1-1.png){width=40% fig-align="center" fig-alt="Drawing of elderly Darwin with his hand on his face" fig-scap="Drawing of Charles Darwin"}
+![](images/fig1-1.png){width=40% fig-align="center" fig-alt="Drawing of elderly Darwin with his hand on his face"}
 
 # Why Sex? {#sec-why-sex}
 
@@ -312,7 +312,7 @@ There is another paradox of sexual reproduction known as the "cost of recombinat
 
 ::: {#callout-1 .callout-tip}
 
-## Box 1.1 {#callout-1}
+## Box 1.1 
 
 **Short definitions of terms as used in this book. These definitions do not include all possible nuances.**
 
@@ -371,7 +371,7 @@ I now think that John Maynard Smith was correct. An essential feature had indeed
 
 ::: {#callout-2 .callout-note} 
 
-## Box 1.2 {#callout-2}
+## Box 1.2
 
 Maynard Smith's [-@maynard1978a] model showing the cost of producing males.[^7] Let $N_{asex}$ be the number of asexual females at time one, while $N_{sex}$ gives the total number of sexual individuals (males plus females) at time one. Let $B_{asex}$ give the number of offspring produced by asexual females, and $S_{asex}$ gives the survival probability of asexual offspring to maturity. The number of surviving asexual offspring is then $= B_{asex}S_{asex}$. Similarly, let $B_{sex}$ be the number offspring produced by sexual females, and let $S_{sex}$ give the survival probability of sexually produced offspring. Maynard Smith assumed that all individuals reproduce once and then die. Let $r$ be the frequency of females in the sexual population. The number of asexuals and sexuals at time two can then be calculated as in the table below. (Note, we do not assume that the population is at carrying capacity).  
 
@@ -399,16 +399,16 @@ If $N_{sex}$ is very large, the solution reduces to $F \approx 1/r$. Hence, the 
 
 :::
 
-[^1]: It is not meiosis per se that is costly. As Williams realized, the cost stems from the reduction in relatedness between parent and outcrossed offspring. Indeed, in a later paper, Williams [-@williams1975a] referred to the cost of meiosis as the "paradox of kin selection." Why should organisms invest resources in kin with a relatively low level of relatedness, $r$ (outcrossed progeny: $r = 0.5$), rather than in self-fertilized kin with a high level of relatedness ($r = 1$) [see @dagg2016a].
+[^1]: It is not meiosis per se that is costly. As Williams realized, the cost stems from the reduction in relatedness between parent and outcrossed offspring. Indeed, in a later paper, Williams [-@williams1975a] refers to the cost of meiosis as the "paradox of kin selection." Why should organisms invest resources in kin with a relatively low level of relatedness, $r$ (outcrossed progeny: $r = 0.5$), rather than in self-fertilized kin with a high level of relatedness ($r = 1$) [see @dagg2016a]?
 
 [^2]: Asexuals are often polyploid versions of their sexual ancestors.
 
-[^3]: Lewontin [-@lewontin1971a] was following up on Fisher's [-@fisher1930a] verbal suggestion that selection should act to reduce recombination. For example, Lewontin [-@lewontin1971a] wrote: "I will show ... that Fisher's conjecture is indeed correct." Importantly, in his last paragraph, Lewontin wonders why recombination rates are greater than zero, and he suggests that the answer, "must be sought in some more general long-term advantage for adaptation to a varying environment, or else to some mechanical necessity of recombination for the orderly distribution of chromosomes, as suggested by Darlington [-@darlington1939a]." [See also @bell1982a page 407].
+[^3]: Lewontin [-@lewontin1971a] was following up on Fisher's [-@fisher1930a] verbal suggestion that selection should act to reduce recombination. For example, Lewontin [-@lewontin1971a] writes, "I will show ... that Fisher's conjecture is indeed correct." Importantly, in his last paragraph, Lewontin wonders why recombination rates are greater than zero, and he suggests that the answer "must be sought in some more general long-term advantage for adaptation to a varying environment, or else to some mechanical necessity of recombination for the orderly distribution of chromosomes, as suggested by Darlington [-@darlington1939a]." [See also @bell1982a page 407].
 
-[^4]: For example, Darwin called the evolution of sterile castes in social insects an "insuperable difficulty" for his theory of evolution by natural selection [pages 236-238 in -@darwin1859a].
+[^4]: For example, Darwin calls the evolution of sterile castes in social insects an "insuperable difficulty" for his theory of evolution by natural selection [pages 236-238 in -@darwin1859a].
 
 [^5]: The case has been made that Charles Bonnet had discovered asexual reproduction in aphids in 1740 [see @lawrence2009a].
 
-[^6]: I suspect that Darwin used the phrase "no longer wonderful" to mean "no longer astonishing." See ["How 'Wonderful' Lost Its Sense of Wonder."](https://www.merriam-webster.com/words-at-play/wonderful-word-history-evolution)
+[^6]: I suspect that Darwin uses the phrase "no longer wonderful" to mean "no longer astonishing." See ["How 'Wonderful' Lost Its Sense of Wonder."](https://www.merriam-webster.com/words-at-play/wonderful-word-history-evolution)
 
-[^7]: I used slightly different variable names, and I tried to simplify JMS's original model.
+[^7]: I use slightly different variable names, and I try to simplify JMS's original model.

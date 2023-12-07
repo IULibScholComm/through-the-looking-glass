@@ -179,7 +179,7 @@
 \makeatletter
 \makeatother
 \makeatletter
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[interior hidden, boxrule=0pt, borderline west={3pt}{0pt}{shadecolor}, frame hidden, enhanced, breakable, sharp corners]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[frame hidden, sharp corners, boxrule=0pt, enhanced, breakable, borderline west={3pt}{0pt}{shadecolor}, interior hidden]}{\end{tcolorbox}}\fi
 \makeatother
 \ifLuaTeX
 \usepackage[bidi=basic]{babel}
@@ -209,7 +209,7 @@
 
 \title{Through the Looking Glass: I. Why Cross-Fertilize?}
 \author{Curtis M. Lively}
-\date{06 December 2023}
+\date{07 December 2023}
 
 \begin{document}
 \frontmatter
@@ -358,19 +358,15 @@ relatedness}\label{the-cost-of-meiosis-reduced-relatedness}
 The ``cost of meiosis'' was proposed by George Williams (1975). His idea
 was simply that females are only half as related to their outcrossed
 offspring as they are to their self-fertilized or parthenogenetic
-offspring.\footnote{The trematode worm was not formally described until
-  30 years later (Blasco-Costa \emph{et al.} 2019). As it turns out, it
-  belongs in the genus \emph{Atriophallophorus}, rather than
-  \emph{Microphallus}, and it was very appropriately named after Mike
-  Winterbourn: \emph{A. winterbourni}. But I am going to call it
-  \emph{Microphallus} in this book, as that is what we called it in our
-  early papers.} (See \hyperref[callout-1]{Box 1.1} for condensed
-definitions.) Williams' idea also had theoretical support, as R.A.
-Fisher had already shown that an allele causing self-fertilization would
-rapidly spread to fixation, barring severe inbreeding depression (1941).
-So, why cross-fertilize? The persistence of cross-fertilization despite
-the cost of meiosis formed a paradox. This paradox created the crisis
-that Williams saw in evolutionary biology.
+offspring.\footnote{Paternal leakage of DNA in otherwise asexual
+  vertebrate species now seems possible (review in Lampert \& Schartl
+  2010).} (See \hyperref[callout-1]{Box 1.1} for condensed definitions.)
+Williams' idea also had theoretical support, as R.A. Fisher had already
+shown that an allele causing self-fertilization would rapidly spread to
+fixation, barring severe inbreeding depression (1941). So, why
+cross-fertilize? The persistence of cross-fertilization despite the cost
+of meiosis formed a paradox. This paradox created the crisis that
+Williams saw in evolutionary biology.
 
 \subsection{The cost of males}\label{the-cost-of-males}
 
@@ -510,7 +506,7 @@ any theory that explains the persistence of biparental sex could also
 solve the paradox of recombination. But this need not be the case. They
 could have different solutions.
 
-\begin{tcolorbox}[enhanced jigsaw, coltitle=black, titlerule=0mm, colframe=quarto-callout-tip-color-frame, bottomrule=.15mm, colback=white, bottomtitle=1mm, arc=.35mm, left=2mm, opacitybacktitle=0.6, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Box 1.1}, opacityback=0, breakable, toptitle=1mm, rightrule=.15mm, toprule=.15mm, colbacktitle=quarto-callout-tip-color!10!white, leftrule=.75mm]
+\begin{tcolorbox}[enhanced jigsaw, toprule=.15mm, rightrule=.15mm, arc=.35mm, titlerule=0mm, breakable, opacityback=0, leftrule=.75mm, bottomtitle=1mm, toptitle=1mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Box 1.1}, left=2mm, coltitle=black, colframe=quarto-callout-tip-color-frame, colbacktitle=quarto-callout-tip-color!10!white, bottomrule=.15mm, opacitybacktitle=0.6, colback=white]
 
 \textbf{Short definitions of terms as used in this book. These
 definitions do not include all possible nuances.}
@@ -697,7 +693,7 @@ had indeed been overlooked: parasites.
   Why then are recombination and cross-fertilization so common?
 \end{enumerate}
 
-\begin{tcolorbox}[enhanced jigsaw, coltitle=black, titlerule=0mm, colframe=quarto-callout-note-color-frame, bottomrule=.15mm, colback=white, bottomtitle=1mm, arc=.35mm, left=2mm, opacitybacktitle=0.6, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 1.2}, opacityback=0, breakable, toptitle=1mm, rightrule=.15mm, toprule=.15mm, colbacktitle=quarto-callout-note-color!10!white, leftrule=.75mm]
+\begin{tcolorbox}[enhanced jigsaw, toprule=.15mm, rightrule=.15mm, arc=.35mm, titlerule=0mm, breakable, opacityback=0, leftrule=.75mm, bottomtitle=1mm, toptitle=1mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 1.2}, left=2mm, coltitle=black, colframe=quarto-callout-note-color-frame, colbacktitle=quarto-callout-note-color!10!white, bottomrule=.15mm, opacitybacktitle=0.6, colback=white]
 
 Maynard Smith's (1978) model showing the cost of producing
 males.\footnotemark{} Let \(N_{asex}\) be the number of asexual females
@@ -810,13 +806,8 @@ different tickets (sex), you increase the probability of winning
 something, but the reward is smaller. Williams refers to the idea as the
 aphid-rotifer model, but the idea has since come to be known as the
 Lottery Model (following Bell 1982), which is a more descriptive
-phrase.\footnote{The trematode worm was not formally described until 30
-  years later (Blasco-Costa \emph{et al.} 2019). As it turns out, it
-  belongs in the genus \emph{Atriophallophorus}, rather than
-  \emph{Microphallus}, and it was very appropriately named after Mike
-  Winterbourn: \emph{A. winterbourni}. But I am going to call it
-  \emph{Microphallus} in this book, as that is what we called it in our
-  early papers.}
+phrase.\footnote{Paternal leakage of DNA in otherwise asexual vertebrate
+  species now seems possible (review in Lampert \& Schartl 2010).}
 
 In my evolution course, I ask a form of Williams' question but with a
 slight twist:
@@ -929,8 +920,8 @@ Chapter~\ref{sec-why-sex}). So, if the Lottery Model is correct,
 significant environmental change must occur very rapidly. The many
 thousands of years between ice ages, for example, would be too long.
 
-\section{The Tangled Bank/Frozen Niche-Variation
-Model}\label{the-tangled-bankfrozen-niche-variation-model}
+\section{The Tangled Bank / Frozen Niche-Variation
+Model}\label{sec-niche}
 
 Roughly speaking, the Lottery Model concerns the value of producing
 diverse offspring in a temporally variable abiotic environment. A
@@ -1600,8 +1591,7 @@ of \(q\) for Prout's model of dominance}
 
 \bookmarksetup{startatroot}
 
-\chapter{Contrasting the Ecological
-Hypotheses}\label{contrasting-the-ecological-hypotheses}
+\chapter{Contrasting the Ecological Hypotheses}\label{sec-eco-hyp-cont}
 
 \begin{center}
 \includegraphics[width=0.4\textwidth,height=\textheight]{images/fig3-1.jpeg}
@@ -1612,21 +1602,17 @@ intertidal communities. I was especially interested in how two different
 barnacle morphs coexisted on rocky intertidal shores in the Northern
 Gulf of California. I had initially assumed that the two types were
 genetically determined and that they were likely to be different species
-(Figure~\ref{fig-3-2}). However, after years of false starts,\footnote{The
-  trematode worm was not formally described until 30 years later
-  (Blasco-Costa \emph{et al.} 2019). As it turns out, it belongs in the
-  genus \emph{Atriophallophorus}, rather than \emph{Microphallus}, and
-  it was very appropriately named after Mike Winterbourn: \emph{A.
-  winterbourni}. But I am going to call it \emph{Microphallus} in this
-  book, as that is what we called it in our early papers.} I found that
-one of the two morphs was induced by chemical cues released by a
-predatory snail (Figure~\ref{fig-3-3}), and that the induced morph was
-more resistant to attack by this predator (1986c).\footnote{Dieter Ebert
-  showed that parasites of \emph{Daphnia} were locally adapted for both
-  infectivity and transmission, which was a major advance.} Hence, the
-two morphs are not different species, but rather the result of
-phenotypic plasticity. In a blink of a field season, I went from being a
-community ecologist to an evolutionary biologist.
+(Figure~\ref{fig-3-2}). However, after years of false starts,\footnote{Paternal
+  leakage of DNA in otherwise asexual vertebrate species now seems
+  possible (review in Lampert \& Schartl 2010).} I found that one of the
+two morphs was induced by chemical cues released by a predatory snail
+(Figure~\ref{fig-3-3}), and that the induced morph was more resistant to
+attack by this predator (1986c).\footnote{Dieter Ebert showed that
+  parasites of \emph{Daphnia} were locally adapted for both infectivity
+  and transmission, which was a major advance.} Hence, the two morphs
+are not different species, but rather the result of phenotypic
+plasticity. In a blink of a field season, I went from being a community
+ecologist to an evolutionary biologist.
 
 But why two morphs? Why didn't selection favor unconditional development
 of the predator-resistant morph? Using predator-exclusion cages, I found
@@ -1695,8 +1681,8 @@ reason for moving to New Zealand was simple: my spouse (Lynda Delph) was
 there. Lynda had moved to New Zealand to study the evolution of plant
 breeding systems with Prof.~David Lloyd. I did not have a job, but Lynda
 had a small stipend from the Fulbright Foundation. By the time I moved
-to New Zealand, we had only twelve dollars. But Lynda had found a flat
-in a dormitory at the University of Canterbury, where she worked as a
+to New Zealand, we had only 12 dollars. But Lynda had found a flat in a
+dormitory at the University of Canterbury, where she worked as a
 ``tutor.'' Tutors at the time were usually graduate students who served
 as mentors for the resident students. We made many good friends during
 our time as tutors, and it was a fascinating total immersion into Kiwi
@@ -1705,20 +1691,21 @@ cafeteria. We could then spend Lynda's small Fulbright stipend on
 sampling trips.
 
 Then I got very lucky. I was awarded a three-year postdoctoral
-fellowship from the NZ University Grants Committee. I had applied to
-work on the evolution of facultatively parthenogenetic nematodes, which
-represented a combination of my interests in developmental plasticity
-and sex.\footnote{In direct contrast, however, Oka found that
-  cross-fertilization did not occur between \emph{Botryllus} gametes
-  that shared the same allele. As Oka noted, this result mirrors the
-  S-allele system in plants: ``The \ldots{} situation corresponds
-  exactly in its form to the homomorphic self-incompatibility prevailing
-  among angiosperms.''} These topics were also very interesting to Wally
-Clark, a conceptual pioneer in the evolution of plasticity. He was also
-head of the Zoology Department at the University of Canterbury. I would
-not have received funding without the support of Prof.~Clark. To my
-mind, the value of Clark's work remains underestimated in general, but
-it had a big influence on me (e.g., Clark 1976).
+fellowship from the New Zealand University Grants Committee. I had
+applied to work on the evolution of facultatively parthenogenetic
+nematodes, which represented a combination of my interests in
+developmental plasticity and sex.\footnote{In direct contrast, however,
+  Oka found that cross-fertilization did not occur between
+  \emph{Botryllus} gametes that shared the same allele. As Oka noted,
+  this result mirrors the S-allele system in plants: ``The \ldots{}
+  situation corresponds exactly in its form to the homomorphic
+  self-incompatibility prevailing among angiosperms.''} These topics
+were also very interesting to Wally Clark, a conceptual pioneer in the
+evolution of plasticity. He was also head of the Zoology Department at
+the University of Canterbury. I would not have received funding without
+the support of Prof.~Clark. To my mind, the value of Clark's work
+remains underestimated in general, but it had a big influence on me
+(e.g., Clark 1976).
 
 I began looking for natural systems to study facultative
 parthenogenesis.\footnote{We were trained ask questions first and then
@@ -2179,7 +2166,7 @@ Queen Hypothesis was (and still is) worthy of further study.
 
 ~
 
-\begin{tcolorbox}[enhanced jigsaw, coltitle=black, titlerule=0mm, colframe=quarto-callout-note-color-frame, bottomrule=.15mm, colback=white, bottomtitle=1mm, arc=.35mm, left=2mm, opacitybacktitle=0.6, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 3.1}, opacityback=0, breakable, toptitle=1mm, rightrule=.15mm, toprule=.15mm, colbacktitle=quarto-callout-note-color!10!white, leftrule=.75mm]
+\begin{tcolorbox}[enhanced jigsaw, toprule=.15mm, rightrule=.15mm, arc=.35mm, titlerule=0mm, breakable, opacityback=0, leftrule=.75mm, bottomtitle=1mm, toptitle=1mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 3.1}, left=2mm, coltitle=black, colframe=quarto-callout-note-color-frame, colbacktitle=quarto-callout-note-color!10!white, bottomrule=.15mm, opacitybacktitle=0.6, colback=white]
 
 As part of my dissertation research, I constructed a game-theoretic
 model of selection on three strategies:
@@ -2281,64 +2268,59 @@ trematode was especially common in lake populations of the snail. This
 species was not formally described, but Jan McKenzie sent it to a
 trematode expert in France, who thought it belonged in the genus
 \emph{Microphallus}; hence I will refer to it as \emph{Microphallus}
-sp.\footnote{The trematode worm was not formally described until 30
-  years later (Blasco-Costa \emph{et al.} 2019). As it turns out, it
-  belongs in the genus \emph{Atriophallophorus}, rather than
-  \emph{Microphallus}, and it was very appropriately named after Mike
-  Winterbourn: \emph{A. winterbourni}. But I am going to call it
-  \emph{Microphallus} in this book, as that is what we called it in our
-  early papers.} The life cycle of \emph{Microphallus} turns out to be
-especially crucial to the story. The adult worms are tiny simultaneous
-hermaphrodites that live in the intestines of ducks. They
-cross-fertilize and produce eggs that are shed with the duck feces into
-the environment. In most trematodes, the eggs normally hatch in water,
-thereby releasing a swimming larval stage (miracidia), which actively
-swims to and penetrates the body of snails. This is the case for the
-trematodes that cause the human disease, Schistosomiasis. But, in this
-New Zealand species of \emph{Microphallus}, the eggs hatch not in the
-environment but rather after being ingested by snails. The larvae then
-penetrate the snail from the inside. If the snail's immune system does
-not recognize the larvae as foreign tissue, the larvae reproduce
-asexually, producing several hundred cysts (metacercaria) in the snail.
-These cysts completely replace the reproductive tissue in both males and
-females. Infected snails are sterilized (Figure~\ref{fig-4.1}).
+sp.\footnote{Paternal leakage of DNA in otherwise asexual vertebrate
+  species now seems possible (review in Lampert \& Schartl 2010).} The
+life cycle of \emph{Microphallus} turns out to be especially crucial to
+the story. The adult worms are tiny simultaneous hermaphrodites that
+live in the intestines of ducks. They cross-fertilize and produce eggs
+that are shed with the duck feces into the environment. In most
+trematodes, the eggs normally hatch in water, thereby releasing a
+swimming larval stage (miracidia), which actively swims to and
+penetrates the body of snails. This is the case for the trematodes that
+cause the human disease, Schistosomiasis. But, in this New Zealand
+species of \emph{Microphallus}, the eggs hatch not in the environment
+but rather after being ingested by snails. The larvae then penetrate the
+snail from the inside. If the snail's immune system does not recognize
+the larvae as foreign tissue, the larvae reproduce asexually, producing
+several hundred cysts (metacercaria) in the snail. These cysts
+completely replace the reproductive tissue in both males and females.
+Infected snails are sterilized (Figure~\ref{fig-4.1};
+Figure~\ref{fig-4.2}).
 
 \begin{figure}
 
-\begin{minipage}[t]{0.50\linewidth}
-
-\raisebox{-\height}{
+\centering{
 
 \includegraphics{images/fig4-2.jpeg}
 
 }
 
-\subcaption{\label{}The life cycle of the trematode \emph{Microphallus}}
-\end{minipage}%
-%
-\begin{minipage}[t]{0.50\linewidth}
+\caption[The life cycle of the trematode
+\emph{Microphallus}]{\label{fig-4.1}The life cycle of the trematode
+\emph{Microphallus}. The adult worms live in the intestines of waterfowl
+and wading birds (black stilts). They produce cross-fertilized eggs,
+which are released into lakes and streams with the bird's feces. The
+eggs hatch following ingestion by snails. Infection results in the
+asexual production of hundreds of cysts (called metacercaria). These
+cysts ``hatch'' and mature following ingestion by ducks, thus completing
+the life cycle. Drawing by Zoe M Dinges.}
 
-\raisebox{-\height}{
+\end{figure}%
+
+\begin{figure}
+
+\centering{
 
 \includegraphics{images/fig4-3.jpg}
 
 }
 
-\subcaption{\label{}Infected female (top) and uninfected female (bottom)
-of \emph{P. antipodarum}}
-\end{minipage}%
-
-\caption{\label{fig-4.1}\textbf{Left panel:} The adult worms live in the
-intestines of waterfowl and wading birds (black stilts). They produce
-cross-fertilized eggs, which are released into lakes and streams with
-the bird's feces. The eggs hatch following ingestion by snails.
-Infection results in the asexual production of hundreds of cysts (called
-metacercaria). These cysts ``hatch'' and mature following ingestion by
-ducks, thus completing the life cycle. Drawing by Zoe M Dinges.
-\textbf{Right panel:} The snails had been removed from their shells. The
-golden cysts in the infected female (top) are \emph{Microphallus}
-metacercaria. The white tissue of the uninfected female (bottom) is
-ovary. (Photo Credit: Gabe Harp)}
+\caption[Infected female (top) and uninfected female (bottom) of
+\emph{P. antipodarum}]{\label{fig-4.2}Infected female (top) and
+uninfected female (bottom) of \emph{P. antipodarum}. The snails had been
+removed from their shells. The golden cysts in the infected female (top)
+are \emph{Microphallus} metacercaria. The white tissue of the uninfected
+female (bottom) is ovary. (Photo Credit: Gabe Harp)}
 
 \end{figure}%
 
@@ -2357,7 +2339,7 @@ unlikely to work, as ducks (not mice) were the vertebrate host, but I
 tried it anyway. It worked! I was able to experimentally infect snails
 in the lab. And, amazingly, the parasites from both lake populations
 were much more infective to snails from their same lake
-(Figure~\ref{fig-4.2}). In other words, the \emph{Microphallus}
+(Figure~\ref{fig-4.3}). In other words, the \emph{Microphallus}
 parasites were locally adapted (Lively 1989). There was no reason based
 on this experiment to discard the Red Queen.
 
@@ -2370,7 +2352,7 @@ on this experiment to discard the Red Queen.
 }
 
 \caption[Results of the first reciprocal cross-inoculation
-experiment]{\label{fig-4.2}Results of the first reciprocal
+experiment]{\label{fig-4.3}Results of the first reciprocal
 cross-inoculation experiment. The vertical bars show one SE of the mean.
 Redrawn from Lively (1989).}
 
@@ -2390,7 +2372,7 @@ lakes in a fully reciprocal cross-inoculation experiment. Again, the
 results were very clear: the parasites (following passage through mice)
 from all three lakes were more infective to host snails from the same
 lake (Lively 1989). And, to my surprise, the distance between lakes did
-not matter to the strength of local adaptation (Figure~\ref{fig-4.3}).
+not matter to the strength of local adaptation (Figure~\ref{fig-4.4}).
 Taken together the results from two independent experiments showed
 strong adaption by parasites to local populations of their snail host.
 The results also suggested a genetic basis for host resistance and
@@ -2398,7 +2380,7 @@ parasite infectivity, which is a crucial assumption of the Red Queen
 Hypothesis. Finally, the pattern of local parasite adaptation in the
 snail-trematode system would be found to be very robust in experiments
 conducted by me and my students after I moved to Indiana University
-(Figure~\ref{fig-4.4}).
+(Figure~\ref{fig-4.5}).
 
 \begin{figure}
 
@@ -2409,7 +2391,7 @@ conducted by me and my students after I moved to Indiana University
 }
 
 \caption[Results of the second reciprocal cross-inoculation
-experiment]{\label{fig-4.3}Results of the second reciprocal
+experiment]{\label{fig-4.4}Results of the second reciprocal
 cross-inoculation experiment. Vertical bars show one SE of the mean.
 Redrawn from Lively (1989).}
 
@@ -2460,7 +2442,7 @@ and evolution of infectious disease'' was taking flight.
 }
 
 \caption[Results from a meta-analysis of local adaption
-experiments]{\label{fig-4.4}Results from a meta-analysis of local
+experiments]{\label{fig-4.5}Results from a meta-analysis of local
 adaption experiments. The ``effect size'' depends on the magnitude of
 the difference between the proportion of infection in sympatric vs
 allopatric hosts, where positive values indicate that the parasite is
@@ -2513,7 +2495,7 @@ locus.\footnote{In direct contrast, however, Oka found that
 It thus appears that Oka was inspired by Bancroft, and Burnet was
 inspired by Oka. How does Burnet fit in? Burnet first accepts Oka's
 assumption that allorecognition depends on a single highly polymorphic
-locus (Figure~\ref{fig-4.5}): ``To summarize Oka's work, it is
+locus (Figure~\ref{fig-4.6}): ``To summarize Oka's work, it is
 convenient to accept his assumption, which is validated by much
 preliminary work, that fusion or rejection between colonies depends on a
 single locus with many alleles which can be referred to as recognition
@@ -2553,7 +2535,7 @@ flesh this idea out in a later chapter.
 
 }
 
-\caption[A model for self- / non-self-recognition]{\label{fig-4.5}A
+\caption[A model for self- / non-self-recognition]{\label{fig-4.6}A
 model for self- / non-self-recognition (Burnet 1971; Oka 1970). Cells
 sharing one or more alleles can rejoin after separation, as the
 receptors match. In contrast, cells that do not share an allele do not
@@ -2590,20 +2572,130 @@ Redrawn from Burnet (1971) by Zoe M Dinges.}
 
 \bookmarksetup{startatroot}
 
+\chapter{Gynogenetic Fish}\label{gynogenetic-fish}
+
+\begin{center}
+\includegraphics{images/fig5-1.jpeg}
+\end{center}
+
+New Zealand felt like home after five years, and we had many good
+friends and colleagues in Christchurch, especially David Lloyd. David
+and I talked often about strategic models of natural selection (game
+theory), of which he was one of the world's leaders. I was particularly
+influenced by his idea that sexual reproduction, polymorphism,
+phenotypic plasticity, and hermaphroditism could all be seen under the
+umbrella of ``variation strategies'' (Lloyd 1984). Sadly, when Lynda
+completed her PhD, her visa expired, and we had to leave New Zealand.
+But where to go?
+
+Lynda was a rising star when she completed her PhD. She landed a
+post-doc at Rutgers University to work with Tom Meagher, so we moved to
+New Jersey in January 1989. Once again, Lynda was supporting us. Steven
+Handel gave me a desk and some space in his lab. Soon afterward, Peter
+Morin asked me to give a seminar on sex/asex at Rutgers. I knew of
+Peter's pioneering work in community ecology for which he had received a
+young investigator's award from the Ecological Society of America (the
+Mercer Award). I was quite nervous to give a seminar in front of one of
+my heroes. Another of my heroes, Professor Bob Vrijenhoek, was also in
+the audience. As described in Section~\ref{sec-niche}, Bob was the
+creative mind behind the Frozen Niche-Variation Hypothesis, and he was
+well known for his work on sexual and asexual fish (topminnows in the
+genus \emph{Poeciliopsis}). He was also the director of the Center for
+Theoretical and Applied Genetics (CTAG) at the New Brunswick campus of
+Rutgers University, and he was the Editor-in-Chief of the journal
+\emph{Evolution}, the most prestigious journal in evolutionary biology.
+After my talk, Bob, Peter, Lynda, and I went out for dinner. Somewhere
+in the middle of the meal, Bob offered me a post-doc to work with him at
+CTAG. I was dumbfounded. But I managed to say yes, ``When do I start?''
+He said, ``How about tomorrow?''
+
+For this to make sense, you need to know more about Vrijenhoek's fish.
+Like the snails, the fish have coexisting sexual (diploid) and asexual
+(triploid) forms. The asexual fish, however, were ``gynogenetic,'' which
+means that the eggs require fertilization to kick-start embryogenesis.
+The sneaky eggs, however, do not generally incorporate the sperm's DNA
+(review in Vrijenhoek 1998).\footnote{Paternal leakage of DNA in
+  otherwise asexual vertebrate species now seems possible (review in
+  Lampert \& Schartl 2010).} The outcome is the coexistence of sexual
+and asexual lineages within the same semi-isolated populations.
+
+Bob had worked on these fish for decades, focusing on small streams in
+Mexico. He had worked in particular on the coexistence of a sexual form
+of the fish, \emph{Poeciliopsis monacha}, with two gynogenetic clones,
+which were interspecific hybrids between \emph{P. monacha} and \emph{P.
+lucida} (Vrijenhoek 1978, 1979). The triploid clones were independently
+derived from their sexual ancestors, with two copies of the monacha
+genome and one copy of the lucida genome (Schultz 1969). During his
+studies, Bob had frozen fish for many years from several of his sites.
+He remembered that some of the fish in his freezer were heavily infected
+with black-spot disease. The black spots are clearly visible on the body
+of the fish. The spot itself is caused by trematode larvae that burrow
+into the fish and encyst (genus \emph{Uvulifer}). The fish's immune
+system then coats the cyst with melanin, which turns the cysts black.
+Bob thought it would be interesting to see if the asexual fish were more
+infected than the sexuals. The prediction under the Red Queen Hypothesis
+was that the most common asexual clones would be most infected by black
+spot disease \hyperref[callout-5]{(Box 5.1)}.
+
+\begin{tcolorbox}[enhanced jigsaw, toprule=.15mm, rightrule=.15mm, arc=.35mm, titlerule=0mm, breakable, opacityback=0, leftrule=.75mm, bottomtitle=1mm, toptitle=1mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Box 5.1}, left=2mm, coltitle=black, colframe=quarto-callout-tip-color-frame, colbacktitle=quarto-callout-tip-color!10!white, bottomrule=.15mm, opacitybacktitle=0.6, colback=white]
+
+It can be a bit confusing, but I think that the prediction of the Red
+Queen Hypothesis changes depending on whether one is looking
+\textbf{within versus between populations}. In
+Chapter~\ref{sec-eco-hyp-cont}, I suggested that snail populations
+having more parasites should be more likely to have some sexual
+reproduction. Here I am suggesting that asexual fish would be expected
+to have more parasites. How does that work?
+
+\textbf{Between populations} we would expect to find that regions
+without parasites would evolve to reproduce by parthenogenesis. That
+would tend to suggest that sex would be positively correlated with
+infection prevalence. The pattern would be expected to be messy, and it
+may not be found due to time lags, even in cases where parasites are the
+major driving force for sex, as suggested elsewhere (Lively \emph{et
+al.} 2021). Nonetheless, the common expectation is that sex would be
+more common where there has been a history of strong parasite-mediated
+selection.
+
+\textbf{Within populations} we might expect for asexuals to be more
+infected than sexuals, at least periodically. This sounds different from
+the expectation for between-population samples, but it is part of the
+same logic. If parasites are tracking common clones, then the common
+asexual genotypes within a population should be more infected,
+potentially resulting in a higher average prevalence of infection in the
+asexual population, even when there is more than one clone present. On
+the other hand, we expect sexual populations to have more parasites.
+
+These may sound like different predictions, but they go together. If
+there are few or no parasites, asexuals should win. If there are
+abundant parasites, sex should be maintained, perhaps in mixed
+populations of sexuals and asexuals. In mixed populations, we would
+expect common asexual genotypes to be more infected than sexual females,
+at least periodically. (Note that infection in males is not important,
+unless females become sperm limited.)
+
+\end{tcolorbox}
+
+\bookmarksetup{startatroot}
+
 \chapter{The Ratchet and the Red Queen}\label{sec-chap6}
 
+\begin{center}
+\includegraphics[width=0.4\textwidth,height=\textheight]{images/fig6-1.jpeg}
+\end{center}
+
 In 1988, Indiana University advertised for an assistant professor in
-population biology, with emphasis on disease ecology. Lynda and I both
+population biology with emphasis on disease ecology. Lynda and I both
 applied. Happily, we were offered a split position in Biology in which
 we each got half salary. It may not sound like a good deal, but we were
 thrilled. It is not easy for a dual-career couple in the same field. We
-relocated to Bloomington in January of 1990, arriving during a cold snap
-(-20\&degC). We moved into a university house; but we did not know
-enough to have the electricity turned on before arrival. Luckily, we
-still had our down sleeping bags, which we had purchased for field work
-in the Southern Alps. Aside from the chilly start, moving to Bloomington
-was the beginning of an academic dream come true. Most of this book aims
-to highlight the work of my incredible students and colleagues at IU.
+relocated to Bloomington in January 1990, arriving during a cold snap
+(-20° C). We moved into a university house, but we did not know enough
+to have the electricity turned on before arrival. Luckily, we still had
+our down sleeping bags, which we had purchased for field work in the
+Southern Alps. Aside from the chilly start, moving to Bloomington was
+the beginning of an academic dream come true. Most of this book aims to
+highlight the work of my incredible students and colleagues at IU.
 
 \section{The Problem}\label{the-problem-1}
 
@@ -2647,14 +2739,6 @@ Bell, T., Freckleton, R.P. \& Lewis, O.T. (2006).
 \href{https://doi.org/10.1111/j.1461-0248.2006.00905.x}{Plant pathogens
 drive density-dependent seedling mortality in a tropical tree}.
 \emph{Ecology Letters}, 9, 569--574.
-
-\bibitem[\citeproctext]{ref-blasco-costa2019a}
-Blasco-Costa, I., Seppälä, K., Feijen, F., Zajac, N., Klappert, K. \&
-Jokela, J. (2019). \href{https://doi.org/10.1017/S0022149X19000993}{A
-new species of \emph{atriophallophorus} deblock \& rosé, 1964
-(trematoda: Microphallidae) described from \emph{in vitro}-grown adults
-and metacercariae from \emph{{P}otamopyrgus antipodarum} (gray, 1843)
-(mollusca: tateidae)}. \emph{Journal of Helminthology}, 94, 1--15.
 
 \bibitem[\citeproctext]{ref-burnet1971a}
 Burnet, F.M. (1971). "Self-recognition" in colonial marine forms and
@@ -2808,6 +2892,11 @@ of amphimixis. \emph{Journal of Heredity}, 84, 372--387.
 \bibitem[\citeproctext]{ref-kuhn1970a}
 Kuhn, T.S. (1970). \emph{The structure of scientific revolutions}. 2nd
 edn. University of Chicago Press.
+
+\bibitem[\citeproctext]{ref-lampert2010a}
+Lampert, K.P. \& Schartl, M. (2010). A little bit is better than
+nothing: The incomplete parthenogenesis of salamanders, frogs and fish.
+\emph{Bmc Biology}, 8, 78.
 
 \bibitem[\citeproctext]{ref-lehtonen2012a}
 Lehtonen, J., Jennions, M.D. \& Kokko, H. (2012). The many costs of sex.
@@ -3053,6 +3142,11 @@ Schmid-Hempel, P. \& Jokela, J. (2002). Socially structured populations
 and evolution of recombination under antagonistic coevolution.
 \emph{American Naturalist}, 160, 403--408.
 
+\bibitem[\citeproctext]{ref-schultz1969a}
+Schultz, R.J. (1969). Hybridization, unisexuality, and polyploidy in the
+teleost poeciliopsis (poeciliidae) and other vertebrates. \emph{American
+Naturalist}, 103, 605--619.
+
 \bibitem[\citeproctext]{ref-siebold1856a}
 Siebold, C.T.E. von. (1856). \emph{Wahre parthenogenesis bei
 schmetterlingen und bienen. Ein beitrag zur fortpflanzungsgeschichte der
@@ -3084,6 +3178,10 @@ parthenogenesis. \emph{Journal of Theoretical Biology}, 11, 54--58.
 \bibitem[\citeproctext]{ref-valen1973a}
 Valen, L. van. (1973). A new evolutionary law. \emph{Evolutionary
 Theory}, 1, 1--30.
+
+\bibitem[\citeproctext]{ref-vrijenhoek1978a}
+Vrijenhoek, R.C. (1978). Coexistence of clones in a heterogeneous
+environment. \emph{Science}, 199, 549--552.
 
 \bibitem[\citeproctext]{ref-vrijenhoek1979a}
 Vrijenhoek, R.C. (1979). Factors affecting clonal diversity and
