@@ -2,15 +2,15 @@
 
 ## About
 
-The following pages represent the first volume of a book.  The main goal was to introduce the evolutionary problem of sexual reproduction, with a focus on competition between sexual and asexual females.  But I also incorporated some ideas on genetic polymorphism and phenotypic plasticity with the goal of exploring “variation strategies” more generally.  Finally, I tried to weave in some history of the field, along with some philosophy of science.  
+The following pages represent the first volume of a book. The main goal was to introduce the evolutionary problem of sexual reproduction, with a focus on competition between sexual and asexual females. But I also incorporated some ideas on genetic polymorphism and phenotypic plasticity with the goal of exploring “variation strategies” more generally. Finally, I tried to weave in some history of the field, along with some philosophy of science. 
 
 ## Acknowledgements
 
-I gratefully acknowledge helpful comments from Amrita Bhattacharya, Zoe Dinges, Kara Million, Deanna Soper, Mike Wade, Jukka Jokela, Dorota Paczesniak, Steve Howard, Lynda Delph, Clark Craddock, Robert Vrijenhoek, Jan McKenzie, Mike Winterbourn, Stuart West, Oren Harman, and especially Maurine Neiman and her lab group at the University of Iowa.  Additional comments are welcome by [email](mailto:clively@indiana.edu).  
+I gratefully acknowledge helpful comments from Amrita Bhattacharya, Zoe Dinges, Kara Million, Deanna Soper, Mike Wade, Jukka Jokela, Dorota Paczesniak, Steve Howard, Lynda Delph, Clark Craddock, Robert Vrijenhoek, Jan McKenzie, Mike Winterbourn, Stuart West, Oren Harman, and especially Maurine Neiman and her lab group at the University of Iowa. Additional comments are welcome by [email](mailto:clively@indiana.edu). 
 
-Special thanks to Zoe Michelle Dinges (ZMD), who redrew the graphs and contributed original illustrations.  Many thanks also to Adam Mazel of Indiana University Libraries for preparing the document for online publication.
+Special thanks to Zoe Michelle Dinges (ZMD), who redrew the graphs and contributed original illustrations. Many thanks also to Adam Mazel of Indiana University Libraries for preparing the document for online publication.
 
-This project was supported by the NSF OPUS program for the synthesis of biological research (DEB-1906465).  I am also grateful to the Institute for Advanced Study in Berlin (Wissenschaftskolleg zu Berlin) for my stay as a “partner” during 2022-2023.  
+This project was supported by the NSF OPUS program for the synthesis of biological research (DEB-1906465). I am also grateful to the Institute for Advanced Study in Berlin (Wissenschaftskolleg zu Berlin) for my stay as a “partner” during 2022-2023. 
 
 ## Copyright and License
 

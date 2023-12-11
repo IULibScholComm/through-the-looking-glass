@@ -44,7 +44,7 @@ server <- function(input, output) {
   output$p <- renderPlot({
     # a is a constant that gives the sensitivity to total population density
     a <- 0.0001
-    # d is the death rate.  Here I set d=1, meaning an annual species.
+    # d is the death rate. Here I set d=1, meaning an annual species.
     d <- 1.0
     # b is the number of offspring prouduced by a single female (sexual or asexual)
     b <- 3.0
@@ -63,7 +63,7 @@ server <- function(input, output) {
     #solution for carrying capacity of asexual population
     k_asex <- (b - d) / (a + c)
     
-    # intitial conditions.  Sex initiated at Ksex.  Asex at 0.
+    # intitial conditions. Sex initiated at Ksex. Asex at 0.
     sex <- k_sex
     a_sex <- 0
     

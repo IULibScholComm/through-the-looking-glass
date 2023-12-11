@@ -72,7 +72,7 @@ None of this is meant to imply proof of the Red Queen Hypothesis or that density
 
 3. The prevalence of sterilizing trematode larvae is a better predictor sexual reproduction in the snail than habitat (lakes vs. streams), thus favoring the Red Queen Hypothesis over the alternative ecological hypotheses. 
 
-4. Comparing the *a priori* predictions of multiple working hypotheses can be helpful to evaluate competing ideas. Field studies of natural systems may be required to fully understand why cross-fertilization is so common.  
+4. Comparing the *a priori* predictions of multiple working hypotheses can be helpful to evaluate competing ideas. Field studies of natural systems may be required to fully understand why cross-fertilization is so common. 
 
 ## Appendix: Game-Theoretic Model {#sec-app-3}
 

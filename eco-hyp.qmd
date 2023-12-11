@@ -2,7 +2,7 @@
 
 # The Ecological Hypotheses {#sec-eco-hyp}
 
-The sex/recombination ("sex/rec") anomaly has attracted some of the best theoretical biologists over the last 50 years leading to at least two dozen hypotheses to explain selection for recombination and/or the persistence of obligate sexual reproduction in natural populations [@kondrashov1993a]. In what follows, I first focus on the ecological hypotheses. The ideas underlying these hypotheses provide a handle for understanding some of the foundational concepts in evolutionary ecology.  
+The sex/recombination ("sex/rec") anomaly has attracted some of the best theoretical biologists over the last 50 years leading to at least two dozen hypotheses to explain selection for recombination and/or the persistence of obligate sexual reproduction in natural populations [@kondrashov1993a]. In what follows, I first focus on the ecological hypotheses. The ideas underlying these hypotheses provide a handle for understanding some of the foundational concepts in evolutionary ecology. 
 
 ## The Lottery Model
 
@@ -19,7 +19,7 @@ In my evolution course, I ask a form of Williams' question but with a slight twi
 
 Often the students rightfully want some clarification. They ask, for example, “Can we use pesticides?” But every time, most students choose the variable crop. I remind them that selecting the variable crop will reduce their yield by one half. They don't budge. I re-ask the question, doubling the relative yield for the monoculture from two-fold to four-fold. Then to 10-fold. Occasionally, one of the more risk-prone students will select the 10-fold higher yield, but most do not budge. They want genetic variation. I ask them why. Invariably, they say that the environment is going to change. They want to hedge their bets against an uncertain future. 
 
-Indeed, Williams' Lottery Model is about bet hedging. The gist of bet hedging in evolutionary theory is that selection can act to reduce the variance in reproductive success over time, even if it also reduces the arithmetic mean across years [review in @philippi1989a]. Suppose, for example, that we have the following data for both a monoculture and a genetically variable polyculture (in arbitrary units). Let’s assume that the variation in yield is driven by annual variation in abiotic factors such as temperature or precipitation. The effect of planting a polyculture (bet-hedging) can be estimated from the geometric mean, which incorporates the variation in yield over time.   
+Indeed, Williams' Lottery Model is about bet hedging. The gist of bet hedging in evolutionary theory is that selection can act to reduce the variance in reproductive success over time, even if it also reduces the arithmetic mean across years [review in @philippi1989a]. Suppose, for example, that we have the following data for both a monoculture and a genetically variable polyculture (in arbitrary units). Let’s assume that the variation in yield is driven by annual variation in abiotic factors such as temperature or precipitation. The effect of planting a polyculture (bet-hedging) can be estimated from the geometric mean, which incorporates the variation in yield over time. 
 
 | Year | Monoculture | Polyculture |
 |------|-------------|-------------|
@@ -121,11 +121,11 @@ As an evolutionary ecologist, I was drawn to the confluence of these questions. 
 
 4. The Red Queen Hypothesis relies on parasite-mediated selection against common host genotypes. Such selection, when strong, can result in oscillatory changes in parasite and host alleles. These oscillations are sometimes called Red Queen dynamics. 
 
-5. A bet-hedging strategy reduces the variance in reproductive success over time, even if it reduces the arithmetic mean. Sexual reproduction under the Lottery Model is clearly a bet-hedging strategy. The Red Queen idea can perhaps also be seen as bet hedging.  
+5. A bet-hedging strategy reduces the variance in reproductive success over time, even if it reduces the arithmetic mean. Sexual reproduction under the Lottery Model is clearly a bet-hedging strategy. The Red Queen idea can perhaps also be seen as bet hedging. 
 
 ## Appendix: Levene's model of multiple niche polymorphism {#sec-app-2}
 
-It was widely thought that heterozygote advantage was required to maintain polymorphism at a single locus with two alleles. In the introduction to his paper, Levene wonders "whether it was in fact possible to have an equilibrium without the heterozygote being superior in any single niche" [-@levene1953a]. The paper is not easy to follow, eventhough the algebra is not difficult. Here I try to simplify the presentation.  
+It was widely thought that heterozygote advantage was required to maintain polymorphism at a single locus with two alleles. In the introduction to his paper, Levene wonders "whether it was in fact possible to have an equilibrium without the heterozygote being superior in any single niche" [-@levene1953a]. The paper is not easy to follow, eventhough the algebra is not difficult. Here I try to simplify the presentation. 
 
 Levene first assumes that the proportion of survivors coming from the $i^{th}$ niche is constant $(q)$, independent of the genotypic composition of the niche (i.e., soft selection). He then assumes that the heterozygote has a relative fitness of one in all niches, giving $W_{AB} = 1$. Let $q$ be the frequency of allele A, and let ($1 - q$) be the frequency of allele B. The frequency of allele A in the next generation, $q'$, is then
 
@@ -139,9 +139,9 @@ where the left-hand side gives the harmonic mean fitness for genotype AA over al
 
 $$\frac{1}{\sum_{}^{}{c_{i}\frac{1}{W_{BBi}}}} < 1$$
 
-where the left-hand side gives the harmonic mean fitness for genotype BB over all niches. A genetic polymorphism is expected if both alleles can increase when rare; hence, **polymorphism is expected, in general, when the harmonic mean fitness for the heterozygote is greater than the harmonic mean fitness for either homozygote**.  
+where the left-hand side gives the harmonic mean fitness for genotype BB over all niches. A genetic polymorphism is expected if both alleles can increase when rare; hence, **polymorphism is expected, in general, when the harmonic mean fitness for the heterozygote is greater than the harmonic mean fitness for either homozygote**. 
 
-But does this require that the AB genotype is the most fit in at least one niche? Levene gives a specific example to answer this question. He assumes two niches, where the proportion of survivors from both niches is equal (i.e., $c_{1} = c_{2} = 0.5$). He then assumes genotypic fitness values, as given in the following table. It is important to note that the heterozygous genotype is not the most fit genotype in either niche.                                         
+But does this require that the AB genotype is the most fit in at least one niche? Levene gives a specific example to answer this question. He assumes two niches, where the proportion of survivors from both niches is equal (i.e., $c_{1} = c_{2} = 0.5$). He then assumes genotypic fitness values, as given in the following table. It is important to note that the heterozygous genotype is not the most fit genotype in either niche. 
 
 | Genotype | Fitness Niche One | Fitness Niche Two | Arithmetic mean | Harmonic mean |
 |----------|-------------------|-------------------|-----------------|---------------|
@@ -151,7 +151,7 @@ But does this require that the AB genotype is the most fit in at least one niche
 
 : Levene's Example {#tbl-lev} 
 
-For this example, the harmonic mean fitness for the heterozygote is greater than the harmonic mean fitness for either homozygote, thus meeting the conditions given by the equations above. Thus, the answer to Levene's question is Yes. It is possible to have a genetic polymorphism without having heterozygote advantage in any single niche. And, interestingly, the polymorphism is expected even though the arithmetic mean fitness of the heterozygote is less than the arithmetic mean fitness of either homozygote. Finally, based on this example, it seems that a trade-off is required, such that the AA genotype does best in one niche, and the BB genotype does best in the other niche.  
+For this example, the harmonic mean fitness for the heterozygote is greater than the harmonic mean fitness for either homozygote, thus meeting the conditions given by the equations above. Thus, the answer to Levene's question is Yes. It is possible to have a genetic polymorphism without having heterozygote advantage in any single niche. And, interestingly, the polymorphism is expected even though the arithmetic mean fitness of the heterozygote is less than the arithmetic mean fitness of either homozygote. Finally, based on this example, it seems that a trade-off is required, such that the AA genotype does best in one niche, and the BB genotype does best in the other niche. 
 
 Nonetheless, Levene's result suggests that overdominance for harmonic mean fitness is required for multiple niche polymorphism [@prout1968a]. However, Timothy Prout showed that a polymorphism could be stable even if one allele is dominant, thus ruling out any kind of overdominance [-@prout1968a]. Let both the AA and AB genotypes have a fitness of one in both niches. Let the BB genotype have a fitness of 0.5 in niche one and a fitness of 1.67 in niche two. Assuming as above that both patches are equally common, we get the following table:
 
