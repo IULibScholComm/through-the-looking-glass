@@ -111,22 +111,6 @@
 \newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 
 \makeatletter
-\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
-\@ifpackageloaded{fontawesome5}{}{\usepackage{fontawesome5}}
-\definecolor{quarto-callout-color}{HTML}{909090}
-\definecolor{quarto-callout-note-color}{HTML}{0758E5}
-\definecolor{quarto-callout-important-color}{HTML}{CC1914}
-\definecolor{quarto-callout-warning-color}{HTML}{EB9113}
-\definecolor{quarto-callout-tip-color}{HTML}{00A047}
-\definecolor{quarto-callout-caution-color}{HTML}{FC5300}
-\definecolor{quarto-callout-color-frame}{HTML}{acacac}
-\definecolor{quarto-callout-note-color-frame}{HTML}{4582ec}
-\definecolor{quarto-callout-important-color-frame}{HTML}{d9534f}
-\definecolor{quarto-callout-warning-color-frame}{HTML}{f0ad4e}
-\definecolor{quarto-callout-tip-color-frame}{HTML}{02b875}
-\definecolor{quarto-callout-caution-color-frame}{HTML}{fd7e14}
-\makeatother
-\makeatletter
 \@ifpackageloaded{bookmark}{}{\usepackage{bookmark}}
 \makeatother
 \makeatletter
@@ -179,7 +163,7 @@
 \makeatletter
 \makeatother
 \makeatletter
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[borderline west={3pt}{0pt}{shadecolor}, enhanced, frame hidden, boxrule=0pt, interior hidden, sharp corners, breakable]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[breakable, frame hidden, boxrule=0pt, enhanced, interior hidden, sharp corners, borderline west={3pt}{0pt}{shadecolor}]}{\end{tcolorbox}}\fi
 \makeatother
 \ifLuaTeX
 \usepackage[bidi=basic]{babel}
@@ -209,7 +193,7 @@
 
 \title{Through the Looking Glass: I. Why Cross-Fertilize?}
 \author{Curtis M. Lively}
-\date{07 December 2023}
+\date{11 December 2023}
 
 \begin{document}
 \frontmatter
@@ -360,7 +344,7 @@ was simply that females are only half as related to their outcrossed
 offspring as they are to their self-fertilized or parthenogenetic
 offspring.\footnote{Paternal leakage of DNA in otherwise asexual
   vertebrate species now seems possible (review in Lampert \& Schartl
-  2010).} (See \hyperref[callout-1]{Box 1.1} for condensed definitions.)
+  2010).} (See Chapter~\ref{sec-glossary} for condensed definitions.)
 Williams' idea also had theoretical support, as R.A. Fisher had already
 shown that an allele causing self-fertilization would rapidly spread to
 fixation, barring severe inbreeding depression (1941). So, why
@@ -419,11 +403,13 @@ offspring is also the same. Maynard Smith referred to this as the
 the phrase ``all-else-equal'' to mean that everything else is exactly
 equal. But this is not the case. Maynard Smith did not assume, for
 example, that sexuals and asexuals have the same ploidy
-value.\footnote{Dieter Ebert showed that parasites of \emph{Daphnia}
-  were locally adapted for both infectivity and transmission, which was
-  a major advance.} His model only assumes that sexual and asexual
-females have equal fecundities and survivorship probabilities (see
-\hyperref[callout-2]{Box 1.2}). Under this assumption, a very rare clone
+value.\footnote{In a follow up study, using independent samples, Steve
+  Weeks (one of Vrijenhoek's PhD students) was unable to replicate some
+  of our results (Weeks 1996). However, his sample sizes were very low,
+  especially for clonal fish, suggesting that his power to detect
+  differences was compromised.} His model only assumes that sexual and
+asexual females have equal fecundities and survivorship probabilities
+(see Section~\ref{sec-app-1}). Under this assumption, a very rare clone
 would double in frequency in the next generation. Maynard Smith called
 this doubling-when-rare the two-fold cost of sex.
 
@@ -495,65 +481,20 @@ then recombination would break these favorable allelic combinations
 apart. So, it makes no obvious sense to recombine more than needed for
 normal meiosis. Indeed, Lewontin (1971) formally showed that ``the mean
 fitness of the population at equilibrium is a maximum in the absence of
-recombination.''\footnote{In direct contrast, however, Oka found that
-  cross-fertilization did not occur between \emph{Botryllus} gametes
-  that shared the same allele. As Oka noted, this result mirrors the
-  S-allele system in plants: ``The \ldots{} situation corresponds
-  exactly in its form to the homomorphic self-incompatibility prevailing
-  among angiosperms.''} Hence, there are two interrelated anomalies:
+recombination.''\footnote{It is important to point out that we were not
+  claiming that parasite-mediated selection is maintaining sex in this
+  system. For example, we wrote, ``{[}w{]}e do not intend to imply from
+  this analysis that the trematode is selecting for the maintenance of
+  sex in these fish.'' Niche partitioning and/or the sperm-dependence of
+  the gynogenetic females would most likely ensure the persistence of
+  sexual individuals (Moore \& McKay 1971; Schenck \& Vrijenhoek 1986).
+  Our claim was simply that parasites had evolved to disproportionately
+  infect the most common clone unless the sexual population was highly
+  inbred.} Hence, there are two interrelated anomalies:
 cross-fertilization \emph{per se} and meiotic recombination. Ideally,
 any theory that explains the persistence of biparental sex could also
 solve the paradox of recombination. But this need not be the case. They
 could have different solutions.
-
-\begin{tcolorbox}[enhanced jigsaw, opacitybacktitle=0.6, colbacktitle=quarto-callout-tip-color!10!white, toptitle=1mm, left=2mm, titlerule=0mm, arc=.35mm, bottomrule=.15mm, colback=white, bottomtitle=1mm, toprule=.15mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Box 1.1}, rightrule=.15mm, breakable, opacityback=0, leftrule=.75mm, coltitle=black, colframe=quarto-callout-tip-color-frame]
-
-\textbf{Short definitions of terms as used in this book. These
-definitions do not include all possible nuances.}
-
-\textbf{Carrying capacity:} The population density at which females have
-just enough food to replace themselves. Sexual females must make two
-offspring to replace themselves (assuming a 1:1 sex ratio), while
-asexual females must only produce one offspring. Hence, asexuals should
-have higher carrying capacities, as shown in Figure~\ref{fig-1.2}.
-
-\textbf{Cost of males:} The reduction in the per-capita growth rate of
-sexual populations due to the production of males. The cost of males is
-the appropriate cost for considering sexual subpopulations in
-competition with obligately asexual subpopulations.
-
-\textbf{Cost of meiosis:} The reduction in relatedness between mother
-and offspring due to outcrossing. The cost of meiosis is the appropriate
-cost for considering the spread of alleles that induce
-self-fertilization.
-
-\textbf{Clone:} A lineage of parthenogenetic females descended from the
-same asexual female. Members of the same clone may have small genetic
-differences, which accumulate by mutation over time.
-
-\textbf{Cross-fertilization:} The exchange of gametes between different
-individuals, which may or may not be related.
-
-\textbf{Outcrossing:} A form of cross-fertilization, which specifies
-crossing between unrelated individuals.
-
-\textbf{Parthenogenesis:} Any form of asexual reproduction through ova.
-
-\textbf{Recombination:} Genetic exchange between homologous chromosomes
-during meiosis, especially when the exchange leads to gametes with
-allele combinations not represented on the parental chromosomes.
-
-\textbf{Self-fertilization:} The fusion of gametes from the same
-individual.
-
-\textbf{Sex/rec:} Shorthand for sexual reproduction and recombination.
-
-\textbf{Sexual reproduction:} I use the term here to mean
-cross-fertilization between unrelated individuals. However, the term is
-more general and can be used to mean the incorporation of novel genetic
-material by any mechanism.
-
-\end{tcolorbox}
 
 \subsection{Darwin's view}\label{darwins-view}
 
@@ -693,28 +634,33 @@ had indeed been overlooked: parasites.
   Why then are recombination and cross-fertilization so common?
 \end{enumerate}
 
-\begin{tcolorbox}[enhanced jigsaw, opacitybacktitle=0.6, colbacktitle=quarto-callout-note-color!10!white, toptitle=1mm, left=2mm, titlerule=0mm, arc=.35mm, bottomrule=.15mm, colback=white, bottomtitle=1mm, toprule=.15mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 1.2}, rightrule=.15mm, breakable, opacityback=0, leftrule=.75mm, coltitle=black, colframe=quarto-callout-note-color-frame]
+\section{Appendix: Maynard Smith's Model}\label{sec-app-1}
 
-Maynard Smith's (1978) model showing the cost of producing
-males.\footnotemark{} Let \(N_{asex}\) be the number of asexual females
-at time one, while \(N_{sex}\) gives the total number of sexual
-individuals (males plus females) at time one. Let \(B_{asex}\) give the
-number of offspring produced by asexual females, and \(S_{asex}\) gives
-the survival probability of asexual offspring to maturity. The number of
-surviving asexual offspring is then \(= B_{asex}S_{asex}\). Similarly,
-let \(B_{sex}\) be the number offspring produced by sexual females, and
-let \(S_{sex}\) give the survival probability of sexually produced
-offspring. Maynard Smith assumed that all individuals reproduce once and
-then die. Let \(r\) be the frequency of females in the sexual
-population. The number of asexuals and sexuals at time two can then be
-calculated as in the table below. (Note, we do not assume that the
-population is at carrying capacity).
+John Maynard Smith's (1978) model, reproduced here, shows the cost of
+producing males.\footnote{With respect to \emph{Potamopyrgus} (along
+  with a parthenogenetic beetle) Maynard Smith (1978) wrote, ``Further
+  Investigations of these cases could be most interesting.'' When I met
+  JMS, I did not know (or did not remember) that he had written this.
+  But I think that he was correct.} Let \(N_{asex}\) be the number of
+asexual females at time one, while \(N_{sex}\) gives the total number of
+sexual individuals (males plus females) at time one. Let \(B_{asex}\)
+give the number of offspring produced by asexual females, and
+\(S_{asex}\) gives the survival probability of asexual offspring to
+maturity. The number of surviving asexual offspring is then
+\(= B_{asex}S_{asex}\). Similarly, let \(B_{sex}\) be the number
+offspring produced by sexual females, and let \(S_{sex}\) give the
+survival probability of sexually produced offspring. Maynard Smith
+assumed that all individuals reproduce once and then die. Let \(r\) be
+the frequency of females in the sexual population. The number of
+asexuals and sexuals at time two can then be calculated as in the table
+below. (Note, we do not assume that the population is at carrying
+capacity).
 
 \begin{longtable}[]{@{}
   >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.1465}}
   >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2611}}
   >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.5924}}@{}}
-\caption{Maynard Smith's Model}\label{tbl-t1t2}\tabularnewline
+\caption{Appendix: Maynard Smith's Model}\label{tbl-t1t2}\tabularnewline
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\centering
 \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
@@ -765,14 +711,6 @@ equal sex ratio, the increase in asexuals is \(\approx\) two-fold. This
 result gives the two-fold cost of males. Assuming ``all-else-equal'' a
 clone will double when rare when introduced into a large sexual
 population.
-
-\end{tcolorbox}
-
-\footnotetext{With respect to \emph{Potamopyrgus} (along with a
-parthenogenetic beetle) Maynard Smith (1978) wrote, ``Further
-Investigations of these cases could be most interesting.'' When I met
-JMS, I did not know (or did not remember) that he had written this. But
-I think that he was correct.}
 
 \bookmarksetup{startatroot}
 
@@ -869,15 +807,21 @@ Year & Monoculture & Polyculture \\
 5 & 50 & 200 \\
 & & \\
 \textbf{Arithmetic mean} & \textbf{240} & 220 \\
-\textbf{Variance}\footnote{Dieter Ebert showed that parasites of
-  \emph{Daphnia} were locally adapted for both infectivity and
-  transmission, which was a major advance.} & 19400 & 600 \\
-\textbf{Geometric mean (GM)}\footnote{In direct contrast, however, Oka
-  found that cross-fertilization did not occur between \emph{Botryllus}
-  gametes that shared the same allele. As Oka noted, this result mirrors
-  the S-allele system in plants: ``The \ldots{} situation corresponds
-  exactly in its form to the homomorphic self-incompatibility prevailing
-  among angiosperms.''} & 184 & \textbf{219} \\
+\textbf{Variance}\footnote{In a follow up study, using independent
+  samples, Steve Weeks (one of Vrijenhoek's PhD students) was unable to
+  replicate some of our results (Weeks 1996). However, his sample sizes
+  were very low, especially for clonal fish, suggesting that his power
+  to detect differences was compromised.} & 19400 & 600 \\
+\textbf{Geometric mean (GM)}\footnote{It is important to point out that
+  we were not claiming that parasite-mediated selection is maintaining
+  sex in this system. For example, we wrote, ``{[}w{]}e do not intend to
+  imply from this analysis that the trematode is selecting for the
+  maintenance of sex in these fish.'' Niche partitioning and/or the
+  sperm-dependence of the gynogenetic females would most likely ensure
+  the persistence of sexual individuals (Moore \& McKay 1971; Schenck \&
+  Vrijenhoek 1986). Our claim was simply that parasites had evolved to
+  disproportionately infect the most common clone unless the sexual
+  population was highly inbred.} & 184 & \textbf{219} \\
 \textbf{Approximate GM} & 200 & \textbf{219} \\
 \end{longtable}
 
@@ -953,7 +897,7 @@ pioneering model, which showed that polymorphism could be maintained in
 a spatially heterogeneous environment provided that different genotypes
 specialize on different resources. Levene's model was a major advance,
 as it showed that genetic diversity could be maintained without
-heterozygote advantage (Section~\ref{sec-app-a}). This was also one of
+heterozygote advantage (Section~\ref{sec-app-2}). This was also one of
 the first models to fuse population genetics with ecology. But how does
 multiple niche polymorphism apply to sex? The idea is that if selection
 results in polymorphism, then a genetically diverse sexual population
@@ -1033,19 +977,18 @@ Tangled Bank Hypothesis. One is that polymorphism is only stable under a
 narrow range of patch-types frequencies. In addition, strong tradeoffs
 are required for the cost and benefits for morphs occupying different
 patches (Lively 1986a; Maynard Smith \& Hoekstra 1980) (see also
-\href{https://iulibscholcomm.github.io/through-the-looking-glass/eco-hyp-cont.html\#callout-4}{Box
-3.1}). The second caveat is that repeated mutation to asexual
-reproduction could lead to the accumulation of clonal diversity over
-time. Once all the niches are occupied by different specialized clones,
-there would be no advantage to sex. A diverse clonal population could
-then replace the sexual population (Bell 1982; Vrijenhoek \& Parker
-2009). This second caveat applies, in general, to any model of sex that
-relies on frequency-dependent selection. But the ideas could work if
-mutations to asex are rare. And, as I mentioned, sexuals and asexuals
-are known to coexist in some populations, which is consistent with the
-Tangled Bank and Frozen Niche-Variation Hypotheses (Vrijenhoek \& Parker
-2009). Coexistence, however, is also compatible with the Red Queen
-hypothesis, which we will now consider.
+Section~\ref{sec-app-3}). The second caveat is that repeated mutation to
+asexual reproduction could lead to the accumulation of clonal diversity
+over time. Once all the niches are occupied by different specialized
+clones, there would be no advantage to sex. A diverse clonal population
+could then replace the sexual population (Bell 1982; Vrijenhoek \&
+Parker 2009). This second caveat applies, in general, to any model of
+sex that relies on frequency-dependent selection. But the ideas could
+work if mutations to asex are rare. And, as I mentioned, sexuals and
+asexuals are known to coexist in some populations, which is consistent
+with the Tangled Bank and Frozen Niche-Variation Hypotheses (Vrijenhoek
+\& Parker 2009). Coexistence, however, is also compatible with the Red
+Queen hypothesis, which we will now consider.
 
 \section{The Red Queen Hypothesis}\label{the-red-queen-hypothesis}
 
@@ -1414,8 +1357,8 @@ Chapter~\ref{sec-chap6}.\footnote{In this smaller sample of 20 lakes,
   Queen idea can perhaps also be seen as bet hedging.
 \end{enumerate}
 
-\section{Appendix A: Levene's model of multiple niche
-polymorphism}\label{sec-app-a}
+\section{Appendix: Levene's model of multiple niche
+polymorphism}\label{sec-app-2}
 
 It was widely thought that heterozygote advantage was required to
 maintain polymorphism at a single locus with two alleles. In the
@@ -1607,10 +1550,12 @@ genetically determined and that they were likely to be different species
   possible (review in Lampert \& Schartl 2010).} I found that one of the
 two morphs was induced by chemical cues released by a predatory snail
 (Figure~\ref{fig-3-3}), and that the induced morph was more resistant to
-attack by this predator (1986c).\footnote{Dieter Ebert showed that
-  parasites of \emph{Daphnia} were locally adapted for both infectivity
-  and transmission, which was a major advance.} Hence, the two morphs
-are not different species, but rather the result of phenotypic
+attack by this predator (1986c).\footnote{In a follow up study, using
+  independent samples, Steve Weeks (one of Vrijenhoek's PhD students)
+  was unable to replicate some of our results (Weeks 1996). However, his
+  sample sizes were very low, especially for clonal fish, suggesting
+  that his power to detect differences was compromised.} Hence, the two
+morphs are not different species, but rather the result of phenotypic
 plasticity. In a blink of a field season, I went from being a community
 ecologist to an evolutionary biologist.
 
@@ -1629,8 +1574,8 @@ experiments also showed that the predator-resistant morph grew more
 slowly and was less fecund than the typical volcano-shaped morph (Lively
 1986b). Hence there is a trade-off. Taken together, the results
 suggested that plastic development was favored by natural selection to
-survive in the high-predation zones (\hyperref[callout-4]{Box 3.1}). I
-would later come to think of adaptive plasticity as a type of variation
+survive in the high-predation zones (Section~\ref{sec-app-3}). I would
+later come to think of adaptive plasticity as a type of variation
 strategy. Sexual reproduction can also be seen as a type of variation
 strategy (Lloyd 1984). And I was very fortunate to be able to study
 sexual reproduction after moving to New Zealand.
@@ -1694,18 +1639,22 @@ Then I got very lucky. I was awarded a three-year postdoctoral
 fellowship from the New Zealand University Grants Committee. I had
 applied to work on the evolution of facultatively parthenogenetic
 nematodes, which represented a combination of my interests in
-developmental plasticity and sex.\footnote{In direct contrast, however,
-  Oka found that cross-fertilization did not occur between
-  \emph{Botryllus} gametes that shared the same allele. As Oka noted,
-  this result mirrors the S-allele system in plants: ``The \ldots{}
-  situation corresponds exactly in its form to the homomorphic
-  self-incompatibility prevailing among angiosperms.''} These topics
-were also very interesting to Wally Clark, a conceptual pioneer in the
-evolution of plasticity. He was also head of the Zoology Department at
-the University of Canterbury. I would not have received funding without
-the support of Prof.~Clark. To my mind, the value of Clark's work
-remains underestimated in general, but it had a big influence on me
-(e.g., Clark 1976).
+developmental plasticity and sex.\footnote{It is important to point out
+  that we were not claiming that parasite-mediated selection is
+  maintaining sex in this system. For example, we wrote, ``{[}w{]}e do
+  not intend to imply from this analysis that the trematode is selecting
+  for the maintenance of sex in these fish.'' Niche partitioning and/or
+  the sperm-dependence of the gynogenetic females would most likely
+  ensure the persistence of sexual individuals (Moore \& McKay 1971;
+  Schenck \& Vrijenhoek 1986). Our claim was simply that parasites had
+  evolved to disproportionately infect the most common clone unless the
+  sexual population was highly inbred.} These topics were also very
+interesting to Wally Clark, a conceptual pioneer in the evolution of
+plasticity. He was also head of the Zoology Department at the University
+of Canterbury. I would not have received funding without the support of
+Prof.~Clark. To my mind, the value of Clark's work remains
+underestimated in general, but it had a big influence on me (e.g., Clark
+1976).
 
 I began looking for natural systems to study facultative
 parthenogenesis.\footnote{We were trained ask questions first and then
@@ -2164,9 +2113,7 @@ Queen Hypothesis was (and still is) worthy of further study.
   cross-fertilization is so common.
 \end{enumerate}
 
-~
-
-\begin{tcolorbox}[enhanced jigsaw, opacitybacktitle=0.6, colbacktitle=quarto-callout-note-color!10!white, toptitle=1mm, left=2mm, titlerule=0mm, arc=.35mm, bottomrule=.15mm, colback=white, bottomtitle=1mm, toprule=.15mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 3.1}, rightrule=.15mm, breakable, opacityback=0, leftrule=.75mm, coltitle=black, colframe=quarto-callout-note-color-frame]
+\section{Appendix: Game-Theoretic Model}\label{sec-app-3}
 
 As part of my dissertation research, I constructed a game-theoretic
 model of selection on three strategies:
@@ -2189,29 +2136,26 @@ of values for the accuracy of the cue predicting future predation risk
 
 An example of the output is shown below. The results show that any of
 the three strategies can be an ESS in part of the parameter
-space.\footnotemark{} High reliability of the cue and intermediate patch
-frequencies favor the plastic strategy. Genetic polymorphism is expected
-under a relatively narrow set of conditions. Mixtures of constitutive
-and plastic strategies can also be stable. Note that changing the patch
-frequencies leads to evolutionary change. For example, reducing the
-frequency of the low-risk patch can lead to a selective sweep (arrow a).
-It can also lead to the evolution of plasticity (arrow b) and the
-evolution of canalized development (arrow c). Increasing the accuracy of
-the cue can also lead to the evolution of plasticity. It might be
-especially interesting to note that the trajectory of arrow b would give
-the appearance of saltatory change followed by stasis (i.e., punctuated
-equilibrium) (Levinton 1988). Also note that the conditions for a
-genetic polymorphism are relatively narrow. Redrawn from Lively (1999a)
-assuming a small cost to plasticity.
+space.\footnote{``Parameter space'' represents all possible combinations
+  of variables as defined by the model. In Section~\ref{sec-app-3},
+  different strategies are favored for different combinations of
+  variables (i.e., different parts of the parameter space).} High
+reliability of the cue and intermediate patch frequencies favor the
+plastic strategy. Genetic polymorphism is expected under a relatively
+narrow set of conditions. Mixtures of constitutive and plastic
+strategies can also be stable. Note that changing the patch frequencies
+leads to evolutionary change. For example, reducing the frequency of the
+low-risk patch can lead to a selective sweep (arrow a). It can also lead
+to the evolution of plasticity (arrow b) and the evolution of canalized
+development (arrow c). Increasing the accuracy of the cue can also lead
+to the evolution of plasticity. It might be especially interesting to
+note that the trajectory of arrow b would give the appearance of
+saltatory change followed by stasis (i.e., punctuated equilibrium)
+(Levinton 1988). Also note that the conditions for a genetic
+polymorphism are relatively narrow. Redrawn from Lively (1999a) assuming
+a small cost to plasticity.
 
 \includegraphics{images/fig3-7_hr.png}
-
-\end{tcolorbox}
-
-\footnotetext{``Parameter space'' represents all possible combinations
-of variables as defined by the model. In \hyperref[callout-4]{Box 3.1},
-different strategies are favored for different combinations of variables
-(i.e., different parts of the parameter space).}
 
 \bookmarksetup{startatroot}
 
@@ -2414,24 +2358,27 @@ average change in mean fitness for both species is zero.
 
 My early results on local adaptation, along with the results of Parker
 (1985) and Ebert (1994), convinced me that host-parasite coevolution was
-interesting, whether or not it could explain sex.\footnote{Dieter Ebert
-  showed that parasites of \emph{Daphnia} were locally adapted for both
-  infectivity and transmission, which was a major advance.} In addition,
-May and Anderson (1983) had already ignited a general interest in
-parasites. They showed that, contrary to conventional wisdom, parasites
-would evolve to maximize their own rates of transmission without any
-``consideration'' for the well-being of their hosts. This work, combined
-with Hamilton and Zuk's model of parasite-mediated mate choice, along
-with Hamilton's models on parasite-mediated selection for sex, lit up
-the field (Hamilton 1980; Hamilton \& Zuk 1982). Fascinating work by
-Janice Moore on the evolution of adaptive, parasite-mediated
-modifications of host behavior piled on (1984). Soon, universities began
-to advertise for assistant professors working on host-parasite
-interactions. Then in 1998, Hudson et al.~rocked the scientific world
-with a heroic field experiment, which showed that oscillations in Red
-Grouse densities were controlled by nematode infections (1998).
-Parasites were now on the map. An emerging new field called ``ecology
-and evolution of infectious disease'' was taking flight.
+interesting, whether or not it could explain sex.\footnote{In a follow
+  up study, using independent samples, Steve Weeks (one of Vrijenhoek's
+  PhD students) was unable to replicate some of our results (Weeks
+  1996). However, his sample sizes were very low, especially for clonal
+  fish, suggesting that his power to detect differences was compromised.}
+In addition, May and Anderson (1983) had already ignited a general
+interest in parasites. They showed that, contrary to conventional
+wisdom, parasites would evolve to maximize their own rates of
+transmission without any ``consideration'' for the well-being of their
+hosts. This work, combined with Hamilton and Zuk's model of
+parasite-mediated mate choice, along with Hamilton's models on
+parasite-mediated selection for sex, lit up the field (Hamilton 1980;
+Hamilton \& Zuk 1982). Fascinating work by Janice Moore on the evolution
+of adaptive, parasite-mediated modifications of host behavior piled on
+(1984). Soon, universities began to advertise for assistant professors
+working on host-parasite interactions. Then in 1998, Hudson et
+al.~rocked the scientific world with a heroic field experiment, which
+showed that oscillations in Red Grouse densities were controlled by
+nematode infections (1998). Parasites were now on the map. An emerging
+new field called ``ecology and evolution of infectious disease'' was
+taking flight.
 
 \begin{figure}
 
@@ -2485,12 +2432,16 @@ fusion/rejection. His study suggested that fusion was determined by
 multiple alleles (``perhaps several scores'') at a single locus. More
 specifically, Oka's results suggested that fusion occurred between
 different colonies only if they shared at least one allele at this
-locus.\footnote{In direct contrast, however, Oka found that
-  cross-fertilization did not occur between \emph{Botryllus} gametes
-  that shared the same allele. As Oka noted, this result mirrors the
-  S-allele system in plants: ``The \ldots{} situation corresponds
-  exactly in its form to the homomorphic self-incompatibility prevailing
-  among angiosperms.''} To my mind, this was a major finding.
+locus.\footnote{It is important to point out that we were not claiming
+  that parasite-mediated selection is maintaining sex in this system.
+  For example, we wrote, ``{[}w{]}e do not intend to imply from this
+  analysis that the trematode is selecting for the maintenance of sex in
+  these fish.'' Niche partitioning and/or the sperm-dependence of the
+  gynogenetic females would most likely ensure the persistence of sexual
+  individuals (Moore \& McKay 1971; Schenck \& Vrijenhoek 1986). Our
+  claim was simply that parasites had evolved to disproportionately
+  infect the most common clone unless the sexual population was highly
+  inbred.} To my mind, this was a major finding.
 
 It thus appears that Oka was inspired by Bancroft, and Burnet was
 inspired by Oka. How does Burnet fit in? Burnet first accepts Oka's
@@ -2635,9 +2586,139 @@ system then coats the cyst with melanin, which turns the cysts black.
 Bob thought it would be interesting to see if the asexual fish were more
 infected than the sexuals. The prediction under the Red Queen Hypothesis
 was that the most common asexual clones would be most infected by black
-spot disease \hyperref[callout-5]{(Box 5.1)}.
+spot disease (Section~\ref{sec-app-5}).
 
-\begin{tcolorbox}[enhanced jigsaw, opacitybacktitle=0.6, colbacktitle=quarto-callout-tip-color!10!white, toptitle=1mm, left=2mm, titlerule=0mm, arc=.35mm, bottomrule=.15mm, colback=white, bottomtitle=1mm, toprule=.15mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Box 5.1}, rightrule=.15mm, breakable, opacityback=0, leftrule=.75mm, coltitle=black, colframe=quarto-callout-tip-color-frame]
+Bob enlisted the help of one of his PhD students, Clark Craddock. Clark
+ran the allozyme electrophoresis, which was necessary at the time to
+tell sexual fish from the two clones. She also helped count the cysts,
+run the statistics, and write the paper. We found right away that larger
+fish had more cysts, which makes sense. But we also found that the most
+common clone, clone 1, had significantly more black spots per unit body
+length than the sexual fish in Log Pool (Figure~\ref{fig-5-1} A \& B).
+In addition, the sexual fish showed greater size-corrected variation in
+the number of parasitic cysts than the asexual fish, which makes sense
+if the sexual population contained genetic variation for resistance to
+infection. So, after correcting for size, the sexual fish were both less
+infected and showed more variation in infection than the clone
+2.\footnote{In a follow up study, using independent samples, Steve Weeks
+  (one of Vrijenhoek's PhD students) was unable to replicate some of our
+  results (Weeks 1996). However, his sample sizes were very low,
+  especially for clonal fish, suggesting that his power to detect
+  differences was compromised.} This seemed very promising for the Red
+Queen.
+
+Similar results were observed in a second pool (Sandal Pool) in which
+both clones coexisted. In this pool, clone 2 was more common than clone
+1, and it was also more infected than clone 1 (Fig. 5.2). However, clone
+1 was not more infected than the sexual form of P. monacha, which showed
+that clone 1 is not inherently more susceptible to infection (Lively et
+al.~1990). Taken together, the results suggest that the parasites had
+evolved to disproportionately attack the most common local clone.
+
+\begin{figure}
+
+\centering{
+
+\includegraphics{images/fig5-2.png}
+
+}
+
+\caption[Number of trematode larvae per fish in Log
+Pool]{\label{fig-5-1}Number of trematode larvae per fish in Log Pool.
+\textbf{A.} Log Pool 1978 (number of sexuals = 23, number of clone 1 =
+29). \textbf{B.} Log Pool 1985 (number of sexuals = 91, number of clone
+1 = 81). In both years, the sexual fish showed greater residual
+variation in infection than clone 1, which hints at an underlying
+genetic basis for infection. Redrawn from Lively et al. (1990). Note
+that y axes are the number of trematode larvae plus one.}
+
+\end{figure}%
+
+\begin{figure}
+
+\centering{
+
+\includegraphics{images/fig5-3.png}
+
+}
+
+\caption[Number of trematode larvae infecting clones 1 and 2 in Sandal
+Pool 1985]{\label{fig-5-2}Number of trematode larvae infecting clones 1
+(\(N=44\)) and 2 (\(N=75\)) in Sandal Pool 1985. The curve for the
+sexual population (\(N=138\), not shown) is very similar to the curve
+for clone 1. Redrawn from Lively et al. (1990).}
+
+\end{figure}%
+
+But we had more samples to run. When we examined another pool, the trend
+reversed: sexual fish were more infected than asexual fish
+(Figure~\ref{fig-5-3} A). We were confused. I remember Clark telling Bob
+of this new result. He said something like, ``Well, that's science,''
+and then headed back to his office. He was halfway there when he turned
+around and asked, ``what sample was that?'' Clark told him, ``Heart
+Pool, 1983.'' Bob got a big smile. Then he told us that, in that sample,
+the sexual fish were highly inbred. The population had descended from a
+small number of founders, and they were homozygous for most loci. So,
+the sexual fish were more infected in that sample, but they were also
+genetically depauperate. Under the Red Queen, there is no value to
+sexual reproduction unless there is genetic variation in the population.
+On the other hand, the greater level of infection in sexual fish might
+have been caused by inbreeding depression, which was known for other
+fitness-related traits (Vrijenhoek \& Lerman 1982).
+
+It was an amazing set of results, but there was another twist. Bob had
+added some fish (in 1983) to the isolated founder population in Heart
+Pool. His goal was to increase the genetic diversity of the sexual
+population. After a few years, he resampled the site, and fortunately,
+he had saved the samples in his freezer from 1985. Clark and I had a
+look. The pattern had reversed: now the sexual fish were less infected
+than the asexual fish (Figure~\ref{fig-5-3} B). In addition, the
+size-corrected variance in infection had increased in the sexual fish in
+just two years. The advantage to outcrossing seemed to depend on genetic
+diversity.
+
+In summary, the data suggested that the parasites had evolved to infect
+the most common local host clone in the different pools. They also
+suggested that sex in genetically diverse host populations results in
+protection from disease. Both results were consistent with the Red
+Queen.\footnote{It is important to point out that we were not claiming
+  that parasite-mediated selection is maintaining sex in this system.
+  For example, we wrote, ``{[}w{]}e do not intend to imply from this
+  analysis that the trematode is selecting for the maintenance of sex in
+  these fish.'' Niche partitioning and/or the sperm-dependence of the
+  gynogenetic females would most likely ensure the persistence of sexual
+  individuals (Moore \& McKay 1971; Schenck \& Vrijenhoek 1986). Our
+  claim was simply that parasites had evolved to disproportionately
+  infect the most common clone unless the sexual population was highly
+  inbred.} Proof? No.~Fascinating? Yes. In any case, looking back, I was
+very lucky to have had the opportunity to work with Prof.~Vrijenhoek.
+
+\begin{figure}
+
+\centering{
+
+\includegraphics{images/fig5-4.png}
+
+}
+
+\caption[Number of trematode larvae infecting fish in Heart
+Pool]{\label{fig-5-3}Number of trematode larvae infecting fish in Heart
+Pool. \textbf{A (top):} Heart Pool 1983 (number of sexuals = 27; number
+of clone 1 = 34). The sexual fish in the pool were highly inbred and
+they were also significantly more infected per unit length than clone 1.
+The result remained significant after removing the apparent outlier in
+the sexual population with more than 400 cysts (black spots). The
+residual variances in the number of cysts were not significantly
+different between the inbred sexual fish and clone 1. \textbf{B
+(bottom):} Heart Pool 1985 after the infusion of genetic variation into
+the pool. Here the sexual fish (\(N=171\)) were less infected than the
+coexisting clone (\(N=48\)), and they showed significantly greater
+residual variation for infection than the clone, similar to the results
+for Log Pool. Redrawn from Lively et al. (1990).}
+
+\end{figure}%
+
+\section{Appendix: Red Queen Hypothesis Predictions}\label{sec-app-5}
 
 It can be a bit confusing, but I think that the prediction of the Red
 Queen Hypothesis changes depending on whether one is looking
@@ -2674,8 +2755,6 @@ expect common asexual genotypes to be more infected than sexual females,
 at least periodically. (Note that infection in males is not important,
 unless females become sperm limited.)
 
-\end{tcolorbox}
-
 \bookmarksetup{startatroot}
 
 \chapter{The Ratchet and the Red Queen}\label{sec-chap6}
@@ -2698,6 +2777,55 @@ the beginning of an academic dream come true. Most of this book aims to
 highlight the work of my incredible students and colleagues at IU.
 
 \section{The Problem}\label{the-problem-1}
+
+\bookmarksetup{startatroot}
+
+\chapter{Glossary}\label{sec-glossary}
+
+\textbf{Short definitions of terms as used in this book. These
+definitions do not include all possible nuances.}
+
+\textbf{Carrying capacity:} The population density at which females have
+just enough food to replace themselves. Sexual females must make two
+offspring to replace themselves (assuming a 1:1 sex ratio), while
+asexual females must only produce one offspring. Hence, asexuals should
+have higher carrying capacities, as shown in Figure~\ref{fig-1.2}.
+
+\textbf{Cost of males:} The reduction in the per-capita growth rate of
+sexual populations due to the production of males. The cost of males is
+the appropriate cost for considering sexual subpopulations in
+competition with obligately asexual subpopulations.
+
+\textbf{Cost of meiosis:} The reduction in relatedness between mother
+and offspring due to outcrossing. The cost of meiosis is the appropriate
+cost for considering the spread of alleles that induce
+self-fertilization.
+
+\textbf{Clone:} A lineage of parthenogenetic females descended from the
+same asexual female. Members of the same clone may have small genetic
+differences, which accumulate by mutation over time.
+
+\textbf{Cross-fertilization:} The exchange of gametes between different
+individuals, which may or may not be related.
+
+\textbf{Outcrossing:} A form of cross-fertilization, which specifies
+crossing between unrelated individuals.
+
+\textbf{Parthenogenesis:} Any form of asexual reproduction through ova.
+
+\textbf{Recombination:} Genetic exchange between homologous chromosomes
+during meiosis, especially when the exchange leads to gametes with
+allele combinations not represented on the parental chromosomes.
+
+\textbf{Self-fertilization:} The fusion of gametes from the same
+individual.
+
+\textbf{Sex/rec:} Shorthand for sexual reproduction and recombination.
+
+\textbf{Sexual reproduction:} I use the term here to mean
+cross-fertilization between unrelated individuals. However, the term is
+more general and can be used to mean the incorporation of novel genetic
+material by any mechanism.
 
 \bookmarksetup{startatroot}
 
@@ -2995,6 +3123,11 @@ Lively, C.M. (2009). The maintenance of sex: Host-parasite coevolution
 with density-dependent virulence. \emph{Journal of Evolutionary
 Biology}, 22, 2086--2093.
 
+\bibitem[\citeproctext]{ref-lively1990a}
+Lively, C.M., Craddock, C. \& Vrijenhoek, R.C. (1990). Red queen
+hypothesis supported by parasitism in sexual and clonal fish.
+\emph{Nature}, 344, 864--866.
+
 \bibitem[\citeproctext]{ref-lively2004a}
 Lively, C.M., Dybdahl, M.F., Jokela, J., Osnas, E.E. \& Delph, L.F.
 (2004). Host sex and local adaptation by parasites in a snail-trematode
@@ -3082,6 +3215,11 @@ Moore, J. (1984). Altered behavioral responses in intermediate hosts: An
 acanthocephalan parasite strategy. \emph{American Naturalist}, 123,
 572--577.
 
+\bibitem[\citeproctext]{ref-moore1971a}
+Moore, W.S. \& McKay, F.E. (1971). Coexistence in unisexual-bisexual
+species complexes of poeciliopsis (pisces: poeciliidae). \emph{Ecology},
+52, 791--799.
+
 \bibitem[\citeproctext]{ref-negovetic2001a}
 Negovetic, S. \& Jokela, J. (2001). Life history variation, phenotypic
 plasticity and maintenance of subpopulation structure in a freshwater
@@ -3137,6 +3275,12 @@ Salathe, M., Kouyos, R.D., Regoes, R.R. \& Bonhoeffer, S. (2008). Rapid
 parasite adaptation drives selection for high recombination rates.
 \emph{Evolution}, 62, 295--300.
 
+\bibitem[\citeproctext]{ref-Schenck1986a}
+Schenck, R.A. \& Vrijenhoek, R.C. (1986).
+\href{https://doi.org/10.1111/j.1558-5646.1986.tb00573.x}{Spatial and
+temporal factors affecting coexistence among sexual and clonal forms of
+\emph{{P}oeciliopsis}}. \emph{Evolution}, 40, 1060--1070.
+
 \bibitem[\citeproctext]{ref-schmid-hempel2002a}
 Schmid-Hempel, P. \& Jokela, J. (2002). Socially structured populations
 and evolution of recombination under antagonistic coevolution.
@@ -3191,6 +3335,11 @@ coexistence. \emph{American Zoologist}, 19, 787--797.
 Vrijenhoek, R.C. (1998). Animal clones and diversity. \emph{Bioscience},
 48, 617--628.
 
+\bibitem[\citeproctext]{ref-vrijenhoek1982a}
+Vrijenhoek, R.C. \& Lerman, S. (1982). Heterozygosity and developmental
+stability under sexual and asexual breeding systems. \emph{Evolution},
+36, 768--776.
+
 \bibitem[\citeproctext]{ref-vrijenhoek2009a}
 Vrijenhoek, R.C. \& Parker, E.D. (2009). Geographical parthenogenesis:
 General purpose genotypes and frozen niche variation. In: \emph{Lost
@@ -3200,6 +3349,13 @@ Martens, K. \& Dijk, P.). Springer, London, pp. 99--131.
 \bibitem[\citeproctext]{ref-wallace1975a}
 Wallace, B. (1975). Hard and soft selection revisited. \emph{Evolution},
 29, 465--473.
+
+\bibitem[\citeproctext]{ref-weeks1996a}
+Weeks, S.C. (1996). \href{https://doi.org/10.1139/f96-041}{A
+reevaluation of the {Red Queen} model for the maintenance of sex in a
+clonal-sexual fish complex ({Poeciliidae}: \emph{{P}oeciliopsis})}.
+\emph{Canadian Journal of Fisheries and Aquatic Sciences}, 53,
+1157--1164.
 
 \bibitem[\citeproctext]{ref-whitton2008a}
 Whitton, J., Sears, C., Baack, E. \& Otto, S. (2008). The dynamic nature

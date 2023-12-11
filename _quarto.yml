@@ -70,7 +70,13 @@ book:
     - self-non.qmd
     - gyno-fish.qmd
     - rat-red.qmd
+    - glossary.qmd
     - references.qmd
+
+    
+
+
+
 citation:
   type: book
   medium: digital

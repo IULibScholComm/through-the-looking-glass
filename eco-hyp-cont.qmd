@@ -4,7 +4,7 @@
 
 As I mentioned in @sec-why-sex, my dissertation focused on intertidal communities. I was especially interested in how two different barnacle morphs coexisted on rocky intertidal shores in the Northern Gulf of California. I had initially assumed that the two types were genetically determined and that they were likely to be different species (@fig-3-2). However, after years of false starts,[^1] I found that one of the two morphs was induced by chemical cues released by a predatory snail (@fig-3-3), and that the induced morph was more resistant to attack by this predator [-@lively1986c].[^2] Hence, the two morphs are not different species, but rather the result of phenotypic plasticity. In a blink of a field season, I went from being a community ecologist to an evolutionary biologist. 
 
-But why two morphs? Why didn't selection favor unconditional development of the predator-resistant morph? Using predator-exclusion cages, I found that predation was concentrated near crevices in the reef, which the snails used during high tide as refuges [-@lively1986b]. As the tide receded, the snails moved out from these crevices onto the exposed rock surfaces to forage on barnacles. When the tide returned, the snails motored back to the crevices, presumably to hide from snail-crushing rays that came in with the tide. This back-and-forth movement of snails created high-predation zones near crevices and low-predation zones far from crevices (about 20cm away). This finding explained why the predation-resistant morph was almost always found near crevices. Field experiments also showed that the predator-resistant morph grew more slowly and was less fecund than the typical volcano-shaped morph [@lively1986b]. Hence there is a trade-off. Taken together, the results suggested that plastic development was favored by natural selection to survive in the high-predation zones ([Box 3.1](#callout-4)). I would later come to think of adaptive plasticity as a type of variation strategy. Sexual reproduction can also be seen as a type of variation strategy [@lloyd1984a]. And I was very fortunate to be able to study sexual reproduction after moving to New Zealand. 
+But why two morphs? Why didn't selection favor unconditional development of the predator-resistant morph? Using predator-exclusion cages, I found that predation was concentrated near crevices in the reef, which the snails used during high tide as refuges [-@lively1986b]. As the tide receded, the snails moved out from these crevices onto the exposed rock surfaces to forage on barnacles. When the tide returned, the snails motored back to the crevices, presumably to hide from snail-crushing rays that came in with the tide. This back-and-forth movement of snails created high-predation zones near crevices and low-predation zones far from crevices (about 20cm away). This finding explained why the predation-resistant morph was almost always found near crevices. Field experiments also showed that the predator-resistant morph grew more slowly and was less fecund than the typical volcano-shaped morph [@lively1986b]. Hence there is a trade-off. Taken together, the results suggested that plastic development was favored by natural selection to survive in the high-predation zones (@sec-app-3). I would later come to think of adaptive plasticity as a type of variation strategy. Sexual reproduction can also be seen as a type of variation strategy [@lloyd1984a]. And I was very fortunate to be able to study sexual reproduction after moving to New Zealand. 
 
 ![The two morphs of the intertidal barnacle, *Chthamalus anisopoma*. **Top**, the "bent" form is induced by exposure to chemical cues released by a specialized barnacle predator, the predatory gastropod *Acanthina angelica*. The bent or "hooded" form reduces the risk of successful attack by this predator. **Bottom**, the typical, conic form of the barnacle. The conic form is more fecund per unit size, and it grows more rapidly than the bent form, but it is also more susceptible to attack by the predator. Drawing by ZMD.](images/fig3-2.jpeg){#fig-3-2 fig-alt="" width="40%" fig-scap="The two morphs of the intertidal barnacle, *Chthamalus anisopoma*"}
 
@@ -74,11 +74,7 @@ None of this is meant to imply proof of the Red Queen Hypothesis or that density
 
 4. Comparing the *a priori* predictions of multiple working hypotheses can be helpful to evaluate competing ideas. Field studies of natural systems may be required to fully understand why cross-fertilization is so common.  
 
-&nbsp;
-
-::: {.callout-note #callout-4}
-
-## Box 3.1 
+## Appendix: Game-Theoretic Model {#sec-app-3}
 
 As part of my dissertation research, I constructed a game-theoretic model of selection on three strategies: 
 
@@ -94,7 +90,6 @@ An example of the output is shown below. The results show that any of the three 
 
 ![](images/fig3-7_hr.png){fig-alt="" fig-scap="Game-theoretic model of selection on three strategies"}
 
-:::
 
 [^1]: I ran two years of field experiments designed to test for random settlement by genetically determined morphs. I also ran experiments designed to test for habitat selection by genetically determined morphs. The results were always negative. I finally tested for predator-induced development of the bent morph by placing *Acanthina* snails in quadrats where juvenile barnacles had recently settled. I used herbivorous snails as a control. The results showed that the presence of *Acanthina* induced development of the bent form, but the herbivorous snails did not. It was a thrilling discovery. 
 
@@ -130,4 +125,4 @@ An example of the output is shown below. The results show that any of the three 
 
 [^17]: I think density dependence is critically important. Disease transmission is certainly density dependent [@anderson1979a; @may1979a]. Virulence may also be density dependent [@lively1995a; @bell2006a;@lively2006a]. Habitat partitioning may also play a role in the distribution of sexual females among depth-stratified habitats [@negovetic2001a]. 
 
-[^18]: "Parameter space" represents all possible combinations of variables as defined by the model. In [Box 3.1](#callout-4), different strategies are favored for different combinations of variables (i.e., different parts of the parameter space).
+[^18]: "Parameter space" represents all possible combinations of variables as defined by the model. In @sec-app-3, different strategies are favored for different combinations of variables (i.e., different parts of the parameter space).
