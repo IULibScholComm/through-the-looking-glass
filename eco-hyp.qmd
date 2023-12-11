@@ -123,7 +123,7 @@ As an evolutionary ecologist, I was drawn to the confluence of these questions. 
 
 5. A bet-hedging strategy reduces the variance in reproductive success over time, even if it reduces the arithmetic mean. Sexual reproduction under the Lottery Model is clearly a bet-hedging strategy. The Red Queen idea can perhaps also be seen as bet hedging. 
 
-## Appendix: Levene's model of multiple niche polymorphism {#sec-app-2}
+## Appendix: Levene's Model of Multiple Niche Polymorphism {#sec-app-2}
 
 It was widely thought that heterozygote advantage was required to maintain polymorphism at a single locus with two alleles. In the introduction to his paper, Levene wonders "whether it was in fact possible to have an equilibrium without the heterozygote being superior in any single niche" [-@levene1953a]. The paper is not easy to follow, eventhough the algebra is not difficult. Here I try to simplify the presentation. 
 

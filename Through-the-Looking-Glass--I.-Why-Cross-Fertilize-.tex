@@ -163,7 +163,7 @@
 \makeatletter
 \makeatother
 \makeatletter
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[frame hidden, borderline west={3pt}{0pt}{shadecolor}, breakable, interior hidden, sharp corners, enhanced, boxrule=0pt]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[breakable, boxrule=0pt, enhanced, sharp corners, frame hidden, borderline west={3pt}{0pt}{shadecolor}, interior hidden]}{\end{tcolorbox}}\fi
 \makeatother
 \ifLuaTeX
 \usepackage[bidi=basic]{babel}
@@ -1357,8 +1357,8 @@ Chapter~\ref{sec-chap6}.\footnote{In this smaller sample of 20 lakes,
   Queen idea can perhaps also be seen as bet hedging.
 \end{enumerate}
 
-\section{Appendix: Levene's model of multiple niche
-polymorphism}\label{sec-app-2}
+\section{Appendix: Levene's Model of Multiple Niche
+Polymorphism}\label{sec-app-2}
 
 It was widely thought that heterozygote advantage was required to
 maintain polymorphism at a single locus with two alleles. In the
