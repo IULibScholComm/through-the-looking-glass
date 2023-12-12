@@ -163,7 +163,7 @@
 \makeatletter
 \makeatother
 \makeatletter
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[interior hidden, boxrule=0pt, sharp corners, frame hidden, breakable, borderline west={3pt}{0pt}{shadecolor}, enhanced]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[breakable, sharp corners, borderline west={3pt}{0pt}{shadecolor}, enhanced, interior hidden, boxrule=0pt, frame hidden]}{\end{tcolorbox}}\fi
 \makeatother
 \ifLuaTeX
 \usepackage[bidi=basic]{babel}
@@ -520,7 +520,7 @@ morph), and the other morph has anthers that extend beyond the style
 morphs of the same species resulted in a very successful production of
 seeds, but crosses between unrelated individuals of the same morph were
 dramatically less successful (1862). In discussing these results, Darwin
-speculated that the two morphs may have evolved to insure
+speculated that the two morphs may have evolved to ensure
 cross-fertilization: ``Whether or not the dimorphic condition of the
 \emph{Primula} has any bearing on other points in natural history, it is
 valuable as showing how nature strives, if I may so express myself, to
@@ -3013,12 +3013,14 @@ unavoidable.
 
 }
 
-\caption[TK]{\label{fig-6-1}\textbf{A.} Fitness as a function of the
-number of mutations assuming independent effects. \textbf{B.} The
-distribution of mutations at mutation-selection balance. Note that the
-number of individuals in the least-loaded class is \(Ne^{-U/s}\), which
-can be a small number. The ratchet clicks whenever the least-loaded
-class is lost by chance.}
+\caption[Fitness as a function of the number of mutations assuming
+independent effects \& The distribution of mutations at
+mutation-selection balance]{\label{fig-6-1}\textbf{A.} Fitness as a
+function of the number of mutations assuming independent effects.
+\textbf{B.} The distribution of mutations at mutation-selection balance.
+Note that the number of individuals in the least-loaded class is
+\(Ne^{-U/s}\), which can be a small number. The ratchet clicks whenever
+the least-loaded class is lost by chance.}
 
 \end{figure}%
 
