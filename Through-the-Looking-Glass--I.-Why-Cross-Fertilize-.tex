@@ -163,7 +163,7 @@
 \makeatletter
 \makeatother
 \makeatletter
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[breakable, sharp corners, borderline west={3pt}{0pt}{shadecolor}, enhanced, interior hidden, boxrule=0pt, frame hidden]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[boxrule=0pt, enhanced, sharp corners, frame hidden, interior hidden, borderline west={3pt}{0pt}{shadecolor}, breakable]}{\end{tcolorbox}}\fi
 \makeatother
 \ifLuaTeX
 \usepackage[bidi=basic]{babel}
@@ -193,7 +193,7 @@
 
 \title{Through the Looking Glass: I. Why Cross-Fertilize?}
 \author{Curtis M. Lively}
-\date{12 December 2023}
+\date{13 December 2023}
 
 \begin{document}
 \frontmatter
@@ -299,9 +299,10 @@ Professor Astrid Kodric-Brown instructed me to read the preface of G.C.
 Williams' book, \emph{Sex and Evolution}, which contains the following
 text (1975): ``This book is written from a conviction that the
 prevalence of sexual reproduction in higher plants and animals is
-inconsistent with current evolutionary theory. . . . Many well informed
-readers may disagree with much of my reasoning, but I hope to at least
-convince them that here is a crisis at hand in evolutionary biology.''
+inconsistent with current evolutionary theory.\ldots{} Many well
+informed readers may disagree with much of my reasoning, but I hope to
+at least convince them that here is a crisis at hand in evolutionary
+biology.''
 
 The question was something like this: ``Why does Williams think that
 sexual reproduction poses a crisis for evolutionary biology, and what is
@@ -341,11 +342,14 @@ relatedness}\label{the-cost-of-meiosis-reduced-relatedness}
 The ``cost of meiosis'' was proposed by George Williams (1975). His idea
 was simply that females are only half as related to their outcrossed
 offspring as they are to their self-fertilized or parthenogenetic
-offspring.\footnote{May and Anderson, for example, stated, ``Our
-  studies, in which the epidemiological details of the parasite--host
-  interactions are treated more explicitly than in Hamilton's work, make
-  this {[}the parasite{]} answer to the problem of sex (Ghiselin 1974;
-  Maynard Smith 1978; Williams 1975) less likely.''} (See
+offspring.\footnote{It is not meiosis \emph{per se} that is costly. As
+  Williams realized, the cost stems from the reduction in relatedness
+  between parent and outcrossed offspring. Indeed, in a later paper,
+  Williams (1975) refers to the cost of meiosis as the ``paradox of kin
+  selection.'' Why should organisms invest resources in kin with a
+  relatively low level of relatedness, \(r\) (outcrossed progeny:
+  \(r = 0.5\)), rather than in self-fertilized kin with a high level of
+  relatedness (\(r = 1\))? (See Dagg 2016.)} (See
 Chapter~\ref{sec-glossary} for condensed definitions.) Williams' idea
 also had theoretical support, as R.A. Fisher had already shown that an
 allele causing self-fertilization would rapidly spread to fixation,
@@ -405,20 +409,12 @@ offspring is also the same. Maynard Smith referred to this as the
 the phrase ``all-else-equal'' to mean that everything else is exactly
 equal. But this is not the case. Maynard Smith did not assume, for
 example, that sexuals and asexuals have the same ploidy
-value.\footnote{In a computer simulation, a sexual population with eight
-  possible genotypes (three locus haploid model with two alleles each)
-  was rapidly replaced by two randomly selected clonal genotypes. The
-  first clone was introduced at time one, and it began oscillating with
-  the sexual population. The second clone was introduced at time 100. It
-  began oscillating out of phase with the first clone. The sexual
-  population was driven to extinction by generation 150 (Lively \&
-  Howard 1994). Thus, sexual reproduction may not be stable to invasion
-  and replacement by a diverse clonal population.} His model only
-assumes that sexual and asexual females have equal fecundities and
-survivorship probabilities (see Section~\ref{sec-app-1}). Under this
-assumption, a very rare clone would double in frequency in the next
-generation. Maynard Smith called this doubling-when-rare the two-fold
-cost of sex.
+value.\footnote{Asexuals are often polyploid versions of their sexual
+  ancestors.} His model only assumes that sexual and asexual females
+have equal fecundities and survivorship probabilities (see
+Section~\ref{sec-app-1}). Under this assumption, a very rare clone would
+double in frequency in the next generation. Maynard Smith called this
+doubling-when-rare the two-fold cost of sex.
 
 \subsection{Contrasting the costs}\label{contrasting-the-costs}
 
@@ -488,21 +484,20 @@ then recombination would break these favorable allelic combinations
 apart. So, it makes no obvious sense to recombine more than needed for
 normal meiosis. Indeed, Lewontin (1971) formally showed that ``the mean
 fitness of the population at equilibrium is a maximum in the absence of
-recombination.''\footnote{From Felsenstein (1974):
-
-  \begin{quote}
-  I will not attempt here to predict from theory the quantitative effect
-  of the ratchet mechanism. Involving natural selection, mutation, and
-  genetic drift at many linked loci, the problem poses enormous
-  difficulties for the application of population genetics theory. But
-  the possible significance of the phenomenon makes it important that
-  some theoretical treatment should be attempted. The ratchet mechanism
-  has been unjustly ignored by theoretical population genetics.
-  \end{quote}} Hence, there are two interrelated anomalies:
-cross-fertilization \emph{per se} and meiotic recombination. Ideally,
-any theory that explains the persistence of biparental sex could also
-solve the paradox of recombination. But this need not be the case. They
-could have different solutions.
+recombination.''\footnote{Lewontin (1971) was following up on Fisher's
+  (1930) verbal suggestion that selection should act to reduce
+  recombination. For example, Lewontin (1971) writes, ``I will show
+  \ldots{} that Fisher's conjecture is indeed correct.'' Importantly, in
+  his last paragraph, Lewontin wonders why recombination rates are
+  greater than zero, and he suggests that the answer ``must be sought in
+  some more general long-term advantage for adaptation to a varying
+  environment, or else to some mechanical necessity of recombination for
+  the orderly distribution of chromosomes, as suggested by Darlington
+  (1939).'' (See also Bell 1982).} Hence, there are two interrelated
+anomalies: cross-fertilization \emph{per se} and meiotic recombination.
+Ideally, any theory that explains the persistence of biparental sex
+could also solve the paradox of recombination. But this need not be the
+case. They could have different solutions.
 
 \subsection{Darwin's view}\label{darwins-view}
 
@@ -554,10 +549,9 @@ sexual elements, instead of by a process of parthenogenesis. The whole
 subject is as yet hidden in darkness.'' Darwin's question shows that the
 cross-fertilization is curious, even without considering the costs of
 sex. It also shows how Darwin was drawn to anomalies on
-theory.\footnote{After the proofs were corrected and returned, the
-  shading was washed out in Figures 1 and 2. Even worse, the panels were
-  reversed for Figure 3. The corrected figures were reprinted in Howard
-  and Lively (1994a).}
+theory.\footnote{For example, Darwin calls the evolution of sterile
+  castes in social insects an ``insuperable difficulty'' for his theory
+  of evolution by natural selection (pages 236-238 in 1859).}
 
 It is interesting to note that, in Darwin's quote above, he switches
 from discussing mechanisms to prevent self-fertilization, such as
@@ -583,22 +577,18 @@ to me, than the existence of sexes, -- more especially since the
 discovery of Parthenogenesis'' (Darwin n.d.).
 
 However, the discovery of parthenogenesis was met with some
-hostility.\footnote{Mutational meltdown in clones occurs when their
-  intrinsic birth rates are near one, meaning that the females are just
-  barely replacing themselves. This then keeps the clonal population
-  small, which also keeps the least-loaded class small, thereby aiding
-  the ratchet. Once the intrinsic birth rate drops below one, the clone
-  will go extinct.} Consider, for example, the following statement by
-Rudolf Wagner in his 1857 review of von Siebold's book on
-parthenogenesis (as translated from the original German by Churchill
-1979): ``I must unfortunately say that one of the most unpleasant of
-facts, {[}\emph{Parthenogenesis}{]} has been introduced into physiology,
-which for the hope of so-called general laws of animal life-phenomena
-\emph{is most distasteful}. It is impossible, considering the
-glorification of our highly vaunted progress in the theoretical
-understanding of the life processes, for it to be welcomed or
-particularly encouraged; and sincerely speaking, I can be as little
-pleased about it as a physicist would be if suddenly one or more
+hostility.\footnote{The case has been made that Charles Bonnet had
+  discovered asexual reproduction in aphids in 1740 (see Lawrence 2009).}
+Consider, for example, the following statement by Rudolf Wagner in his
+1857 review of von Siebold's book on parthenogenesis (as translated from
+the original German by Churchill 1979): ``I must unfortunately say that
+one of the most unpleasant of facts, {[}\emph{Parthenogenesis}{]} has
+been introduced into physiology, which for the hope of so-called general
+laws of animal life-phenomena \emph{is most distasteful}. It is
+impossible, considering the glorification of our highly vaunted progress
+in the theoretical understanding of the life processes, for it to be
+welcomed or particularly encouraged; and sincerely speaking, I can be as
+little pleased about it as a physicist would be if suddenly one or more
 exceptions to the law of gravitation were discovered'' (Emphasis added).
 
 Clearly, Wagner was not pleased with the discovery of asexual
@@ -606,11 +596,11 @@ reproduction, calling it unpleasant, unwelcome, and distasteful. By
 contrast, Darwin did not find the idea to be distasteful in any way. He
 wondered instead why it was not more common. For example, Darwin (1868)
 wrote, ``Parthenogenesis is no longer wonderful; in fact, the wonder is
-that it should not oftener occur.''\footnote{``Virulence'' is defined
-  here as the effect that infection has on host fitness. For example, a
-  virulence value of 1.0 indicates that infection kills or sterilizes
-  the host. A virulence of 0.1 indicates that infection reduces host
-  fitness by 10\%.}
+that it should not oftener occur.''\footnote{I suspect that Darwin uses
+  the phrase ``no longer wonderful'' to mean ``no longer astonishing.''
+  See
+  \href{https://www.merriam-webster.com/words-at-play/wonderful-word-history-evolution}{``How
+  `Wonderful' Lost Its Sense of Wonder.''}}
 
 Over 100 years later, W. D. Hamilton (1975) was also pondering the
 evolution of outcrossing, and he wrote something conceptually similar:
@@ -648,24 +638,21 @@ had indeed been overlooked: parasites.
 \section{Appendix: Maynard Smith's Model}\label{sec-app-1}
 
 John Maynard Smith's (1978) model, reproduced here, shows the cost of
-producing males.\footnote{Steve followed this initial study with a
-  simulation study of mutation accumulation in a Red Queen world but
-  changing the assumption from independent effects of mutations to
-  synergistic effects of mutations (Howard \& Lively 1998). The results
-  were similar, provided the clonal population has not come into
-  mutation-selection balance.} Let \(N_{asex}\) be the number of asexual
-females at time one, while \(N_{sex}\) gives the total number of sexual
-individuals (males plus females) at time one. Let \(B_{asex}\) give the
-number of offspring produced by asexual females, and \(S_{asex}\) gives
-the survival probability of asexual offspring to maturity. The number of
-surviving asexual offspring is then \(= B_{asex}S_{asex}\). Similarly,
-let \(B_{sex}\) be the number offspring produced by sexual females, and
-let \(S_{sex}\) give the survival probability of sexually produced
-offspring. Maynard Smith assumed that all individuals reproduce once and
-then die. Let \(r\) be the frequency of females in the sexual
-population. The number of asexuals and sexuals at time two can then be
-calculated as in the table below. (Note, we do not assume that the
-population is at carrying capacity).
+producing males.\footnote{I use slightly different variable names, and I
+  try to simplify JMS's original model.} Let \(N_{asex}\) be the number
+of asexual females at time one, while \(N_{sex}\) gives the total number
+of sexual individuals (males plus females) at time one. Let \(B_{asex}\)
+give the number of offspring produced by asexual females, and
+\(S_{asex}\) gives the survival probability of asexual offspring to
+maturity. The number of surviving asexual offspring is then
+\(= B_{asex}S_{asex}\). Similarly, let \(B_{sex}\) be the number
+offspring produced by sexual females, and let \(S_{sex}\) give the
+survival probability of sexually produced offspring. Maynard Smith
+assumed that all individuals reproduce once and then die. Let \(r\) be
+the frequency of females in the sexual population. The number of
+asexuals and sexuals at time two can then be calculated as in the table
+below. (Note, we do not assume that the population is at carrying
+capacity).
 
 \begin{longtable}[]{@{}
   >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.1465}}
@@ -755,11 +742,11 @@ different tickets (sex), you increase the probability of winning
 something, but the reward is smaller. Williams refers to the idea as the
 aphid-rotifer model, but the idea has since come to be known as the
 Lottery Model (following Bell 1982), which is a more descriptive
-phrase.\footnote{May and Anderson, for example, stated, ``Our studies,
-  in which the epidemiological details of the parasite--host
-  interactions are treated more explicitly than in Hamilton's work, make
-  this {[}the parasite{]} answer to the problem of sex (Ghiselin 1974;
-  Maynard Smith 1978; Williams 1975) less likely.''}
+phrase.\footnote{See Bell (1982) for a deeper historical view of the
+  Lottery Model, which involves contributions by Maynard Smith and
+  others, including Williams. I have tried to distill it down to a
+  simple bet-hedging model here. The original formulation is more
+  complex.}
 
 In my evolution course, I ask a form of Williams' question but with a
 slight twist:
@@ -802,14 +789,29 @@ in abiotic factors such as temperature or precipitation. The effect of
 planting a polyculture (bet-hedging) can be estimated from the geometric
 mean, which incorporates the variation in yield over time.
 
-\begin{longtable}[]{@{}lll@{}}
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.1875}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4062}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4062}}@{}}
 \caption{Bet Hedging}\label{tbl-bh}\tabularnewline
 \toprule\noalign{}
-Year & Monoculture & Polyculture \\
+\begin{minipage}[b]{\linewidth}\raggedright
+Year
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Monoculture
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Polyculture
+\end{minipage} \\
 \midrule\noalign{}
 \endfirsthead
 \toprule\noalign{}
-Year & Monoculture & Polyculture \\
+\begin{minipage}[b]{\linewidth}\raggedright
+Year
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Monoculture
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Polyculture
+\end{minipage} \\
 \midrule\noalign{}
 \endhead
 \bottomrule\noalign{}
@@ -821,27 +823,14 @@ Year & Monoculture & Polyculture \\
 5 & 50 & 200 \\
 & & \\
 \textbf{Arithmetic mean} & \textbf{240} & 220 \\
-\textbf{Variance}\footnote{In a computer simulation, a sexual population
-  with eight possible genotypes (three locus haploid model with two
-  alleles each) was rapidly replaced by two randomly selected clonal
-  genotypes. The first clone was introduced at time one, and it began
-  oscillating with the sexual population. The second clone was
-  introduced at time 100. It began oscillating out of phase with the
-  first clone. The sexual population was driven to extinction by
-  generation 150 (Lively \& Howard 1994). Thus, sexual reproduction may
-  not be stable to invasion and replacement by a diverse clonal
-  population.} & 19400 & 600 \\
-\textbf{Geometric mean (GM)}\footnote{From Felsenstein (1974):
-
-  \begin{quote}
-  I will not attempt here to predict from theory the quantitative effect
-  of the ratchet mechanism. Involving natural selection, mutation, and
-  genetic drift at many linked loci, the problem poses enormous
-  difficulties for the application of population genetics theory. But
-  the possible significance of the phenomenon makes it important that
-  some theoretical treatment should be attempted. The ratchet mechanism
-  has been unjustly ignored by theoretical population genetics.
-  \end{quote}} & 184 & \textbf{219} \\
+\textbf{Variance}\footnote{The variance in \(x\) is equal to the average
+  of the squared deviations from the mean:
+  \(var(x) = \frac{1}{N}\sum_{i = 1}^{N}{(x_{i} - \overline{x})^{2}}\)}
+& 19400 & 600 \\
+\textbf{Geometric mean (GM)}\footnote{The geometric mean is the
+  \(N^{th}\) root of the product of \(N\) observations. Compared to the
+  arithmetic mean, the geometric mean gives more weight to small values.}
+& 184 & \textbf{219} \\
 \textbf{Approximate GM} & 200 & \textbf{219} \\
 \end{longtable}
 
@@ -870,10 +859,11 @@ increases as the variance in \(x\) decreases. So, if selection operates
 to reduce the among-year variance in fitness, the outcome of selection
 will be reflected by an increase in the geometric mean. In general,
 evolutionary biologists use the geometric mean (rather than the
-arithmetic mean) to measure fitness over time.\footnote{After the proofs
-  were corrected and returned, the shading was washed out in Figures 1
-  and 2. Even worse, the panels were reversed for Figure 3. The
-  corrected figures were reprinted in Howard and Lively (1994a).}
+arithmetic mean) to measure fitness over time.\footnote{The bet-hedging
+  idea dates to Daniel Bernoulli, a mathematical physicist, writing in
+  1738. Steve Stearns provides an important, fascinating review of how
+  evolutionary biologists (beginning with Cohen 1966) and economists
+  have borrowed from Bernoulli's conceptual framework (2000).}
 
 Can sex be favored in variable environments as a bet-hedging strategy?
 It seems like a very sensible idea provided that the production of
@@ -902,12 +892,17 @@ population and perhaps displace it from one of its many niches. But a
 single clone could not completely replace the sexual population
 (Vrijenhoek 1979). This kind of process could explain those situations
 in which sexual and asexual females coexist, which was a major
-advance.\footnote{Mutational meltdown in clones occurs when their
-  intrinsic birth rates are near one, meaning that the females are just
-  barely replacing themselves. This then keeps the clonal population
-  small, which also keeps the least-loaded class small, thereby aiding
-  the ratchet. Once the intrinsic birth rate drops below one, the clone
-  will go extinct.}
+advance.\footnote{Vrijenhoek studied the coexistence of sexual fish with
+  multiple clonal genotypes of asexual congeners in natural populations.
+  He mainly envisioned the Frozen Niche Hypothesis as a model to explain
+  the coexistence of multiple clones, but it can also explain the
+  coexistence of sexual and asexual modes of reproduction if clonal
+  diversity is low, and the clones do not compete strongly. See, for
+  example pages 112-113 in Vrijenhoek and Parker (2009): ``The Frozen
+  Niche Variation Model (Vrijenhoek 1978, 1979) was directly stimulated
+  by Roughgarden's ideas (1972) and a need to explain the stable
+  coexistence of \emph{Poeciliopsis} fish clones in spatially
+  heterogeneous desert streams (Vrijenhoek 1978).''}
 
 A conceptually similar model was independently developed by Graham Bell:
 the Tangled Bank Hypothesis (1982). Bell nabbed the name from the last
@@ -948,16 +943,15 @@ For example, there would be no selection to utilize the resource of
 lower value (broccoli) if there were no competition for pizza. This kind
 of selection, where the advantage to being rare depends on population
 density, is sometimes referred to as ``soft'' selection (Wallace
-1975).\footnote{``Virulence'' is defined here as the effect that
-  infection has on host fitness. For example, a virulence value of 1.0
-  indicates that infection kills or sterilizes the host. A virulence of
-  0.1 indicates that infection reduces host fitness by 10\%.} In other
-words, soft selection is selection that is both frequency-dependent and
-density-dependent. This idea contrasts nicely with the Lottery Model,
-where selection is both frequency- and density-independent, which is
-called ``hard'' selection. For our purposes, we can use Wallace's
-terminology to conceptually separate the Tangled Bank Hypothesis from
-the Lottery Model Figure~\ref{fig-2-2}.
+1975).\footnote{Soft selection in theoretical population genetics can
+  also mean that the contribution of offspring from different demes in a
+  metapopulation is unrelated to differences in mean fitness among
+  demes.} In other words, soft selection is selection that is both
+frequency-dependent and density-dependent. This idea contrasts nicely
+with the Lottery Model, where selection is both frequency- and
+density-independent, which is called ``hard'' selection. For our
+purposes, we can use Wallace's terminology to conceptually separate the
+Tangled Bank Hypothesis from the Lottery Model Figure~\ref{fig-2-2}.
 
 \begin{figure}
 
@@ -987,12 +981,12 @@ Under the Tangled Bank, selection is always conditional (soft); there is
 an advantage to having a rare genotype, but this advantage only accrues
 under strong competition (high density). Soft selection may not be
 exactly the best possible phrase, but it contrasts nicely with hard
-selection.\footnote{Steve followed this initial study with a simulation
-  study of mutation accumulation in a Red Queen world but changing the
-  assumption from independent effects of mutations to synergistic
-  effects of mutations (Howard \& Lively 1998). The results were
-  similar, provided the clonal population has not come into
-  mutation-selection balance.}
+selection.\footnote{Wallace (1975) explains that the source of the terms
+  ``soft'' and ``hard'' stem from financial discussions of soft
+  currencies versus hard currencies in monetary exchanges. Soft
+  currencies only have value within their home country. In contrast,
+  hard currencies can be exchanged overseas for currencies with similar
+  buying power.}
 
 Two caveats are worth mentioning with respect to soft selection and the
 Tangled Bank Hypothesis. One is that polymorphism is only stable under a
@@ -1018,10 +1012,11 @@ The Red Queen Hypothesis is like the Lottery Model in that it focusses
 on environmental change over time. However, under the Red Queen idea,
 the change is mediated by changes in coevolving biological antagonists
 such as parasites, rather than changes in the abiotic
-environments.\footnote{I heard this kind of thing called ``group-hug
-  pluralism'' at a meeting of philosophers in Berlin in 2022. In any
-  case, our fusion of the ratchet and the Red Queen was based on logic
-  rather than any sort of craving for hugs.} The distinction is
+environments.\footnote{I use ``parasite'' here in the ecological sense
+  to include any organism that lives in, or on, its host, provided it
+  reduces the survivorship and/or fecundity of its host. As such, the
+  term includes both macroparasites (such as worms) and microparasites
+  (such as protozoans, bacteria, and viruses).} The distinction is
 important, as we will see.
 
 It may be helpful to revisit Figure~\ref{fig-1.2}, which shows the
@@ -1147,14 +1142,14 @@ Now it gets especially interesting. Alice mentions to the Red Queen that
 she would like to ``find my way to the top of that hill.'' The Red Queen
 replies, ``\emph{I} could show you hills, in comparison with which you'd
 call that a valley.'' Alice protests: ``a hill \emph{ca'n't} be a
-valley\ldots. That would be nonsense.'' This exchange between Alice and
-the Red Queen now seems prophetic, because, under frequency-dependent
-selection, locations on the adaptive landscape can rapidly change from
-fitness peaks to fitness valleys. Perhaps the Red Queen's statement is
-correct: hills can become valleys, and valleys can become hills. More
-specifically, genotypes that were favored by natural selection when rare
-can become selected against after they become common, leading to a
-highly dynamic adaptive landscape.
+valley.\ldots{} That would be nonsense.'' This exchange between Alice
+and the Red Queen now seems prophetic, because, under
+frequency-dependent selection, locations on the adaptive landscape can
+rapidly change from fitness peaks to fitness valleys. Perhaps the Red
+Queen's statement is correct: hills can become valleys, and valleys can
+become hills. More specifically, genotypes that were favored by natural
+selection when rare can become selected against after they become
+common, leading to a highly dynamic adaptive landscape.
 
 In any case, Alice had clearly entered a crazy world. Straight paths
 become like corkscrews, progress is made by going the other way, and
@@ -1174,14 +1169,12 @@ would you have it?'' Alice replies that she would have expected to get
 somewhere else after running for a long time. The Red Queen then replies
 with this very famous quote: ``Now, \emph{here}, you see, it takes all
 the running \emph{you} can do to keep in the same place.'' It is a
-perfect metaphor for host-parasite coevolution.\footnote{Professor
-  Hamilton told me at a meeting in London that he thought combining the
-  ratchet and the Red Queen made sense, but that he did not think the
-  ratchet was a necessary addition. See also the dissertation work by
-  Olivia Judson for a detailed theoretical study of coexistence between
-  sexuals and asexuals in a metapopulation (Judson 1997).} Host and
-parasite genotypes might oscillate as if they were running to stay in
-the same place.
+perfect metaphor for host-parasite coevolution.\footnote{The
+  intersection between science and literature is not restricted to
+  selection for or against sex. For a fascinating essay on how the
+  biology of parasites meets literature, see Justyna Jajszczok's
+  dissertation (2017).} Host and parasite genotypes might oscillate as
+if they were running to stay in the same place.
 
 It seems unlikely that Lewis Carroll had coevolution in mind when
 writing these passages. But he was a mathematician at Oxford University
@@ -1212,11 +1205,13 @@ macroevolution (speciation/extinction), while Bell's idea is about
 microevolution. Even though van Valen's use of the Red Queen metaphor
 was published first, I will use Bell's microevolutionary meaning, as it
 perfectly captures the oscillating nature of genotype frequencies during
-host-parasite coevolution.\footnote{There we also some very interesting
-  outliers. Domesticated mammals had very strong positive residuals for
-  the rate of recombination. This result suggests that recombination was
-  selected by frequent changes in the targets of artificial selection by
-  humans.}
+host-parasite coevolution.\footnote{I. M. Lerner used the Red Queen
+  metaphor as early as 1954 with respect to the selection needed to
+  maintain genetic homeostasis: ``The \emph{Alice in Wonderland}
+  situation in which `it takes all the running you can do to stay in the
+  same place' arises when a stationary level of performance can be
+  maintained only by application of the maximum selection possible''
+  (See page 117 in Lerner 1954).}
 
 \subsection{Conceptual roots of the Red Queen
 Hypothesis}\label{conceptual-roots-of-the-red-queen-hypothesis}
@@ -1263,58 +1258,46 @@ species that are tightly coevolving in the absence of homogenizing gene
 flow. This quote seems to be the first to specifically identify
 coevolving pathogens as a primary source of selection favoring the
 mixing of genomes. Levin's idea was quickly followed by important
-conceptual contributions by Glesener \& Tilman\footnote{\begin{quote}
-  Therefore, we attempt to treat the same problem with several
-  alternative models each with different simplifications but with a
-  common biological assumption. Then, if these models, despite their
-  different assumptions, lead to similar results we have what we can
-  call a robust theorem which is relatively free of the details of the
-  model. Hence our truth is the intersection of independent lies (Levins
-  1966).
-  \end{quote}} (1978), Jaenike\footnote{I was also persuaded by elegant
-  experimental studies on sweet vernal grass, which showed a
-  density-independent advantage to having a rare genotype (Antonovics \&
-  Ellstrand 1984; Ellstrand \& Antonovics 1985). Later studies showed
-  that the rare advantage was likely due to escape from infection
-  (Kelley \emph{et al.} 1988; 1993, 1994).} (1978), and Lloyd (1980). In
-particular, Lloyd writes, ``{[}B{]}iological interactions are more
-likely than unpredictable physical conditions to provide the kind of
-relentless, repetitive change that is necessary for sexual parents to be
-selected because of the genetic diversity that sex engenders.'' Lloyd
-then turns this abstract idea into a specific prediction, which I would
-later test: ``If this proves to be so, we will then be able to examine
-whether the occurrence of asexual reproduction is correlated with
-relaxation of the biological hostility of the environment.'' Notice
-that, in the quotes presented above, both Hamilton and Lloyd were
-specifically predicting that coevolution is more important in selecting
-for sex than uncertain physical environments. But it is reasonable to
-ask, does it really matter? Aren't both ideas fundamentally about bet
-hedging in uncertain environments? Yes: I think both ideas are about bet
-hedging. But the distinction still matters. The Lottery Model is about
-random shifts in the direction of selection; there is no selection
-against common genotypes unless the environment changes by chance in a
-way that disfavors them. By contrast, under the Red Queen, selection is
-frequency dependent. In fact, selection against common genotypes is the
-core of the model. Hence, the critical difference between the models is
-not so much about bet hedging but whether selection for sex/rec is
-directional (but randomly changing directions, a lottery) or frequency
-dependent (Red Queen). For example, parasites could be a source of
-directional selection for sex if they randomly changed which host
-genotypes they attacked. To my mind, that would be a Lottery Model. The
-Red Queen Hypothesis requires frequency-dependent selection generated by
-interactions between species.\footnote{The partial correlation between
-  percent male and prevalence of infection, while controlling for
-  habitat, is highly significant (\(r = 0.36\), \(P < 0.001\)). However,
-  the partial correlation between percent male and habitat, while
-  controlling for prevalence of infection, is marginally significant
-  (\(r = 0.21\), \(P = 0.05\)). Similar results were gained after males
-  were excluded from the calculation of infection prevalence, which
-  controls for any sex-specific differences in susceptibility (as shown
-  in Figure~\ref{fig-3-5}); specifically, prevalence of infection in
-  females was significantly correlated with male frequency while
-  controlling for habitat (\(r = 0.37\), \(P < 0.001\)), but the
-  converse was not true (\(r = 0.19\), \(P = 0.06\)).} This is an
-important distinction.
+conceptual contributions by Glesener \& Tilman (1978),\footnote{For
+  example, Glesener and Tilman write, ``Thus, sexuality not only is
+  favored under changed conditions but is, itself, capable of changing
+  the conditions. The sexuality of an organism's competitors, predators,
+  parasites, etc., will greatly increase the selective pressure for
+  sexuality on that organism as well'' (1978).} Jaenike
+(1978),\footnote{Jaenike focuses more on the recycling of genotypes:
+  ``My hypothesis differs from Levin's in that sex and recombination are
+  advantageous not to produce novel genotypes as such, but to produce
+  rare genotypes, of which novel ones are only a subset'' (1978).} and
+Lloyd (1980). In particular, Lloyd writes, ``{[}B{]}iological
+interactions are more likely than unpredictable physical conditions to
+provide the kind of relentless, repetitive change that is necessary for
+sexual parents to be selected because of the genetic diversity that sex
+engenders.'' Lloyd then turns this abstract idea into a specific
+prediction, which I would later test: ``If this proves to be so, we will
+then be able to examine whether the occurrence of asexual reproduction
+is correlated with relaxation of the biological hostility of the
+environment.'' Notice that, in the quotes presented above, both Hamilton
+and Lloyd were specifically predicting that coevolution is more
+important in selecting for sex than uncertain physical environments. But
+it is reasonable to ask, does it really matter? Aren't both ideas
+fundamentally about bet hedging in uncertain environments? Yes: I think
+both ideas are about bet hedging. But the distinction still matters. The
+Lottery Model is about random shifts in the direction of selection;
+there is no selection against common genotypes unless the environment
+changes by chance in a way that disfavors them. By contrast, under the
+Red Queen, selection is frequency dependent. In fact, selection against
+common genotypes is the core of the model. Hence, the critical
+difference between the models is not so much about bet hedging but
+whether selection for sex/rec is directional (but randomly changing
+directions, a lottery) or frequency dependent (Red Queen). For example,
+parasites could be a source of directional selection for sex if they
+randomly changed which host genotypes they attacked. To my mind, that
+would be a Lottery Model. The Red Queen Hypothesis requires
+frequency-dependent selection generated by interactions between
+species.\footnote{I use ``frequency-dependent'' selection here to mean
+  selection against common genotypes. A more accurate phrase would be
+  ``negative frequency-dependent'' selection.} This is an important
+distinction.
 
 Taking this view, the Red Queen Hypothesis may seem more closely related
 to the Tangled Bank model than to the Lottery Model, as both the Red
@@ -1323,12 +1306,11 @@ the critical distinction here is that selection against common genotypes
 under the Tangled Bank relies on intraspecific competition in
 populations at carrying capacity (soft selection). The Red Queen relies
 on interspecific antagonistic coevolution, leading to parasite-mediated
-selection against common host genotypes.\footnote{Using computer
-  simulations, we recently found that detecting a significant positive
-  correlation between clonal diversity and infection prevalence would
-  only be expected in a fraction of parameter space, even when parasites
-  were solely responsible for the maintenance of diversity (Lively
-  \emph{et al.} 2021).}
+selection against common host genotypes.\footnote{This is not meant to
+  imply, however, that the strength of parasite-mediated selection under
+  the Red Queen Hypothesis must be independent of population size.
+  Indeed, as we will see, there are good reasons to think that the
+  strength of parasite-mediated selection depends on host density.}
 
 In any case, looking back, it seems clear that the architects of the
 ecological hypotheses had two interrelated things in mind:
@@ -1348,9 +1330,12 @@ questions. But other ideas were also interesting, such as the idea that
 sexual reproduction is favored because it reduces the interference
 between alleles at different loci (review in Otto 2021). I will cover
 some special cases of this latter idea in
-Chapter~\ref{sec-chap6}.\footnote{In this smaller sample of 20 lakes,
-  the correlation between male frequency and infection prevalence was
-  positive but not statistically significant.}
+Chapter~\ref{sec-chap6}.\footnote{The basic idea comes from a paper by
+  Hill and Robertson (1966) and is often called the Hill-Robertson
+  effect (following Felsenstein 1974). A broader framework, housed under
+  the more intuitive phrase ``selective interference,'' was recently
+  given by Sarah Otto as part of a keynote lecture given to the American
+  Genetic Association (2021).}
 
 \section{Summary}\label{summary-1}
 
@@ -1538,8 +1523,14 @@ Prout showed that there would be a stable multiple niche polymorphism
 even under complete dominance, provided that the arithmetic mean fitness
 for BB is greater than one and the harmonic mean fitness for the BB
 genotype is less than one. So, clearly, overdominance for harmonic mean
-fitness is not required for a stable polymorphism.\footnote{\(r = 0.47\);
-  \(P = 0.04\) for log\textsubscript{10} transformed data; \(N = 20\).}
+fitness is not required for a stable polymorphism.\footnote{The harmonic
+  mean is not intuitive to most Biology students. So, I ask them this
+  question: If you had a score of 100 on your first exam and a score of
+  60 on your second exam, would you rather have your final grade
+  calculated as the arithmetic mean or the harmonic mean of the two
+  scores? After some thought, they all pick the arithmetic mean. That is
+  because the harmonic mean weights low scores more heavily than high
+  scores.}
 
 The plot below shows \(\mathrm{\Delta}q\) as a function of \(q\) for
 Prout's model of dominance. Note that \(\mathrm{\Delta}q\) is positive
@@ -1570,27 +1561,29 @@ intertidal communities. I was especially interested in how two different
 barnacle morphs coexisted on rocky intertidal shores in the Northern
 Gulf of California. I had initially assumed that the two types were
 genetically determined and that they were likely to be different species
-(Figure~\ref{fig-3-2}). However, after years of false starts,\footnote{May
-  and Anderson, for example, stated, ``Our studies, in which the
-  epidemiological details of the parasite--host interactions are treated
-  more explicitly than in Hamilton's work, make this {[}the parasite{]}
-  answer to the problem of sex (Ghiselin 1974; Maynard Smith 1978;
-  Williams 1975) less likely.''} I found that one of the two morphs was
-induced by chemical cues released by a predatory snail
-(Figure~\ref{fig-3-3}), and that the induced morph was more resistant to
-attack by this predator (1986c).\footnote{In a computer simulation, a
-  sexual population with eight possible genotypes (three locus haploid
-  model with two alleles each) was rapidly replaced by two randomly
-  selected clonal genotypes. The first clone was introduced at time one,
-  and it began oscillating with the sexual population. The second clone
-  was introduced at time 100. It began oscillating out of phase with the
-  first clone. The sexual population was driven to extinction by
-  generation 150 (Lively \& Howard 1994). Thus, sexual reproduction may
-  not be stable to invasion and replacement by a diverse clonal
-  population.} Hence, the two morphs are not different species, but
-rather the result of phenotypic plasticity. In a blink of a field
-season, I went from being a community ecologist to an evolutionary
-biologist.
+(Figure~\ref{fig-3-2}). However, after years of false starts,\footnote{I
+  ran two years of field experiments designed to test for random
+  settlement by genetically determined morphs. I also ran experiments
+  designed to test for habitat selection by genetically determined
+  morphs. The results were always negative. I finally tested for
+  predator-induced development of the bent morph by placing
+  \emph{Acanthina} snails in quadrats where juvenile barnacles had
+  recently settled. I used herbivorous snails as a control. The results
+  showed that the presence of \emph{Acanthina} induced development of
+  the bent form, but the herbivorous snails did not. It was a thrilling
+  discovery.} I found that one of the two morphs was induced by chemical
+cues released by a predatory snail (Figure~\ref{fig-3-3}), and that the
+induced morph was more resistant to attack by this predator
+(1986c).\footnote{Plasticity is more mainstream now than it was in the
+  1980s. One reviewer of my paper was incredulous and recommended
+  rejection from \emph{Evolution} because the bent morph was not
+  ``genetically determined.'' The Associate Editor (John Endler)
+  rejected the review and accepted the paper. Clearly, it is the
+  developmental strategy that is genetically determined, not the morph
+  per se (Hazel \emph{et al.} 2004; see also Lively \emph{et al.} 2000).}
+Hence, the two morphs are not different species, but rather the result
+of phenotypic plasticity. In a blink of a field season, I went from
+being a community ecologist to an evolutionary biologist.
 
 But why two morphs? Why didn't selection favor unconditional development
 of the predator-resistant morph? Using predator-exclusion cages, I found
@@ -1672,44 +1665,39 @@ Then I got very lucky. I was awarded a three-year postdoctoral
 fellowship from the New Zealand University Grants Committee. I had
 applied to work on the evolution of facultatively parthenogenetic
 nematodes, which represented a combination of my interests in
-developmental plasticity and sex.\footnote{From Felsenstein (1974):
-
-  \begin{quote}
-  I will not attempt here to predict from theory the quantitative effect
-  of the ratchet mechanism. Involving natural selection, mutation, and
-  genetic drift at many linked loci, the problem poses enormous
-  difficulties for the application of population genetics theory. But
-  the possible significance of the phenomenon makes it important that
-  some theoretical treatment should be attempted. The ratchet mechanism
-  has been unjustly ignored by theoretical population genetics.
-  \end{quote}} These topics were also very interesting to Wally Clark, a
-conceptual pioneer in the evolution of plasticity. He was also head of
-the Zoology Department at the University of Canterbury. I would not have
-received funding without the support of Professor Clark. To my mind, the
-value of Clark's work remains underestimated in general, but it had a
-big influence on me (e.g., Clark 1976).
+developmental plasticity and sex.\footnote{Facultative parthenogenesis
+  is used to mean environmentally cued production of parthenogenetic
+  females. I was originally planning to work on a nematode population
+  that produced a mixture of sexual males and females at high density
+  but only parthenogenetic females at low density.} These topics were
+also very interesting to Wally Clark, a conceptual pioneer in the
+evolution of plasticity. He was also head of the Zoology Department at
+the University of Canterbury. I would not have received funding without
+the support of Professor Clark. To my mind, the value of Clark's work
+remains underestimated in general, but it had a big influence on me
+(e.g., Clark 1976).
 
 I began looking for natural systems to study facultative
-parthenogenesis.\footnote{After the proofs were corrected and returned,
-  the shading was washed out in Figures 1 and 2. Even worse, the panels
-  were reversed for Figure 3. The corrected figures were reprinted in
-  Howard and Lively (1994a).} To this end, I was reading Graham Bell's
-incredible book on the evolution and genetics of sexual reproduction
-(1982). Searching the index, I found a reference to \emph{Potamopyrgus
-antipodarum}, a New Zealand freshwater snail. Bell had cited Mike
-Winterbourn's dissertation work on this snail (1970). Luckily for me,
-Professor Winterbourn was just down the hall from me. I took the book to
-him, and I asked if the snails were, in fact, facultatively
-parthenogenetic. He said no; the snails were probably obligate asexuals,
-based on lab rearing experiments that he had done. He also said that
-most populations were all female, but some contained males. He then
-added that there was no obvious pattern to the distribution of males.
-Amazing! I immediately decided to work on these snails.\footnote{Mutational
-  meltdown in clones occurs when their intrinsic birth rates are near
-  one, meaning that the females are just barely replacing themselves.
-  This then keeps the clonal population small, which also keeps the
-  least-loaded class small, thereby aiding the ratchet. Once the
-  intrinsic birth rate drops below one, the clone will go extinct.}
+parthenogenesis.\footnote{We were trained ask questions first and then
+  seek suitable organisms to address the questions. This was the
+  tradition before model-systems research took over (Churchill 1997).}
+To this end, I was reading Graham Bell's incredible book on the
+evolution and genetics of sexual reproduction (1982). Searching the
+index, I found a reference to \emph{Potamopyrgus antipodarum}, a New
+Zealand freshwater snail. Bell had cited Mike Winterbourn's dissertation
+work on this snail (1970). Luckily for me, Professor Winterbourn was
+just down the hall from me. I took the book to him, and I asked if the
+snails were, in fact, facultatively parthenogenetic. He said no; the
+snails were probably obligate asexuals, based on lab rearing experiments
+that he had done. He also said that most populations were all female,
+but some contained males. He then added that there was no obvious
+pattern to the distribution of males. Amazing! I immediately decided to
+work on these snails.\footnote{Professor Winterbourn was supportive of
+  my work from this first day. He shared his knowledge of the snail
+  system and of freshwater ecology, in general, with great enthusiasm.
+  In addition, Mike met with my Ph.D.~students and took them into the
+  field. This book would not have been possible without Professor
+  Winterbourn.}
 
 \section{The Method of Multiple Working
 Hypotheses}\label{the-method-of-multiple-working-hypotheses}
@@ -1717,23 +1705,23 @@ Hypotheses}\label{the-method-of-multiple-working-hypotheses}
 As graduate students at the University of Arizona, we read some of the
 classics in the history and philosophy of science. Two of these papers
 concerned the method of contrasting multiple working hypotheses
-(Chamberlin 1890; Platt 1964).\footnote{``Virulence'' is defined here as
-  the effect that infection has on host fitness. For example, a
-  virulence value of 1.0 indicates that infection kills or sterilizes
-  the host. A virulence of 0.1 indicates that infection reduces host
-  fitness by 10\%.} The idea is that multiple hypotheses should be
-simultaneously considered. Then, to the extent possible, the
-alternatives are forced to make different \emph{a priori} predictions
-about the possible results. The hope is that all but one of the
-alternative hypotheses would be eliminated, leading to a ``strong
-inference'' that the remaining hypothesis is supported (Platt 1964).
-Thus, the focus is on falsifying one or more of the alternatives, rather
-than proving one of them (Popper 1959). Graham Bell used this same
-method to contrast the ecological models for sex by using data on the
-geographic distribution of asexual individuals across many plant and
-animal taxa (Bell 1982). The data led him to reject the Lottery Model
-(Chapter~\ref{sec-eco-hyp}). I decided to focus a similar test directly
-on the New Zealand snails (Figure~\ref{fig-3-4}).
+(Chamberlin 1890; Platt 1964).\footnote{See also Elliott and Brook
+  (2007). They point out crucial differences between Chamberlin and
+  Platt including that Chamberlin allowed for multiple ideas to be
+  partially correct, which is important for Chapter~\ref{sec-chap6}.}
+The idea is that multiple hypotheses should be simultaneously
+considered. Then, to the extent possible, the alternatives are forced to
+make different \emph{a priori} predictions about the possible results.
+The hope is that all but one of the alternative hypotheses would be
+eliminated, leading to a ``strong inference'' that the remaining
+hypothesis is supported (Platt 1964). Thus, the focus is on falsifying
+one or more of the alternatives, rather than proving one of them (Popper
+1959). Graham Bell used this same method to contrast the ecological
+models for sex by using data on the geographic distribution of asexual
+individuals across many plant and animal taxa (Bell 1982). The data led
+him to reject the Lottery Model (Chapter~\ref{sec-eco-hyp}). I decided
+to focus a similar test directly on the New Zealand snails
+(Figure~\ref{fig-3-4}).
 
 \begin{figure}
 
@@ -1843,22 +1831,21 @@ and show a sincere interest in their work. One morning, I was sitting
 next to JMS in the tearoom in the old Zoology Department. I was scared
 speechless. He kindly asked me what I was working on, so I told him
 about the snails. He knew of them! In fact, he had covered them in his
-book, \emph{The Evolution of Sex}.\footnote{Steve followed this initial
-  study with a simulation study of mutation accumulation in a Red Queen
-  world but changing the assumption from independent effects of
-  mutations to synergistic effects of mutations (Howard \& Lively 1998).
-  The results were similar, provided the clonal population has not come
-  into mutation-selection balance.} He was very excited that I was
-working on these creatures, and he wanted to know my plan. I told him of
-my rough ideas for looking at the distribution of males as a way of
-contrasting the ecological hypotheses for sex. He looked directly at me,
-and said, ``Interesting, but I hope the answer is not parasites'' (or
-something like that). I asked him, why not parasites? He laughed out
-loud, and with a big smile he said: ``Because Bill Hamilton thought of
-it first!'' I could tell he was kidding. He then encouraged me to take
-the project on, and then he laughed again and added, ``Whatever you do,
-don't go and solve the problem of sex. Sex is too much bloody fun to
-have an answer!''
+book, \emph{The Evolution of Sex}.\footnote{With respect to
+  \emph{Potamopyrgus} (along with a parthenogenetic beetle) Maynard
+  Smith (1978) wrote, ``Further Investigations of these cases could be
+  most interesting.'' When I met JMS, I did not know (or did not
+  remember) that he had written this. But I think that he was correct.}
+He was very excited that I was working on these creatures, and he wanted
+to know my plan. I told him of my rough ideas for looking at the
+distribution of males as a way of contrasting the ecological hypotheses
+for sex. He looked directly at me, and said, ``Interesting, but I hope
+the answer is not parasites'' (or something like that). I asked him, why
+not parasites? He laughed out loud, and with a big smile he said:
+``Because Bill Hamilton thought of it first!'' I could tell he was
+kidding. He then encouraged me to take the project on, and then he
+laughed again and added, ``Whatever you do, don't go and solve the
+problem of sex. Sex is too much bloody fun to have an answer!''
 
 Toward the end of their time in New Zealand, JMS, Sheila, David, Lynda,
 and I did a trip together around the South Island. The whole time was
@@ -1906,23 +1893,20 @@ I collected and dissected hundreds of snails from each of 29 streams and
 and infection by the trematodes that Winterbourn (1973) described. I
 reasoned that the frequency of males in a population must be strongly
 correlated with the frequency of sexual females simply because males are
-only produced by sexual females.\footnote{I heard this kind of thing
-  called ``group-hug pluralism'' at a meeting of philosophers in Berlin
-  in 2022. In any case, our fusion of the ratchet and the Red Queen was
-  based on logic rather than any sort of craving for hugs.} The results
-showed that there were more males in lakes than in streams, which was
-inconsistent with the Lottery Model, but it was consistent with the
-Tangled Bank Model. However, male frequency was better predicted by the
-frequency of trematode infection than by habitat \emph{per se} (Lively
-1987). Hence, surprisingly, the results favored the Red Queen
-Hypothesis. I presented these findings to a small group at David Lloyd's
-flat, and they convinced me to submit to \emph{Nature}
-(1987).\footnote{Professor Hamilton told me at a meeting in London that
-  he thought combining the ratchet and the Red Queen made sense, but
-  that he did not think the ratchet was a necessary addition. See also
-  the dissertation work by Olivia Judson for a detailed theoretical
-  study of coexistence between sexuals and asexuals in a metapopulation
-  (Judson 1997).}
+only produced by sexual females.\footnote{This assumption turned out to
+  be not strictly true. Polyploid females occasionally produce males,
+  although they seem unlikely to be very fertile (Soper \emph{et al.}
+  2013).} The results showed that there were more males in lakes than in
+streams, which was inconsistent with the Lottery Model, but it was
+consistent with the Tangled Bank Model. However, male frequency was
+better predicted by the frequency of trematode infection than by habitat
+\emph{per se} (Lively 1987). Hence, surprisingly, the results favored
+the Red Queen Hypothesis. I presented these findings to a small group at
+David Lloyd's flat, and they convinced me to submit to \emph{Nature}
+(1987).\footnote{The group included Mark McKone. Mark was a post-doc
+  with David, and his comments were especially influential. Fifteen
+  years later, I would become Ph.D.~advisor to one of Mark's star
+  mentees at Carleton College, Maurine Neiman.}
 
 A fascinating paper on the same topic was published in \emph{Nature} at
 about the same time. This paper was also based on a strong-inference
@@ -1968,21 +1952,20 @@ Analytical theory is not causation either, as is well demonstrated by
 the theoretical literature on sex/recombination. Causation instead may
 be inferred when multiple independent lines of evidence point to similar
 solutions. I think that Levins (1966) was correct when he wrote, ``Hence
-our truth is the intersection of independent lies.''\footnote{\begin{quote}
-  Therefore, we attempt to treat the same problem with several
-  alternative models each with different simplifications but with a
-  common biological assumption. Then, if these models, despite their
-  different assumptions, lead to similar results we have what we can
-  call a robust theorem which is relatively free of the details of the
-  model. Hence our truth is the intersection of independent lies (Levins
-  1966).
-  \end{quote}} Although he was referring specifically to mathematical
-models, the same principle applies to biological systems. Ideally, the
-multiple lines of evidence would include long-term field observations of
-individual populations, broader biogeographic patterns across
-populations, and direct experiments on multiple independent systems, as
-well as multiple theoretical forays into the conditions under which the
-hypothesis is expected to hold.
+our truth is the intersection of independent lies.''\footnote{From
+  Levins (1966): ``Therefore, we attempt to treat the same problem with
+  several alternative models each with different simplifications but
+  with a common biological assumption. Then, if these models, despite
+  their different assumptions, lead to similar results we have what we
+  can call a robust theorem which is relatively free of the details of
+  the model. Hence our truth is the intersection of independent lies.''}
+Although he was referring specifically to mathematical models, the same
+principle applies to biological systems. Ideally, the multiple lines of
+evidence would include long-term field observations of individual
+populations, broader biogeographic patterns across populations, and
+direct experiments on multiple independent systems, as well as multiple
+theoretical forays into the conditions under which the hypothesis is
+expected to hold.
 
 In any case, my view by 1987 was that the Red Queen Hypothesis merited
 serious consideration.\footnote{I was also persuaded by elegant
@@ -2250,26 +2233,28 @@ trematode was especially common in lake populations of the snail. This
 species was not formally described, but Jan McKenzie sent it to a
 trematode expert in France, who thought it belonged in the genus
 \emph{Microphallus}; hence I will refer to it as \emph{Microphallus}
-sp.\footnote{May and Anderson, for example, stated, ``Our studies, in
-  which the epidemiological details of the parasite--host interactions
-  are treated more explicitly than in Hamilton's work, make this {[}the
-  parasite{]} answer to the problem of sex (Ghiselin 1974; Maynard Smith
-  1978; Williams 1975) less likely.''} The life cycle of
-\emph{Microphallus} turns out to be especially crucial to the story. The
-adult worms are tiny simultaneous hermaphrodites that live in the
-intestines of ducks. They cross-fertilize and produce eggs that are shed
-with the duck feces into the environment. In most trematodes, the eggs
-normally hatch in water, thereby releasing a swimming larval stage
-(miracidia), which actively swims to and penetrates the body of snails.
-This is the case for the trematodes that cause the human disease,
-Schistosomiasis. But, in this New Zealand species of
-\emph{Microphallus}, the eggs hatch not in the environment but rather
-after being ingested by snails. The larvae then penetrate the snail from
-the inside. If the snail's immune system does not recognize the larvae
-as foreign tissue, the larvae reproduce asexually, producing several
-hundred cysts (metacercaria) in the snail. These cysts completely
-replace the reproductive tissue in both males and females. Infected
-snails are sterilized (Figure~\ref{fig-4.1}; Figure~\ref{fig-4.2}).
+sp.\footnote{The trematode worm was not formally described until 30
+  years later (Blasco-Costa \emph{et al.} 2019). As it turns out, it
+  belongs in the genus \emph{Atriophallophorus}, rather than
+  \emph{Microphallus}, and it was very appropriately named after Mike
+  Winterbourn: \emph{A. winterbourni}. But I am going to call it
+  \emph{Microphallus} in this book, as that is what we called it in our
+  early papers.} The life cycle of \emph{Microphallus} turns out to be
+especially crucial to the story. The adult worms are tiny simultaneous
+hermaphrodites that live in the intestines of ducks. They
+cross-fertilize and produce eggs that are shed with the duck feces into
+the environment. In most trematodes, the eggs normally hatch in water,
+thereby releasing a swimming larval stage (miracidia), which actively
+swims to and penetrates the body of snails. This is the case for the
+trematodes that cause the human disease, Schistosomiasis. But, in this
+New Zealand species of \emph{Microphallus}, the eggs hatch not in the
+environment but rather after being ingested by snails. The larvae then
+penetrate the snail from the inside. If the snail's immune system does
+not recognize the larvae as foreign tissue, the larvae reproduce
+asexually, producing several hundred cysts (metacercaria) in the snail.
+These cysts completely replace the reproductive tissue in both males and
+females. Infected snails are sterilized (Figure~\ref{fig-4.1};
+Figure~\ref{fig-4.2}).
 
 \begin{figure}
 
@@ -2398,31 +2383,24 @@ average change in mean fitness for both species is zero.
 
 My early results on local adaptation, along with the results of Parker
 (1985) and Ebert (1994), convinced me that host-parasite coevolution was
-interesting, whether or not it could explain sex.\footnote{In a computer
-  simulation, a sexual population with eight possible genotypes (three
-  locus haploid model with two alleles each) was rapidly replaced by two
-  randomly selected clonal genotypes. The first clone was introduced at
-  time one, and it began oscillating with the sexual population. The
-  second clone was introduced at time 100. It began oscillating out of
-  phase with the first clone. The sexual population was driven to
-  extinction by generation 150 (Lively \& Howard 1994). Thus, sexual
-  reproduction may not be stable to invasion and replacement by a
-  diverse clonal population.} In addition, May and Anderson (1983) had
-already ignited a general interest in parasites. They showed that,
-contrary to conventional wisdom, parasites would evolve to maximize
-their own rates of transmission without any ``consideration'' for the
-well-being of their hosts. This work, combined with Hamilton and Zuk's
-model of parasite-mediated mate choice, along with Hamilton's models on
-parasite-mediated selection for sex, lit up the field (Hamilton 1980;
-Hamilton \& Zuk 1982). Fascinating work by Janice Moore on the evolution
-of adaptive, parasite-mediated modifications of host behavior piled on
-(1984). Soon, universities began to advertise for assistant professors
-working on host-parasite interactions. Then in 1998, Hudson et
-al.~rocked the scientific world with a heroic field experiment, which
-showed that oscillations in Red Grouse densities were controlled by
-nematode infections (1998). Parasites were now on the map. An emerging
-new field called ``ecology and evolution of infectious disease'' was
-taking flight.
+interesting, whether or not it could explain sex.\footnote{Dieter Ebert
+  showed that parasites of \emph{Daphnia} were locally adapted for both
+  infectivity and transmission, which was a major advance.} In addition,
+May and Anderson (1983) had already ignited a general interest in
+parasites. They showed that, contrary to conventional wisdom, parasites
+would evolve to maximize their own rates of transmission without any
+``consideration'' for the well-being of their hosts. This work, combined
+with Hamilton and Zuk's model of parasite-mediated mate choice, along
+with Hamilton's models on parasite-mediated selection for sex, lit up
+the field (Hamilton 1980; Hamilton \& Zuk 1982). Fascinating work by
+Janice Moore on the evolution of adaptive, parasite-mediated
+modifications of host behavior piled on (1984). Soon, universities began
+to advertise for assistant professors working on host-parasite
+interactions. Then in 1998, Hudson et al.~rocked the scientific world
+with a heroic field experiment, which showed that oscillations in Red
+Grouse densities were controlled by nematode infections (1998).
+Parasites were now on the map. An emerging new field called ``ecology
+and evolution of infectious disease'' was taking flight.
 
 \begin{figure}
 
@@ -2476,17 +2454,12 @@ fusion/rejection. His study suggested that fusion was determined by
 multiple alleles (``perhaps several scores'') at a single locus. More
 specifically, Oka's results suggested that fusion occurred between
 different colonies only if they shared at least one allele at this
-locus.\footnote{From Felsenstein (1974):
-
-  \begin{quote}
-  I will not attempt here to predict from theory the quantitative effect
-  of the ratchet mechanism. Involving natural selection, mutation, and
-  genetic drift at many linked loci, the problem poses enormous
-  difficulties for the application of population genetics theory. But
-  the possible significance of the phenomenon makes it important that
-  some theoretical treatment should be attempted. The ratchet mechanism
-  has been unjustly ignored by theoretical population genetics.
-  \end{quote}} To my mind, this was a major finding.
+locus.\footnote{In direct contrast, however, Oka found that
+  cross-fertilization did not occur between \emph{Botryllus} gametes
+  that shared the same allele. As Oka noted, this result mirrors the
+  S-allele system in plants: ``The \ldots{} situation corresponds
+  exactly in its form to the homomorphic self-incompatibility prevailing
+  among angiosperms.''} To my mind, this was a major finding.
 
 It thus appears that Oka was inspired by Bancroft, and Burnet was
 inspired by Oka. How does Burnet fit in? Burnet first accepts Oka's
@@ -2609,13 +2582,10 @@ Like the snails, the fish have coexisting sexual (diploid) and asexual
 (triploid) forms. The asexual fish, however, were ``gynogenetic,'' which
 means that the eggs require fertilization to kick-start embryogenesis.
 The sneaky eggs, however, do not generally incorporate the sperm's DNA
-(review in Vrijenhoek 1998).\footnote{May and Anderson, for example,
-  stated, ``Our studies, in which the epidemiological details of the
-  parasite--host interactions are treated more explicitly than in
-  Hamilton's work, make this {[}the parasite{]} answer to the problem of
-  sex (Ghiselin 1974; Maynard Smith 1978; Williams 1975) less likely.''}
-The outcome is the coexistence of sexual and asexual lineages within the
-same semi-isolated populations.
+(review in Vrijenhoek 1998).\footnote{Paternal leakage of DNA in
+  otherwise asexual vertebrate species now seems possible (review in
+  Lampert \& Schartl 2010).} The outcome is the coexistence of sexual
+and asexual lineages within the same semi-isolated populations.
 
 Bob had worked on these fish for decades, focusing on small streams in
 Mexico. He had worked in particular on the coexistence of a sexual form
@@ -2647,16 +2617,12 @@ the number of parasitic cysts than the asexual fish, which makes sense
 if the sexual population contained genetic variation for resistance to
 infection. So, after correcting for size, the sexual fish were both less
 infected and showed more variation in infection than the clone
-2.\footnote{In a computer simulation, a sexual population with eight
-  possible genotypes (three locus haploid model with two alleles each)
-  was rapidly replaced by two randomly selected clonal genotypes. The
-  first clone was introduced at time one, and it began oscillating with
-  the sexual population. The second clone was introduced at time 100. It
-  began oscillating out of phase with the first clone. The sexual
-  population was driven to extinction by generation 150 (Lively \&
-  Howard 1994). Thus, sexual reproduction may not be stable to invasion
-  and replacement by a diverse clonal population.} This seemed very
-promising for the Red Queen.
+2.\footnote{In a follow up study, using independent samples, Steve Weeks
+  (one of Vrijenhoek's PhD students) was unable to replicate some of our
+  results (Weeks 1996). However, his sample sizes were very low,
+  especially for clonal fish, suggesting that his power to detect
+  differences was compromised.} This seemed very promising for the Red
+Queen.
 
 Similar results were observed in a second pool (Sandal Pool) in which
 both clones coexisted. In this pool, clone 2 was more common than clone
@@ -2733,18 +2699,17 @@ In summary, the data suggested that the parasites had evolved to infect
 the most common local host clone in the different pools. They also
 suggested that sex in genetically diverse host populations results in
 protection from disease. Both results were consistent with the Red
-Queen.\footnote{From Felsenstein (1974):
-
-  \begin{quote}
-  I will not attempt here to predict from theory the quantitative effect
-  of the ratchet mechanism. Involving natural selection, mutation, and
-  genetic drift at many linked loci, the problem poses enormous
-  difficulties for the application of population genetics theory. But
-  the possible significance of the phenomenon makes it important that
-  some theoretical treatment should be attempted. The ratchet mechanism
-  has been unjustly ignored by theoretical population genetics.
-  \end{quote}} Proof? No.~Fascinating? Yes. In any case, looking back, I
-was very lucky to have had the opportunity to work with Professor
+Queen.\footnote{It is important to point out that we were not claiming
+  that parasite-mediated selection is maintaining sex in this system.
+  For example, we wrote, ``{[}W{]}e do not intend to imply from this
+  analysis that the trematode is selecting for the maintenance of sex in
+  these fish.'' Niche partitioning and/or the sperm-dependence of the
+  gynogenetic females would most likely ensure the persistence of sexual
+  individuals (Moore \& McKay 1971; Schenck \& Vrijenhoek 1986). Our
+  claim was simply that parasites had evolved to disproportionately
+  infect the most common clone unless the sexual population was highly
+  inbred.} Proof? No.~Fascinating? Yes. In any case, looking back, I was
+very lucky to have had the opportunity to work with Professor
 Vrijenhoek.
 
 \begin{figure}
@@ -2839,7 +2804,7 @@ parasite virulence, but it was also one of the first simulation studies
 of the Red Queen Hypothesis for sex. May and Anderson concluded that the
 Red Queen could work, but only if parasites killed their hosts (i.e.,
 they were maximally virulent).\footnote{May and Anderson, for example,
-  stated, ``Our studies, in which the epidemiological details of the
+  state, ``Our studies, in which the epidemiological details of the
   parasite--host interactions are treated more explicitly than in
   Hamilton's work, make this {[}the parasite{]} answer to the problem of
   sex (Ghiselin 1974; Maynard Smith 1978; Williams 1975) less likely.''}
@@ -2896,19 +2861,16 @@ in its at present least-loaded lines.'' In other words, obligately
 asexual populations should accumulate deleterious mutations over time. A
 decade later, Joe Felsenstein named the idea ``Muller's ratchet''
 (1974), and he pointed to the probable importance of the ratchet in
-population genetics.\footnote{From Felsenstein (1974):
-
-  \begin{quote}
-  I will not attempt here to predict from theory the quantitative effect
-  of the ratchet mechanism. Involving natural selection, mutation, and
-  genetic drift at many linked loci, the problem poses enormous
-  difficulties for the application of population genetics theory. But
-  the possible significance of the phenomenon makes it important that
-  some theoretical treatment should be attempted. The ratchet mechanism
-  has been unjustly ignored by theoretical population genetics.
-  \end{quote}} The concepts underlying the idea are not especially
-intuitive, but I will try to explain the gist of it. First, we must ask,
-what is a clone?
+population genetics.\footnote{From Felsenstein (1974): ``I will not
+  attempt here to predict from theory the quantitative effect of the
+  ratchet mechanism. Involving natural selection, mutation, and genetic
+  drift at many linked loci, the problem poses enormous difficulties for
+  the application of population genetics theory. But the possible
+  significance of the phenomenon makes it important that some
+  theoretical treatment should be attempted. The ratchet mechanism has
+  been unjustly ignored by theoretical population genetics.''} The
+concepts underlying the idea are not especially intuitive, but I will
+try to explain the gist of it. First, we must ask, what is a clone?
 
 I have been using ``clone'' so far to describe a group of genetically
 identical descendants from a single asexual individual. But Muller knew
@@ -3479,6 +3441,14 @@ Bell, T., Freckleton, R.P. \& Lewis, O.T. (2006).
 drive density-dependent seedling mortality in a tropical tree}.
 \emph{Ecology Letters}, 9, 569--574.
 
+\bibitem[\citeproctext]{ref-blasco-costa2019a}
+Blasco-Costa, I., Seppälä, K., Feijen, F., Zajac, N., Klappert, K. \&
+Jokela, J. (2019). \href{https://doi.org/10.1017/S0022149X19000993}{A
+new species of \emph{atriophallophorus} deblock \& rosé, 1964
+(trematoda: Microphallidae) described from \emph{in vitro}-grown adults
+and metacercariae from \emph{{P}otamopyrgus antipodarum} (gray, 1843)
+(mollusca: tateidae)}. \emph{Journal of Helminthology}, 94, 1--15.
+
 \bibitem[\citeproctext]{ref-burnet1971a}
 Burnet, F.M. (1971). "Self-recognition" in colonial marine forms and
 flowering plants in relation to the evolution of immunity.
@@ -3501,14 +3471,31 @@ Churchill, F.B. (1979). Sex and the single organism: {b}iological
 theories of sex in mid nineteenth century. \emph{Studies in the History
 of Biology}, 3, 139--177.
 
+\bibitem[\citeproctext]{ref-churchill1997a}
+Churchill, F.B. (1997). Life before model systems: General zoology at
+{August Weismann's} institute. \emph{American Zoologist}, 37, 260--268.
+
 \bibitem[\citeproctext]{ref-clark1976a}
 Clark, W.C. (1976). The environment and the genotype in polymorphism.
 \emph{Zoological Journal of the Linnean Society}, 58, 255--262.
+
+\bibitem[\citeproctext]{ref-cohen1966a}
+Cohen, D. (1966). Optimizing reproduction in a randomly varying
+environment. \emph{Journal of Theoretical Biology}, 12, 119--129.
 
 \bibitem[\citeproctext]{ref-dagg2016a}
 Dagg, J. (2016). \href{https://doi.org/10.3998/ptb.6959004.0008.003}{On
 recognising the paradox of sex}. \emph{Philosophy, Theory, and Practice
 in Biology}, 8.
+
+\bibitem[\citeproctext]{ref-darlington1939a}
+Darlington, C.D. (1939). \emph{The evolution of genetic systems}.
+Cambridge University Press, Cambridge.
+
+\bibitem[\citeproctext]{ref-darwin1859a}
+Darwin, C. (1859). \emph{On the origin of species by means of natural
+selection, or preservation of favoured races in the struggle for life}.
+Murray, London.
 
 \bibitem[\citeproctext]{ref-darwin1862a}
 Darwin, C. (1862).
@@ -3549,6 +3536,10 @@ density-dependent selection hypothesis. \emph{Evolution}, 39, 657--666.
 \bibitem[\citeproctext]{ref-felsenstein1974a}
 Felsenstein, J. (1974). The evolutionary advantage of recombination.
 \emph{Genetics}, 78, 737--756.
+
+\bibitem[\citeproctext]{ref-fisher1930a}
+Fisher, R.A. (1930). \emph{The genetical theory of natural selection}.
+Oxford University Press, Oxford.
 
 \bibitem[\citeproctext]{ref-fisher1941a}
 Fisher, R.A. (1941). Average excess and average effect of a gene
@@ -3614,6 +3605,14 @@ Evolution of sex}. Oxford University Press.
 Hamilton, W.D. \& Zuk, M. (1982). Heritable true fitness and bright
 birds: A role for parasites? \emph{Science}, 218, 384--387.
 
+\bibitem[\citeproctext]{ref-hazel2004a}
+Hazel, W., Smock, R. \& Lively, C.M. (2004). The ecological genetics of
+conditional strategies. \emph{American Naturalist}, 163, 888--900.
+
+\bibitem[\citeproctext]{ref-hill1966a}
+Hill, W.G. \& Robertson, A. (1966). The effect of linkage on limits to
+artificial selection. \emph{Genetics Research}, 8, 269--294.
+
 \bibitem[\citeproctext]{ref-howard1994b}
 Howard, R.S. \& Lively, C.M. (1994a). Erratum: Parasitism, mutation
 accumulation and the maintenance of sex. \emph{Nature}, 368, 358.
@@ -3639,6 +3638,10 @@ population cycles by parasite removal. \emph{Science}, 282, 2256--2258.
 \bibitem[\citeproctext]{ref-jaenike1978a}
 Jaenike, J. (1978). A hypothesis to account for the maintenance of sex
 within populations. \emph{Evolutionary Theory}, 3, 191--194.
+
+\bibitem[\citeproctext]{ref-jajszczok2017a}
+Jajszczok, J. (2017). The parasite and parasitism in victorian science
+and literature. PhD thesis. Uniwersytet Śląski, Katowice.
 
 \bibitem[\citeproctext]{ref-judson1994a}
 Judson, O.P. (1994). The rise of the individual-based model in ecology.
@@ -3677,9 +3680,22 @@ of amphimixis. \emph{Journal of Heredity}, 84, 372--387.
 Kuhn, T.S. (1970). \emph{The structure of scientific revolutions}. 2nd
 edn. University of Chicago Press.
 
+\bibitem[\citeproctext]{ref-lampert2010a}
+Lampert, K.P. \& Schartl, M. (2010). A little bit is better than
+nothing: The incomplete parthenogenesis of salamanders, frogs and fish.
+\emph{Bmc Biology}, 8, 78.
+
+\bibitem[\citeproctext]{ref-lawrence2009a}
+Lawrence, C.R. (2009). \href{https://hdl.handle.net/10776/1745}{Charles
+bonnet (1720-1793)}.
+
 \bibitem[\citeproctext]{ref-lehtonen2012a}
 Lehtonen, J., Jennions, M.D. \& Kokko, H. (2012). The many costs of sex.
 \emph{Trends in Ecology \& Evolution}, 27, 172--178.
+
+\bibitem[\citeproctext]{ref-lerner1954a}
+Lerner, I.M. (1954). \emph{Genetic homeostasis}. John Wiley; Sons, Inc,
+New York.
 
 \bibitem[\citeproctext]{ref-levene1953a}
 Levene, H. (1953). Genetic equilibrium when more than one ecological
@@ -3788,6 +3804,11 @@ Lively, C.M., Dybdahl, M.F., Jokela, J., Osnas, E.E. \& Delph, L.F.
 (2004). Host sex and local adaptation by parasites in a snail-trematode
 interaction. \emph{American Naturalist}, 164, S6--S18.
 
+\bibitem[\citeproctext]{ref-lively2000a}
+Lively, C.M., Hazel, W.N., Schellenberger, M.J. \& Michelson, K.S.
+(2000). Predator-induced defense: Variation for inducibility in an
+intertidal barnacle. \emph{Ecology}, 81, 1240--1247.
+
 \bibitem[\citeproctext]{ref-lively1994a}
 Lively, C.M. \& Howard, R.S. (1994).
 \href{https://doi.org/10.1098/rstb.1994.0144}{Selection by parasites for
@@ -3887,6 +3908,11 @@ Moore, J. (1984). Altered behavioral responses in intermediate hosts: An
 acanthocephalan parasite strategy. \emph{American Naturalist}, 123,
 572--577.
 
+\bibitem[\citeproctext]{ref-moore1971a}
+Moore, W.S. \& McKay, F.E. (1971). Coexistence in unisexual-bisexual
+species complexes of poeciliopsis (pisces: poeciliidae). \emph{Ecology},
+52, 791--799.
+
 \bibitem[\citeproctext]{ref-muller1964a}
 Muller, H.J. (1964). The relation of recombination to mutational
 advance. \emph{Mutation Research}, 1, 2--9.
@@ -3946,10 +3972,20 @@ Popper, K. (1959). \emph{The logic of scientific discovery}. Hutchinson
 Prout, T. (1968). Sufficient conditions for multiple niche polymorphism.
 \emph{The American Naturalist}, 102, 493--496.
 
+\bibitem[\citeproctext]{ref-roughgarden1972a}
+Roughgarden, J. (1972). Evolution of niche width. \emph{American
+Naturalist}, 106, 683--718.
+
 \bibitem[\citeproctext]{ref-salathe2008a}
 Salathe, M., Kouyos, R.D., Regoes, R.R. \& Bonhoeffer, S. (2008). Rapid
 parasite adaptation drives selection for high recombination rates.
 \emph{Evolution}, 62, 295--300.
+
+\bibitem[\citeproctext]{ref-Schenck1986a}
+Schenck, R.A. \& Vrijenhoek, R.C. (1986).
+\href{https://doi.org/10.1111/j.1558-5646.1986.tb00573.x}{Spatial and
+temporal factors affecting coexistence among sexual and clonal forms of
+\emph{{P}oeciliopsis}}. \emph{Evolution}, 40, 1060--1070.
 
 \bibitem[\citeproctext]{ref-schmid-hempel2002a}
 Schmid-Hempel, P. \& Jokela, J. (2002). Socially structured populations
@@ -3973,6 +4009,12 @@ mathematician {Lewis Carroll}}.
 
 \bibitem[\citeproctext]{ref-sobels1964a}
 Sobels, F.H. (1964). Preface. \emph{Mutation Research}, 1, 1.
+
+\bibitem[\citeproctext]{ref-soper2013a}
+Soper, D.M., Neiman, M., Savytskyy, O.P., Zolan, M.E. \& Lively, C.M.
+(2013). Spermatozoa production by triploid males in the {New Zealand}
+freshwater snail \emph{{P}otamopyrgus antipodarum}. \emph{Biological
+Journal of the Linnean Society}, 110, 227--234.
 
 \bibitem[\citeproctext]{ref-stearns2000a}
 Stearns, S.C. (2000). {Daniel Bernoulli} (1738): Evolution and economics
@@ -4016,6 +4058,13 @@ Martens, K. \& Dijk, P.). Springer, London, pp. 99--131.
 \bibitem[\citeproctext]{ref-wallace1975a}
 Wallace, B. (1975). Hard and soft selection revisited. \emph{Evolution},
 29, 465--473.
+
+\bibitem[\citeproctext]{ref-weeks1996a}
+Weeks, S.C. (1996). \href{https://doi.org/10.1139/f96-041}{A
+reevaluation of the {Red Queen} model for the maintenance of sex in a
+clonal-sexual fish complex ({Poeciliidae}: \emph{{P}oeciliopsis})}.
+\emph{Canadian Journal of Fisheries and Aquatic Sciences}, 53,
+1157--1164.
 
 \bibitem[\citeproctext]{ref-west1999a}
 West, S.A., Lively, C.M. \& Read, A.F. (1999). A pluralist approach to

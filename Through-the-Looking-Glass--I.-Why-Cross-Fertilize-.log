@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.6)  12 DEC 2023 12:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.6)  12 DEC 2023 15:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -805,7 +805,7 @@ Underfull \vbox (badness 1715) has occurred while \output is active []
 
 ] [2]
 \bbl@ensure@american {Chapter} 1.
-<images/fig1-1.png, id=226, 162.6075pt x 205.4877pt>
+<images/fig1-1.png, id=228, 162.6075pt x 205.4877pt>
 File: images/fig1-1.png Graphic file (type png)
 <use images/fig1-1.png>
 Package pdftex.def Info: images/fig1-1.png  used on input line 288.
@@ -813,13 +813,13 @@ Package pdftex.def Info: images/fig1-1.png  used on input line 288.
 [3
 
  <./images/fig1-1.png (PNG copy)>] [4]
-<images/fig1-2.jpg, id=244, 294.1389pt x 360.3864pt>
+<images/fig1-2.jpg, id=246, 294.1389pt x 360.3864pt>
 File: images/fig1-2.jpg Graphic file (type jpg)
 <use images/fig1-2.jpg>
 Package pdftex.def Info: images/fig1-2.jpg  used on input line 383.
 (pdftex.def)             Requested size: 258.75774pt x 317.03651pt.
  [5{c:/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}] [6 <./images/fig1-2.jpg>]
-<images/fig1-3_hr.png, id=261, 261.3765pt x 372.9132pt>
+<images/fig1-3_hr.png, id=263, 261.3765pt x 372.9132pt>
 File: images/fig1-3_hr.png Graphic file (type png)
 <use images/fig1-3_hr.png>
 Package pdftex.def Info: images/fig1-3_hr.png  used on input line 448.
@@ -829,39 +829,42 @@ Package pdftex.def Info: images/fig1-3_hr.png  used on input line 448.
 LaTeX Warning: Float too large for page by 24.91228pt on input line 475.
 
 [7] [8 <./images/fig1-3_hr.png>]
-<images/fig1-4.jpg, id=279, 614.295pt x 273.9033pt>
+<images/fig1-4.jpg, id=281, 614.295pt x 273.9033pt>
 File: images/fig1-4.jpg Graphic file (type jpg)
 <use images/fig1-4.jpg>
-Package pdftex.def Info: images/fig1-4.jpg  used on input line 533.
+Package pdftex.def Info: images/fig1-4.jpg  used on input line 532.
 (pdftex.def)             Requested size: 345.0058pt x 153.83199pt.
  [9 <./images/fig1-4.jpg>] [10] [11{c:/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}] [12{c:/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
 \bbl@ensure@american {Chapter} 2.
-<images/fig2-1.jpeg, id=314, 302.0886pt x 201.1515pt>
+<images/fig2-1.jpeg, id=316, 302.0886pt x 201.1515pt>
 File: images/fig2-1.jpeg Graphic file (type jpg)
 <use images/fig2-1.jpeg>
-Package pdftex.def Info: images/fig2-1.jpeg  used on input line 731.
+Package pdftex.def Info: images/fig2-1.jpeg  used on input line 730.
 (pdftex.def)             Requested size: 302.10167pt x 201.1602pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [13
 
- <./images/fig2-1.jpeg>] [14] [15] [16]
-<images/fig2-2_hr.png, id=347, 365.6862pt x 353.6412pt>
+ <./images/fig2-1.jpeg>] [14]
+Overfull \vbox (0.3579pt too high) has occurred while \output is active []
+
+ [15] [16]
+<images/fig2-2_hr.png, id=349, 365.6862pt x 353.6412pt>
 File: images/fig2-2_hr.png Graphic file (type png)
 <use images/fig2-2_hr.png>
-Package pdftex.def Info: images/fig2-2_hr.png  used on input line 966.
+Package pdftex.def Info: images/fig2-2_hr.png  used on input line 964.
 (pdftex.def)             Requested size: 345.02287pt x 333.65846pt.
  [17] [18 <./images/fig2-2_hr.png>] [19]
-<images/fig2-3_hr.png, id=374, 366.8907pt x 454.3374pt>
+<images/fig2-3_hr.png, id=376, 366.8907pt x 454.3374pt>
 File: images/fig2-3_hr.png Graphic file (type png)
 <use images/fig2-3_hr.png>
-Package pdftex.def Info: images/fig2-3_hr.png  used on input line 1070.
+Package pdftex.def Info: images/fig2-3_hr.png  used on input line 1068.
 (pdftex.def)             Requested size: 345.01164pt x 427.24359pt.
-<images/fig2-4_hr.png, id=376, 571.1739pt x 381.5856pt>
+<images/fig2-4_hr.png, id=378, 571.1739pt x 381.5856pt>
 File: images/fig2-4_hr.png Graphic file (type png)
 <use images/fig2-4_hr.png>
-Package pdftex.def Info: images/fig2-4_hr.png  used on input line 1111.
+Package pdftex.def Info: images/fig2-4_hr.png  used on input line 1109.
 (pdftex.def)             Requested size: 345.00784pt x 230.49026pt.
  [20] [21 <./images/fig2-3_hr.png>] [22 <./images/fig2-4_hr.png>] [23] [24] [25] [26]
 Overfull \hbox (28.93024pt too wide) has occurred while \output is active
@@ -869,30 +872,30 @@ Overfull \hbox (28.93024pt too wide) has occurred while \output is active
  []
 
 [27{c:/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
-Overfull \hbox (4.04872pt too wide) in paragraph at lines 1442--1443
+Overfull \hbox (4.04872pt too wide) in paragraph at lines 1440--1441
 []\T1/lmr/m/n/10 (-20) Genotype  
  []
 
 
-Overfull \hbox (4.04872pt too wide) in paragraph at lines 1456--1457
+Overfull \hbox (4.04872pt too wide) in paragraph at lines 1454--1455
 []\T1/lmr/m/n/10 (-20) Genotype  
  []
 
 
-Overfull \hbox (4.49284pt too wide) in paragraph at lines 1504--1505
+Overfull \hbox (4.49284pt too wide) in paragraph at lines 1502--1503
 []\T1/lmr/m/n/10 (-20) Genotype  
  []
 
 
-Overfull \hbox (4.49284pt too wide) in paragraph at lines 1518--1519
+Overfull \hbox (4.49284pt too wide) in paragraph at lines 1516--1517
 []\T1/lmr/m/n/10 (-20) Genotype  
  []
 
 [28]
-<images/fig2-5_hr.png, id=456, 594.7821pt x 343.0416pt>
+<images/fig2-5_hr.png, id=452, 594.7821pt x 343.0416pt>
 File: images/fig2-5_hr.png Graphic file (type png)
 <use images/fig2-5_hr.png>
-Package pdftex.def Info: images/fig2-5_hr.png  used on input line 1551.
+Package pdftex.def Info: images/fig2-5_hr.png  used on input line 1549.
 (pdftex.def)             Requested size: 345.01016pt x 198.98518pt.
 
 Overfull \hbox (28.93024pt too wide) has occurred while \output is active
@@ -903,47 +906,47 @@ Overfull \hbox (28.93024pt too wide) has occurred while \output is active
 
 ]
 \bbl@ensure@american {Chapter} 3.
-<images/fig3-1.jpeg, id=468, 145.0218pt x 204.2832pt>
+<images/fig3-1.jpeg, id=464, 145.0218pt x 204.2832pt>
 File: images/fig3-1.jpeg Graphic file (type jpg)
 <use images/fig3-1.jpeg>
-Package pdftex.def Info: images/fig3-1.jpeg  used on input line 1565.
+Package pdftex.def Info: images/fig3-1.jpeg  used on input line 1563.
 (pdftex.def)             Requested size: 138.00226pt x 194.39522pt.
 [31 <./images/fig3-1.jpeg>]
-<images/fig3-2.jpeg, id=480, 614.295pt x 794.97pt>
+<images/fig3-2.jpeg, id=476, 614.295pt x 794.97pt>
 File: images/fig3-2.jpeg Graphic file (type jpg)
 <use images/fig3-2.jpeg>
-Package pdftex.def Info: images/fig3-2.jpeg  used on input line 1620.
+Package pdftex.def Info: images/fig3-2.jpeg  used on input line 1618.
 (pdftex.def)             Requested size: 137.99481pt x 178.58153pt.
-<images/fig3-3.jpeg, id=481, 465.9006pt x 520.8258pt>
+<images/fig3-3.jpeg, id=477, 465.9006pt x 520.8258pt>
 File: images/fig3-3.jpeg Graphic file (type jpg)
 <use images/fig3-3.jpeg>
-Package pdftex.def Info: images/fig3-3.jpeg  used on input line 1641.
+Package pdftex.def Info: images/fig3-3.jpeg  used on input line 1639.
 (pdftex.def)             Requested size: 137.99399pt x 154.26215pt.
  [32] [33 <./images/fig3-2.jpeg> <./images/fig3-3.jpeg>] [34]
-<images/fig3-4.jpeg, id=505, 1284.8pt x 857.2025pt>
+<images/fig3-4.jpeg, id=501, 1284.8pt x 857.2025pt>
 File: images/fig3-4.jpeg Graphic file (type jpg)
 <use images/fig3-4.jpeg>
-Package pdftex.def Info: images/fig3-4.jpeg  used on input line 1742.
+Package pdftex.def Info: images/fig3-4.jpeg  used on input line 1740.
 (pdftex.def)             Requested size: 344.99901pt x 230.17902pt.
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1759.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1757.
  (c:/texlive/2023/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [35{c:/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc} <./images/fig3-4.jpeg>] [36] [37] [38] [39]
-<images/fig3-5_hr.png, id=547, 590.9277pt x 584.4234pt>
+<images/fig3-5_hr.png, id=543, 590.9277pt x 584.4234pt>
 File: images/fig3-5_hr.png Graphic file (type png)
 <use images/fig3-5_hr.png>
-Package pdftex.def Info: images/fig3-5_hr.png  used on input line 2031.
+Package pdftex.def Info: images/fig3-5_hr.png  used on input line 2029.
 (pdftex.def)             Requested size: 345.01054pt x 341.21303pt.
-<images/fig3-6_hr.png, id=550, 614.295pt x 794.97pt>
+<images/fig3-6_hr.png, id=546, 614.295pt x 794.97pt>
 File: images/fig3-6_hr.png Graphic file (type png)
 <use images/fig3-6_hr.png>
-Package pdftex.def Info: images/fig3-6_hr.png  used on input line 2055.
+Package pdftex.def Info: images/fig3-6_hr.png  used on input line 2053.
 (pdftex.def)             Requested size: 345.0058pt x 446.4781pt.
  [40] [41 <./images/fig3-5_hr.png>] [42 <./images/fig3-6_hr.png>] [43]
-<images/fig3-7_hr.png, id=589, 606.8271pt x 315.3381pt>
+<images/fig3-7_hr.png, id=585, 606.8271pt x 315.3381pt>
 File: images/fig3-7_hr.png Graphic file (type png)
 <use images/fig3-7_hr.png>
-Package pdftex.def Info: images/fig3-7_hr.png  used on input line 2196.
+Package pdftex.def Info: images/fig3-7_hr.png  used on input line 2194.
 (pdftex.def)             Requested size: 345.00613pt x 179.28265pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -952,21 +955,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 \bbl@ensure@american {Chapter} 4.
-<images/fig4-1.jpeg, id=608, 132.0132pt x 123.5817pt>
+<images/fig4-1.jpeg, id=604, 132.0132pt x 123.5817pt>
 File: images/fig4-1.jpeg Graphic file (type jpg)
 <use images/fig4-1.jpeg>
-Package pdftex.def Info: images/fig4-1.jpeg  used on input line 2204.
+Package pdftex.def Info: images/fig4-1.jpeg  used on input line 2202.
 (pdftex.def)             Requested size: 172.51552pt x 161.49718pt.
 [47 <./images/fig4-1.jpeg>]
-<images/fig4-2.jpeg, id=617, 614.295pt x 431.211pt>
+<images/fig4-2.jpeg, id=613, 614.295pt x 431.211pt>
 File: images/fig4-2.jpeg Graphic file (type jpg)
 <use images/fig4-2.jpeg>
-Package pdftex.def Info: images/fig4-2.jpeg  used on input line 2278.
+Package pdftex.def Info: images/fig4-2.jpeg  used on input line 2276.
 (pdftex.def)             Requested size: 345.0058pt x 242.18054pt.
-<images/fig4-3.jpg, id=618, 323.7696pt x 370.0224pt>
+<images/fig4-3.jpg, id=614, 323.7696pt x 370.0224pt>
 File: images/fig4-3.jpg Graphic file (type jpg)
 <use images/fig4-3.jpg>
-Package pdftex.def Info: images/fig4-3.jpg  used on input line 2298.
+Package pdftex.def Info: images/fig4-3.jpg  used on input line 2296.
 (pdftex.def)             Requested size: 323.78363pt x 370.03842pt.
 
 Overfull \hbox (31.08339pt too wide) has occurred while \output is active
@@ -979,16 +982,16 @@ Overfull \hbox (31.08339pt too wide) has occurred while \output is active
  []
 
 [50 <./images/fig4-3.jpg>]
-<images/fig4-4.png, id=633, 602.7318pt x 360.6273pt>
+<images/fig4-4.png, id=629, 602.7318pt x 360.6273pt>
 File: images/fig4-4.png Graphic file (type png)
 <use images/fig4-4.png>
-Package pdftex.def Info: images/fig4-4.png  used on input line 2334.
+Package pdftex.def Info: images/fig4-4.png  used on input line 2332.
 (pdftex.def)             Requested size: 345.00461pt x 206.42361pt.
  [51 <./images/fig4-4.png>]
-<images/fig4-5.png, id=641, 605.6226pt x 356.2911pt>
+<images/fig4-5.png, id=637, 605.6226pt x 356.2911pt>
 File: images/fig4-5.png Graphic file (type png)
 <use images/fig4-5.png>
-Package pdftex.def Info: images/fig4-5.png  used on input line 2373.
+Package pdftex.def Info: images/fig4-5.png  used on input line 2371.
 (pdftex.def)             Requested size: 345.0144pt x 202.97386pt.
 
 Overfull \hbox (31.08339pt too wide) has occurred while \output is active
@@ -996,10 +999,10 @@ Overfull \hbox (31.08339pt too wide) has occurred while \output is active
  []
 
 [52 <./images/fig4-5.png>]
-<images/fig4-6.png, id=648, 604.1772pt x 613.3314pt>
+<images/fig4-6.png, id=644, 604.1772pt x 613.3314pt>
 File: images/fig4-6.png Graphic file (type png)
 <use images/fig4-6.png>
-Package pdftex.def Info: images/fig4-6.png  used on input line 2431.
+Package pdftex.def Info: images/fig4-6.png  used on input line 2429.
 (pdftex.def)             Requested size: 345.00224pt x 350.22955pt.
  [53]
 Overfull \hbox (31.08339pt too wide) has occurred while \output is active
@@ -1007,14 +1010,11 @@ Overfull \hbox (31.08339pt too wide) has occurred while \output is active
  []
 
 [54 <./images/fig4-6.png>]
-<images/fig4-7.jpeg, id=662, 474.8139pt x 495.5313pt>
+<images/fig4-7.jpeg, id=658, 474.8139pt x 495.5313pt>
 File: images/fig4-7.jpeg Graphic file (type jpg)
 <use images/fig4-7.jpeg>
-Package pdftex.def Info: images/fig4-7.jpeg  used on input line 2529.
+Package pdftex.def Info: images/fig4-7.jpeg  used on input line 2526.
 (pdftex.def)             Requested size: 344.99562pt x 360.04869pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [55]
 Overfull \hbox (31.08339pt too wide) has occurred while \output is active
 \T1/lmr/m/n/10 56 [][]\T1/lmr/m/sl/10 CHAPTER[] 4.  SELF- / NON-SELF-RECOGNITION AND LOCAL ADAPTATION[]
@@ -1029,75 +1029,75 @@ Overfull \hbox (31.08339pt too wide) has occurred while \output is active
 
 ]
 \bbl@ensure@american {Chapter} 5.
-<images/fig5-1.jpeg, id=684, 324.4923pt x 116.5956pt>
+<images/fig5-1.jpeg, id=680, 324.4923pt x 116.5956pt>
 File: images/fig5-1.jpeg Graphic file (type jpg)
 <use images/fig5-1.jpeg>
-Package pdftex.def Info: images/fig5-1.jpeg  used on input line 2573.
+Package pdftex.def Info: images/fig5-1.jpeg  used on input line 2570.
 (pdftex.def)             Requested size: 324.4915pt x 116.5953pt.
 [59 <./images/fig5-1.jpeg>] [60]
-<images/fig5-2.png, id=701, 614.295pt x 794.97pt>
+<images/fig5-2.png, id=697, 614.295pt x 794.97pt>
 File: images/fig5-2.png Graphic file (type png)
 <use images/fig5-2.png>
-Package pdftex.def Info: images/fig5-2.png  used on input line 2674.
+Package pdftex.def Info: images/fig5-2.png  used on input line 2671.
 (pdftex.def)             Requested size: 345.0058pt x 446.4781pt.
-<images/fig5-3.png, id=702, 597.432pt x 610.6815pt>
+<images/fig5-3.png, id=698, 597.432pt x 610.6815pt>
 File: images/fig5-3.png Graphic file (type png)
 <use images/fig5-3.png>
-Package pdftex.def Info: images/fig5-3.png  used on input line 2693.
+Package pdftex.def Info: images/fig5-3.png  used on input line 2690.
 (pdftex.def)             Requested size: 345.00665pt x 352.65802pt.
  [61] [62 <./images/fig5-2.png>] [63 <./images/fig5-3.png>]
-<images/fig5-4.png, id=722, 614.295pt x 794.97pt>
+<images/fig5-4.png, id=718, 614.295pt x 794.97pt>
 File: images/fig5-4.png Graphic file (type png)
 <use images/fig5-4.png>
-Package pdftex.def Info: images/fig5-4.png  used on input line 2754.
+Package pdftex.def Info: images/fig5-4.png  used on input line 2750.
 (pdftex.def)             Requested size: 345.0058pt x 446.4781pt.
 
 
-LaTeX Warning: Float too large for page by 38.4781pt on input line 2773.
+LaTeX Warning: Float too large for page by 38.4781pt on input line 2769.
 
 [64] [65 <./images/fig5-4.png>] [66
 
 ]
 \bbl@ensure@american {Chapter} 6.
-<images/fig6-1.jpeg, id=738, 162.3666pt x 218.2554pt>
+<images/fig6-1.jpeg, id=734, 162.3666pt x 218.2554pt>
 File: images/fig6-1.jpeg Graphic file (type jpg)
 <use images/fig6-1.jpeg>
-Package pdftex.def Info: images/fig6-1.jpeg  used on input line 2817.
+Package pdftex.def Info: images/fig6-1.jpeg  used on input line 2813.
 (pdftex.def)             Requested size: 138.00233pt x 185.50462pt.
 [67 <./images/fig6-1.jpeg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [68] [69] [70]
-<images/fig6-2.png, id=765, 609.9588pt x 379.6584pt>
+<images/fig6-2.png, id=761, 609.9588pt x 379.6584pt>
 File: images/fig6-2.png Graphic file (type png)
 <use images/fig6-2.png>
-Package pdftex.def Info: images/fig6-2.png  used on input line 3012.
+Package pdftex.def Info: images/fig6-2.png  used on input line 3008.
 (pdftex.def)             Requested size: 345.00896pt x 214.7449pt.
-<images/fig6-3.png, id=766, 604.1772pt x 372.4314pt>
+<images/fig6-3.png, id=762, 604.1772pt x 372.4314pt>
 File: images/fig6-3.png Graphic file (type png)
 <use images/fig6-3.png>
-Package pdftex.def Info: images/fig6-3.png  used on input line 3029.
+Package pdftex.def Info: images/fig6-3.png  used on input line 3027.
 (pdftex.def)             Requested size: 345.00224pt x 212.66884pt.
  [71 <./images/fig6-2.png>] [72 <./images/fig6-3.png>]
-<images/fig6-4.png, id=780, 614.295pt x 794.97pt>
+<images/fig6-4.png, id=776, 614.295pt x 794.97pt>
 File: images/fig6-4.png Graphic file (type png)
 <use images/fig6-4.png>
-Package pdftex.def Info: images/fig6-4.png  used on input line 3074.
+Package pdftex.def Info: images/fig6-4.png  used on input line 3072.
 (pdftex.def)             Requested size: 345.0058pt x 446.4781pt.
 
 
-LaTeX Warning: Float too large for page by 38.4781pt on input line 3093.
+LaTeX Warning: Float too large for page by 38.4781pt on input line 3091.
 
 [73] [74 <./images/fig6-4.png>]
-<images/fig6-5.png, id=797, 604.1772pt x 585.6279pt>
+<images/fig6-5.png, id=793, 604.1772pt x 585.6279pt>
 File: images/fig6-5.png Graphic file (type png)
 <use images/fig6-5.png>
-Package pdftex.def Info: images/fig6-5.png  used on input line 3141.
+Package pdftex.def Info: images/fig6-5.png  used on input line 3139.
 (pdftex.def)             Requested size: 345.00224pt x 334.41008pt.
-<images/fig6-6.png, id=801, 608.9952pt x 598.8774pt>
+<images/fig6-6.png, id=797, 608.9952pt x 598.8774pt>
 File: images/fig6-6.png Graphic file (type png)
 <use images/fig6-6.png>
-Package pdftex.def Info: images/fig6-6.png  used on input line 3184.
+Package pdftex.def Info: images/fig6-6.png  used on input line 3182.
 (pdftex.def)             Requested size: 345.01218pt x 339.28017pt.
  [75] [76 <./images/fig6-5.png>] [77 <./images/fig6-6.png>] [78] [79] [80] [81] [82
 
@@ -1114,18 +1114,18 @@ L3 programming layer <2023-11-09>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 31005 strings out of 474266
- 598485 string characters out of 5751438
- 1943558 words of memory out of 5000000
- 51991 multiletter control sequences out of 15000+600000
- 655578 words of font info for 249 fonts, out of 8000000 for 9000
+ 31015 strings out of 474266
+ 598617 string characters out of 5751438
+ 1944558 words of memory out of 5000000
+ 51993 multiletter control sequences out of 15000+600000
+ 655830 words of font info for 252 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  86i,11n,89p,1110b,669s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmro10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy7.pfb>
-Output written on Through-the-Looking-Glass--I.-Why-Cross-Fertilize-.pdf (100 pages, 12203103 bytes).
+Output written on Through-the-Looking-Glass--I.-Why-Cross-Fertilize-.pdf (100 pages, 12204189 bytes).
 PDF statistics:
- 1385 PDF objects out of 1440 (max. 8388607)
- 1171 compressed objects within 12 object streams
- 390 named destinations out of 1000 (max. 500000)
+ 1386 PDF objects out of 1440 (max. 8388607)
+ 1172 compressed objects within 12 object streams
+ 392 named destinations out of 1000 (max. 500000)
  51738 words of extra memory for PDF output out of 61914 (max. 10000000)
 

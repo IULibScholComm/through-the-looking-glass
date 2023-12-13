@@ -32,7 +32,7 @@
 \contentsline {chapter}{\numberline {4}Self- / Non-Self-Recognition and Local Adaptation}{47}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Experimental Studies of Local Adaption}{48}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Self- / Non-Self-Recognition}{53}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Summary}{57}{section.4.3}%
+\contentsline {section}{\numberline {4.3}Summary}{55}{section.4.3}%
 \contentsline {chapter}{\numberline {5}Gynogenetic Fish}{59}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Appendix: Red Queen Hypothesis Predictions}{64}{section.5.1}%
 \contentsline {chapter}{\numberline {6}The Ratchet and the Red Queen}{67}{chapter.6}%
