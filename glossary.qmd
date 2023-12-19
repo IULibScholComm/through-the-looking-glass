@@ -1,4 +1,4 @@
-# Glossary {#sec-glossary}
+# Glossary {.unnumbered #sec-glossary}
 
 **Short definitions of terms as used in this book. These definitions do not include all possible nuances.**
 

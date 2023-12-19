@@ -73,10 +73,6 @@ book:
     - glossary.qmd
     - references.qmd
 
-    
-
-
-
 citation:
   type: book
   medium: digital
@@ -118,7 +114,31 @@ format:
     output: true
     include-in-header: 
       - text: <meta name="google-site-verification" content="eJHds-HZowhP4fOmzTkps1RTCDKNi3ViSQ2BSaFVA7Y" />
-  pdf:
+
+  titlepage-pdf:
+    coverpage: true
+    coverpage-bg-image: "images/cover.png"
+    coverpage-theme:
+      title-style: none
+      author-style: none
+      date-style: "none"
+    titlepage: true
+    titlepage-logo: "images/libraries_lockup_WEB_h3.png"
+    titlepage-geometry: ["top=3in", "bottom=1.5in", "right=1in", "left=1in"]
+    titlepage-footer: | # text
+      Indiana University Bloomington Libraries Publishing\
+      Bloomington, Indiana
+    titlepage-theme:
+      elements: ["\\titleblock", "\\authorblock", "\\Large Illustrated by Zoe Michelle Dinges", "\\vfill", "\\logoblock", "\\footerblock"]
+      title-style: "plain"
+      footer-fontfamily: QTHelvetCnd.otf
+      title-fontstyle: ["Huge", "textbf"]
+      title-space-after: 1.5cm
+      author-style: "plain"
+      author-fontsize: 20
+      affiliation-style: "none"
+      logo-size: "0.5\\paperwidth"
+      footer-fontsize: 15
     documentclass: book
     keep-tex: true
     toc: true
@@ -139,6 +159,11 @@ format:
     code-block-border-left: "#31BAE9"
     highlight-style: a11y
     output: true
+    header-includes: |
+      \widowpenalty=10000         % avoid widows
+      \clubpenalty=10000          % avoid orphans
+      \interfootnotelinepenalty=10000 % avoid footnote splitting across pages
+      \usepackage[scale=3.5]{ccicons}
   epub:
     epub-cover-image: images/cover.png
     html-q-tags: true

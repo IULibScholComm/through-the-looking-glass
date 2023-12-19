@@ -259,7 +259,7 @@ Set up the demos
     end
   end
 
--- set the coverpage values unless user passed them in
+-- set the coverpage values unless user passed them in as coverpage-key
   for key, val in pairs({"title", "author", "date"}) do
     if isEmpty(m['coverpage-' .. val]) then
       if not isEmpty(m[val]) then
@@ -268,15 +268,19 @@ Set up the demos
     end
   end
 -- make a bit more robust to whatever user passes in for coverpage-author
-  for key, val in pairs(m['coverpage-author']) do
-     m['coverpage-author'][key] = getVal(m['coverpage-author'][key])
+  if not isEmpty(m['coverpage-author']) then
+    for key, val in pairs(m['coverpage-author']) do
+      m['coverpage-author'][key] = getVal(m['coverpage-author'][key])
+    end
   end
 
 -- fix "true" to figure out what was passed in
   if choice == "true" then
     for key, val in pairs({"title", "author", "footer", "header", "date"}) do
       if not isEmpty(m['coverpage-' .. val]) then
-        m['coverpage-theme'][val .. "-style"] = "plain"
+        if isEmpty(m['coverpage-theme'][val .. "-style"]) then
+          m['coverpage-theme'][val .. "-style"] = "plain"
+        end
       else
         m['coverpage-theme'][val .. "-style"] = "none"
       end
