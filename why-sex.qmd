@@ -1,4 +1,4 @@
-![](images/fig1-1.png){width=40% fig-align="center" fig-alt="Drawing of elderly Darwin with his hand on his face"}
+![](images/fig1-1.jpeg){width=40% fig-align="center" fig-alt="Drawing of elderly Darwin with his hand on his face"}
 
 # Why Sex? {#sec-why-sex}
 
