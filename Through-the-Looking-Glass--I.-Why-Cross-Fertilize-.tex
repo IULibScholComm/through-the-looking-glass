@@ -166,7 +166,7 @@
 \makeatletter
 \makeatother
 \makeatletter
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[interior hidden, breakable, boxrule=0pt, enhanced, borderline west={3pt}{0pt}{shadecolor}, sharp corners, frame hidden]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[interior hidden, sharp corners, enhanced, breakable, frame hidden, boxrule=0pt, borderline west={3pt}{0pt}{shadecolor}]}{\end{tcolorbox}}\fi
 \makeatother
 
 \usepackage{hyphenat}
@@ -226,7 +226,7 @@
 
 \title{Through the Looking Glass: I. Why Cross-Fertilize?}
 \author{Curtis M. Lively}
-\date{19 December 2023}
+\date{20 December 2023}
 
 \begin{document}
 %%%%% begin titlepage extension code
@@ -297,7 +297,7 @@ Indiana University Bloomington Libraries Publishing\\
 Bloomington, Indiana}
 }
 \newcommand{\datestyled}{%
-{19 December 2023}
+{20 December 2023}
 }
 
 
@@ -2860,12 +2860,10 @@ the number of parasitic cysts than the asexual fish, which makes sense
 if the sexual population contained genetic variation for resistance to
 infection. So, after correcting for size, the sexual fish were both less
 infected and showed more variation in infection than the clone
-2.\footnote{In a follow up study, using independent samples, Steve Weeks
-  (one of Vrijenhoek's PhD students) was unable to replicate some of our
-  results (Weeks 1996). However, his sample sizes were very low,
-  especially for clonal fish, suggesting that his power to detect
-  differences was compromised.} This seemed very promising for the Red
-Queen.
+2.\footnote{In a follow-up study (using different samples), Weeks (Weeks
+  1996) did not find some of our significant effects. His sample sizes,
+  however, were small, suggesting that his power to detect differences
+  was low.} This seemed very promising for the Red Queen.
 
 Similar results were observed in a second pool (Sandal Pool) in which
 both clones coexisted. In this pool, clone 2 was more common than clone
@@ -2980,42 +2978,34 @@ for Log Pool. Redrawn from Lively et al. (1990).}
 
 \end{figure}%
 
-\section{Appendix: Red Queen Hypothesis Predictions}\label{sec-app-5}
+\section{Appendix: Within Versus Between Populations}\label{sec-app-5}
 
-It can be a bit confusing, but I think that the prediction of the Red
-Queen Hypothesis changes depending on whether one is looking
-\textbf{within versus between populations}. In
-Chapter~\ref{sec-eco-hyp-cont}, I suggested that snail populations
-having more parasites should be more likely to have some sexual
-reproduction. Here I am suggesting that asexual fish would be expected
-to have more parasites. How does that work?
+It can be a bit confusing, but I think that the predictions of the Red
+Queen Hypothesis depend on whether one is looking \textbf{within versus
+between populations}. In Chapter~\ref{sec-eco-hyp-cont}, I suggested
+that snail populations having more parasites should be more likely to
+have some sexual reproduction. Here I am suggesting that asexual fish
+would be expected to have more parasites. How does that work?
 
-\textbf{Between populations} we would expect to find that regions
-without parasites would evolve to reproduce by parthenogenesis. That
-would tend to suggest that sex would be positively correlated with
-infection prevalence. The pattern would be expected to be messy, and it
-may not be found due to time lags, even in cases where parasites are the
-major driving force for sex, as suggested elsewhere (Lively \emph{et
-al.} 2021). Nonetheless, the common expectation is that sex would be
-more common where there has been a history of strong parasite-mediated
-selection.
+\textbf{Between populations} we would expect to find that host
+populations without coevolving parasites would evolve to reproduce by
+parthenogenesis. As such, sex should be positively correlated with
+infection prevalence. The pattern, however, would be expected to be
+messy, even in cases where parasites are the major driving force for sex
+(Lively \emph{et al.} 2021). Nonetheless, the common expectation is that
+sex should be more common in host populations having a history of strong
+parasite-mediated selection against common genotypes.
 
-\textbf{Within populations} we might expect for asexuals to be more
-infected than sexuals, at least periodically. This sounds different from
-the expectation for between-population samples, but it is part of the
-same logic. If parasites are tracking common clones, then the common
-asexual genotypes within a population should be more infected,
-potentially resulting in a higher average prevalence of infection in the
-asexual population, even when there is more than one clone present. On
-the other hand, we expect sexual populations to have more parasites.
-
-These may sound like different predictions, but they go together. If
-there are few or no parasites, asexuals should win. If there are
-abundant parasites, sex should be maintained, perhaps in mixed
-populations of sexuals and asexuals. In mixed populations, we would
-expect common asexual genotypes to be more infected than sexual females,
-at least periodically. (Note that infection in males is not important,
-unless females become sperm limited.)
+\textbf{Within populations} the most common host genotypes should be
+more infected, at least periodically. Hence the most common clonal
+genotypes should be more infected than cross-fertilizing hosts in the
+sexual population. This might be especially true in cases such as
+Vrijenhoek's fish discussed here, where parasites may not be virulent
+enough to drive strong oscillatory dynamics in clone frequencies, and
+sexual reproduction is most likely maintained by sperm-dependent
+(psuedogamous) reproduction in the clones (Moore \& McKay 1971) and/or
+by greater niche width in the sexual population (Schenck \& Vrijenhoek
+1986).
 
 \bookmarksetup{startatroot}
 
