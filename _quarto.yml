@@ -91,11 +91,13 @@ bibliography: references.bib
 format:
   html:
     css: style.css
+    html-math-method: mathjax
     cover-image: images/cover.jpg
     theme: journal
     toc: true
     toc-title: Contents
     toc-expand: true
+    anchor-sections: true
     number-sections: true
     smooth-scroll: true
     link-external-newwindow: true
@@ -114,6 +116,8 @@ format:
     warning: false
     prompt: false
     output: true
+    html-q-tags: true
+    footnotes-hover: true
     include-in-header: 
       - text: <meta name="google-site-verification" content="eJHds-HZowhP4fOmzTkps1RTCDKNi3ViSQ2BSaFVA7Y" />
 
@@ -168,6 +172,7 @@ format:
       \usepackage[scale=3.5]{ccicons}
   epub:
     epub-cover-image: images/cover.png
+    css: style.css
     html-q-tags: true
     toc: true
     toc-title: Contents
@@ -195,3 +200,5 @@ format:
     warning: false
     error: false
     output: true
+    fig-align: center
+    link-citations: true

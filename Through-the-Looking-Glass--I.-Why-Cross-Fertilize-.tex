@@ -166,7 +166,7 @@
 \makeatletter
 \makeatother
 \makeatletter
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[enhanced, interior hidden, borderline west={3pt}{0pt}{shadecolor}, breakable, boxrule=0pt, sharp corners, frame hidden]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[boxrule=0pt, sharp corners, interior hidden, frame hidden, enhanced, breakable, borderline west={3pt}{0pt}{shadecolor}]}{\end{tcolorbox}}\fi
 \makeatother
 
 \usepackage{hyphenat}
@@ -691,21 +691,21 @@ costs do not combine. The cost of sex is not four-fold.
 \caption[Clonal invasion dynamics]{\label{fig-1.2}Clonal invasion
 dynamics. Results from a simulation study in which a single clonal
 individual was introduced into a sexual population (Lively 2009).
-\textbf{A} (top). Results for a 1:1 sex ratio in the sexual population.
-Here the frequency of daughters produced by sexual females was 1/2. The
-sexual population was initiated at carrying capacity: \(K_{sex}\) =
-10,000. A single parthenogenetic female was introduced by the simulation
-at generation 1,000. Note that the asexual lineage replaces the sexual
-population in about 25 generations, and that it reaches a higher
-carrying capacity \(K_{asex}\) = 20,000. \textbf{B} (bottom). Results
-for a female-biased sexual population. Here the frequency of daughters
-produced by sexual females was 0.8. The sexual population was initiated
-at carrying capacity: \(K_{sex}\) = 17,500. As above, a single
-parthenogenetic female was introduced into the population at generation
-1,000. Note that the asexual lineage replaces the sexual population, but
-it takes longer. The simulation assumes annual reproduction and
-non-overlapping generations. The R code for the simulation, including
-interactive graphical output, can be found
+\textbf{A} (top). Results for a one-to-one sex ratio in the sexual
+population. Here the frequency of daughters produced by sexual females
+was 1/2. The sexual population was initiated at carrying capacity:
+\(K_{sex}\) = 10,000. A single parthenogenetic female was introduced by
+the simulation at generation 1,000. Note that the asexual lineage
+replaces the sexual population in about 25 generations, and that it
+reaches a higher carrying capacity \(K_{asex}\) = 20,000. \textbf{B}
+(bottom). Results for a female-biased sexual population. Here the
+frequency of daughters produced by sexual females was 0.8. The sexual
+population was initiated at carrying capacity: \(K_{sex}\) = 17,500. As
+above, a single parthenogenetic female was introduced into the
+population at generation 1,000. Note that the asexual lineage replaces
+the sexual population, but it takes longer. The simulation assumes
+annual reproduction and non-overlapping generations. The R code for the
+simulation, including interactive graphical output, can be found
 \href{https://raw.githubusercontent.com/IULibScholComm/through-the-looking-glass/main/sim\%20for\%20fig\%201.2(ZMD).R}{here}.
 The interactive graph can also be run
 \href{https://connect.posit.iu.edu/clonal-invasion-dynamics/}{here} for
@@ -947,11 +947,11 @@ Assuming that there is a single asexual female at time one, we get
 If \(N_{sex}\) is very large, the solution reduces to \(F \approx 1/r\).
 Hence, the fold increase in the frequency of asexuals, \(F\), is
 inversely related to the frequency of females \((r)\) in the sexual
-subpopulation. Assuming a 1:1 sex ratio, \(r = 0.5\). Hence, for an
-equal sex ratio, the increase in asexuals is \(\approx\) two-fold. This
-result gives the two-fold cost of males. Assuming ``all-else-equal'' a
-clone will double when rare when introduced into a large sexual
-population.
+subpopulation. Assuming a one-to-one sex ratio, \(r = 0.5\). Hence, for
+an equal sex ratio, the increase in asexuals is \(\approx\) two-fold.
+This result gives the two-fold cost of males. Assuming
+``all-else-equal'' a clone will double when rare when introduced into a
+large sexual population.
 
 \bookmarksetup{startatroot}
 
@@ -3796,7 +3796,7 @@ definitions do not include all possible nuances.}
 
 \textbf{Carrying capacity:} The population density at which females have
 just enough food to replace themselves. Sexual females must make two
-offspring to replace themselves (assuming a 1:1 sex ratio), while
+offspring to replace themselves (assuming a one-to-one sex ratio), while
 asexual females must only produce one offspring. Hence, asexuals should
 have higher carrying capacities, as shown in Figure~\ref{fig-1.2}.
 
