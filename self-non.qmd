@@ -1,6 +1,6 @@
 ![](images/fig4-1.jpeg){width=50% fig-align="center" fig-alt="Red Queen looks at her reflected face in hand-held mirror"}
 
-# Self- / Non-Self-Recognition and Local Adaptation
+# Self- / Non-Self-Recognition and Local Adaptation {#sec-self-non}
 
 One way to falsify the Red Queen is to experimentally show that the expectations of the hypothesis are not met. One expectation is that parasites would quickly become adapted to infecting their local host populations. Here is the logic. If parasites are closely tracking common host genotypes in their local (sympatric) populations, then they should be better, on average, at infecting sympatric hosts than foreign (allopatric) hosts. If this is not the case, then parasites would seem unlikely (at least to me) to be a factor selecting for sexual reproduction. 
 

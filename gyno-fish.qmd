@@ -1,6 +1,6 @@
 ![](images/fig5-1.jpeg){fig-align="center" fig-alt="Illustration of two fish, one healthy and one with black-spot disease"}
 
-# Gynogenetic Fish
+# Gynogenetic Fish {#sec-gyno}
 
 New Zealand felt like home after five years, and we had many good friends and colleagues in Christchurch, especially David Lloyd. David and I talked often about strategic models of natural selection (game theory), of which he was one of the world's leaders. I was particularly influenced by his idea that sexual reproduction, polymorphism, phenotypic plasticity, and hermaphroditism could all be seen under the umbrella of "variation strategies" [@lloyd1984a]. Sadly, when Lynda completed her PhD, her visa expired, and we had to leave New Zealand. But where to go? 
 

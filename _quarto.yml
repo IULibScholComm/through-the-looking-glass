@@ -70,6 +70,7 @@ book:
     - self-non.qmd
     - gyno-fish.qmd
     - rat-red.qmd
+    - over-future.qmd
     - glossary.qmd
     - references.qmd
 
@@ -89,6 +90,7 @@ bibliography: references.bib
 
 format:
   html:
+    css: style.css
     cover-image: images/cover.jpg
     theme: journal
     toc: true
@@ -123,7 +125,7 @@ format:
       author-style: none
       date-style: "none"
     titlepage: true
-    titlepage-logo: "images/libraries_lockup_WEB_h3.png"
+    titlepage-logo: "images/iublpub_logo.png"
     titlepage-geometry: ["top=3in", "bottom=1.5in", "right=1in", "left=1in"]
     titlepage-footer: | # text
       Indiana University Bloomington Libraries Publishing\

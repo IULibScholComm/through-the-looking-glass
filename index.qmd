@@ -39,7 +39,8 @@ The licensor cannot revoke these freedoms as long as you follow the license term
 - No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as [publicity, privacy, or moral rights](https://creativecommons.org/licenses/by/4.0/#ref-publicity-privacy-or-moral-rights) may limit how you use the material.
 
 ## Publisher
-![](images/libraries_lockup_WEB_h3.png){alt-text="Logo of Indiana University Bloomington Libraries Publishing" width="40%"}
+
+![](images/iublpub_logo.png){alt-text="Logo of Indiana University Bloomington Libraries Publishing" width="40%"}
 
 [Indiana University Bloomington Libraries Publishing](https://libraries.indiana.edu/scholarly-communication)\
 1320 E. Tenth Street\
