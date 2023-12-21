@@ -22,30 +22,35 @@ book:
     email: clively@indiana.edu
     url: https://biology.indiana.edu/about/faculty/lively-curt.html
   date: last-modified
-  date-format: "DD MMMM YYYY"
+  date-format: "YYYY"
+  abstract: |
+    The following pages represent the first volume of a book. The main goal is to introduce the evolutionary problem of sexual reproduction with a focus on competition between sexual and asexual females. But I also incorporate some ideas on genetic polymorphism and phenotypic plasticity with the goal of exploring "variation strategies" more generally. Finally, I try to weave in some history of the field along with some philosophy of science. 
   references: references.bib
-  cover-image-alt: book cover with title, author, and image of red queen chesspiece and two snails
+  cover-image: images/cover.png
+  cover-image-alt: book cover with title, author, illustrator, and illustration of Red Queen chesspiece and two snails
   sharing: [twitter, facebook, linkedin]
   downloads: [pdf, epub, docx]
   sidebar:
-    style: "floating"
-    logo: images/cover.jpg
+    style: "docked"
+    logo: images/cover.png
     search: true
     tools: 
       - icon: person-circle
         href: https://biology.indiana.edu/about/faculty/lively-curt.html
+        aria-label: Author Website
       - icon: twitter
         href: https://twitter.com/curt_lively
+        aria-label: Twitter
   doi: 10.5967/gbd3-ka07
   illustrator: Zoe Michelle Dinges
   keyword: biology, "sexual reproduction", evolution, "evolutionary biology"
   language: en-US
   license: "CC BY"
-  publisher: Scholarly Communication Department, Indiana University Bloomington Libraries
+  publisher: Indiana University Bloomington Libraries Publishing
   publisher-place: Bloomington, IN
-  status: "advance publication"
   submitted: "01 June 2023"
   type: book
+  volume: 1
   favicon: images/favicon.ico
   site-url: https://iulibscholcomm.github.io/through-the-looking-glass
   repo-url: https://github.com/IULibScholComm/through-the-looking-glass
@@ -53,14 +58,16 @@ book:
   pdf-url: https://iulibscholcomm.github.io/through-the-looking-glass/Through-the-Looking-Glass.pdf
   repo-actions: [edit, issue, source]
   reader-mode: true
-  # cookie-consent: "implied"
   page-navigation: true
   back-to-top-navigation: true
-  image: images/cover.jpg
-  open-graph: true
+  open-graph: 
+    image: images/cover-thumbnail.jpg
+    image-alt: book cover with title, author, illustrator, and illustration of Red Queen chesspiece and two snails
   twitter-card:  
     card-style: summary
     creator: "@curt_lively"
+    image: images/cover-thumbnail.jpg
+    image-alt: book cover with title, author, illustrator, and illustration of Red Queen chesspiece and two snails
 
   chapters:
     - index.qmd
@@ -74,25 +81,16 @@ book:
     - glossary.qmd
     - references.qmd
 
-citation:
-  type: book
-  medium: digital
-  author: Curtis Lively
-  issued: 2023
-  title: "Through the Looking Glass: Coevolution, Polymorphism, and Sexual Reproduction"
-  publisher-place: Bloomington, Indiana, US
-  publisher: Indiana University Libraries Publishing
-
+citation: true
 google-scholar: true
-
 csl: ecology-letters.csl
 bibliography: references.bib
+citations-hover: true
 
 format:
   html:
     css: style.css
     html-math-method: mathjax
-    cover-image: images/cover.jpg
     theme: journal
     toc: true
     toc-title: Contents
@@ -100,11 +98,13 @@ format:
     anchor-sections: true
     number-sections: true
     smooth-scroll: true
+    section-divs: true
+    fig-cap-location: bottom
+    tbl-cap-location: top
     link-external-newwindow: true
     copyright: Curtis M. Lively
     date-modified: last-modified
     license: "CC BY"
-    code-fold: true
     code-tools: true
     code-line-numbers: true
     code-block-bg: true
@@ -112,14 +112,13 @@ format:
     code-overflow: scroll
     highlight-style: a11y
     code-copy: hover
+    citeproc: true
     code-link: false
-    warning: false
-    prompt: false
-    output: true
     html-q-tags: true
     footnotes-hover: true
     include-in-header: 
       - text: <meta name="google-site-verification" content="eJHds-HZowhP4fOmzTkps1RTCDKNi3ViSQ2BSaFVA7Y" />
+    keywords: ["biology", "evolution", "sexual reproduction", "evolutionary biology"]
 
   titlepage-pdf:
     coverpage: true
@@ -152,27 +151,26 @@ format:
     lof: true
     lot: true
     number-sections: true
-    linkcolor: blue
     papersize: letter
+    indent: true
     reference-location: block
     cite-method: citeproc
+    citeproc: true
+    link-citations: true
     lang: en-US
-    echo: false
-    warning: false
-    error: false
-    code-line-numbers: true
-    code-block-bg: true
-    code-block-border-left: "#31BAE9"
-    highlight-style: a11y
-    output: true
+    keywords: ["biology", "evolution", "sexual reproduction", "evolutionary biology"]
+    subject: "evolutionary biology"
+    latex-auto-mk: true
+    latex-auto-install: True
     header-includes: |
       \widowpenalty=10000         % avoid widows
       \clubpenalty=10000          % avoid orphans
       \interfootnotelinepenalty=10000 % avoid footnote splitting across pages
       \usepackage[scale=3.5]{ccicons}
+
   epub:
-    epub-cover-image: images/cover.png
     css: style.css
+    html-math-method: mathjax
     html-q-tags: true
     toc: true
     toc-title: Contents
@@ -180,25 +178,13 @@ format:
     citeproc: true
     lang: en-US
     fig-responsive: true
-    code-fold: true
-    code-overflow: scroll
-    code-line-numbers: true
-    code-copy: hover
-    highlight-style: a11y
-    warning: false
-    error: false
-    output: true
+
   docx:
     toc: true
     toc-title: Contents
     citeproc: true
     lang: en-US
-    citation: true
     reference-doc: custom-reference-doc.docx
-    highlight-style: a11y
-    echo: false
-    warning: false
-    error: false
-    output: true
     fig-align: center
     link-citations: true
+    subject: "evolutionary biology"
