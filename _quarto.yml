@@ -152,7 +152,6 @@ format:
     lot: true
     number-sections: true
     papersize: letter
-    indent: true
     reference-location: block
     cite-method: citeproc
     citeproc: true

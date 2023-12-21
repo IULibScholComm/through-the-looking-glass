@@ -68,32 +68,10 @@ One of the major patterns of sex/asex was pointed out by Graham Bell. He found t
 
 ## Appendix: Down the Ratchet Hole {#sec-app-6}
 
-Suppose the probability of a new mutation in offspring is $0.5$. Clearly, it would not make sense to say that every offspring acquires one half of one mutation. But it would make sense to say that offspring have a Poisson distribution of new mutations. Under a Poisson distribution, the frequency of individuals with $k$ new mutations is given by:
+Suppose the probability of a new mutation in offspring is $0.5$. Clearly, it would not make sense to say that every offspring acquires one half of one mutation. But it would make sense to say that offspring have a Poisson distribution of new mutations. Under a Poisson distribution, the frequency of individuals with $k$ new mutations is given by $$f_k=\frac{e^{-U}U^k}{k!}$$ where $U$ is the probability of a new mutation per generation. Under this formulation, the frequency of offspring that contain no new mutations is given by $$f_0=e^{-U}.$$
 
-$$f_k=\frac{e^{-U}U^k}{k!}$$
+Suppose a clonal population begins with a single individual with zero mutations ($k = 0$ and $w_0 = 1$). As above, let all future offspring acquire an average of $U$ additional mutations per generation. The lineage would gain mutations over time, until the input of mutations is equal to the loss of mutations due to selection. At this point in time, the clonal population is at mutation-selection balance. Kimura and Maruyama [-@kimura1966a] showed that the average number of mutations in a clonal lineage at mutation-selection balance is equal to $U/s$, where $s$ is the selection coefficient against each mutation. They also showed that the mean fitness at this balance (assuming that $s$ is small) is $$\hat{w}=e^{-U}.$$ Hence, population mean fitness at equilibrium is expected to be equal to the expected frequency of zero new mutations in offspring. 
 
-where $U$ is the probability of a new mutation per generation. Under this formulation, the frequency of offspring that contain no new mutations is given by:
-
-$$f_0=e^{-U}$$
-
-Suppose a clonal population begins with a single individual with zero mutations ($k = 0$ and $w_0 = 1$). As above, let all future offspring acquire an average of $U$ additional mutations per generation. The lineage would gain mutations over time, until the input of mutations is equal to the loss of mutations due to selection. At this point in time, the clonal population is at mutation-selection balance. Kimura and Maruyama [-@kimura1966a] showed that the average number of mutations in a clonal lineage at mutation-selection balance is equal to $U/s$, where $s$ is the selection coefficient against each mutation. They also showed that the mean fitness at this balance (assuming that $s$ is small) is:
-
-$$\hat{w}=e^{-U}$$
-
-Hence, population mean fitness at equilibrium is expected to be equal to the expected frequency of zero new mutations in offspring. 
-
-In an infinite population, we would expect the mean fitness to remain at this equilibrium value. But populations are finite, which leads to Muller's ratchet. John Haigh constructed the first model to deeply explore the ratchet [-@haigh1978a]. He first assumed that each deleterious mutation results in the same proportional reduction in fitness as all previous mutations. Let $s$ be the selection coefficient against each mutation. Under Haigh's assumption, an individual with zero mutations would have a relative fitness of $1$, while an individual with one mutation would have a relative fitness of $(1-s)$, and an individual with two mutations would have a relative fitness of $(1-s)(1-s)$. More generally, an individual with $k$ mutations would have a relative fitness of:
-
-$$w_k=(1-s)^k$$
-
-Haigh assumed that the number of *individuals* having $k$ mutations $(n_k)$ at mutation-selection balance also follow a Poisson distribution, such that
-
-$$n_k=\frac{n_0\left(\frac{U}{s}\right)^k}{k!}$$
-
-In this expression, $n_0$ is the number of individuals with zero mutations, which is the least-loaded class. How many individuals in the least-loaded class? Let $N$ be the total number of individuals in the clonal population. Under a Poisson distribution for mutational load, the number of individuals in the least-loaded class is 
-
-$$n_0=Ne^{-U/s}$$
-
-where $e^{-U/s}$ is the frequency of individuals in the zero class. This means that the LLC can be quite small, even in large clonal populations. For example, let $N = 100,000$, let $s = 0.02$, and let $U = 0.2$. Plugging these values into the solution for $n_0$ we find that only five individuals would be in the LLC at mutation-selection balance. Such a small group is at risk of loss by genetic drift.
+In an infinite population, we would expect the mean fitness to remain at this equilibrium value. But populations are finite, which leads to Muller's ratchet. John Haigh constructed the first model to deeply explore the ratchet [-@haigh1978a]. He first assumed that each deleterious mutation results in the same proportional reduction in fitness as all previous mutations. Let $s$ be the selection coefficient against each mutation. Under Haigh's assumption, an individual with zero mutations would have a relative fitness of $1$, while an individual with one mutation would have a relative fitness of $(1-s)$, and an individual with two mutations would have a relative fitness of $(1-s)(1-s)$. More generally, an individual with $k$ mutations would have a relative fitness of $$w_k=(1-s)^k.$$ Haigh assumed that the number of *individuals* having $k$ mutations $(n_k)$ at mutation-selection balance also follow a Poisson distribution, such that $$n_k=\frac{n_0\left(\frac{U}{s}\right)^k}{k!}.$$ In this expression, $n_0$ is the number of individuals with zero mutations, which is the least-loaded class. How many individuals in the least-loaded class? Let $N$ be the total number of individuals in the clonal population. Under a Poisson distribution for mutational load, the number of individuals in the least-loaded class is $$n_0=Ne^{-U/s}$$ where $e^{-U/s}$ is the frequency of individuals in the zero class. This means that the LLC can be quite small, even in large clonal populations. For example, let $N = 100,000$, let $s = 0.02$, and let $U = 0.2$. Plugging these values into the solution for $n_0$ we find that only five individuals would be in the LLC at mutation-selection balance. Such a small group is at risk of loss by genetic drift.
 
 Haigh ran simulations to study the loss of the LLC, and the effect of this loss on the distribution of mutational classes. He found that following the loss of the LLC, the entire distribution shifted to a greater mean number of mutations, but the shape of the distribution remained constant. Hence, after one click of the ratchet, the LLC still had about five individuals, but now the LLC had one additional mutation. The mean number of mutations had also increased by one. 

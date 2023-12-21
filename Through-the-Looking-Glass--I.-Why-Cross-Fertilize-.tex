@@ -27,6 +27,16 @@
   \usepackage[]{microtype}
   \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
 }{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
 \usepackage{xcolor}
 \setlength{\emergencystretch}{3em} % prevent overfull lines
 \setcounter{secnumdepth}{5}
@@ -913,19 +923,13 @@ population is at carrying capacity).
 
 The fold increase in frequency of asexuals, \(F\), is the ratio of the
 frequency of asexuals at time two divided by the frequency of asexuals
-at time one giving:
-
-\[F = \frac{N_{asex}(S_{asex}B_{asex})}{N_{asex}(S_{asex}B_{asex}) + r(N_{sex}S_{sex}B_{sex})}/\frac{N_{asex}}{N_{asex} + N_{sex}}\]
-
+at time one giving
+\[F = \frac{N_{asex}(S_{asex}B_{asex})}{N_{asex}(S_{asex}B_{asex}) + r(N_{sex}S_{sex}B_{sex})}/\frac{N_{asex}}{N_{asex} + N_{sex}}.\]
 Under the all-else-equal assumption, \(S_{asex} = S_{sex}\) and
-\(B_{asex} = B_{sex}\), giving:
-
-\[F = \frac{N_{asex}}{N_{asex} + rN_{sex}}/\frac{N_{asex}}{N_{asex} + N_{sex}}\]
-
+\(B_{asex} = B_{sex}\), giving
+\[F = \frac{N_{asex}}{N_{asex} + rN_{sex}}/\frac{N_{asex}}{N_{asex} + N_{sex}}.\]
 Assuming that there is a single asexual female at time one, we get
-
-\[F = \frac{1}{1 + rN_{sex}}/\frac{1}{1 + N_{sex}} = \frac{1 + N_{sex}}{1 + rN_{sex}}\]
-
+\[F = \frac{1}{1 + rN_{sex}}/\frac{1}{1 + N_{sex}} = \frac{1 + N_{sex}}{1 + rN_{sex}}.\]
 If \(N_{sex}\) is very large, the solution reduces to \(F \approx 1/r\).
 Hence, the fold increase in the frequency of asexuals, \(F\), is
 inversely related to the frequency of females \((r)\) in the sexual
@@ -1077,10 +1081,8 @@ Polyculture
 \end{longtable}
 
 The effect of variance on the geometric mean (GM) can be seen by an
-approximation (\citeproc{ref-stearns2000a}{Stearns 2000}):
-
-\[\text{GM} \approx \overline{x} - \frac{\text{var}(x)}{2\overline{x}}\]
-
+approximation (\citeproc{ref-stearns2000a}{Stearns
+2000}):\[\text{GM} \approx \overline{x} - \frac{\text{var}(x)}{2\overline{x}}\]
 where \(\overline{x}\) is the mean, and var(\(x\)) is the variance in
 \(x\). Note that the approximation is equal to the arithmetic mean when
 the variance in \(x\) is zero. Note too that the geometric mean
@@ -1638,27 +1640,21 @@ the heterozygote has a relative fitness of one in all niches, giving
 \(W_{AB} = 1\). Let \(q\) be the frequency of allele A, and let
 (\(1 - q\)) be the frequency of allele B. The frequency of allele A in
 the next generation, \(q'\), is then
-
-\[q^{'} = \sum_{}^{}c_{i}\frac{q^{2}W_{AAi} + q(1 - q)}{q^{2}W_{AAi} + 2q(1 - q) + (1 - q)^{2}W_{BBi}}\]
-
+\[q^{'} = \sum_{}^{}c_{i}\frac{q^{2}W_{AAi} + q(1 - q)}{q^{2}W_{AAi} + 2q(1 - q) + (1 - q)^{2}W_{BBi}}.\]
 The change in \(q\) is simply \(\mathrm{\Delta}q = q^{'} - q\). Under
-these assumptions, Levene showed that A allele will increase when rare
-(barring genetic drift) when \textbar{}
-
-\[\frac{1}{\sum_{}^{}{c_{i}\frac{1}{W_{AAi}}}} < 1\]
-
-where the left-hand side gives the harmonic mean fitness for genotype AA
-over all niches. The right-hand-side of the equation gives the harmonic
-mean fitness of the heterozygous genotype, AB, which is equal to one.
-Similarly, the B allele will increase when rare when
-
-\[\frac{1}{\sum_{}^{}{c_{i}\frac{1}{W_{BBi}}}} < 1\]
-
-where the left-hand side gives the harmonic mean fitness for genotype BB
-over all niches. A genetic polymorphism is expected if both alleles can
-increase when rare; hence, \textbf{polymorphism is expected, in general,
-when the harmonic mean fitness for the heterozygote is greater than the
-harmonic mean fitness for either homozygote}.
+these assumptions, Levene showed that allele A will increase when rare
+(barring genetic drift) when
+\[\frac{1}{\sum_{}^{}{c_{i}\frac{1}{W_{AAi}}}} < 1\] where the left-hand
+side gives the harmonic mean fitness for genotype AA over all niches.
+The right-hand-side of the equation gives the harmonic mean fitness of
+the heterozygous genotype, AB, which is equal to one. Similarly, the B
+allele will increase when rare when
+\[\frac{1}{\sum_{}^{}{c_{i}\frac{1}{W_{BBi}}}} < 1\] where the left-hand
+side gives the harmonic mean fitness for genotype BB over all niches. A
+genetic polymorphism is expected if both alleles can increase when rare;
+hence, \textbf{polymorphism is expected, in general, when the harmonic
+mean fitness for the heterozygote is greater than the harmonic mean
+fitness for either homozygote}.
 
 But does this require that the AB genotype is the most fit in at least
 one niche? Levene gives a specific example to answer this question. He
@@ -3604,15 +3600,9 @@ Clearly, it would not make sense to say that every offspring acquires
 one half of one mutation. But it would make sense to say that offspring
 have a Poisson distribution of new mutations. Under a Poisson
 distribution, the frequency of individuals with \(k\) new mutations is
-given by:
-
-\[f_k=\frac{e^{-U}U^k}{k!}\]
-
-where \(U\) is the probability of a new mutation per generation. Under
-this formulation, the frequency of offspring that contain no new
-mutations is given by:
-
-\[f_0=e^{-U}\]
+given by \[f_k=\frac{e^{-U}U^k}{k!}\] where \(U\) is the probability of
+a new mutation per generation. Under this formulation, the frequency of
+offspring that contain no new mutations is given by \[f_0=e^{-U}.\]
 
 Suppose a clonal population begins with a single individual with zero
 mutations (\(k = 0\) and \(w_0 = 1\)). As above, let all future
@@ -3624,12 +3614,9 @@ Kimura and Maruyama (\citeproc{ref-kimura1966a}{1966}) showed that the
 average number of mutations in a clonal lineage at mutation-selection
 balance is equal to \(U/s\), where \(s\) is the selection coefficient
 against each mutation. They also showed that the mean fitness at this
-balance (assuming that \(s\) is small) is:
-
-\[\hat{w}=e^{-U}\]
-
-Hence, population mean fitness at equilibrium is expected to be equal to
-the expected frequency of zero new mutations in offspring.
+balance (assuming that \(s\) is small) is \[\hat{w}=e^{-U}.\] Hence,
+population mean fitness at equilibrium is expected to be equal to the
+expected frequency of zero new mutations in offspring.
 
 In an infinite population, we would expect the mean fitness to remain at
 this equilibrium value. But populations are finite, which leads to
@@ -3642,30 +3629,22 @@ an individual with zero mutations would have a relative fitness of
 \(1\), while an individual with one mutation would have a relative
 fitness of \((1-s)\), and an individual with two mutations would have a
 relative fitness of \((1-s)(1-s)\). More generally, an individual with
-\(k\) mutations would have a relative fitness of:
-
-\[w_k=(1-s)^k\]
-
-Haigh assumed that the number of \emph{individuals} having \(k\)
-mutations \((n_k)\) at mutation-selection balance also follow a Poisson
+\(k\) mutations would have a relative fitness of \[w_k=(1-s)^k.\] Haigh
+assumed that the number of \emph{individuals} having \(k\) mutations
+\((n_k)\) at mutation-selection balance also follow a Poisson
 distribution, such that
-
-\[n_k=\frac{n_0\left(\frac{U}{s}\right)^k}{k!}\]
-
-In this expression, \(n_0\) is the number of individuals with zero
-mutations, which is the least-loaded class. How many individuals in the
-least-loaded class? Let \(N\) be the total number of individuals in the
-clonal population. Under a Poisson distribution for mutational load, the
-number of individuals in the least-loaded class is
-
-\[n_0=Ne^{-U/s}\]
-
-where \(e^{-U/s}\) is the frequency of individuals in the zero class.
-This means that the LLC can be quite small, even in large clonal
-populations. For example, let \(N = 100,000\), let \(s = 0.02\), and let
-\(U = 0.2\). Plugging these values into the solution for \(n_0\) we find
-that only five individuals would be in the LLC at mutation-selection
-balance. Such a small group is at risk of loss by genetic drift.
+\[n_k=\frac{n_0\left(\frac{U}{s}\right)^k}{k!}.\] In this expression,
+\(n_0\) is the number of individuals with zero mutations, which is the
+least-loaded class. How many individuals in the least-loaded class? Let
+\(N\) be the total number of individuals in the clonal population. Under
+a Poisson distribution for mutational load, the number of individuals in
+the least-loaded class is \[n_0=Ne^{-U/s}\] where \(e^{-U/s}\) is the
+frequency of individuals in the zero class. This means that the LLC can
+be quite small, even in large clonal populations. For example, let
+\(N = 100,000\), let \(s = 0.02\), and let \(U = 0.2\). Plugging these
+values into the solution for \(n_0\) we find that only five individuals
+would be in the LLC at mutation-selection balance. Such a small group is
+at risk of loss by genetic drift.
 
 Haigh ran simulations to study the loss of the LLC, and the effect of
 this loss on the distribution of mutational classes. He found that
