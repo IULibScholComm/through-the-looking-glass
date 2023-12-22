@@ -25,6 +25,8 @@ book:
   date-format: "YYYY"
   abstract: |
     The following pages represent the first volume of a book. The main goal is to introduce the evolutionary problem of sexual reproduction with a focus on competition between sexual and asexual females. But I also incorporate some ideas on genetic polymorphism and phenotypic plasticity with the goal of exploring "variation strategies" more generally. Finally, I try to weave in some history of the field along with some philosophy of science. 
+  description: | 
+    Book on the evolutionary problem of sexual reproduction
   references: references.bib
   cover-image: images/cover.png
   cover-image-alt: book cover with title, author, illustrator, and illustration of Red Queen chesspiece and two snails
@@ -35,10 +37,7 @@ book:
     logo: images/cover.png
     search: true
     tools: 
-      - icon: person-circle
-        href: https://biology.indiana.edu/about/faculty/lively-curt.html
-        aria-label: Author Website
-      - icon: twitter
+      - icon: twitter-x
         href: https://twitter.com/curt_lively
         aria-label: Twitter
   doi: 10.5967/gbd3-ka07
@@ -56,7 +55,7 @@ book:
   repo-url: https://github.com/IULibScholComm/through-the-looking-glass
   issue-url: https://github.com/IULibScholComm/through-the-looking-glass/issues/new
   pdf-url: https://iulibscholcomm.github.io/through-the-looking-glass/Through-the-Looking-Glass.pdf
-  repo-actions: [edit, issue, source]
+  repo-actions: [source, issue]
   reader-mode: true
   page-navigation: true
   back-to-top-navigation: true
@@ -68,6 +67,7 @@ book:
     creator: "@curt_lively"
     image: images/cover-thumbnail.jpg
     image-alt: book cover with title, author, illustrator, and illustration of Red Queen chesspiece and two snails
+
 
   chapters:
     - index.qmd
@@ -81,7 +81,10 @@ book:
     - glossary.qmd
     - references.qmd
 
-citation: true
+citation:
+  type: book
+  publisher: "Indiana University Bloomington Libraries Publishing"
+
 google-scholar: true
 csl: ecology-letters.csl
 bibliography: references.bib
@@ -105,15 +108,7 @@ format:
     copyright: Curtis M. Lively
     date-modified: last-modified
     license: "CC BY"
-    code-tools: true
-    code-line-numbers: true
-    code-block-bg: true
-    code-block-border-left: "#31BAE9"
-    code-overflow: scroll
-    highlight-style: a11y
-    code-copy: hover
     citeproc: true
-    code-link: false
     html-q-tags: true
     footnotes-hover: true
     include-in-header: 

@@ -10,6 +10,24 @@ Special thanks also to Adam Mazel of Indiana University Libraries for preparing 
 
 This project was supported by the NSF OPUS program for the synthesis of biological research (DEB-1906465). I am also grateful to the Institute for Advanced Study in Berlin (Wissenschaftskolleg zu Berlin) for my stay as a "partner" during 2022-2023. 
 
+## How to Use (HTML Book)
+
+- **How to Access this Book in Formats other than HTML**
+    - **EPUB:** click <i class="bi bi-download"></i> in the lefthand sidebar or click [here](https://iulibscholcomm.github.io/through-the-looking-glass/Through-the-Looking-Glass--I.-Why-Cross-Fertilize-.epub)
+        - Good for eReaders, accessibility by the disabled, and reflowable text
+    - **PDF:** click <i class="bi bi-download"></i> in the lefthand sidebar or click [here](https://iulibscholcomm.github.io/through-the-looking-glass/Through-the-Looking-Glass--I.-Why-Cross-Fertilize-.pdf)
+        - Good for printing physical copies
+    - **DOCX:** click <i class="bi bi-download"></i> in the lefthand sidebar or click [here](https://iulibscholcomm.github.io/through-the-looking-glass/Through-the-Looking-Glass--I.-Why-Cross-Fertilize-.docx)
+        - The Microsoft Word version is good for human-readable reuse, remixing, etc.
+    - **Quarto Markdown:** click "<i class="bi bi-github"></i> View source" in the righthand sidebar
+        - Good for machine-readable reuse, remixing, etc.
+- **How to Use Social Media to Share or Draw Attention to this Book**
+    - Click <i class="bi bi-share"></i> in the lefthand sidebar and select Twitter (now X), Facebook, or LinkedIn.
+- **How to Report a Technological Problem with this Book**
+    - Click "Report an Issue" in the righthand sidebar, then complete and submit the bug report
+
+To learn more about this book and how to use it, see [Quarto's Guide](https://quarto.org/docs/guide/) or simply try its features! 
+
 ## Copyright and License
 
 &copy; 2024 Curtis M. Lively\
@@ -41,7 +59,6 @@ The licensor cannot revoke these freedoms as long as you follow the license term
 [Indiana University Bloomington Libraries Publishing](https://libraries.indiana.edu/scholarly-communication)\
 1320 E. Tenth Street\
 Bloomington, IN 47405
-
 
 ## How to Cite
 
