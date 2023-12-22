@@ -18,7 +18,7 @@ Special thanks also to Adam Mazel of Indiana University Libraries for preparing 
 
 This project was supported by the NSF OPUS program for the synthesis of biological research (DEB-1906465). I am also grateful to the Institute for Advanced Study in Berlin (Wissenschaftskolleg zu Berlin) for my stay as a "partner" during 2022-2023. 
 
-::: {.content-visible when-format="html"}
+::: {.content-visible when-format="html" unless-format="epub"}
 
 ## How to Use
 
