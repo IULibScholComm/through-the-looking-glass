@@ -1,5 +1,13 @@
 # Front Matter {.unnumbered}
 
+::: {.content-visible when-format="pdf"}
+
+## About
+
+The following pages represent the first volume of a book. The main goal was to introduce the evolutionary problem of sexual reproduction with a focus on competition between sexual and asexual females. But I also incorporated some ideas on genetic polymorphism and phenotypic plasticity with the goal of exploring "variation strategies" more generally. Finally, I tried to weave in some history of the field along with some philosophy of science. 
+
+:::
+
 ## Acknowledgements
 
 I gratefully acknowledge helpful comments from Amrita Bhattacharya, Zoe Dinges, Kara Million, Deanna Soper, Mike Wade, Jukka Jokela, Dorota Paczesniak, Steve Howard, Lynda Delph, Clark Craddock, Robert Vrijenhoek, Jan McKenzie, Mike Winterbourn, Stuart West, Bob Holt, Oren Harman, and especially Maurine Neiman and her lab group at the University of Iowa. Additional comments are welcome by [email](mailto:clively@indiana.edu). 
@@ -10,7 +18,9 @@ Special thanks also to Adam Mazel of Indiana University Libraries for preparing 
 
 This project was supported by the NSF OPUS program for the synthesis of biological research (DEB-1906465). I am also grateful to the Institute for Advanced Study in Berlin (Wissenschaftskolleg zu Berlin) for my stay as a "partner" during 2022-2023. 
 
-## How to Use (HTML Book)
+::: {.content-visible when-format="html"}
+
+## How to Use
 
 - **How to Access this Book in Formats other than HTML**
     - **EPUB:** click <i class="bi bi-download"></i> in the lefthand sidebar or click [here](https://iulibscholcomm.github.io/through-the-looking-glass/Through-the-Looking-Glass--I.-Why-Cross-Fertilize-.epub)
@@ -27,6 +37,8 @@ This project was supported by the NSF OPUS program for the synthesis of biologic
     - Click "Report an Issue" in the righthand sidebar, then complete and submit the bug report
 
 To learn more about this book and how to use it, see [Quarto's Guide](https://quarto.org/docs/guide/) or simply try its features! 
+
+:::
 
 ## Copyright and License
 
