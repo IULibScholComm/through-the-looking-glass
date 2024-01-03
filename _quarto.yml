@@ -148,6 +148,7 @@ format:
     number-sections: true
     linkcolor: blue
     papersize: letter
+    indent: true
     reference-location: block
     cite-method: citeproc
     citeproc: true

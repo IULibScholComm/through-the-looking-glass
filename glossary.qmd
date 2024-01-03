@@ -1,25 +1,25 @@
 # Glossary {.unnumbered #sec-glossary}
 
-**Short definitions of terms as used in this book. These definitions do not include all possible nuances.**
+**Short definitions of terms as used in this book. These definitions do not include all possible nuances.**\
 
-**Carrying capacity:** The population density at which females have just enough food to replace themselves. Sexual females must make two offspring to replace themselves (assuming a one-to-one sex ratio), while asexual females must only produce one offspring. Hence, asexuals should have higher carrying capacities, as shown in @fig-1.2.
+**Carrying capacity:** The population density at which females have just enough food to replace themselves. Sexual females must make two offspring to replace themselves (assuming a one-to-one sex ratio), while asexual females must only produce one offspring. Hence, asexuals should have higher carrying capacities, as shown in @fig-1.2.\
 
-**Cost of males:** The reduction in the per-capita growth rate of sexual populations due to the production of males. The cost of males is the appropriate cost for considering sexual subpopulations in competition with obligately asexual subpopulations.
+**Cost of males:** The reduction in the per-capita growth rate of sexual populations due to the production of males. The cost of males is the appropriate cost for considering sexual subpopulations in competition with obligately asexual subpopulations.\
 
-**Cost of meiosis:** The reduction in relatedness between mother and offspring due to outcrossing. The cost of meiosis is the appropriate cost for considering the spread of alleles that induce self-fertilization. 
+**Cost of meiosis:** The reduction in relatedness between mother and offspring due to outcrossing. The cost of meiosis is the appropriate cost for considering the spread of alleles that induce self-fertilization.\
 
-**Clone:** A lineage of parthenogenetic females descended from the same asexual female. Members of the same clone may have small genetic differences, which accumulate by mutation over time.
+**Clone:** A lineage of parthenogenetic females descended from the same asexual female. Members of the same clone may have small genetic differences, which accumulate by mutation over time.\
 
-**Cross-fertilization:** The exchange of gametes between different individuals, which may or may not be related.
+**Cross-fertilization:** The exchange of gametes between different individuals, which may or may not be related.\
 
-**Outcrossing:** A form of cross-fertilization, which specifies crossing between unrelated individuals.
+**Outcrossing:** A form of cross-fertilization, which specifies crossing between unrelated individuals.\
 
-**Parthenogenesis:** Any form of asexual reproduction through ova.
+**Parthenogenesis:** Any form of asexual reproduction through ova.\
 
-**Recombination:** Genetic exchange between homologous chromosomes during meiosis, especially when the exchange leads to gametes with allele combinations not represented on the parental chromosomes. 
+**Recombination:** Genetic exchange between homologous chromosomes during meiosis, especially when the exchange leads to gametes with allele combinations not represented on the parental chromosomes.\
 
-**Self-fertilization:** The fusion of gametes from the same individual.
+**Self-fertilization:** The fusion of gametes from the same individual.\
 
-**Sex/rec:** Shorthand for sexual reproduction and recombination.
+**Sex/rec:** Shorthand for sexual reproduction and recombination.\
 
-**Sexual reproduction:** I use the term here to mean cross-fertilization between unrelated individuals. However, the term is more general and can be used to mean the incorporation of novel genetic material by any mechanism. 
+**Sexual reproduction:** I use the term here to mean cross-fertilization between unrelated individuals. However, the term is more general and can be used to mean the incorporation of novel genetic material by any mechanism.
