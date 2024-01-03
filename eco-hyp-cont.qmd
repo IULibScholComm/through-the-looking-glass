@@ -74,7 +74,7 @@ None of this is meant to imply proof of the Red Queen Hypothesis or that density
 
 4. Comparing the *a priori* predictions of multiple working hypotheses can be helpful to evaluate competing ideas. Field studies of natural systems may be required to fully understand why cross-fertilization is so common. 
 
-## Appendix: Game-Theoretic Model {#sec-app-3}
+## Appendix: A Model of Phenotypic Plasticity {#sec-app-3}
 
 As part of my dissertation research, I constructed a game-theoretic model of selection on three strategies: 
 

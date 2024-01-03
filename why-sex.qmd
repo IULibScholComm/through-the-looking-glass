@@ -12,8 +12,7 @@ The structure of our exams was very loose. I don't remember having a deadline to
 
 ## The Problem
 
-There are many problems with sexual reproduction, including the time spent finding mates and the risk of contracting sexually transmitted disease [review in @lehtonen2012a]. However, while important,
-these costs do not form the core of the paradox. Historically, the paradox of sex stems from two things: (1) the cost of meiosis, and (2) the cost of producing males.
+There are many problems associated with sexual reproduction, including the time spent finding mates and the risk of contracting sexually transmitted disease [review in @lehtonen2012a]. However, while important, these costs do not form the core of the paradox. Historically, the paradox of sex stems from two things: (1) the cost of meiosis, and (2) the cost of producing males.
 
 ### The cost of meiosis: reduced relatedness
 
@@ -68,7 +67,7 @@ I now think that John Maynard Smith was correct. An essential feature had indeed
 
 ## Appendix: Maynard Smith's Model {#sec-app-1}
 
-John Maynard Smith's [-@maynard1978a] model, reproduced here, shows the cost of producing males.^[I use slightly different variable names, and I try to simplify JMS's original model.] Let $N_{asex}$ be the number of asexual females at time one, while $N_{sex}$ gives the total number of sexual individuals (males plus females) at time one. Let $B_{asex}$ give the number of offspring produced by asexual females, and $S_{asex}$ gives the survival probability of asexual offspring to maturity. The number of surviving asexual offspring is then $= B_{asex}S_{asex}$. Similarly, let $B_{sex}$ be the number offspring produced by sexual females, and let $S_{sex}$ give the survival probability of sexually produced offspring. Maynard Smith assumed that all individuals reproduce once and then die. Let $r$ be the frequency of females in the sexual population. The number of asexuals and sexuals at time two can then be calculated as in the table below. (Note, we do not assume that the population is at carrying capacity). 
+John Maynard Smith's [-@maynard1978a] model, reproduced here, shows the cost of producing males.^[I use slightly different variable names and try to simplify JMS's original model.] Let $N_{asex}$ be the number of asexual females at time one, while $N_{sex}$ gives the total number of sexual individuals (males plus females) at time one. Let $B_{asex}$ give the number of offspring produced by asexual females, and $S_{asex}$ gives the survival probability of asexual offspring to maturity. The number of surviving asexual offspring is then $= B_{asex}S_{asex}$. Similarly, let $B_{sex}$ be the number offspring produced by sexual females, and let $S_{sex}$ give the survival probability of sexually produced offspring. Maynard Smith assumed that all individuals reproduce once and then die. Let $r$ be the frequency of females in the sexual population. The number of asexuals and sexuals at time two can then be calculated as in the table below. (Note, we do not assume that the population is at carrying capacity). 
 
 |                       |              **Time One**               |                                               **Time Two**                                  |
 |:---------------------:|:---------------------------------------:|:-------------------------------------------------------------------------------------------:|

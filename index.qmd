@@ -2,9 +2,9 @@
 
 ::: {.content-visible when-format="pdf"}
 
-## About
+## Abstract
 
-The following pages represent the first volume of a book. The main goal was to introduce the evolutionary problem of sexual reproduction with a focus on competition between sexual and asexual females. But I also incorporated some ideas on genetic polymorphism and phenotypic plasticity with the goal of exploring "variation strategies" more generally. Finally, I tried to weave in some history of the field along with some philosophy of science. 
+The following pages represent the first volume of a book. The main goal is to introduce the evolutionary problem of sexual reproduction with a focus on competition between sexual and asexual females. But I also incorporate some ideas on genetic polymorphism and phenotypic plasticity with the goal of exploring "variation strategies" more generally. Finally, I try to weave in some history of the field along with some philosophy of science. 
 
 :::
 
@@ -18,27 +18,27 @@ Special thanks also to Adam Mazel of Indiana University Libraries for preparing 
 
 This project was supported by the NSF OPUS program for the synthesis of biological research (DEB-1906465). I am also grateful to the Institute for Advanced Study in Berlin (Wissenschaftskolleg zu Berlin) for my stay as a "partner" during 2022-2023. 
 
-::: {.content-visible when-format="html" unless-format="epub"}
-
 ## How to Use
 
-- **How to Access this Book in Formats other than HTML**
-    - **EPUB:** click <i class="bi bi-download"></i> in the lefthand sidebar or click [here](https://iulibscholcomm.github.io/through-the-looking-glass/Through-the-Looking-Glass--I.-Why-Cross-Fertilize-.epub)
-        - Good for eReaders, accessibility by the disabled, and reflowable text
-    - **PDF:** click <i class="bi bi-download"></i> in the lefthand sidebar or click [here](https://iulibscholcomm.github.io/through-the-looking-glass/Through-the-Looking-Glass--I.-Why-Cross-Fertilize-.pdf)
-        - Good for printing physical copies
-    - **DOCX:** click <i class="bi bi-download"></i> in the lefthand sidebar or click [here](https://iulibscholcomm.github.io/through-the-looking-glass/Through-the-Looking-Glass--I.-Why-Cross-Fertilize-.docx)
-        - The Microsoft Word version is good for human-readable reuse, remixing, etc.
-    - **Quarto Markdown:** click "<i class="bi bi-github"></i> View source" in the righthand sidebar
-        - Good for machine-readable reuse, remixing, etc.
+- **How to Access this Book in Other Formats**
+    - **DOCX:** click <i class="bi bi-download"></i> in the lefthand sidebar of the [HTML version](https://iulibscholcomm.github.io/through-the-looking-glass/) or click [here](https://iulibscholcomm.github.io/through-the-looking-glass/Through-the-Looking-Glass--I.-Why-Cross-Fertilize-.docx)
+        - DOCX's benefits include reuseability (revising, remixing, etc.) for those with Microsoft Word
+    - **EPUB:** click <i class="bi bi-download"></i> in the lefthand sidebar of the [HTML version](https://iulibscholcomm.github.io/through-the-looking-glass/) or click [here](https://iulibscholcomm.github.io/through-the-looking-glass/Through-the-Looking-Glass--I.-Why-Cross-Fertilize-.epub)
+        - EPUB's benefits include universal accessibility, manipulatability (via eReader options), dynamic media, interactivity, reflowable text, and offline reading
+    - **HTML:** click [here](https://iulibscholcomm.github.io/through-the-looking-glass/)
+        - HTML's benefits include machine readability, dynamic media, interactivity, [reflowable text](https://en.wikipedia.org/wiki/Reflowable_document), online reading, and small file size
+    - **TeX:** click "<i class="bi bi-github"></i> View source" in the righthand sidebar of the [HTML version](https://iulibscholcomm.github.io/through-the-looking-glass/); then from "Files" in the lefthand sidebar, select "Through-the-Looking-Glass--I.-Why-Cross-Fertilize-.tex" 
+        - (La)TeX's benefits include advanced document formatting and typesetting 
+    - **PDF:** click <i class="bi bi-download"></i> in the lefthand sidebar of the [HTML version](https://iulibscholcomm.github.io/through-the-looking-glass/) or click [here](https://iulibscholcomm.github.io/through-the-looking-glass/Through-the-Looking-Glass--I.-Why-Cross-Fertilize-.pdf)
+        - PDF's benefits include printability of physical copies
+    - **Quarto Markdown (QMD):** click "<i class="bi bi-github"></i> View source" in the righthand sidebar of the [HTML version](https://iulibscholcomm.github.io/through-the-looking-glass/)
+        - QMD's benefits include reuseability (revising, remixing, reformatting, repurposing, etc.) via a universal format
 - **How to Use Social Media to Share or Draw Attention to this Book**
-    - Click <i class="bi bi-share"></i> in the lefthand sidebar and select Twitter (now X), Facebook, or LinkedIn.
+    - Click <i class="bi bi-share"></i> in the lefthand sidebar of the [HTML version](https://iulibscholcomm.github.io/through-the-looking-glass/) and select Twitter (now X), Facebook, or LinkedIn.
 - **How to Report a Technological Problem with this Book**
-    - Click "Report an Issue" in the righthand sidebar, then complete and submit the bug report
+    - Click "Report an Issue" in the righthand sidebar of the [HTML version](https://iulibscholcomm.github.io/through-the-looking-glass/); then complete and submit the bug report
 
-To learn more about this book and how to use it, see [Quarto's Guide](https://quarto.org/docs/guide/) or simply try its features! 
-
-:::
+To learn more about how to use this book, see [Quarto's Guide](https://quarto.org/docs/guide/), or simply try its features! 
 
 ## Copyright and License
 

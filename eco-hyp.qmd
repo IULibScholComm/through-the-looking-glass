@@ -23,20 +23,31 @@ Indeed, Williams' Lottery Model is about bet hedging. The gist of bet hedging in
 
 In this example, we find that the monoculture has an arithmetic mean of 240, while the polyculture has an arithmetic mean of only 220. So, I might be inclined to plant the monoculture. However, the among-year variance is very high for the monoculture (relative to the polyculture), driven in large part by the low yields in years 4 and 5. By contrast, the geometric mean for the monoculture is 184, while the geometric mean for the polyculture is 219. Based on this, I might be inclined to plant the polyculture, as it reduces the cost of very low yield in bad years. I think the students see this intuitively. Over the long term, it is better to be risk-averse and plant the genetically variable polyculture. What if, for example, the monoculture produced no food in the last year? The geometric mean would be zero. That would be catastrophic. 
 
-| Year | Monoculture | Polyculture |
-|------|-------------|-------------|
-| 1 | 350 | 250 |
-| 2 | 400 | 250 |
-| 3	| 300 |	200 |
-| 4	| 100 | 200 |
-| 5	| 50 | 200 |
-|   |     |     |
-| **Arithmetic mean** | **240** | 220 |
-| **Variance**^[The variance in $x$ is equal to the average of the squared deviations from the mean: $var(x) = \frac{1}{N}\sum_{i = 1}^{N}{(x_{i} - \overline{x})^{2}}$] | 19400 | 600 |
-| **Geometric mean (GM)**^[The geometric mean is the $N^{th}$ root of the product of $N$ observations. Compared to the arithmetic mean, the geometric mean gives more weight to small values.] | 184 | **219** |
-| **Approximate GM** | 200 | **219** |
+  -----------------------------------------------------------------------
+  Year                      Monoculture             Polyculture
+  ------------------------- ----------------------- -----------------------
+  1                         350                     250
 
-: Bet Hedging {#tbl-bh}
+  2                         400                     250
+
+  3                         300                     200
+
+  4                         100                     200
+
+  5                         50                      200
+
+  &nbsp;                    &nbsp;                  &nbsp;                                                
+
+  Arithmetic mean           240                     220
+
+  Variance[^2.1]            19400                   600
+
+  Geometric mean (GM)[^2.2] 184                     219
+
+  Approximate GM            200                     219
+  -----------------------------------------------------------------------
+
+: Bet Hedging. The entries show annual yields (in arbitrary units) over five years for a monoculture and a polyculture. {#tbl-bh}
 
 The effect of variance on the geometric mean (GM) can be seen by an approximation [@stearns2000a]:$$\text{GM} \approx \overline{x} - \frac{\text{var}(x)}{2\overline{x}}$$ where $\overline{x}$ is the mean, and var($x$) is the variance in $x$. Note that the approximation is equal to the arithmetic mean when the variance in $x$ is zero. Note too that the geometric mean increases as the variance in $x$ decreases. So, if selection operates to reduce the among-year variance in fitness, the outcome of selection will be reflected by an increase in the geometric mean. In general, evolutionary biologists use the geometric mean (rather than the arithmetic mean) to measure fitness over time.^[The bet-hedging idea dates to Daniel Bernoulli, a mathematical physicist, writing in 1738. Steve Stearns provides an important, fascinating review of how evolutionary biologists [beginning with @cohen1966a] and economists have borrowed from Bernoulli's conceptual framework [-@stearns2000a].]
 
@@ -84,7 +95,7 @@ When they finally stop, Alice is surprised to be where they started: "I do belie
 
 It seems unlikely that Lewis Carroll had coevolution in mind when writing these passages. But he was a mathematician at Oxford University (his given name was Charles Dodgson), and at least one author has shown how his writings can be seen as metaphors for mathematical problems [@bayley2009a;-@bayley2010a]. Along these lines, mathematician Sanderson M. Smith [-@smith2003a] has suggested that [Carroll simply inverted the equation for speed from "speed = distance/time" to "speed = time/distance."](http://www.herkimershideaway.org/writings/carroll.htm) Upon rearrangement, the latter gives "distance = time/speed." Hence you must run very fast to stay in the same place. But how does the shifting landscape fit in? And why did Alice have to go the other way to meet the Red Queen? I would love to know.
 
-It is perhaps worth pointing out that the phrase "Red Queen Hypothesis" can have two different meanings to evolutionary biologists. In the early 1970s, Leigh van Valen was grappling with data showing that the probability of extinction in very different organisms was independent of the age of the lineage. He reasoned that in coevolutionary interactions, the probability of one species driving the other species extinct could, in fact, be independent of lineage age [-@valen1973a]. It thus seems reasonable to suggest that both antagonists must run (coevolve) as fast as they can to prevent extinction. Graham Bell repurposed the phrase to mean within-population oscillations in host and parasite genotypes [-@bell1982a]. Hence, Van Valen's idea is about macroevolution (speciation/extinction), while Bell's idea is about microevolution. Even though van Valen's use of the Red Queen metaphor was published first, I will use Bell's microevolutionary meaning, as it perfectly captures the oscillating nature of genotype frequencies during host-parasite coevolution.^[I. M. Lerner used the Red Queen metaphor as early as 1954 with respect to the selection needed to maintain genetic homeostasis: "The *Alice in Wonderland* situation in which 'it takes all the running you can do to stay in the same place' arises when a stationary level of performance can be maintained only by application of the maximum selection possible" [See page 117 in @lerner1954a].]
+It is perhaps worth pointing out that the phrase "Red Queen Hypothesis" can have two different meanings to evolutionary biologists. In the early 1970s, Leigh Van Valen was grappling with data showing that the probability of extinction in very different organisms was independent of the age of the lineage. He reasoned that in coevolutionary interactions, the probability of one species driving the other species extinct could, in fact, be independent of lineage age [-@valen1973a]. It thus seems reasonable to suggest that both antagonists must run (coevolve) as fast as they can to prevent extinction. Graham Bell repurposed the phrase to mean within-population oscillations in host and parasite genotypes [-@bell1982a]. Hence, Van Valen's idea is about macroevolution (speciation/extinction), while Bell's idea is about microevolution. Even though Van Valen's use of the Red Queen metaphor was published first, I will use Bell's microevolutionary meaning, as it perfectly captures the oscillating nature of genotype frequencies during host-parasite coevolution.^[I. M. Lerner used the Red Queen metaphor as early as 1954 with respect to the selection needed to maintain genetic homeostasis: "The *Alice in Wonderland* situation in which 'it takes all the running you can do to stay in the same place' arises when a stationary level of performance can be maintained only by application of the maximum selection possible" [See page 117 in @lerner1954a].]
 
 ### Conceptual roots of the Red Queen Hypothesis
 
@@ -105,7 +116,7 @@ In any case, looking back, it seems clear that the architects of the ecological 
 1. How can we explain sex/rec?
 2. How do we understand the biogeographic and phylogenetic distributions of asexual reproduction? 
 
-As an evolutionary ecologist, I was drawn to the confluence of these questions. But other ideas were also interesting, such as the idea that sexual reproduction is favored because it reduces the interference between alleles at different loci [review in @otto2021a]. I will cover some special cases of this latter idea in @sec-chap6.^[The basic idea comes from a paper by Hill and Robertson [-@hill1966a] and is often called the Hill-Robertson effect [following @felsenstein1974a]. A broader framework, housed under the more intuitive phrase "selective interference," was recently given by Sarah Otto as part of a keynote lecture given to the American Genetic Association [-@otto2021a].] 
+As an evolutionary ecologist, I was drawn to the confluence of these questions. But other ideas were also interesting, such as the idea that sexual reproduction is favored because it reduces the interference between alleles at different loci [review in @otto2021a]. I will cover some special cases of this latter idea in @sec-chap6.^[The basic idea comes from a paper by Hill and Robertson [-@hill1966a] and is often called the Hill-Robertson effect [following @felsenstein1974a]. A broader framework, housed under the more intuitive phrase "selective interference," was recently given by Sarah Otto as part of her keynote lecture given to the American Genetic Association [-@otto2021a].] 
 
 ## Summary
 
@@ -152,3 +163,7 @@ Prout showed that there would be a stable multiple niche polymorphism even under
 The plot below shows $\Delta q$ as a function of $q$ for Prout's model of dominance. Note that $\Delta q$ is positive when $q$ is near zero, and that $\Delta q$ is negative when $q$ is near one. There is an interior equilibrium near $q = 0.5$.
 
 ![$\Delta q$ as a function of $q$ for Prout's model of dominance](images/fig2-5_hr.png){fig-alt="" fig-scap="Prout's model of dominance"}
+
+[^2.1]: The variance in $x$ is equal to the average of the squared deviations from the mean: $var(x) = \frac{1}{N}\sum_{i = 1}^{N}{(x_{i} - \overline{x})^{2}}$.
+
+[^2.2]: The geometric mean is the $N^{th}$ root of the product of $N$ observations. Compared to the arithmetic mean, the geometric mean gives more weight to small values.
