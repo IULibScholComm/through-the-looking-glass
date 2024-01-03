@@ -1,6 +1,7 @@
 % Options for packages loaded elsewhere
 \PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
 %
 \documentclass[
   letterpaper,
@@ -208,7 +209,11 @@
   pdfsubject={evolutionary biology},
   pdfkeywords={biology, evolution, sexual reproduction, evolutionary
 biology},
-  hidelinks,
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
   pdfcreator={LaTeX via pandoc}}
 
 \title{Through the Looking Glass: I. Why Cross-Fertilize?}
@@ -373,6 +378,7 @@ Bloomington, Indiana}
 
 \renewcommand*\contentsname{Contents}
 {
+\hypersetup{linkcolor=}
 \setcounter{tocdepth}{2}
 \tableofcontents
 }
@@ -638,13 +644,13 @@ University of Arizona studying rocky intertidal communities in the
 Northern Gulf of California. But the exams were not focused on our
 research. They were ``depth-of-knowledge'' exams. My question from
 Professor Astrid Kodric-Brown instructed me to read the preface of G.C.
-Williams' book, \emph{Sex and Evolution}, which contains the following
-text (\citeproc{ref-williams1975a}{1975}): ``This book is written from a
-conviction that the prevalence of sexual reproduction in higher plants
-and animals is inconsistent with current evolutionary theory.\ldots{}
-Many well-informed readers may disagree with much of my reasoning, but I
-hope to at least convince them that here is a crisis at hand in
-evolutionary biology.''
+Williams' (\citeproc{ref-williams1975a}{1975}) book, \emph{Sex and
+Evolution}, which contains the following text: ``This book is written
+from a conviction that the prevalence of sexual reproduction in higher
+plants and animals is inconsistent with current evolutionary
+theory.\ldots{} Many well-informed readers may disagree with much of my
+reasoning, but I hope to at least convince them that here is a crisis at
+hand in evolutionary biology.''
 
 The question was something like this: ``Why does Williams think that
 sexual reproduction poses a crisis for evolutionary biology, and what is
@@ -661,13 +667,14 @@ conditions. But the more I studied the question, the more fascinated I
 became. I came to think that there was, indeed, a very real anomaly
 presented by sexual reproduction. Williams was right. Perhaps I was
 especially interested in this anomaly because I had read Thomas Kuhn's
-\emph{The Structure of Scientific Revolutions} as an undergraduate
-(\citeproc{ref-kuhn1970a}{1970}). Kuhn made the case that dissecting
-anomalies can lead to interesting advances and that made sense to me.
-While I eventually produced an essay to address the question, the answer
-felt incomplete. I wanted to know more. There were many hypotheses, but
-there was no clear general explanation. Many years later, I am still
-working on my prelim question. This book is my revised answer.
+book, \emph{The Structure of Scientific Revolutions}, as an
+undergraduate at Glendale Community College. Kuhn
+(\citeproc{ref-kuhn1970a}{1970}) made the case that dissecting anomalies
+can lead to interesting advances and that made sense to me. While I
+eventually produced an essay to address the question, the answer felt
+incomplete. I wanted to know more. There were many hypotheses, but there
+was no clear general explanation. Many years later, I am still working
+on my prelim question. This book is my revised answer.
 
 \section{The Problem}\label{the-problem}
 
@@ -695,12 +702,13 @@ their self-fertilized or parthenogenetic offspring.\footnote{It is not
   with a high level of relatedness (\(r = 1\))? (See
   \citeproc{ref-dagg2016a}{Dagg 2016}.)} (See
 \hyperref[sec-glossary]{Glossary} for condensed definitions.) Williams'
-idea also had theoretical support, as R.A. Fisher had already shown that
-an allele causing self-fertilization would rapidly spread to fixation,
-barring severe inbreeding depression (\citeproc{ref-fisher1941a}{1941}).
-So, why cross-fertilize? The persistence of cross-fertilization despite
-the cost of meiosis formed a paradox. This paradox created the crisis
-that Williams saw in evolutionary biology.
+idea also had theoretical support, as R.A. Fisher
+(\citeproc{ref-fisher1941a}{1941}) had already shown that an allele
+causing self-fertilization would rapidly spread to fixation, barring
+severe inbreeding depression. So, why cross-fertilize? The persistence
+of cross-fertilization despite the cost of meiosis formed a paradox.
+This paradox created the crisis that Williams saw in evolutionary
+biology.
 
 \subsection{The cost of males}\label{the-cost-of-males}
 
@@ -864,10 +872,10 @@ The plant is curious in that it has two morphs. One morph has a style
 that extends beyond the anthers (the long-style morph), and the other
 morph has anthers that extend beyond the style (the short-style morph).
 Botanists refer to this condition as distyly (Figure~\ref{fig-1.3}).
-Darwin found that crosses between the different morphs of the same
-species resulted in a very successful production of seeds, but crosses
-between unrelated individuals of the same morph were dramatically less
-successful (\citeproc{ref-darwin1862a}{1862}). In discussing these
+Darwin (\citeproc{ref-darwin1862a}{1862}) found that crosses between the
+different morphs of the same species resulted in a very successful
+production of seeds, but crosses between unrelated individuals of the
+same morph were dramatically less successful. In discussing these
 results, Darwin speculated that the two morphs may have evolved to
 ensure cross-fertilization: ``Whether or not the dimorphic condition of
 the \emph{Primula} has any bearing on other points in natural history,
@@ -1219,11 +1227,10 @@ will be reflected by an increase in the geometric mean. In general,
 evolutionary biologists use the geometric mean (rather than the
 arithmetic mean) to measure fitness over time.\footnote{The bet-hedging
   idea dates to Daniel Bernoulli, a mathematical physicist, writing in
-  1738. Steve Stearns provides an important, fascinating review of how
-  evolutionary biologists (beginning with
-  \citeproc{ref-cohen1966a}{Cohen 1966}) and economists have borrowed
-  from Bernoulli's conceptual framework
-  (\citeproc{ref-stearns2000a}{2000}).}
+  1738. Steve Stearns (\citeproc{ref-stearns2000a}{2000}) provides an
+  important, fascinating review of how evolutionary biologists
+  (beginning with \citeproc{ref-cohen1966a}{Cohen 1966}) and economists
+  have borrowed from Bernoulli's conceptual framework.}
 
 Can sex be favored in variable environments as a bet-hedging strategy?
 It seems like a very sensible idea provided that the production of
@@ -1262,13 +1269,13 @@ coexist, which was a major advance.\footnote{Vrijenhoek studied the
   Parker (\citeproc{ref-vrijenhoek2009a}{2009}): ``The Frozen Niche
   Variation Model (\citeproc{ref-vrijenhoek1978a}{Vrijenhoek 1978},
   \citeproc{ref-vrijenhoek1979a}{1979}) was directly stimulated by
-  Roughgarden's ideas (\citeproc{ref-roughgarden1972a}{1972}) and a need
+  Roughgarden's (\citeproc{ref-roughgarden1972a}{1972}) ideas and a need
   to explain the stable coexistence of \emph{Poeciliopsis} fish clones
   in spatially heterogeneous desert streams
   (\citeproc{ref-vrijenhoek1978a}{Vrijenhoek 1978}).''}
 
-A conceptually similar model was independently developed by Graham Bell:
-the Tangled Bank Hypothesis (\citeproc{ref-bell1982a}{1982}). Bell
+A conceptually similar model was independently developed by Graham Bell
+(\citeproc{ref-bell1982a}{1982}): the Tangled Bank Hypothesis. Bell
 nabbed the name from the last paragraph of the \emph{Origin of Species},
 in which Darwin imagines life as an ``entangled bank'' of species
 interacting in a complex network. The core of the idea can be traced
@@ -1494,21 +1501,21 @@ average genotype frequency for hosts and parasites.}
 literature}\label{an-intersection-of-science-and-literature}
 
 The name for the Red Queen Hypothesis comes from \emph{Through the
-Looking Glass} (Carroll 1872). Here are the relevant bits of the story.
-After Alice goes through the looking glass (a mirror), she decides to
-follow a straight path to the top of a hill. But, in following the path,
-she ends up at her starting point. Talking to herself, she remarks,
-``But how curiously it twists! It's more like a corkscrew than a path.''
-Repeated attempts were unsuccessful. In frustration, Alice addresses a
-tiger lily amongst a patch of flowers, ``I wish you could talk!'' The
-lily informs Alice that all the flowers can talk. The stunned Alice then
-begins a conversation with the flowers before finally asking, ``Are
-there any more people in the garden besides me?'' The rose answers
-``Yes, there is someone like you.'' Alice sets out to follow this person
-(the Red Queen), but she quickly loses sight of her, and ends up back at
-her original starting point. Flustered, Alice decides to follow the
-advice of the rose: ``\emph{I} should advise you to walk the other
-way.'' Alice then quickly finds the Red Queen.
+Looking Glass} (\citeproc{ref-carroll1872a}{Carroll 1872}). Here are the
+relevant bits of the story. After Alice goes through the looking glass
+(a mirror), she decides to follow a straight path to the top of a hill.
+But, in following the path, she ends up at her starting point. Talking
+to herself, she remarks, ``But how curiously it twists! It's more like a
+corkscrew than a path.'' Repeated attempts were unsuccessful. In
+frustration, Alice addresses a tiger lily amongst a patch of flowers,
+``I wish you could talk!'' The lily informs Alice that all the flowers
+can talk. The stunned Alice then begins a conversation with the flowers
+before finally asking, ``Are there any more people in the garden besides
+me?'' The rose answers ``Yes, there is someone like you.'' Alice sets
+out to follow this person (the Red Queen), but she quickly loses sight
+of her, and ends up back at her original starting point. Flustered,
+Alice decides to follow the advice of the rose: ``\emph{I} should advise
+you to walk the other way.'' Alice then quickly finds the Red Queen.
 
 Now it gets especially interesting. Alice mentions to the Red Queen that
 she would like to ``find my way to the top of that hill.'' The Red Queen
@@ -1545,7 +1552,7 @@ perfect metaphor for host-parasite coevolution.\footnote{The
   intersection between science and literature is not restricted to
   selection for or against sex. For a fascinating essay on how the
   biology of parasites meets literature, see Justyna Jajszczok's
-  dissertation (\citeproc{ref-jajszczok2017a}{2017}).} Host and parasite
+  (\citeproc{ref-jajszczok2017a}{2017}) dissertation.} Host and parasite
 genotypes might oscillate as if they were running to stay in the same
 place.
 
@@ -1566,27 +1573,27 @@ know.
 
 It is perhaps worth pointing out that the phrase ``Red Queen
 Hypothesis'' can have two different meanings to evolutionary biologists.
-In the early 1970s, Leigh Van Valen was grappling with data showing that
-the probability of extinction in very different organisms was
-independent of the age of the lineage. He reasoned that in
-coevolutionary interactions, the probability of one species driving the
-other species extinct could, in fact, be independent of lineage age
-(\citeproc{ref-valen1973a}{1973}). It thus seems reasonable to suggest
-that both antagonists must run (coevolve) as fast as they can to prevent
-extinction. Graham Bell repurposed the phrase to mean within-population
-oscillations in host and parasite genotypes
-(\citeproc{ref-bell1982a}{1982}). Hence, Van Valen's idea is about
-macroevolution (speciation/extinction), while Bell's idea is about
-microevolution. Even though Van Valen's use of the Red Queen metaphor
-was published first, I will use Bell's microevolutionary meaning, as it
-perfectly captures the oscillating nature of genotype frequencies during
-host-parasite coevolution.\footnote{I. M. Lerner used the Red Queen
-  metaphor as early as 1954 with respect to the selection needed to
-  maintain genetic homeostasis: ``The \emph{Alice in Wonderland}
-  situation in which `it takes all the running you can do to stay in the
-  same place' arises when a stationary level of performance can be
-  maintained only by application of the maximum selection possible''
-  (See page 117 in \citeproc{ref-lerner1954a}{Lerner 1954}).}
+In the early 1970s, Leigh Van Valen (\citeproc{ref-valen1973a}{1973})
+was grappling with data showing that the probability of extinction in
+very different organisms was independent of the age of the lineage. He
+reasoned that in coevolutionary interactions, the probability of one
+species driving the other species extinct could, in fact, be independent
+of lineage age. It thus seems reasonable to suggest that both
+antagonists must run (coevolve) as fast as they can to prevent
+extinction. Graham Bell (\citeproc{ref-bell1982a}{1982}) repurposed the
+phrase to mean within-population oscillations in host and parasite
+genotypes. Hence, Van Valen's idea is about macroevolution
+(speciation/extinction), while Bell's idea is about microevolution. Even
+though Van Valen's use of the Red Queen metaphor was published first, I
+will use Bell's microevolutionary meaning, as it perfectly captures the
+oscillating nature of genotype frequencies during host-parasite
+coevolution.\footnote{I. M. Lerner used the Red Queen metaphor as early
+  as 1954 with respect to the selection needed to maintain genetic
+  homeostasis: ``The \emph{Alice in Wonderland} situation in which `it
+  takes all the running you can do to stay in the same place' arises
+  when a stationary level of performance can be maintained only by
+  application of the maximum selection possible'' (See page 117 in
+  \citeproc{ref-lerner1954a}{Lerner 1954}).}
 
 \subsection{Conceptual roots of the Red Queen
 Hypothesis}\label{conceptual-roots-of-the-red-queen-hypothesis}
@@ -1637,27 +1644,27 @@ coevolving pathogens as a primary source of selection favoring the
 mixing of genomes. Levin's idea was quickly followed by important
 conceptual contributions by Glesener \& Tilman
 (\citeproc{ref-glesener1978a}{1978}),\footnote{For example, Glesener and
-  Tilman write, ``Thus, sexuality not only is favored under changed
-  conditions but is, itself, capable of changing the conditions. The
-  sexuality of an organism's competitors, predators, parasites, etc.,
-  will greatly increase the selective pressure for sexuality on that
-  organism as well'' (\citeproc{ref-glesener1978a}{1978}).} Jaenike
-(\citeproc{ref-jaenike1978a}{1978}),\footnote{Jaenike focuses more on
-  the recycling of genotypes: ``My hypothesis differs from Levin's in
-  that sex and recombination are advantageous not to produce novel
-  genotypes as such, but to produce rare genotypes, of which novel ones
-  are only a subset'' (\citeproc{ref-jaenike1978a}{1978}).} and Lloyd
-(\citeproc{ref-lloyd1980a}{1980}). In particular, Lloyd writes,
-``{[}B{]}iological interactions are more likely than unpredictable
-physical conditions to provide the kind of relentless, repetitive change
-that is necessary for sexual parents to be selected because of the
-genetic diversity that sex engenders.'' Lloyd then turns this abstract
-idea into a specific prediction, which I would later test: ``If this
-proves to be so, we will then be able to examine whether the occurrence
-of asexual reproduction is correlated with relaxation of the biological
-hostility of the environment.'' Notice that, in the quotes presented
-above, both Hamilton and Lloyd were specifically predicting that
-coevolution is more important in selecting for sex than uncertain
+  Tilman (\citeproc{ref-glesener1978a}{1978}) write, ``Thus, sexuality
+  not only is favored under changed conditions but is, itself, capable
+  of changing the conditions. The sexuality of an organism's
+  competitors, predators, parasites, etc., will greatly increase the
+  selective pressure for sexuality on that organism as well.''} Jaenike
+(\citeproc{ref-jaenike1978a}{1978}),\footnote{Jaenike
+  (\citeproc{ref-jaenike1978a}{1978}) focuses more on the recycling of
+  genotypes: ``My hypothesis differs from Levin's in that sex and
+  recombination are advantageous not to produce novel genotypes as such,
+  but to produce rare genotypes, of which novel ones are only a
+  subset.''} and Lloyd (\citeproc{ref-lloyd1980a}{1980}). In particular,
+Lloyd writes, ``{[}B{]}iological interactions are more likely than
+unpredictable physical conditions to provide the kind of relentless,
+repetitive change that is necessary for sexual parents to be selected
+because of the genetic diversity that sex engenders.'' Lloyd then turns
+this abstract idea into a specific prediction, which I would later test:
+``If this proves to be so, we will then be able to examine whether the
+occurrence of asexual reproduction is correlated with relaxation of the
+biological hostility of the environment.'' Notice that, in the quotes
+presented above, both Hamilton and Lloyd were specifically predicting
+that coevolution is more important in selecting for sex than uncertain
 physical environments. But it is reasonable to ask, does it really
 matter? Aren't both ideas fundamentally about bet hedging in uncertain
 environments? Yes: I think both ideas are about bet hedging. But the
@@ -1715,9 +1722,9 @@ this latter idea in Chapter~\ref{sec-chap6}.\footnote{The basic idea
   Hill-Robertson effect (following
   \citeproc{ref-felsenstein1974a}{Felsenstein 1974}). A broader
   framework, housed under the more intuitive phrase ``selective
-  interference,'' was recently given by Sarah Otto as part of her
-  keynote lecture given to the American Genetic Association
-  (\citeproc{ref-otto2021a}{2021}).}
+  interference,'' was recently given by Sarah Otto
+  (\citeproc{ref-otto2021a}{2021}) as part of her keynote lecture given
+  to the American Genetic Association.}
 
 \section{Summary}\label{summary-1}
 
@@ -1754,11 +1761,11 @@ Polymorphism}\label{sec-app-2}
 
 It was widely thought that heterozygote advantage was required to
 maintain polymorphism at a single locus with two alleles. In the
-introduction to his paper, Levene wonders ``whether it was in fact
-possible to have an equilibrium without the heterozygote being superior
-in any single niche'' (\citeproc{ref-levene1953a}{1953}). The paper is
-not easy to follow, eventhough the algebra is not difficult. Here I try
-to simplify the presentation.
+introduction to his paper, Levene (\citeproc{ref-levene1953a}{1953})
+wonders ``whether it was in fact possible to have an equilibrium without
+the heterozygote being superior in any single niche.'' The paper is not
+easy to follow, even though the algebra is not difficult. Here I try to
+simplify the presentation.
 
 Levene first assumes that the proportion of survivors coming from the
 \(i^{th}\) niche is constant \((q)\), independent of the genotypic
@@ -1846,13 +1853,13 @@ niche, and the BB genotype does best in the other niche.
 
 Nonetheless, Levene's result suggests that overdominance for harmonic
 mean fitness is required for multiple niche polymorphism
-(\citeproc{ref-prout1968a}{Prout 1968}). However, Timothy Prout showed
-that a polymorphism could be stable even if one allele is dominant, thus
-ruling out any kind of overdominance (\citeproc{ref-prout1968a}{1968}).
-Let both the AA and AB genotypes have a fitness of one in both niches.
-Let the BB genotype have a fitness of 0.5 in niche one and a fitness of
-1.67 in niche two. Assuming as above that both patches are equally
-common, we get the following table:
+(\citeproc{ref-prout1968a}{Prout 1968}). However, Timothy Prout
+(\citeproc{ref-prout1968a}{1968}) showed that a polymorphism could be
+stable even if one allele is dominant, thus ruling out any kind of
+overdominance. Let both the AA and AB genotypes have a fitness of one in
+both niches. Let the BB genotype have a fitness of 0.5 in niche one and
+a fitness of 1.67 in niche two. Assuming as above that both patches are
+equally common, we get the following table:
 
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1235}}
@@ -2063,23 +2070,23 @@ parthenogenesis.\footnote{We were trained ask questions first and then
   seek suitable organisms to address the questions. This was the
   tradition before model-systems research took over
   (\citeproc{ref-churchill1997a}{Churchill 1997}).} To this end, I was
-reading Graham Bell's incredible book on the evolution and genetics of
-sexual reproduction (\citeproc{ref-bell1982a}{1982}). Searching the
+reading Graham Bell's (\citeproc{ref-bell1982a}{1982}) incredible book
+on the evolution and genetics of sexual reproduction. Searching the
 index, I found a reference to \emph{Potamopyrgus antipodarum}, a New
-Zealand freshwater snail. Bell had cited Mike Winterbourn's dissertation
-work on this snail (\citeproc{ref-winterbourn1970a}{1970}). Luckily for
-me, Professor Winterbourn was just down the hall from me. I took the
-book to him, and I asked if the snails were, in fact, facultatively
-parthenogenetic. He said no; the snails were probably obligate asexuals,
-based on lab rearing experiments that he had done. He also said that
-most populations were all female, but some contained males. He then
-added that there was no obvious pattern to the distribution of males.
-Amazing! I immediately decided to work on these snails.\footnote{Professor
-  Winterbourn was supportive of my work from this first day. He shared
-  his knowledge of the snail system and of freshwater ecology, in
-  general, with great enthusiasm. In addition, Mike met with my
-  Ph.D.~students and took them into the field. This book would not have
-  been possible without Professor Winterbourn.}
+Zealand freshwater snail. Bell had cited Mike Winterbourn's
+(\citeproc{ref-winterbourn1970a}{1970}) dissertation work on this snail.
+Luckily for me, Professor Winterbourn was just down the hall from me. I
+took the book to him, and I asked if the snails were, in fact,
+facultatively parthenogenetic. He said no; the snails were probably
+obligate asexuals, based on lab rearing experiments that he had done. He
+also said that most populations were all female, but some contained
+males. He then added that there was no obvious pattern to the
+distribution of males. Amazing! I immediately decided to work on these
+snails.\footnote{Professor Winterbourn was supportive of my work from
+  this first day. He shared his knowledge of the snail system and of
+  freshwater ecology, in general, with great enthusiasm. In addition,
+  Mike met with my Ph.D.~students and took them into the field. This
+  book would not have been possible without Professor Winterbourn.}
 
 \section{The Method of Multiple Working
 Hypotheses}\label{the-method-of-multiple-working-hypotheses}
@@ -2293,9 +2300,8 @@ better predicted by the frequency of trematode infection than by habitat
 \emph{per se} (\citeproc{ref-lively1987a}{Lively 1987}). Hence,
 surprisingly, the results favored the Red Queen Hypothesis. I presented
 these findings to a small group at David Lloyd's flat, and they
-convinced me to submit to \emph{Nature}
-(\citeproc{ref-lively1987a}{1987}).\footnote{The group included Mark
-  McKone. Mark was a post-doc with David, and his comments were
+convinced me to submit to \emph{Nature}.\footnote{The group included
+  Mark McKone. Mark was a post-doc with David, and his comments were
   especially influential. Fifteen years later, I would become
   Ph.D.~advisor to one of Mark's star mentees at Carleton College,
   Maurine Neiman.}
@@ -2460,9 +2466,9 @@ contribute to the persistence of sex in mixed populations of sexual and
 asexual snails. It is of particular interest, perhaps, to note that
 there are no populations with a high proportion of males in samples
 where parasites were rare or absent (Figure~\ref{fig-3-5}). This finding
-is consistent with David Lloyd's 1980 prediction that asexuals should
-dominate in populations ``with a relaxation of biological hostility''
-(see above) (\citeproc{ref-lloyd1980a}{1980}). But the results are
+is consistent with David Lloyd's (\citeproc{ref-lloyd1980a}{1980}) 1980
+prediction that asexuals should dominate in populations ``with a
+relaxation of biological hostility'' (see above). But the results are
 messy.
 
 There are several reasons for why the results might be expected to be
@@ -2815,11 +2821,11 @@ work, combined with Hamilton and Zuk's model of parasite-mediated mate
 choice, along with Hamilton's models on parasite-mediated selection for
 sex, lit up the field (\citeproc{ref-hamilton1980a}{Hamilton 1980};
 \citeproc{ref-hamilton1982a}{Hamilton \& Zuk 1982}). Fascinating work by
-Janice Moore on the evolution of parasite-mediated modifications of host
-behavior piled on (\citeproc{ref-moore1984a}{1984}). In addition, Hudson
-et al. (\citeproc{ref-hudson1998a}{1998}) rocked the ecological world
-with a heroic field experiment showing that oscillations in Red Grouse
-densities were controlled by nematode infections
+Janice Moore (\citeproc{ref-moore1984a}{1984}) on the evolution of
+parasite-mediated modifications of host behavior piled on. In addition,
+Hudson et al. (\citeproc{ref-hudson1998a}{1998}) rocked the ecological
+world with a heroic field experiment showing that oscillations in Red
+Grouse densities were controlled by nematode infections
 (\citeproc{ref-hudson1998a}{1998}). Parasites were now on the map. An
 emerging new field called ``ecology and evolution of infectious
 disease'' was taking flight.
@@ -3284,16 +3290,15 @@ introductory paper for a new journal. The editor made an effort to
 acknowledge Muller in the preface to this first issue
 (\citeproc{ref-sobels1964a}{Sobels 1964}): ``We are particularly honored
 that we can start the journal with a paper by Dr.~H. J. Muller.'' In
-this inaugural paper, Muller wrote a bomb sentence
-(\citeproc{ref-muller1964a}{1964}): ``{[}w{]}e find that an asexual
-population incorporates a kind of ratchet mechanism, such that it can
-never get to contain, in any of its lines, a load of mutations smaller
-than that already existing in its at present least-loaded lines.'' In
-other words, obligately asexual populations should accumulate
-deleterious mutations over time. A decade later, Joe Felsenstein named
-the idea ``Muller's ratchet'' (\citeproc{ref-felsenstein1974a}{1974}),
-and he pointed to the probable importance of the ratchet in population
-genetics.\footnote{From Felsenstein
+this inaugural paper, Muller (\citeproc{ref-muller1964a}{1964}) wrote a
+bomb sentence: ``{[}W{]}e find that an asexual population incorporates a
+kind of ratchet mechanism, such that it can never get to contain, in any
+of its lines, a load of mutations smaller than that already existing in
+its at present least-loaded lines.'' In other words, obligately asexual
+populations should accumulate deleterious mutations over time. A decade
+later, Joe Felsenstein (\citeproc{ref-felsenstein1974a}{1974}) named the
+idea ``Muller's ratchet,'' and he pointed to the probable importance of
+the ratchet in population genetics.\footnote{From Felsenstein
   (\citeproc{ref-felsenstein1974a}{1974}): ``I will not attempt here to
   predict from theory the quantitative effect of the ratchet mechanism.
   Involving natural selection, mutation, and genetic drift at many
@@ -3746,9 +3751,9 @@ expected frequency of zero new mutations in offspring.
 
 In an infinite population, we would expect the mean fitness to remain at
 this equilibrium value. But populations are finite, which leads to
-Muller's ratchet. John Haigh constructed the first model to deeply
-explore the ratchet (\citeproc{ref-haigh1978a}{1978}). He first assumed
-that each deleterious mutation results in the same proportional
+Muller's ratchet. John Haigh (\citeproc{ref-haigh1978a}{1978})
+constructed the first model to deeply explore the ratchet. He first
+assumed that each deleterious mutation results in the same proportional
 reduction in fitness as all previous mutations. Let \(s\) be the
 selection coefficient against each mutation. Under Haigh's assumption,
 an individual with zero mutations would have a relative fitness of
@@ -3961,8 +3966,8 @@ these lines, I offer a few questions for advanced study.
   capacities than sexual populations? If so, then under what conditions?
   If not, then why not?
 \item
-  Read Darwin's original paper on cross fertilization in \emph{Primula}
-  (\citeproc{ref-darwin1862a}{1862}). Why did he do the
+  Read Darwin's (\citeproc{ref-darwin1862a}{1862}) original paper on
+  cross fertilization in \emph{Primula}. Why did he do the
   cross-pollination experiments? What where the results? Why did he
   conclude that ``the whole subject is hidden in darkness?''\\
 \item
@@ -4102,6 +4107,10 @@ two theories of recombination. \emph{Nature}, 326, 803--805.
 \bibitem[\citeproctext]{ref-buss1990a}
 Buss, L. (1990). Competition within and between encrusting clonal
 invertebrates. \emph{Trends in Ecology \& Evolution}, 5, 352--356.
+
+\bibitem[\citeproctext]{ref-carroll1872a}
+Carroll, L. (1872). \emph{Through the looking glass and what {Alice}
+found there}. Macmillan, London.
 
 \bibitem[\citeproctext]{ref-chamberlin1890a}
 Chamberlin, T.C. (1890). The method of multiple working hypotheses.

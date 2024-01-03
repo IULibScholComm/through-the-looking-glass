@@ -46,7 +46,7 @@ These early studies suggest that parasites might play a role in selecting agains
 My hope is that this text might be used for class discussions. Along these lines, I offer a few questions for advanced study.  
 
 1. Do you think that asexual populations would have higher carrying capacities than sexual populations? If so, then under what conditions? If not, then why not?
-2. Read Darwin’s original paper on cross fertilization in *Primula* [-@darwin1862a]. Why did he do the cross-pollination experiments? What where the results? Why did he conclude that "the whole subject is hidden in darkness?"  
+2. Read Darwin’s [-@darwin1862a] original paper on cross fertilization in *Primula*. Why did he do the cross-pollination experiments? What where the results? Why did he conclude that "the whole subject is hidden in darkness?"  
 3. What is the value of having *a-priori* hypotheses?
 4. I suggested that the correlation between sex and infection would be expected to be messy, if observed at all. Is that true? If so, then what factors would contribute the variance among values?  
 5. I suggested that hypotheses that rely on negative frequency-dependent selection (including the Tangled Bank and the Red Queen) cannot stand alone if there is repeated mutation to asexual reproduction. Is that right or wrong? Why?
