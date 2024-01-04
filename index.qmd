@@ -40,6 +40,8 @@ This project was supported by the NSF OPUS program for the synthesis of biologic
 
 To learn more about how to use this book, see [Quarto's Guide](https://quarto.org/docs/guide/), or simply try its features! 
 
+::: {.content-visible unless-format="pdf"}
+
 ## Copyright and License
 
 &copy; 2024 Curtis M. Lively\
@@ -71,6 +73,8 @@ The licensor cannot revoke these freedoms as long as you follow the license term
 [Indiana University Bloomington Libraries Publishing](https://libraries.indiana.edu/scholarly-communication)\
 1320 E. Tenth Street\
 Bloomington, IN 47405
+
+::: 
 
 ## How to Cite
 

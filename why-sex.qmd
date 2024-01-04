@@ -52,9 +52,7 @@ However, the discovery of parthenogenesis was met with some hostility.^[The case
 
 Clearly, Wagner was not pleased with the discovery of asexual reproduction, calling it unpleasant, unwelcome, and distasteful. By contrast, Darwin did not find the idea to be distasteful in any way. He wondered instead why it was not more common. For example, Darwin [-@darwin1868a] wrote, "Parthenogenesis is no longer wonderful; in fact, the wonder is that it should not oftener occur."^[I suspect that Darwin uses the phrase "no longer wonderful" to mean "no longer astonishing." See ["How 'Wonderful' Lost Its Sense of Wonder."](https://www.merriam-webster.com/words-at-play/wonderful-word-history-evolution)]
 
-Over 100 years later, W. D. Hamilton [-@hamilton1975a] was also pondering the evolution of outcrossing, and he wrote something conceptually similar: "[c]omplete inbreeding abandons the obviously important advantages of sexual reproduction, whatever these are."
-
-Whatever these are! The advantages of outcrossing were obviously important because cross-fertilization is so dominant. But the source of these advantages was not clear. At about the same time, Maynard Smith [-@maynard1976a] mused, "One gets the feeling that some essential feature of the situation has been overlooked."
+Over 100 years later, W. D. Hamilton [-@hamilton1975a] was also pondering the evolution of outcrossing, and he wrote something conceptually similar: "[c]omplete inbreeding abandons the obviously important advantages of sexual reproduction, whatever these are." Whatever these are! The advantages of outcrossing were obviously important because cross-fertilization is so dominant. But the source of these advantages was not clear. At about the same time, Maynard Smith [-@maynard1976a] mused, "One gets the feeling that some essential feature of the situation has been overlooked."
 
 I now think that John Maynard Smith was correct. An essential feature had indeed been overlooked: parasites.
 

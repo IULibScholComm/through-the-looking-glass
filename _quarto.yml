@@ -139,6 +139,7 @@ format:
       affiliation-style: "none"
       logo-size: "0.5\\paperwidth"
       footer-fontsize: 15
+    titlepage-include-file: tex/copyright.tex
     documentclass: book
     keep-tex: true
     toc: true
