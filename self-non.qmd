@@ -47,7 +47,5 @@ Wow. In retrospect, Burnet's "attempt to imagine the various steps" does not see
 ## Summary
 
 1. The most common trematode infection in lake populations of *P. antipodarum* is caused by a larval stage of *Microphallus* sp. (recently renamed to *Atriophallophorus winterbourni*). The trematode has a two-host life cycle (snails and waterfowl). 
-
 2. Experimental cross-inoculation experiments showed that *Microphallus* is more infectious to local lake populations of its snail host, *P. antipodarum*, than to remote host populations. 
-
 3. These results suggest that some kind of match by the parasite to the host is required for infection. This idea of matching is consistent with the idea of self- / non-self-recognition as the basis for immune defense. The gist of the original idea stems from experimental studies of colony fusion in tunicates. 

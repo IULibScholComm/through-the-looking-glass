@@ -33,7 +33,7 @@ book:
   sharing: [twitter, facebook, linkedin]
   downloads: [pdf, epub, docx]
   sidebar:
-    style: "floating"
+    style: "docked"
     logo: images/cover.png
     search: true
     tools: 

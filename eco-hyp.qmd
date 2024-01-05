@@ -119,13 +119,9 @@ As an evolutionary ecologist, I was drawn to the confluence of these questions. 
 ## Summary
 
 1. Three ecological hypotheses have been proposed to explain the persistence of cross-fertilization in the face of competition with uniparental reproductive strategies, such as parthenogenesis or self-fertilization [following @bell1982a]. 
-
 2. The Lottery Model is based on the possible advantages of diversifying offspring facing uncertain changes in the abiotic environment. Here selection is independent of both density and frequency. 
-
 3. The Tangled Bank and Frozen Niche-Variation Hypotheses are based on competition for resources when multiple resource types co-occur. Selection is frequency dependent, but the advantage to rare types only occurs when intraspecific competition is intense. 
-
 4. The Red Queen Hypothesis relies on parasite-mediated selection against common host genotypes. Such selection, when strong, can result in oscillatory changes in parasite and host alleles. These oscillations are sometimes called Red Queen dynamics. 
-
 5. A bet-hedging strategy reduces the variance in reproductive success over time, even if it reduces the arithmetic mean. Sexual reproduction under the Lottery Model is clearly a bet-hedging strategy. The Red Queen idea can perhaps also be seen as bet hedging. 
 
 ## Appendix: Levene's Model of Multiple Niche Polymorphism {#sec-app-2}
@@ -163,5 +159,4 @@ The plot below shows $\Delta q$ as a function of $q$ for Prout's model of domina
 ![$\Delta q$ as a function of $q$ for Prout's model of dominance](images/fig2-5_hr.png){fig-alt="" fig-scap="Prout's model of dominance"}
 
 [^2.1]: The variance in $x$ is equal to the average of the squared deviations from the mean: $var(x) = \frac{1}{N}\sum_{i = 1}^{N}{(x_{i} - \overline{x})^{2}}$.
-
 [^2.2]: The geometric mean is the $N^{th}$ root of the product of $N$ observations. Compared to the arithmetic mean, the geometric mean gives more weight to small values.

@@ -2,7 +2,7 @@
 
 ::: {.epigraph}
 
-*"[A]nd what is the use of a book," thought Alice, "without pictures or conversations?"*  
+*"[A]nd what is the use of a book," thought Alice, "without pictures or conversations?"* 
 --Lewis Carroll, *Alice's Adventures in Wonderland*
 
 :::
@@ -17,7 +17,7 @@ One possible explanation for the persistence of sexual populations is that the a
 
 In @sec-eco-hyp, I reviewed three ideas for why sexual reproduction might be stable against replacement by parthenogenetic females [following @bell1982a]. The first of these, the Lottery Model, proposes that sexual reproduction is favored in fluctuating abiotic environments. For example, a clone that is adapted to cold/dry conditions might not survive following a change to hot/wet conditions. On the other hand, it is easy to imagine that some fraction of a genetically diverse sexual population might survive the change. I tried to give a more formal basis to this idea in @sec-eco-hyp, but I think this example gives the gist. 
 
-The second hypothesis, the Tangled Bank, focuses on intraspecific competition. Consider, for example, two genetically determined sexual morphs that specialize on different resource types. Let's assume that the two genotypes are maintained by frequency-dependent selection when resource competition is intense. A clone, however, might be expected to specialize on one or the other but not both patches. As such, the clone would not be able to completely replace the sexual population. But what if a second clone arises by mutation in the sexual population?  
+The second hypothesis, the Tangled Bank, focuses on intraspecific competition. Consider, for example, two genetically determined sexual morphs that specialize on different resource types. Let's assume that the two genotypes are maintained by frequency-dependent selection when resource competition is intense. A clone, however, might be expected to specialize on one or the other but not both patches. As such, the clone would not be able to completely replace the sexual population. But what if a second clone arises by mutation in the sexual population? 
 
 The third hypothesis, the Red Queen, resembles the Lottery Model in that selection changes over time. But under the Red Queen, the change is predictable: the environment always changes to select against the most common genotype. Coevolving parasites are the most likely environmental force to generate this kind of frequency-dependent selection against their hosts. However, the hypothesis requires that different parasite genotypes specialize on infecting different host genotypes and that the fitness consequences of infection are severe.^[Direct evidence in support of this assumption comes from recent studies of water fleas and their bacterial pathogens [@bento2017a;@dexter2023a].] 
 
@@ -27,27 +27,27 @@ Correlation is not causation, but it can suggest profitable research directions.
 
 But are common snail clones disproportionately infected? I will discuss empirical tests of this question in volume 2. But there is evidence from mixed (sexual and asexual) populations of freshwater fish in Mexico (@sec-gyno). Consistent with expectation under the Red Queen, the more common clone was more infected than the sexual population. There was one exception, however, in which the sexual population was more infected. But, as it turned out, that sexual population was highly inbred. This suggests that there is no advantage to sex in the absence of genetic diversity, which fits with the overall Red Queen idea. 
 
-Any model, such as the Red Queen, that relies on frequency-dependent selection could lead to the accumulation of different clonal genotypes over time. The problem is that a sufficiently diverse set of clones could replace the ancestral sexual population under either the Tangled Bank or the Red Queen. In @sec-chap6, I suggested that combining two different hypotheses might offer a solution. Steve Howard and I combined the idea of Red Queen dynamics with the classic mutational idea offered by H.J. Muller. Muller's idea is the clone incorporates a "ratchet like mechanism," leading to mutational meltdown. The ratchet-like mechanism works by stochastic loss of the subclones with the fewest mutations. Once lost, these subclones are unlikely to be replaced by back mutation, which leads to an ever-increasing mean number of mutations in the clonal lineage. Parasites could drive the ratchet faster by periodically reducing the number of individuals in the least-loaded class. Hence the ratchet and the Red Queen could work together to prevent the (1) fixation of clones in the short term and (2) the accumulation of clones in the long term.  
+Any model, such as the Red Queen, that relies on frequency-dependent selection could lead to the accumulation of different clonal genotypes over time. The problem is that a sufficiently diverse set of clones could replace the ancestral sexual population under either the Tangled Bank or the Red Queen. In @sec-chap6, I suggested that combining two different hypotheses might offer a solution. Steve Howard and I combined the idea of Red Queen dynamics with the classic mutational idea offered by H.J. Muller. Muller's idea is the clone incorporates a "ratchet like mechanism," leading to mutational meltdown. The ratchet-like mechanism works by stochastic loss of the subclones with the fewest mutations. Once lost, these subclones are unlikely to be replaced by back mutation, which leads to an ever-increasing mean number of mutations in the clonal lineage. Parasites could drive the ratchet faster by periodically reducing the number of individuals in the least-loaded class. Hence the ratchet and the Red Queen could work together to prevent the (1) fixation of clones in the short term and (2) the accumulation of clones in the long term. 
 
 ## Future Directions
 
 These early studies suggest that parasites might play a role in selecting against common host genotypes, and that they might contribute to the selective advantage of cross-fertilization. But they also raise several interesting questions, which I will try to address in the next volume. Some of the key questions are as follows. 
 
-1. Where do the snail clones come from? Are they locally derived, or are a few clones distributed across New Zealand?   
+1. Where do the snail clones come from? Are they locally derived, or are a few clones distributed across New Zealand? 
 2. Do parasites evolve fast enough to prevent a clone from replacing a sexual population? Are they virulent enough? What causes virulence? Is it infection *per se*? Or does virulence depend on ecological context? 
-3. How genetically diverse are the clones within and among snail populations?  
-4. What is the distribution of clones across habitats in the same lake?  
-5. Do clonal and sexual females have the same fecundities?  
-6. Would a clone double in frequency when rare?  
-7. What is the scale of parasite local adaption? Could it occur within lakes?  
+3. How genetically diverse are the clones within and among snail populations? 
+4. What is the distribution of clones across habitats in the same lake? 
+5. Do clonal and sexual females have the same fecundities? 
+6. Would a clone double in frequency when rare? 
+7. What is the scale of parasite local adaption? Could it occur within lakes? 
 
 ## Questions for Advanced Study
 
-My hope is that this text might be used for class discussions. Along these lines, I offer a few questions for advanced study.  
+My hope is that this text might be used for class discussions. Along these lines, I offer a few questions for advanced study. 
 
-1. Do you think that asexual populations would have higher carrying capacities than sexual populations? If so, then under what conditions? If not, then why not?
-2. Read Darwin’s [-@darwin1862a] original paper on cross fertilization in *Primula*. Why did he do the cross-pollination experiments? What where the results? Why did he conclude that "the whole subject is hidden in darkness?"  
-3. What is the value of having *a-priori* hypotheses?
-4. I suggested that the correlation between sex and infection would be expected to be messy, if observed at all. Is that true? If so, then what factors would contribute the variance among values?  
-5. I suggested that hypotheses that rely on negative frequency-dependent selection (including the Tangled Bank and the Red Queen) cannot stand alone if there is repeated mutation to asexual reproduction. Is that right or wrong? Why?
-6. Under what general conditions would host-parasite coevolution lead to oscillatory genetical dynamics in both the host and the parasite?  
+1. Do you think that asexual populations would have higher carrying capacities than sexual populations? If so, then under what conditions? If not, then why not? 
+2. Read Darwin’s [-@darwin1862a] original paper on cross fertilization in *Primula*. Why did he do the cross-pollination experiments? What where the results? Why did he conclude that "the whole subject is hidden in darkness?" 
+3. What is the value of having *a-priori* hypotheses? 
+4. I suggested that the correlation between sex and infection would be expected to be messy, if observed at all. Is that true? If so, then what factors would contribute the variance among values? 
+5. I suggested that hypotheses that rely on negative frequency-dependent selection (including the Tangled Bank and the Red Queen) cannot stand alone if there is repeated mutation to asexual reproduction. Is that right or wrong? Why? 
+6. Under what general conditions would host-parasite coevolution lead to oscillatory genetical dynamics in both the host and the parasite? 
