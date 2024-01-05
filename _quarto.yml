@@ -33,7 +33,7 @@ book:
   sharing: [twitter, facebook, linkedin]
   downloads: [pdf, epub, docx]
   sidebar:
-    style: "docked"
+    style: "floating"
     logo: images/cover.png
     search: true
     tools: 
@@ -149,7 +149,7 @@ format:
     number-sections: true
     linkcolor: blue
     papersize: letter
-    indent: true
+    indent: false
     reference-location: block
     cite-method: citeproc
     citeproc: true
