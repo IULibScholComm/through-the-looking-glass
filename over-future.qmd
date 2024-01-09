@@ -1,8 +1,8 @@
-![](images/fig7-1.png){width=50% fig-align="center" fig-alt="Alice of *Alice's Adventures in Wonderland* sitting and reading Curt Lively's *Through the Looking Glass*"}
+![](images/fig7-1.png){width="37%" fig-align="center" fig-alt="Alice of *Alice's Adventures in Wonderland* sitting and reading Curt Lively's *Through the Looking Glass*" }
 
 ::: {.epigraph}
 
-*"[A]nd what is the use of a book," thought Alice, "without pictures or conversations?"* 
+*"[A]nd what is the use of a book," thought Alice, "without pictures or conversations?"*  
 --Lewis Carroll, *Alice's Adventures in Wonderland*
 
 :::
