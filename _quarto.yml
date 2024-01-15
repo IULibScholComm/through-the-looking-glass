@@ -107,7 +107,7 @@ format:
     link-external-newwindow: true
     copyright: Curtis M. Lively
     date-modified: last-modified
-    license: "CC BY"
+    license: "CC BY ND"
     citeproc: true
     html-q-tags: true
     footnotes-hover: true
@@ -185,4 +185,5 @@ format:
     fig-align: center
     link-citations: true
     subject: evolution, coevolution, "host-parasite interactions", "Muller's ratchet", parthenogenesis, "Red Queen hypothesis", "sexual reproduction"
+
     
