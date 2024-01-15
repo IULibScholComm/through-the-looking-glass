@@ -47,7 +47,7 @@ To learn more about how to use this book, see [Quarto's Guide](https://quarto.or
 &copy; 2024 Curtis M. Lively\
 Illustrations &copy; 2024 Zoe Michelle Dinges\
 
-<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><strong>Unless otherwise indicated</strong>, <a property="dct:title" rel="cc:attributionURL" href="https://iulibscholcomm.github.io/through-the-looking-glass/">Through the Looking Glass: I. Why Cross-Fertilize?</a> by <span property="cc:attributionName">Curtis M. Lively and Zoe Michelle Dinges</span> is licensed under <a href="http://creativecommons.org/licenses/by-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution-NoDerivatives 4.0 International <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"></img><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></img><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1"></img></a></p>
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><strong>Unless otherwise indicated</strong>, <a property="dct:title" rel="cc:attributionURL" href="https://iulibscholcomm.github.io/through-the-looking-glass/">Through the Looking Glass: I. Why Cross-Fertilize?</a> by <span property="cc:attributionName">Curtis M. Lively and Zoe Michelle Dinges</span> is licensed under <a href="http://creativecommons.org/licenses/by-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution-NoDerivatives 4.0 International <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="creative commons cc logo"></img><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="creative commons by logo"></img><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt="creative commons no-derivatives logo"></img></a></p>
 
 **You are free to:**
 
@@ -67,7 +67,7 @@ Illustrations &copy; 2024 Zoe Michelle Dinges\
 
 ## Publisher
 
-![](images/iublpub_logo.png){alt-text="Logo of Indiana University Bloomington Libraries Publishing" width="40%"}\
+![](images/iublpub_logo.png){fig-alt="Logo of Indiana University Bloomington Libraries Publishing" width="40%"}\
 
 [Indiana University Bloomington Libraries Publishing](https://libraries.indiana.edu/scholarly-communication)\
 1320 E. Tenth Street\
