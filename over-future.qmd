@@ -31,23 +31,23 @@ Any model, such as the Red Queen, that relies on frequency-dependent selection c
 
 ## Future Directions
 
-These early studies suggest that parasites might play a role in selecting against common host genotypes, and that they might contribute to the selective advantage of cross-fertilization. But they also raise several interesting questions, which I will try to address in the next volume. Some of the key questions are as follows. 
+These early studies suggest that parasites might play a role in selecting against common host genotypes, and that they might contribute to the selective advantage of cross-fertilization. But they also raise several interesting questions, which I will try to address in the next volume. Some of the key questions are as follows: 
 
-1. Where do the snail clones come from? Are they locally derived, or are a few clones distributed across New Zealand? 
-2. Do parasites evolve fast enough to prevent a clone from replacing a sexual population? Are they virulent enough? What causes virulence? Is it infection *per se*? Or does virulence depend on ecological context? 
-3. How genetically diverse are the clones within and among snail populations? 
-4. What is the distribution of clones across habitats in the same lake? 
-5. Do clonal and sexual females have the same fecundities? 
-6. Would a clone double in frequency when rare? 
-7. What is the scale of parasite local adaption? Could it occur within lakes? 
+- Where do the snail clones come from? Are they locally derived, or are a few clones distributed across New Zealand? 
+- Do parasites evolve fast enough to prevent a clone from replacing a sexual population? Are they virulent enough? What causes virulence? Is it infection *per se*? Or does virulence depend on ecological context? 
+- How genetically diverse are the clones within and among snail populations? 
+- What is the distribution of clones across habitats in the same lake? 
+- Do clonal and sexual females have the same fecundities? 
+- Would a clone double in frequency when rare? 
+- What is the scale of parasite local adaption? Could it occur within lakes? 
 
 ## Questions for Advanced Study
 
-My hope is that this text might be used for class discussions. Along these lines, I offer a few questions for advanced study. 
+My hope is that this text might be used for class discussions. Along these lines, I offer questions for advanced study: 
 
-1. Do you think that asexual populations would have higher carrying capacities than sexual populations? If so, then under what conditions? If not, then why not? 
-2. Read Darwin’s [-@darwin1862a] original paper on cross fertilization in *Primula*. Why did he do the cross-pollination experiments? What where the results? Why did he conclude that "the whole subject is hidden in darkness?" 
-3. What is the value of having *a-priori* hypotheses? 
-4. I suggested that the correlation between sex and infection would be expected to be messy, if observed at all. Is that true? If so, then what factors would contribute the variance among values? 
-5. I suggested that hypotheses that rely on negative frequency-dependent selection (including the Tangled Bank and the Red Queen) cannot stand alone if there is repeated mutation to asexual reproduction. Is that right or wrong? Why? 
-6. Under what general conditions would host-parasite coevolution lead to oscillatory genetical dynamics in both the host and the parasite? 
+- Do you think that asexual populations would have higher carrying capacities than sexual populations? If so, then under what conditions? If not, then why not? 
+- Read Darwin’s [-@darwin1862a] original paper on cross fertilization in *Primula*. Why did he do the cross-pollination experiments? What where the results? Why did he conclude that "the whole subject is hidden in darkness?" 
+- What is the value of having *a-priori* hypotheses? 
+- I suggested that the correlation between sex and infection would be expected to be messy, if observed at all. Is that true? If so, then what factors would contribute the variance among values? 
+- I suggested that hypotheses that rely on negative frequency-dependent selection (including the Tangled Bank and the Red Queen) cannot stand alone if there is repeated mutation to asexual reproduction. Is that right or wrong? Why? 
+- Under what general conditions would host-parasite coevolution lead to oscillatory genetical dynamics in both the host and the parasite? 

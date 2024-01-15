@@ -75,9 +75,9 @@ None of this is meant to imply proof of the Red Queen Hypothesis or that density
 
 As part of my dissertation research, I constructed a game-theoretic model of selection on three strategies: 
 
-1. canalized development into a high-fecundity morph, 
-2. canalized development to a low-fecundity, predation-resistant morph,
-3. induced development into the low fecundity defended morph in the presence of predators. 
+- canalized development into a high-fecundity morph, 
+- canalized development to a low-fecundity, predation-resistant morph,
+- induced development into the low fecundity defended morph in the presence of predators. 
 
 The model examined evolutionary stability for a range of frequencies for two patches (high predation risk and low predation risk) across a range of values for the accuracy of the cue predicting future predation risk [@lively1986a]. 
 
