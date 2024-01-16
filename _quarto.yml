@@ -29,12 +29,23 @@ book:
     Book on the evolutionary problem of sexual reproduction
   references: references.bib
   cover-image: images/cover.png
-  cover-image-alt: book cover with title, author, illustrator, and illustration of Red Queen chesspiece and two snails
+  cover-image-alt: "book cover with title, author, illustrator, and illustration of Red Queen chesspiece and two snails"
   sharing: [twitter, facebook, linkedin]
   downloads: [pdf, epub, docx]
+#  navbar: 
+#    logo: images/cover.png
+#    logo-alt: "book cover with title, author, illustrator, and illustration of Red Queen chesspiece and two snails"
+#    background: "#880808"
+#    foreground: "#FFFFFF"
+#    right: 
+#      - icon: twitter-x
+#        href: https://twitter.com/curt_lively
+#        aria-label: Twitter
+#  search:
+#    location: sidebar
   sidebar:
     style: "docked"
-    logo: images/cover.png
+    # logo: images/cover.png
     search: true
     tools: 
       - icon: twitter-x
@@ -94,7 +105,7 @@ format:
   html:
     css: style.css
     html-math-method: mathjax
-    theme: journal
+    theme: [journal, theme.scss]
     toc: true
     toc-title: Contents
     toc-expand: true
@@ -186,5 +197,3 @@ format:
     fig-align: center
     link-citations: true
     subject: evolution, coevolution, "host-parasite interactions", "Muller's ratchet", parthenogenesis, "Red Queen hypothesis", "sexual reproduction"
-
-    
