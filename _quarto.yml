@@ -29,20 +29,9 @@ book:
     Book on the evolutionary problem of sexual reproduction
   references: references.bib
   cover-image: images/cover.png
-  cover-image-alt: "book cover with title, author, illustrator, and illustration of Red Queen chesspiece and two snails"
+  cover-image-alt: Book cover with title, author, illustrator, and illustration of red queen chess piece being crawled on by two snails.
   sharing: [twitter, facebook, linkedin]
   downloads: [pdf, epub, docx]
-#  navbar: 
-#    logo: images/cover.png
-#    logo-alt: "book cover with title, author, illustrator, and illustration of Red Queen chesspiece and two snails"
-#    background: "#880808"
-#    foreground: "#FFFFFF"
-#    right: 
-#      - icon: twitter-x
-#        href: https://twitter.com/curt_lively
-#        aria-label: Twitter
-#  search:
-#    location: sidebar
   sidebar:
     style: "docked"
     # logo: images/cover.png
@@ -54,7 +43,7 @@ book:
   doi: 10.5967/gbd3-ka07
   illustrator: Zoe Michelle Dinges
   keyword: evolution, coevolution, "host-parasite interactions", "Muller's ratchet", parthenogenesis, "Red Queen hypothesis", "sexual reproduction"
-  language: en-US
+  language: en
   license: "CC BY ND"
   publisher: Indiana University Bloomington Libraries Publishing
   publisher-place: Bloomington, IN
@@ -72,12 +61,12 @@ book:
   back-to-top-navigation: true
   open-graph: 
     image: images/cover-thumbnail.jpg
-    image-alt: book cover with title, author, illustrator, and illustration of Red Queen chesspiece and two snails
+    image-alt: Book cover with title, author, illustrator, and illustration of red queen chess piece being crawled on by two snails.
   twitter-card:  
     card-style: summary
     creator: "@curt_lively"
     image: images/cover-thumbnail.jpg
-    image-alt: book cover with title, author, illustrator, and illustration of Red Queen chesspiece and two snails
+    image-alt: Book cover with title, author, illustrator, and illustration of red queen chess piece being crawled on by two snails.
 
 
   chapters:
@@ -126,6 +115,7 @@ format:
       - text: <meta name="google-site-verification" content="eJHds-HZowhP4fOmzTkps1RTCDKNi3ViSQ2BSaFVA7Y" />
     keywords: ["evolution", "coevolution", "host-parasite interactions", "Muller's ratchet", "parthenogenesis", "Red Queen hypothesis", "sexual reproduction"]
     linkcolor: "#be5350"
+    lang: en-US
 
   titlepage-pdf:
     coverpage: true

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.521">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -98,14 +98,43 @@ div.csl-indent {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 <link rel="stylesheet" href="style.css">
 <meta property="og:title" content="Through the Looking Glass: I. Why Cross-Fertilize? - 1&nbsp; Why Sex?">
 <meta property="og:description" content="Book on the evolutionary problem of sexual reproduction">
 <meta property="og:image" content="https://iulibscholcomm.github.io/through-the-looking-glass/images/cover-thumbnail.jpg">
 <meta property="og:site_name" content="Through the Looking Glass: I. Why Cross-Fertilize?">
+<meta property="og:image:alt" content="Book cover with title, author, illustrator, and illustration of red queen chess piece being crawled on by two snails.">
 <meta name="twitter:title" content="Through the Looking Glass: I. Why Cross-Fertilize? - 1&nbsp; Why Sex?">
 <meta name="twitter:description" content="Book on the evolutionary problem of sexual reproduction">
 <meta name="twitter:image" content="https://iulibscholcomm.github.io/through-the-looking-glass/images/cover-thumbnail.jpg">
+<meta name="twitter:image:alt" content="Book cover with title, author, illustrator, and illustration of red queen chess piece being crawled on by two snails.">
 <meta name="twitter:creator" content="@curt_lively">
 <meta name="twitter:card" content="summary">
 <meta name="citation_title" content="[[1]{.chapter-number}&nbsp; [Why Sex?]{.chapter-title}]{#sec-why-sex .quarto-section-identifier}">
@@ -454,7 +483,7 @@ div.csl-indent {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">January 15, 2024</p>
+      <p class="date-modified">January 24, 2024</p>
     </div>
   </div>
     
@@ -473,7 +502,7 @@ div.csl-indent {
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/fig1-1.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:40.0%" alt="Drawing of elderly Darwin with his hand on his face"></p>
+<p><img src="images/fig1-1.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:40.0%" alt=""></p>
 </figure>
 </div>
 <section id="the-question" class="level2" data-number="1.1">
@@ -492,28 +521,28 @@ div.csl-indent {
 <section id="the-cost-of-males" class="level3" data-number="1.2.2">
 <h3 data-number="1.2.2" class="anchored" data-anchor-id="the-cost-of-males"><span class="header-section-number">1.2.2</span> The cost of males</h3>
 <p>The other way to look at the problem was proposed by John Maynard Smith <span class="citation" data-cites="maynard1971a maynard1978a">(<a href="references.html#ref-maynard1971a" role="doc-biblioref">1971</a>, <a href="references.html#ref-maynard1978a" role="doc-biblioref">1978</a>)</span>. Here the issue is not relatedness. The problem stems rather from the difference between sexuals and asexuals in their per-capita birth rates (<a href="#fig-1.1" class="quarto-xref">Figure&nbsp;<span>1.1</span></a>). Imagine a population of sexual individuals at carrying capacity (<span class="math inline">\(K_{sex}\)</span>). At <span class="math inline">\(K_{sex}\)</span> the sexual females are, by definition, simply replacing themselves. This means that each sexual female is, on average, producing one son and one daughter. Both sons and daughters contribute genetically to the next generation, but only females give birth. Now, consider a mutation in a single female that causes her to reproduce asexually. She gives birth to two daughters instead of one daughter and one son. These two asexually produced daughters both give birth to two more daughters. Hence, after just two generations, the asexual female has four granddaughters, while the average sexual female has just one granddaughter (<a href="#fig-1.1" class="quarto-xref">Figure&nbsp;<span>1.1</span></a>). This asymmetry should lead to the rapid replacement of sexual females by asexual females (<a href="#fig-1.2" class="quarto-xref">Figure&nbsp;<span>1.2</span></a>). And by <q>rapid,</q> I mean within tens of generations, even for very large populations <span class="citation" data-cites="lively1996a">(<a href="references.html#ref-lively1996a" role="doc-biblioref">Lively 1996</a>)</span>. We thus seek a selective force that can give an advantage to sexual reproduction on a very short time scale.</p>
-<div id="fig-1.1" class="quarto-figure quarto-figure-center anchored" alt="" data-fig-scap="The cost of males" width="50%">
+<div id="fig-1.1" class="quarto-figure quarto-figure-center quarto-float anchored" alt="Diagram illustrating a sexual female producing one daughter and one son and an asexual female producing two daughters." data-fig-scap="The cost of males">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-1.1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="images/fig1-2.jpg" class="img-fluid figure-img" style="width:50.0%" data-fig-scap="The cost of males" alt="">
+<img src="images/fig1-2.jpg" class="img-fluid figure-img" style="width:50.0%" data-fig-scap="The cost of males" alt="Diagram illustrating a sexual female producing one daughter and one son and an asexual female producing two daughters.">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-1.1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;1.1: The cost of males. Imagine a single clonal female in a sexual population at carrying capacity, <span class="math inline">\(K_{sex}\)</span>. At <span class="math inline">\(K_{sex}\)</span>, the sexual females are, on average, producing one daughter and one son. In contrast, the clonal female produces two daughters and four granddaughters. Hence, the clonal lineage should rapidly eliminate the sexual population (<a href="#fig-1.2" class="quarto-xref">Figure&nbsp;<span>1.2</span></a>). However, in nature, asexual reproduction is very rare in both plants <span class="citation" data-cites="whitton2008a">(<a href="references.html#ref-whitton2008a" role="doc-biblioref">Whitton <em>et al.</em> 2008</a>)</span> and animals <span class="citation" data-cites="vrijenhoek1998a">(<a href="references.html#ref-vrijenhoek1998a" role="doc-biblioref">Vrijenhoek 1998</a>)</span>. Hence the paradox. Why is sexual reproduction so costly and yet so common?
 </figcaption>
 </figure>
 </div>
-<p>Several assumptions went into Maynard Smith’s model for the cost of males. In particular, he assumed that sexual females and asexual females make the same number of offspring, and that the survivorship of these offspring is also the same. Maynard Smith referred to this as the <q>all-else-equal assumption.</q> Unfortunately, some authors have taken the phrase <q>all-else-equal</q> to mean that everything else is exactly equal. But this is not the case. Maynard Smith did not assume, for example, that sexuals and asexuals have the same ploidy value.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> His model only assumes that sexual and asexual females have equal fecundities and survivorship probabilities (see <a href="#sec-app-1" class="quarto-xref"><span>Section&nbsp;1.4</span></a>). Under this assumption, a very rare clone would double in frequency in the next generation. Maynard Smith called this doubling-when-rare the two-fold cost of sex.</p>
+<p>Several assumptions went into Maynard Smith’s model for the cost of males. In particular, he assumed that sexual females and asexual females make the same number of offspring, and that the survivorship of these offspring is also the same. Maynard Smith referred to this as the <q>all-else-equal assumption.</q> Unfortunately, some authors have taken the phrase <q>all-else-equal</q> to mean that everything else is exactly equal. But this is not the case. Maynard Smith did not assume, for example, that sexuals and asexuals have the same ploidy value.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> His model only assumes that sexual and asexual females have equal fecundities and survivorship probabilities (see <a href="#sec-app-1" class="quarto-xref"><span>Section 1.4</span></a>). Under this assumption, a very rare clone would double in frequency in the next generation. Maynard Smith called this doubling-when-rare the two-fold cost of sex.</p>
 </section>
 <section id="contrasting-the-costs" class="level3" data-number="1.2.3">
 <h3 data-number="1.2.3" class="anchored" data-anchor-id="contrasting-the-costs"><span class="header-section-number">1.2.3</span> Contrasting the costs</h3>
 <p>The two alternative costs of sex raise an immediate question. Does the cost of sex result from reduced relatedness between mother and offspring, or from the cost of producing males? Or is the cost some combination of both? These questions are not easy to answer; but there is an algebraic solution, which suggests that the (1) two costs are mutually exclusive and (2) that they apply to different kinds of uniparental progeny <span class="citation" data-cites="lively1990b">(<a href="references.html#ref-lively1990b" role="doc-biblioref">Lively &amp; Lloyd 1990</a>)</span>. Roughly speaking, I think we can adopt the following rules for the purpose of this book. When considering the spread of a rare allele that induces self-fertilization in hermaphrodites, the appropriate cost is Williams’ cost of meiosis. Here we have a single population in which the selfing allele is under positive selection because it has a transmission advantage. On the other hand, when we consider the spread of a clone into an obligately sexual population, we are dealing with competition between two different reproductively isolated groups. One group (the sexuals) produces males, which do not make offspring. The other group (asexuals) produces only females. Here the cost of sex stems from producing males. But the two costs do not combine. The cost of sex is not four-fold.</p>
-<div id="fig-1.2" class="quarto-figure quarto-figure-center anchored" alt="" width="55%" data-fig-scap="Clonal invasion dynamics">
+<div id="fig-1.2" class="quarto-figure quarto-figure-center quarto-float anchored" alt="Two data visualizations of simulation results that show the replacement of sexual individuals by a parthenogenetic clone in tens of generations." data-fig-scap="Clonal invasion dynamics">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-1.2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="images/fig1-3_hr.png" class="img-fluid figure-img" style="width:55.0%" data-fig-scap="Clonal invasion dynamics" alt="">
+<img src="images/fig1-3_hr.png" class="img-fluid figure-img" style="width:55.0%" data-fig-scap="Clonal invasion dynamics" alt="Two data visualizations of simulation results that show the replacement of sexual individuals by a parthenogenetic clone in tens of generations.">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-1.2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1.2: Clonal invasion dynamics. Results from a simulation study in which a single clonal individual was introduced into a sexual population <span class="citation" data-cites="lively2009a">(<a href="references.html#ref-lively2009a" role="doc-biblioref">Lively 2009</a>)</span>. <strong>A</strong> (top). Results for a one-to-one sex ratio in the sexual population. Here the frequency of daughters produced by sexual females was 1/2. The sexual population was initiated at carrying capacity: <span class="math inline">\(K_{sex}\)</span> = 10,000. A single parthenogenetic female was introduced by the simulation at generation 1,000. Note that the asexual lineage replaces the sexual population in about 25 generations, and that it reaches a higher carrying capacity <span class="math inline">\(K_{asex}\)</span> = 20,000. <strong>B</strong> (bottom). Results for a female-biased sexual population. Here the frequency of daughters produced by sexual females was 0.8. The sexual population was initiated at carrying capacity: <span class="math inline">\(K_{sex}\)</span> = 17,500. As above, a single parthenogenetic female was introduced into the population at generation 1,000. Note that the asexual lineage replaces the sexual population, but it takes longer. The simulation assumes annual reproduction and non-overlapping generations. The data can also be explored in an <a href="https://connect.posit.iu.edu/clonal-invasion-dynamics/">interactive visualization</a>. We have made accessible <a href="https://raw.githubusercontent.com/IULibScholComm/through-the-looking-glass/main/rscripts/sim%20for%20fig%201.2(ZMD).R">the R code for the static simulation</a> and <a href="https://raw.githubusercontent.com/IULibScholComm/through-the-looking-glass/main/rscripts/app.R">the R code for the interactive simulation</a>.
+Figure&nbsp;1.2: Clonal invasion dynamics. Results from a simulation study in which a single clonal individual was introduced into a sexual population <span class="citation" data-cites="lively2009a">(<a href="references.html#ref-lively2009a" role="doc-biblioref">Lively 2009</a>)</span>. <strong>A (top)</strong>. Results for a one-to-one sex ratio in the sexual population. Here the frequency of daughters produced by sexual females was 1/2. The sexual population was initiated at carrying capacity: <span class="math inline">\(K_{sex}\)</span> = 10,000. A single parthenogenetic female was introduced by the simulation at generation 1,000. Note that the asexual lineage replaces the sexual population in about 25 generations, and that it reaches a higher carrying capacity <span class="math inline">\(K_{asex}\)</span> = 20,000. <strong>B (bottom)</strong>. Results for a female-biased sexual population. Here the frequency of daughters produced by sexual females was 0.8. The sexual population was initiated at carrying capacity: <span class="math inline">\(K_{sex}\)</span> = 17,500. As above, a single parthenogenetic female was introduced into the population at generation 1,000. Note that the asexual lineage replaces the sexual population, but it takes longer. The simulation assumes annual reproduction and non-overlapping generations. The data can also be explored in an <a href="https://connect.posit.iu.edu/clonal-invasion-dynamics/">interactive visualization</a>. We have made accessible <a href="https://raw.githubusercontent.com/IULibScholComm/through-the-looking-glass/main/rscripts/sim%20for%20fig%201.2(ZMD).R">the R code for the static simulation</a> and <a href="https://raw.githubusercontent.com/IULibScholComm/through-the-looking-glass/main/rscripts/app.R">the R code for the interactive simulation</a>.
 </figcaption>
 </figure>
 </div>
@@ -525,13 +554,13 @@ Figure&nbsp;1.2: Clonal invasion dynamics. Results from a simulation study in wh
 <section id="darwins-view" class="level3" data-number="1.2.5">
 <h3 data-number="1.2.5" class="anchored" data-anchor-id="darwins-view"><span class="header-section-number">1.2.5</span> Darwin’s view</h3>
 <p>Even before the cost of males and meiosis were so dramatically revealed by Williams and Maynard Smith, biologists were reckoning with the anomaly of sex <span class="citation" data-cites="meirmans2009a dagg2016a">(<a href="references.html#ref-dagg2016a" role="doc-biblioref">Dagg 2016</a>; reviews in <a href="references.html#ref-meirmans2009a" role="doc-biblioref">Meirmans 2009</a>)</span>. One of the earliest of these biologists was Charles Darwin. After he published the <em>Origin of Species</em>, Darwin was doing hand-pollination experiments at Down House on three species of a curious annual plant in the genus <em>Primula</em>. The plant is curious in that it has two morphs. One morph has a style that extends beyond the anthers (the long-style morph), and the other morph has anthers that extend beyond the style (the short-style morph). Botanists refer to this condition as distyly (<a href="#fig-1.3" class="quarto-xref">Figure&nbsp;<span>1.3</span></a>). Darwin <span class="citation" data-cites="darwin1862a">(<a href="references.html#ref-darwin1862a" role="doc-biblioref">1862</a>)</span> found that crosses between the different morphs of the same species resulted in a very successful production of seeds, but crosses between unrelated individuals of the same morph were dramatically less successful. In discussing these results, Darwin speculated that the two morphs may have evolved to ensure cross-fertilization: <q>Whether or not the dimorphic condition of the <em>Primula</em> has any bearing on other points in natural history, it is valuable as showing how nature strives, if I may so express myself, to favour the sexual union of distinct individuals of the same species.</q></p>
-<div id="fig-1.3" class="quarto-figure quarto-figure-center anchored" alt="" data-fig-scap="Two flower morphs (distyly) in *Primula*">
+<div id="fig-1.3" class="quarto-figure quarto-figure-center quarto-float anchored" alt="Drawing showing the short-style and long-style forms of *Primula* used in Darwin's pollination experiment." data-fig-scap="Two flower morphs (distyly) in *Primula*">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-1.3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="images/fig1-4.jpg" class="img-fluid figure-img" data-fig-scap="Two flower morphs (distyly) in *Primula*" alt="">
+<img src="images/fig1-4.jpg" class="img-fluid figure-img" data-fig-scap="Two flower morphs (distyly) in *Primula*" alt="Drawing showing the short-style and long-style forms of *Primula* used in Darwin's pollination experiment.">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-1.3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1.3: Two flower morphs (distyly) in <em>Primula</em>. Darwin found that the short-styled morph (left) is incompatible with other short-style morphs and that the long styled morph (right) is incompatible with other long-style morphs. But the two different morphs can cross-fertilize. The arrows show movement of pollen from anthers to stigmas. The <q>X</q> indicates incompatibility. Redrawn from Darwin <span class="citation" data-cites="darwin1862a">(<a href="references.html#ref-darwin1862a" role="doc-biblioref">1862</a>)</span> by ZMD.
+Figure&nbsp;1.3: Two flower morphs (distyly) in <em>Primula</em>. Darwin found that the short-styled morph (left) is incompatible with other short-style morphs and that the long-styled morph (right) is incompatible with other long-style morphs. But the two different morphs can cross-fertilize. The arrows show movement of pollen from anthers to stigmas. The <q>X</q> indicates incompatibility. Redrawn from Darwin <span class="citation" data-cites="darwin1862a">(<a href="references.html#ref-darwin1862a" role="doc-biblioref">1862</a>)</span> by ZMD.
 </figcaption>
 </figure>
 </div>
@@ -556,7 +585,7 @@ Figure&nbsp;1.3: Two flower morphs (distyly) in <em>Primula</em>. Darwin found t
 <section id="sec-app-1" class="level2" data-number="1.4">
 <h2 data-number="1.4" class="anchored" data-anchor-id="sec-app-1"><span class="header-section-number">1.4</span> Appendix: Maynard Smith’s Model</h2>
 <p>John Maynard Smith’s <span class="citation" data-cites="maynard1978a">(<a href="references.html#ref-maynard1978a" role="doc-biblioref">1978</a>)</span> model, reproduced here, shows the cost of producing males.<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> Let <span class="math inline">\(N_{asex}\)</span> be the number of asexual females at time one, while <span class="math inline">\(N_{sex}\)</span> gives the total number of sexual individuals (males plus females) at time one. Let <span class="math inline">\(B_{asex}\)</span> give the number of offspring produced by asexual females, and <span class="math inline">\(S_{asex}\)</span> gives the survival probability of asexual offspring to maturity. The number of surviving asexual offspring is then <span class="math inline">\(= B_{asex}S_{asex}\)</span>. Similarly, let <span class="math inline">\(B_{sex}\)</span> be the number offspring produced by sexual females, and let <span class="math inline">\(S_{sex}\)</span> give the survival probability of sexually produced offspring. Maynard Smith assumed that all individuals reproduce once and then die. Let <span class="math inline">\(r\)</span> be the frequency of females in the sexual population. The number of asexuals and sexuals at time two can then be calculated as in the table below. (Note, we do not assume that the population is at carrying capacity).</p>
-<div id="tbl-t1t2" class="anchored">
+<div id="tbl-t1t2" class="quarto-float anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-t1t2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Table&nbsp;1.1: Appendix: Maynard Smith’s Model
@@ -680,7 +709,7 @@ Williams, G.C. (1975). <em>Sex and evolution</em>. Princeton University Press.
 </div>
 </div>
 </section>
-<aside id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
 <hr>
 <ol>
 <li id="fn1"><p>It is not meiosis <em>per se</em> that is costly. As Williams realized, the cost stems from the reduction in relatedness between parent and outcrossed offspring. Indeed, in a later paper, Williams <span class="citation" data-cites="williams1975a">(<a href="references.html#ref-williams1975a" role="doc-biblioref">1975</a>)</span> refers to the cost of meiosis as the <q>paradox of kin selection.</q> Why should organisms invest resources in kin with a relatively low level of relatedness, <span class="math inline">\(r\)</span> (outcrossed progeny: <span class="math inline">\(r = 0.5\)</span>), rather than in self-fertilized kin with a high level of relatedness (<span class="math inline">\(r = 1\)</span>)? <span class="citation" data-cites="dagg2016a">(See <a href="references.html#ref-dagg2016a" role="doc-biblioref">Dagg 2016</a>.)</span><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
@@ -691,7 +720,7 @@ Williams, G.C. (1975). <em>Sex and evolution</em>. Princeton University Press.
 <li id="fn6"><p>I suspect that Darwin uses the phrase <q>no longer wonderful</q> to mean <q>no longer astonishing.</q> See <a href="https://www.merriam-webster.com/words-at-play/wonderful-word-history-evolution"><q>How <q>Wonderful</q> Lost Its Sense of Wonder.</q></a><a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn7"><p>I use slightly different variable names and try to simplify JMS’s original model.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
-</aside>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -840,27 +869,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    const typesetMath = (el) => {
-      if (window.MathJax) {
-        // MathJax Typeset
-        window.MathJax.typeset([el]);
-      } else if (window.katex) {
-        // KaTeX Render
-        var mathElements = el.getElementsByClassName("math");
-        var macros = [];
-        for (var i = 0; i < mathElements.length; i++) {
-          var texText = mathElements[i].firstChild;
-          if (mathElements[i].tagName == "SPAN") {
-            window.katex.render(texText.data, mathElements[i], {
-              displayMode: mathElements[i].classList.contains('display'),
-              throwOnError: false,
-              macros: macros,
-              fleqn: false
-            });
-          }
-        }
-      }
-    }
     if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
@@ -875,10 +883,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             break;
           }
         }
-        typesetMath(container);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
         return container.innerHTML
       } else {
-        typesetMath(note);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
         return note.innerHTML;
       }
     } else {
@@ -887,8 +899,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
-      typesetMath(note);
-      return note.innerHTML;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
     }
   }
   for (var i=0; i<xrefs.length; i++) {
@@ -1126,5 +1145,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/IULibScholComm/through-the-looking-glass/blob/main/why-sex.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/IULibScholComm/through-the-looking-glass/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer><script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

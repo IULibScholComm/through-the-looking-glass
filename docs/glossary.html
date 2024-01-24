@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.521">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -81,9 +81,11 @@ q { quotes: "“" "”" "‘" "’"; }
 <meta property="og:description" content="Book on the evolutionary problem of sexual reproduction">
 <meta property="og:image" content="https://iulibscholcomm.github.io/through-the-looking-glass/images/cover-thumbnail.jpg">
 <meta property="og:site_name" content="Through the Looking Glass: I. Why Cross-Fertilize?">
+<meta property="og:image:alt" content="Book cover with title, author, illustrator, and illustration of red queen chess piece being crawled on by two snails.">
 <meta name="twitter:title" content="Through the Looking Glass: I. Why Cross-Fertilize? - Glossary">
 <meta name="twitter:description" content="Book on the evolutionary problem of sexual reproduction">
 <meta name="twitter:image" content="https://iulibscholcomm.github.io/through-the-looking-glass/images/cover-thumbnail.jpg">
+<meta name="twitter:image:alt" content="Book cover with title, author, illustrator, and illustration of red queen chess piece being crawled on by two snails.">
 <meta name="twitter:creator" content="@curt_lively">
 <meta name="twitter:card" content="summary">
 <meta name="citation_title" content="[Glossary]{#sec-glossary .quarto-section-identifier}">
@@ -435,7 +437,7 @@ q { quotes: "“" "”" "‘" "’"; }
 
 <p><strong>Short definitions of terms as used in this book. These definitions do not include all possible nuances.</strong><br>
 </p>
-<p><strong>carrying capacity:</strong> The population density at which females have just enough food to replace themselves. Sexual females must make two offspring to replace themselves (assuming a one-to-one sex ratio), while asexual females must only produce one offspring. Hence, asexuals should have higher carrying capacities, as shown in <a href="why-sex.html#fig-1.2" class="quarto-xref">Figure&nbsp;<span>1.2</span></a>.</p>
+<p><strong>carrying capacity:</strong> The population density at which females have just enough food to replace themselves. Sexual females must make two offspring to replace themselves (assuming a one-to-one sex ratio), while asexual females must only produce one offspring. Hence, asexuals should have higher carrying capacities, as shown in <a href="why-sex.html#fig-1.2" class="quarto-xref">Figure&nbsp;<span>Clonal invasion dynamics. Results from a simulation study in which a single clonal individual was introduced into a sexual population [@lively2009a]. A (top). Results for a one-to-one sex ratio in the sexual population. Here the frequency of daughters produced by sexual females was 1/2. The sexual population was initiated at carrying capacity: K_{sex} = 10,000. A single parthenogenetic female was introduced by the simulation at generation 1,000. Note that the asexual lineage replaces the sexual population in about 25 generations, and that it reaches a higher carrying capacity K_{asex} = 20,000. B (bottom). Results for a female-biased sexual population. Here the frequency of daughters produced by sexual females was 0.8. The sexual population was initiated at carrying capacity: K_{sex} = 17,500. As above, a single parthenogenetic female was introduced into the population at generation 1,000. Note that the asexual lineage replaces the sexual population, but it takes longer. The simulation assumes annual reproduction and non-overlapping generations. The data can also be explored in an interactive visualization. We have made accessible the R code for the static simulation and the R code for the interactive simulation.</span></a>.</p>
 <p><strong>clone:</strong> A lineage of parthenogenetic females descended from the same asexual female. Members of the same clone may have small genetic differences, which accumulate by mutation over time.</p>
 <p><strong>cost of males:</strong> The reduction in the per-capita growth rate of sexual populations due to the production of males. The cost of males is the appropriate cost for considering sexual subpopulations in competition with obligately asexual subpopulations.</p>
 <p><strong>cost of meiosis:</strong> The reduction in relatedness between mother and offspring due to outcrossing. The cost of meiosis is the appropriate cost for considering the spread of alleles that induce self-fertilization.</p>
@@ -596,27 +598,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    const typesetMath = (el) => {
-      if (window.MathJax) {
-        // MathJax Typeset
-        window.MathJax.typeset([el]);
-      } else if (window.katex) {
-        // KaTeX Render
-        var mathElements = el.getElementsByClassName("math");
-        var macros = [];
-        for (var i = 0; i < mathElements.length; i++) {
-          var texText = mathElements[i].firstChild;
-          if (mathElements[i].tagName == "SPAN") {
-            window.katex.render(texText.data, mathElements[i], {
-              displayMode: mathElements[i].classList.contains('display'),
-              throwOnError: false,
-              macros: macros,
-              fleqn: false
-            });
-          }
-        }
-      }
-    }
     if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
@@ -631,10 +612,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             break;
           }
         }
-        typesetMath(container);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
         return container.innerHTML
       } else {
-        typesetMath(note);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
         return note.innerHTML;
       }
     } else {
@@ -643,8 +628,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
-      typesetMath(note);
-      return note.innerHTML;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
     }
   }
   for (var i=0; i<xrefs.length; i++) {

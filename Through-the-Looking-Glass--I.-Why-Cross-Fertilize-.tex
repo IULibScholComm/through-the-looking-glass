@@ -192,20 +192,21 @@
 \else
 \usepackage[bidi=default]{babel}
 \fi
-\babelprovide[main,import]{american}
+\babelprovide[main,import]{english}
 % get rid of language-specific shorthands (see #6817):
 \let\LanguageShortHands\languageshorthands
 \def\languageshorthands#1{}
 \ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
-\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\usepackage{bookmark}
+
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same} % disable monospaced font for URLs
 \hypersetup{
   pdftitle={Through the Looking Glass: I. Why Cross-Fertilize?},
   pdfauthor={Curtis M. Lively},
-  pdflang={en-US},
+  pdflang={en},
   pdfsubject={evolutionary biology},
   pdfkeywords={biology, evolution, sexual reproduction, evolutionary
 biology},
@@ -450,30 +451,30 @@ as a ``partner'' during 2022-2023.
     \textbf{DOCX:} click in the lefthand sidebar of the
     \href{https://iulibscholcomm.github.io/through-the-looking-glass/}{HTML
     version} or click
-    \href{https://iulibscholcomm.github.io/through-the-looking-glass/Through-the-Looking-Glass--I.-Why-Cross-Fertilize-.docx}{here}
+    \href{https://iulibscholcomm.github.io/through-the-looking-glass/Through-the-Looking-Glass--I.-Why-Cross-Fertilize-.docx}{here}.
 
     \begin{itemize}
     \tightlist
     \item
-      DOCX's benefits include reuseability (revising, remixing, etc.)
-      for those with Microsoft Word
+      DOCX's benefits include reusability (revising, remixing, etc.) for
+      those with Microsoft Word
     \end{itemize}
   \item
     \textbf{EPUB:} click in the lefthand sidebar of the
     \href{https://iulibscholcomm.github.io/through-the-looking-glass/}{HTML
     version} or click
-    \href{https://iulibscholcomm.github.io/through-the-looking-glass/Through-the-Looking-Glass--I.-Why-Cross-Fertilize-.epub}{here}
+    \href{https://iulibscholcomm.github.io/through-the-looking-glass/Through-the-Looking-Glass--I.-Why-Cross-Fertilize-.epub}{here}.
 
     \begin{itemize}
     \tightlist
     \item
-      EPUB's benefits include universal accessibility, manipulatability
+      EPUB's benefits include universal accessibility, manipulability
       (via eReader options), dynamic media, interactivity, reflowable
       text, and offline reading
     \end{itemize}
   \item
     \textbf{HTML:} click
-    \href{https://iulibscholcomm.github.io/through-the-looking-glass/}{here}
+    \href{https://iulibscholcomm.github.io/through-the-looking-glass/}{here}.
 
     \begin{itemize}
     \tightlist
@@ -487,7 +488,7 @@ as a ``partner'' during 2022-2023.
     \textbf{TeX:} click `` View source'' in the righthand sidebar of the
     \href{https://iulibscholcomm.github.io/through-the-looking-glass/}{HTML
     version}; then from ``Files'' in the lefthand sidebar, select
-    ``Through-the-Looking-Glass--I.-Why-Cross-Fertilize-.tex''
+    ``Through-the-Looking-Glass--I.-Why-Cross-Fertilize-.tex.''
 
     \begin{itemize}
     \tightlist
@@ -499,7 +500,7 @@ as a ``partner'' during 2022-2023.
     \textbf{PDF:} click in the lefthand sidebar of the
     \href{https://iulibscholcomm.github.io/through-the-looking-glass/}{HTML
     version} or click
-    \href{https://iulibscholcomm.github.io/through-the-looking-glass/Through-the-Looking-Glass--I.-Why-Cross-Fertilize-.pdf}{here}
+    \href{https://iulibscholcomm.github.io/through-the-looking-glass/Through-the-Looking-Glass--I.-Why-Cross-Fertilize-.pdf}{here}.
 
     \begin{itemize}
     \tightlist
@@ -510,12 +511,12 @@ as a ``partner'' during 2022-2023.
     \textbf{Quarto Markdown (QMD):} click `` View source'' in the
     righthand sidebar of the
     \href{https://iulibscholcomm.github.io/through-the-looking-glass/}{HTML
-    version}
+    version}.
 
     \begin{itemize}
     \tightlist
     \item
-      QMD's benefits include reuseability (revising, remixing,
+      QMD's benefits include reusability (revising, remixing,
       reformatting, repurposing, etc.) via a universal format
     \end{itemize}
   \end{itemize}
@@ -531,14 +532,15 @@ as a ``partner'' during 2022-2023.
     version} and select Twitter (now X), Facebook, or LinkedIn.
   \end{itemize}
 \item
-  \textbf{How to Report a Technological Problem with this Book}
+  \textbf{How to Report a Problem (Technological, Accessibility, or
+  Textual) with this Book}
 
   \begin{itemize}
   \tightlist
   \item
     Click ``Report an Issue'' in the righthand sidebar of the
     \href{https://iulibscholcomm.github.io/through-the-looking-glass/}{HTML
-    version}; then complete and submit the bug report
+    version}; then complete and submit the bug report.
   \end{itemize}
 \end{itemize}
 
@@ -732,14 +734,14 @@ not four-fold.
 \caption[Clonal invasion dynamics]{\label{fig-1.2}Clonal invasion
 dynamics. Results from a simulation study in which a single clonal
 individual was introduced into a sexual population
-(\citeproc{ref-lively2009a}{Lively 2009}). \textbf{A} (top). Results for
+(\citeproc{ref-lively2009a}{Lively 2009}). \textbf{A (top)}. Results for
 a one-to-one sex ratio in the sexual population. Here the frequency of
 daughters produced by sexual females was 1/2. The sexual population was
 initiated at carrying capacity: \(K_{sex}\) = 10,000. A single
 parthenogenetic female was introduced by the simulation at generation
 1,000. Note that the asexual lineage replaces the sexual population in
 about 25 generations, and that it reaches a higher carrying capacity
-\(K_{asex}\) = 20,000. \textbf{B} (bottom). Results for a female-biased
+\(K_{asex}\) = 20,000. \textbf{B (bottom)}. Results for a female-biased
 sexual population. Here the frequency of daughters produced by sexual
 females was 0.8. The sexual population was initiated at carrying
 capacity: \(K_{sex}\) = 17,500. As above, a single parthenogenetic
@@ -823,7 +825,7 @@ species.''
 \caption[Two flower morphs (distyly) in
 \emph{Primula}]{\label{fig-1.3}Two flower morphs (distyly) in
 \emph{Primula}. Darwin found that the short-styled morph (left) is
-incompatible with other short-style morphs and that the long styled
+incompatible with other short-style morphs and that the long-styled
 morph (right) is incompatible with other long-style morphs. But the two
 different morphs can cross-fertilize. The arrows show movement of pollen
 from anthers to stigmas. The ``X'' indicates incompatibility. Redrawn
@@ -1951,7 +1953,7 @@ by ZMD.}
 
 }
 
-\caption[Line drawing of the predatory snail \emph{Acanthina angelica}
+\caption[Drawing of the predatory snail, \emph{Acanthina angelica},
 attacking the bent form of the barnacle]{\label{fig-3-3}Line drawing of
 the predatory snail \emph{Acanthina angelica} attacking the bent form of
 the barnacle. Note that the predator has a spine on the outer margin of
@@ -2054,7 +2056,7 @@ a similar test directly on the New Zealand snails
 \caption[The freshwater snail \emph{Potamopyrgus
 antipodarum}]{\label{fig-3-4}\textbf{Photo credit: ©
 \href{https://www.bartzijlstra.com}{Bart Zijlstra}. Used by permission.}
-The freshwater snail \emph{Potamopyrgus antipodarum}. This small (3 -- 6
+The freshwater snail \emph{Potamopyrgus antipodarum}. This small (3--6
 mm) prosobranch snail evolved from marine ancestors
 (\citeproc{ref-phillips1990a}{Phillips \& Lambert 1990}). Associated
 with the invasion of freshwater, the snail evolved an internal brood
@@ -3749,7 +3751,7 @@ females are equally fecund and their offspring have equal expectations
 for survivorship and reproduction. This is the well-known ``all else
 equal'' assumption used by Maynard Smith to build his model. If the
 sex-ratio is female-biased in the sexual population, then the clone will
-still replace the sexual population but the rate of replacement is
+still replace the sexual population, but the rate of replacement is
 slower (Figure~\ref{fig-1.2}).
 
 One possible explanation for the persistence of sexual populations is
