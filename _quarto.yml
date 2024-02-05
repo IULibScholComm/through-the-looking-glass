@@ -43,8 +43,8 @@ book:
   doi: 10.5967/gbd3-ka07
   illustrator: Zoe Michelle Dinges
   keyword: evolution, coevolution, "host-parasite interactions", "Muller's ratchet", parthenogenesis, "Red Queen hypothesis", "sexual reproduction"
-  language: en
-  license: "CC BY ND"
+  language: "en-US"
+  license: CC BY ND
   publisher: Indiana University Bloomington Libraries Publishing
   publisher-place: Bloomington, IN
   submitted: "01 June 2023"
@@ -115,7 +115,7 @@ format:
       - text: <meta name="google-site-verification" content="eJHds-HZowhP4fOmzTkps1RTCDKNi3ViSQ2BSaFVA7Y" />
     keywords: ["evolution", "coevolution", "host-parasite interactions", "Muller's ratchet", "parthenogenesis", "Red Queen hypothesis", "sexual reproduction"]
     linkcolor: "#be5350"
-    lang: en-US
+    lang: "en-US"
 
   titlepage-pdf:
     coverpage: true
@@ -156,7 +156,7 @@ format:
     cite-method: citeproc
     citeproc: true
     link-citations: true
-    lang: en-US
+    lang: "en-US"
     keywords: ["biology", "evolution", "sexual reproduction", "evolutionary biology"]
     subject: "evolutionary biology"
     latex-auto-mk: true
@@ -175,14 +175,14 @@ format:
     toc-title: Contents
     number-sections: true
     citeproc: true
-    lang: en-US
+    lang: "en-US"
     fig-responsive: true
 
   docx:
     toc: true
     toc-title: Contents
     citeproc: true
-    lang: en-US
+    lang: "en-US"
     reference-doc: custom-reference-doc.docx
     fig-align: center
     link-citations: true
