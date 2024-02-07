@@ -98,7 +98,7 @@ John Maynard Smith's [-@maynard1978a] model, reproduced here, shows the cost of 
 </table>
 ```
 
-Appendix: Maynard Smith's Model {.striped .hover .responsive }
+Appendix: Maynard Smith's Model
 
 :::
 
