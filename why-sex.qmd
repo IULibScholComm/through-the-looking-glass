@@ -67,12 +67,39 @@ I now think that John Maynard Smith was correct. An essential feature had indeed
 
 John Maynard Smith's [-@maynard1978a] model, reproduced here, shows the cost of producing males.^[I use slightly different variable names and try to simplify JMS's original model.] Let $N_{asex}$ be the number of asexual females at time one, while $N_{sex}$ gives the total number of sexual individuals (males plus females) at time one. Let $B_{asex}$ give the number of offspring produced by asexual females, and $S_{asex}$ gives the survival probability of asexual offspring to maturity. The number of surviving asexual offspring is then $= B_{asex}S_{asex}$. Similarly, let $B_{sex}$ be the number offspring produced by sexual females, and let $S_{sex}$ give the survival probability of sexually produced offspring. Maynard Smith assumed that all individuals reproduce once and then die. Let $r$ be the frequency of females in the sexual population. The number of asexuals and sexuals at time two can then be calculated as in the table below. (Note, we do not assume that the population is at carrying capacity). 
 
-|                       |              **Time One**               |                                               **Time Two**                                  |
-|:---------------------:|:---------------------------------------:|:-------------------------------------------------------------------------------------------:|
-|   **N. of asexuals**  |                $N_{asex}$               |                                       $N_{asex}(S_{asex}B_{asex})$                          |
-|   **N. of sexuals**   |                $N_{sex}$                |                                     $rN_{sex}(S_{sex}B_{sex})$                              |
-| **Freq. of asexuals** |  $\frac{N_{asex}}{N_{asex} + N_{sex}}$  |  $\frac{N_{asex}(S_{asex}B_{asex})}{N_{asex}(S_{asex}B_{asex})+rN_{sex}(S_{sex}B_{sex})}$   |
+::: {#tbl-t1t2}
 
-: Appendix: Maynard Smith's Model {#tbl-t1t2}
+```{=html}
+<table>
+  <thead>
+    <tr>
+      <th scope="col"></th>
+      <th scope="col">Time One</th>
+      <th scope="col">Time Two</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"><b>N. of asexuals</b></th>
+      <td><span data-qmd=$N_{asex}$></span></td>
+      <td><span data-qmd=$N_{asex}(S_{asex}B_{asex})$></span></td>
+    </tr>
+    <tr>
+      <th scope="row"><b>N. of sexuals</b></th>
+      <td><span data-qmd=$N_{sex}$></span></td>
+      <td><span data-qmd=$rN_{sex}(S_{sex}B_{sex})$></span></td>
+    </tr>
+    <tr>
+      <th scope="row"><b>Freq. of asexuals</b></th>
+      <td><span data-qmd=$\frac{N_{asex}}{N_{asex}+N_{sex}}$></span></td>
+      <td><span data-qmd=$\frac{N_{asex}(S_{asex}B_{asex})}{N_{asex}(S_{asex}B_{asex})+rN_{sex}(S_{sex}B_{sex})}$></span></td>
+    </tr>
+  </tbody>
+</table>
+```
+
+Appendix: Maynard Smith's Model {.striped .hover .responsive }
+
+:::
 
 The fold increase in frequency of asexuals, $F$, is the ratio of the frequency of asexuals at time two divided by the frequency of asexuals at time one giving $$F = \frac{N_{asex}(S_{asex}B_{asex})}{N_{asex}(S_{asex}B_{asex}) + r(N_{sex}S_{sex}B_{sex})}/\frac{N_{asex}}{N_{asex} + N_{sex}}.$$ Under the all-else-equal assumption, $S_{asex} = S_{sex}$ and $B_{asex} = B_{sex}$, giving $$F = \frac{N_{asex}}{N_{asex} + rN_{sex}}/\frac{N_{asex}}{N_{asex} + N_{sex}}.$$ Assuming that there is a single asexual female at time one, we get $$F = \frac{1}{1 + rN_{sex}}/\frac{1}{1 + N_{sex}} = \frac{1 + N_{sex}}{1 + rN_{sex}}.$$ If $N_{sex}$ is very large, the solution reduces to $F \approx 1/r$. Hence, the fold increase in the frequency of asexuals, $F$, is inversely related to the frequency of females $(r)$ in the sexual subpopulation. Assuming a one-to-one sex ratio, $r = 0.5$. Hence, for an equal sex ratio, the increase in asexuals is $\approx$ two-fold. This result gives the two-fold cost of males. Assuming "all-else-equal" a clone will double when rare when introduced into a large sexual population. 
