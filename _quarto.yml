@@ -113,6 +113,7 @@ format:
     footnotes-hover: true
     include-in-header: 
       - text: <meta name="google-site-verification" content="eJHds-HZowhP4fOmzTkps1RTCDKNi3ViSQ2BSaFVA7Y" />
+      - text: <link rel="canonical" href="https://iulibscholcomm.github.io/through-the-looking-glass/" />
     keywords: ["evolution", "coevolution", "host-parasite interactions", "Muller's ratchet", "parthenogenesis", "Red Queen hypothesis", "sexual reproduction"]
     linkcolor: "#be5350"
     lang: "en-US"
