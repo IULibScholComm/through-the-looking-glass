@@ -21,33 +21,83 @@ Often the students rightfully want some clarification. They ask, for example, â€
 
 Indeed, Williams' Lottery Model is about bet hedging. The gist of bet hedging in evolutionary theory is that selection can act to reduce the variance in reproductive success over time, even if it also reduces the arithmetic mean across years [review in @philippi1989a]. Suppose, for example, that we have data for both a monoculture and a genetically variable polyculture (@tbl-bh). Let's assume that the variation in yield is driven by annual variation in abiotic factors such as temperature or precipitation. The effect of planting a polyculture (bet-hedging) can be estimated from the geometric mean, which incorporates the variation in yield over time. 
 
-In this example, we find that the monoculture has an arithmetic mean of 240, while the polyculture has an arithmetic mean of only 220. So, I might be inclined to plant the monoculture. However, the among-year variance is very high for the monoculture (relative to the polyculture), driven in large part by the low yields in years 4 and 5. By contrast, the geometric mean for the monoculture is 184, while the geometric mean for the polyculture is 219. Based on this, I might be inclined to plant the polyculture, as it reduces the cost of very low yield in bad years. I think the students see this intuitively. Over the long term, it is better to be risk-averse and plant the genetically variable polyculture. What if, for example, the monoculture produced no food in the last year? The geometric mean would be zero. That would be catastrophic. 
+In this example, we find that the monoculture has an arithmetic mean of 240, while the polyculture has an arithmetic mean of only 220. So, I might be inclined to plant the monoculture. However, the among-year variance is very high for the monoculture (relative to the polyculture), driven in large part by the low yields in years 4 and 5. By contrast, the geometric mean for the monoculture is 184, while the geometric mean for the polyculture is 219. Based on this, I might be inclined to plant the polyculture, as it reduces the cost of very low yield in bad years. I think the students see this intuitively. Over the long term, it is better to be risk-averse and plant the genetically variable polyculture. What if, for example, the monoculture produced no food in the last year? The geometric mean would be zero. That would be catastrophic.                                         
 
-  -----------------------------------------------------------------------
-  Year                      Monoculture             Polyculture
-  ------------------------- ----------------------- -----------------------
-  1                         350                     250
+::: {#tbl-bh}
 
-  2                         400                     250
+```{=html}
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Year</th>
+      <th scope="col">Monoculture</th>
+      <th scope="col">Polyculture</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>350</td>
+      <td>250</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>400</td>
+      <td>250</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>300</td>
+      <td>200</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>100</td>
+      <td>200</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>50</td>
+      <td>200</td>
+    </tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+    <tr>
+      <th scope="col"></th>
+      <th scope="col">Monoculture</th>
+      <th scope="col">Polyculture</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"><b>Arithmetic mean</b></th>
+      <td>240</td>
+      <td>220</td>
+    </tr>
+    <tr>
+      <th scope="row"><b>Variance</b><span data-qmd="^[The variance in $x$ is equal to the average of the squared deviations from the mean: $var(x) = \frac{1}{N}\sum_{i = 1}^{N}{(x_{i} - \overline{x})^{2}}$.]"></span></th>
+      <td>19400</td>
+      <td>600</td>
+    </tr>
+    <tr>
+      <th scope="row"><b>Geometric mean (GM)</b><span data-qmd="^[The geometric mean is the $N^{th}$ root of the product of $N$ observations. Compared to the arithmetic mean, the geometric mean gives more weight to small values.]"></span></th>
+      <td>184</td>
+      <td>219</td>
+    </tr>
+    <tr>
+      <th scope="row"><b>Approximate GM</b></th>
+      <td>200</td>
+      <td>219</td>
+    </tr>
+  </tbody>
+</table>
+```
 
-  3                         300                     200
+Bet Hedging. The entries show annual yields (in arbitrary units) over five years for a monoculture and a polyculture. 
 
-  4                         100                     200
-
-  5                         50                      200
-
-  &nbsp;                    &nbsp;                  &nbsp;                                                
-
-  Arithmetic mean           240                     220
-
-  Variance[^2.1]            19400                   600
-
-  Geometric mean (GM)[^2.2] 184                     219
-
-  Approximate GM            200                     219
-  -----------------------------------------------------------------------
-
-: Bet Hedging. The entries show annual yields (in arbitrary units) over five years for a monoculture and a polyculture. {#tbl-bh}
+:::
 
 The effect of variance on the geometric mean (GM) can be seen by an approximation [@stearns2000a]:$$\text{GM} \approx \overline{x} - \frac{\text{var}(x)}{2\overline{x}}$$ where $\overline{x}$ is the mean, and var($x$) is the variance in $x$. Note that the approximation is equal to the arithmetic mean when the variance in $x$ is zero. Note too that the geometric mean increases as the variance in $x$ decreases. So, if selection operates to reduce the among-year variance in fitness, the outcome of selection will be reflected by an increase in the geometric mean. In general, evolutionary biologists use the geometric mean (rather than the arithmetic mean) to measure fitness over time.^[The bet-hedging idea dates to Daniel Bernoulli, a mathematical physicist, writing in 1738. Steve Stearns [-@stearns2000a] provides an important, fascinating review of how evolutionary biologists [beginning with @cohen1966a] and economists have borrowed from Bernoulli's conceptual framework.]
 
@@ -159,6 +209,3 @@ Prout showed that there would be a stable multiple niche polymorphism even under
 The plot below shows $\Delta q$ as a function of $q$ for Prout's model of dominance. Note that $\Delta q$ is positive when $q$ is near zero, and that $\Delta q$ is negative when $q$ is near one. There is an interior equilibrium near $q = 0.5$.
 
 ![$\Delta q$ as a function of $q$ for Prout's model of dominance](images/fig2-5_hr.png){fig-alt="Data visualization showing the change in $q (\Delta q)$ plotted against $q$. There is an equilibrium for $q$ at $\Delta q=0$." fig-scap="Prout's model of dominance" width="65%"}
-
-[^2.1]: The variance in $x$ is equal to the average of the squared deviations from the mean: $var(x) = \frac{1}{N}\sum_{i = 1}^{N}{(x_{i} - \overline{x})^{2}}$.
-[^2.2]: The geometric mean is the $N^{th}$ root of the product of $N$ observations. Compared to the arithmetic mean, the geometric mean gives more weight to small values.

@@ -1085,31 +1085,15 @@ better to be risk-averse and plant the genetically variable polyculture.
 What if, for example, the monoculture produced no food in the last year?
 The geometric mean would be zero. That would be catastrophic.
 
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3421}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3158}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3158}}@{}}
-\caption{Bet Hedging. The entries show annual yields (in arbitrary
-units) over five years for a monoculture and a
-polyculture.}\label{tbl-bh}\tabularnewline
+\begin{longtable}[]{@{}lll@{}}
+
+\caption{\label{tbl-bh}Bet Hedging. The entries show annual yields (in
+arbitrary units) over five years for a monoculture and a polyculture.}
+
+\tabularnewline
+
 \toprule\noalign{}
-\begin{minipage}[b]{\linewidth}\raggedright
-Year
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Monoculture
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Polyculture
-\end{minipage} \\
-\midrule\noalign{}
-\endfirsthead
-\toprule\noalign{}
-\begin{minipage}[b]{\linewidth}\raggedright
-Year
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Monoculture
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Polyculture
-\end{minipage} \\
+Year & Monoculture & Polyculture \\
 \midrule\noalign{}
 \endhead
 \bottomrule\noalign{}
@@ -1119,16 +1103,33 @@ Polyculture
 3 & 300 & 200 \\
 4 & 100 & 200 \\
 5 & 50 & 200 \\
-~ & ~ & ~ \\
-Arithmetic mean & 240 & 220 \\
-Variance\footnote{The variance in \(x\) is equal to the average of the
-  squared deviations from the mean:
-  \(var(x) = \frac{1}{N}\sum_{i = 1}^{N}{(x_{i} - \overline{x})^{2}}\).}
+
+\end{longtable}
+
+\begin{longtable}[]{@{}lll@{}}
+
+\caption{\label{tbl-bh}Bet Hedging. The entries show annual yields (in
+arbitrary units) over five years for a monoculture and a polyculture.}
+
+\tabularnewline
+
+\toprule\noalign{}
+& Monoculture & Polyculture \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Arithmetic mean} & 240 & 220 \\
+\textbf{Variance}{\footnote{The variance in \(x\) is equal to the
+  average of the squared deviations from the mean:
+  \(var(x) = \frac{1}{N}\sum_{i = 1}^{N}{(x_{i} - \overline{x})^{2}}\).}}
 & 19400 & 600 \\
-Geometric mean (GM)\footnote{The geometric mean is the \(N^{th}\) root
-  of the product of \(N\) observations. Compared to the arithmetic mean,
-  the geometric mean gives more weight to small values.} & 184 & 219 \\
-Approximate GM & 200 & 219 \\
+\textbf{Geometric mean (GM)}{\footnote{The geometric mean is the
+  \(N^{th}\) root of the product of \(N\) observations. Compared to the
+  arithmetic mean, the geometric mean gives more weight to small values.}}
+& 184 & 219 \\
+\textbf{Approximate GM} & 200 & 219 \\
+
 \end{longtable}
 
 The effect of variance on the geometric mean (GM) can be seen by an
