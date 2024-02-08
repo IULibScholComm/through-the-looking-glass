@@ -1085,52 +1085,59 @@ better to be risk-averse and plant the genetically variable polyculture.
 What if, for example, the monoculture produced no food in the last year?
 The geometric mean would be zero. That would be catastrophic.
 
-\begin{longtable}[]{@{}lll@{}}
+\begin{table}
 
 \caption{\label{tbl-bh}Bet Hedging. The entries show annual yields (in
 arbitrary units) over five years for a monoculture and a polyculture.}
 
-\tabularnewline
+\begin{minipage}{0.50\linewidth}
 
-\toprule\noalign{}
-Year & Monoculture & Polyculture \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
-1 & 350 & 250 \\
-2 & 400 & 250 \\
-3 & 300 & 200 \\
-4 & 100 & 200 \\
-5 & 50 & 200 \\
+\subcaption{\label{tbl-2.1}Bet Hedging 1}
 
-\end{longtable}
+\centering{
 
-\begin{longtable}[]{@{}lll@{}}
+\begin{tabular}{lll}
+\toprule
+Year & Monoculture & Polyculture\\
+\midrule
+1 & 350 & 250\\
+2 & 400 & 250\\
+3 & 300 & 200\\
+4 & 100 & 200\\
+5 & 50 & 200\\
+\bottomrule
+\end{tabular}
 
-\caption{\label{tbl-bh}Bet Hedging. The entries show annual yields (in
-arbitrary units) over five years for a monoculture and a polyculture.}
+}
 
-\tabularnewline
+\end{minipage}%
+%
+\begin{minipage}{0.50\linewidth}
 
-\toprule\noalign{}
-& Monoculture & Polyculture \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
-\textbf{Arithmetic mean} & 240 & 220 \\
-\textbf{Variance}{\footnote{The variance in \(x\) is equal to the
-  average of the squared deviations from the mean:
-  \(var(x) = \frac{1}{N}\sum_{i = 1}^{N}{(x_{i} - \overline{x})^{2}}\).}}
-& 19400 & 600 \\
-\textbf{Geometric mean (GM)}{\footnote{The geometric mean is the
+\subcaption{\label{tbl-2.2}Bet Hedging 2}
+
+\centering{
+
+\begin{tabular}{lll}
+\toprule
+ & Monoculture & Polyculture\\
+\midrule
+\textbf{Arithmetic mean} & 240 & 220\\
+\textbf{Variance}\footnote{The variance in \(x\) is equal to the average
+  of the squared deviations from the mean:
+  \(var(x) = \frac{1}{N}\sum_{i = 1}^{N}{(x_{i} - \overline{x})^{2}}\).} & 19400 & 600\\
+\textbf{Geometric mean (GM)}\footnote{The geometric mean is the
   \(N^{th}\) root of the product of \(N\) observations. Compared to the
-  arithmetic mean, the geometric mean gives more weight to small values.}}
-& 184 & 219 \\
-\textbf{Approximate GM} & 200 & 219 \\
+  arithmetic mean, the geometric mean gives more weight to small values.} & 184 & 219\\
+\textbf{Approximate GM} & 200 & 219\\
+\bottomrule
+\end{tabular}
 
-\end{longtable}
+}
+
+\end{minipage}%
+
+\end{table}%
 
 The effect of variance on the geometric mean (GM) can be seen by an
 approximation (\citeproc{ref-stearns2000a}{Stearns

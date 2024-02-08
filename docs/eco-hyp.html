@@ -520,79 +520,103 @@ window.Quarto = {
 <p>Often the students rightfully want some clarification. They ask, for example, <q>Can we use pesticides?</q> But every time, most students choose the variable crop. I remind them that selecting the variable crop will reduce their yield by one half. They don’t budge. I re-ask the question, doubling the relative yield for the monoculture from two-fold to four-fold. Then to 10-fold. Occasionally, one of the more risk-prone students will select the 10-fold higher yield, but most do not budge. They want genetic variation. I ask them why. Invariably, they say that the environment is going to change. They want to hedge their bets against an uncertain future.</p>
 <p>Indeed, Williams’ Lottery Model is about bet hedging. The gist of bet hedging in evolutionary theory is that selection can act to reduce the variance in reproductive success over time, even if it also reduces the arithmetic mean across years <span class="citation" data-cites="philippi1989a">(review in <a href="references.html#ref-philippi1989a" role="doc-biblioref">Philippi &amp; Seger 1989</a>)</span>. Suppose, for example, that we have data for both a monoculture and a genetically variable polyculture (<a href="#tbl-bh" class="quarto-xref">Table&nbsp;<span>2.1</span></a>). Let’s assume that the variation in yield is driven by annual variation in abiotic factors such as temperature or precipitation. The effect of planting a polyculture (bet-hedging) can be estimated from the geometric mean, which incorporates the variation in yield over time.</p>
 <p>In this example, we find that the monoculture has an arithmetic mean of 240, while the polyculture has an arithmetic mean of only 220. So, I might be inclined to plant the monoculture. However, the among-year variance is very high for the monoculture (relative to the polyculture), driven in large part by the low yields in years 4 and 5. By contrast, the geometric mean for the monoculture is 184, while the geometric mean for the polyculture is 219. Based on this, I might be inclined to plant the polyculture, as it reduces the cost of very low yield in bad years. I think the students see this intuitively. Over the long term, it is better to be risk-averse and plant the genetically variable polyculture. What if, for example, the monoculture produced no food in the last year? The geometric mean would be zero. That would be catastrophic.</p>
-<div id="tbl-bh" class="quarto-float anchored">
+<div id="tbl-bh" class="quarto-layout-panel anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-bh-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Table&nbsp;2.1: Bet Hedging. The entries show annual yields (in arbitrary units) over five years for a monoculture and a polyculture.
 </figcaption>
 <div aria-describedby="tbl-bh-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="tbl-bh" style="flex-basis: 50.0%;justify-content: center;">
+<div id="tbl-2.1" class="quarto-float anchored">
+<figure class="quarto-float quarto-subfloat-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-subfloat-caption quarto-subfloat-tbl" id="tbl-2.1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(a) Bet Hedging 1
+</figcaption>
+<div aria-describedby="tbl-2.1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table data-quarto-postprocess="true" class="table">
 <thead>
 <tr class="header">
-<th data-quarto-table-cell-role="th" scope="col">Year</th>
-<th data-quarto-table-cell-role="th" scope="col">Monoculture</th>
-<th data-quarto-table-cell-role="th" scope="col">Polyculture</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th" scope="col">Year</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th" scope="col">Monoculture</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th" scope="col">Polyculture</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
-<td>350</td>
-<td>250</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">350</td>
+<td style="text-align: left;">250</td>
 </tr>
 <tr class="even">
-<td>2</td>
-<td>400</td>
-<td>250</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">400</td>
+<td style="text-align: left;">250</td>
 </tr>
 <tr class="odd">
-<td>3</td>
-<td>300</td>
-<td>200</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">300</td>
+<td style="text-align: left;">200</td>
 </tr>
 <tr class="even">
-<td>4</td>
-<td>100</td>
-<td>200</td>
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">200</td>
 </tr>
 <tr class="odd">
-<td>5</td>
-<td>50</td>
-<td>200</td>
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">50</td>
+<td style="text-align: left;">200</td>
 </tr>
 </tbody>
 </table>
+</div>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="tbl-bh" style="flex-basis: 50.0%;justify-content: center;">
+<div id="tbl-2.2" class="quarto-float anchored">
+<figure class="quarto-float quarto-subfloat-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-subfloat-caption quarto-subfloat-tbl" id="tbl-2.2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(b) Bet Hedging 2
+</figcaption>
+<div aria-describedby="tbl-2.2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table data-quarto-postprocess="true" class="table">
 <thead>
 <tr class="header">
-<th data-quarto-table-cell-role="th" scope="col"></th>
-<th data-quarto-table-cell-role="th" scope="col">Monoculture</th>
-<th data-quarto-table-cell-role="th" scope="col">Polyculture</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th" scope="col"></th>
+<th style="text-align: left;" data-quarto-table-cell-role="th" scope="col">Monoculture</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th" scope="col">Polyculture</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td data-quarto-table-cell-role="th" scope="row"><strong>Arithmetic mean</strong></td>
-<td>240</td>
-<td>220</td>
+<td style="text-align: left;" data-quarto-table-cell-role="th" scope="row"><strong>Arithmetic mean</strong></td>
+<td style="text-align: left;">240</td>
+<td style="text-align: left;">220</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th" scope="row"><strong>Variance</strong><a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></td>
-<td>19400</td>
-<td>600</td>
+<td style="text-align: left;" data-quarto-table-cell-role="th" scope="row"><strong>Variance</strong><a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></td>
+<td style="text-align: left;">19400</td>
+<td style="text-align: left;">600</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th" scope="row"><strong>Geometric mean (GM)</strong><a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></td>
-<td>184</td>
-<td>219</td>
+<td style="text-align: left;" data-quarto-table-cell-role="th" scope="row"><strong>Geometric mean (GM)</strong><a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></td>
+<td style="text-align: left;">184</td>
+<td style="text-align: left;">219</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th" scope="row"><strong>Approximate GM</strong></td>
-<td>200</td>
-<td>219</td>
+<td style="text-align: left;" data-quarto-table-cell-role="th" scope="row"><strong>Approximate GM</strong></td>
+<td style="text-align: left;">200</td>
+<td style="text-align: left;">219</td>
 </tr>
 </tbody>
 </table>
+</div>
+</figure>
+</div>
+</div>
+</div>
 </div>
 </figure>
 </div>

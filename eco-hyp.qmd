@@ -23,7 +23,9 @@ Indeed, Williams' Lottery Model is about bet hedging. The gist of bet hedging in
 
 In this example, we find that the monoculture has an arithmetic mean of 240, while the polyculture has an arithmetic mean of only 220. So, I might be inclined to plant the monoculture. However, the among-year variance is very high for the monoculture (relative to the polyculture), driven in large part by the low yields in years 4 and 5. By contrast, the geometric mean for the monoculture is 184, while the geometric mean for the polyculture is 219. Based on this, I might be inclined to plant the polyculture, as it reduces the cost of very low yield in bad years. I think the students see this intuitively. Over the long term, it is better to be risk-averse and plant the genetically variable polyculture. What if, for example, the monoculture produced no food in the last year? The geometric mean would be zero. That would be catastrophic.                                         
 
-::: {#tbl-bh}
+:::: {#tbl-bh layout-ncol="2"}
+
+::: {#tbl-2.1}
 
 ```{=html}
 <table>
@@ -62,6 +64,14 @@ In this example, we find that the monoculture has an arithmetic mean of 240, whi
     </tr>
   </tbody>
 </table>
+```
+
+Bet Hedging 1
+:::
+
+::: {#tbl-2.2}
+
+```{=html}
 <table>
   <thead>
     <tr>
@@ -95,9 +105,11 @@ In this example, we find that the monoculture has an arithmetic mean of 240, whi
 </table>
 ```
 
-Bet Hedging. The entries show annual yields (in arbitrary units) over five years for a monoculture and a polyculture. 
-
+Bet Hedging 2
 :::
+
+Bet Hedging. The entries show annual yields (in arbitrary units) over five years for a monoculture and a polyculture. 
+::::
 
 The effect of variance on the geometric mean (GM) can be seen by an approximation [@stearns2000a]:$$\text{GM} \approx \overline{x} - \frac{\text{var}(x)}{2\overline{x}}$$ where $\overline{x}$ is the mean, and var($x$) is the variance in $x$. Note that the approximation is equal to the arithmetic mean when the variance in $x$ is zero. Note too that the geometric mean increases as the variance in $x$ decreases. So, if selection operates to reduce the among-year variance in fitness, the outcome of selection will be reflected by an increase in the geometric mean. In general, evolutionary biologists use the geometric mean (rather than the arithmetic mean) to measure fitness over time.^[The bet-hedging idea dates to Daniel Bernoulli, a mathematical physicist, writing in 1738. Steve Stearns [-@stearns2000a] provides an important, fascinating review of how evolutionary biologists [beginning with @cohen1966a] and economists have borrowed from Bernoulli's conceptual framework.]
 
