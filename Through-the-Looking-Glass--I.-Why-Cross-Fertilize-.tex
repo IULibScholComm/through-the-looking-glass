@@ -1068,11 +1068,11 @@ variance in reproductive success over time, even if it also reduces the
 arithmetic mean across years (review in
 \citeproc{ref-philippi1989a}{Philippi \& Seger 1989}). Suppose, for
 example, that we have data for both a monoculture and a genetically
-variable polyculture (Table~\ref{tbl-bh}). Let's assume that the
-variation in yield is driven by annual variation in abiotic factors such
-as temperature or precipitation. The effect of planting a polyculture
-(bet-hedging) can be estimated from the geometric mean, which
-incorporates the variation in yield over time.
+variable polyculture (Table~\ref{tbl-bh1} \& Table~\ref{tbl-bh2}). Let's
+assume that the variation in yield is driven by annual variation in
+abiotic factors such as temperature or precipitation. The effect of
+planting a polyculture (bet-hedging) can be estimated from the geometric
+mean, which incorporates the variation in yield over time.
 
 In this example, we find that the monoculture has an arithmetic mean of
 240, while the polyculture has an arithmetic mean of only 220. So, I
@@ -1087,59 +1087,52 @@ better to be risk-averse and plant the genetically variable polyculture.
 What if, for example, the monoculture produced no food in the last year?
 The geometric mean would be zero. That would be catastrophic.
 
-\begin{table}
+\begin{longtable}[]{@{}lll@{}}
 
-\caption{\label{tbl-bh}Bet Hedging. The entries show annual yields (in
+\caption{\label{tbl-bh1}Bet Hedging. The entries show annual yields (in
 arbitrary units) over five years for a monoculture and a polyculture.}
 
-\begin{minipage}{0.50\linewidth}
+\tabularnewline
 
-\subcaption{\label{tbl-2.1}Bet Hedging 1}
+\toprule\noalign{}
+Year & Monoculture & Polyculture \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+1 & 350 & 250 \\
+2 & 400 & 250 \\
+3 & 300 & 200 \\
+4 & 100 & 200 \\
+5 & 50 & 200 \\
 
-\centering{
+\end{longtable}
 
-\begin{tabular}{lll}
-\toprule
-Year & Monoculture & Polyculture\\
-\midrule
-1 & 350 & 250\\
-2 & 400 & 250\\
-3 & 300 & 200\\
-4 & 100 & 200\\
-5 & 50 & 200\\
-\bottomrule
-\end{tabular}
+\begin{longtable}[]{@{}lll@{}}
 
-}
+\caption{\label{tbl-bh2}Bet Hedging. The entries show annual yields (in
+arbitrary units) over five years for a monoculture and a polyculture.}
 
-\end{minipage}%
-%
-\begin{minipage}{0.50\linewidth}
+\tabularnewline
 
-\subcaption{\label{tbl-2.2}Bet Hedging 2}
-
-\centering{
-
-\begin{tabular}{lll}
-\toprule
- & Monoculture & Polyculture\\
-\midrule
-\textbf{Arithmetic mean} & 240 & 220\\
-\textbf{Variance}\footnote{The variance in \(x\) is equal to the average
-  of the squared deviations from the mean:
-  \(var(x) = \frac{1}{N}\sum_{i = 1}^{N}{(x_{i} - \overline{x})^{2}}\).} & 19400 & 600\\
-\textbf{Geometric mean (GM)}\footnote{The geometric mean is the
+\toprule\noalign{}
+& Monoculture & Polyculture \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Arithmetic mean} & 240 & 220 \\
+\textbf{Variance}{\footnote{The variance in \(x\) is equal to the
+  average of the squared deviations from the mean:
+  \(var(x) = \frac{1}{N}\sum_{i = 1}^{N}{(x_{i} - \overline{x})^{2}}\).}}
+& 19400 & 600 \\
+\textbf{Geometric mean (GM)}{\footnote{The geometric mean is the
   \(N^{th}\) root of the product of \(N\) observations. Compared to the
-  arithmetic mean, the geometric mean gives more weight to small values.} & 184 & 219\\
-\textbf{Approximate GM} & 200 & 219\\
-\bottomrule
-\end{tabular}
+  arithmetic mean, the geometric mean gives more weight to small values.}}
+& 184 & 219 \\
+\textbf{Approximate GM} & 200 & 219 \\
 
-}
-
-\end{minipage}%
-
-\end{table}%
+\end{longtable}
 
 The effect of variance on the geometric mean (GM) can be seen by an
 approximation (\citeproc{ref-stearns2000a}{Stearns
