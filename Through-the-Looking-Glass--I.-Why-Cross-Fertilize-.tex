@@ -1087,15 +1087,31 @@ better to be risk-averse and plant the genetically variable polyculture.
 What if, for example, the monoculture produced no food in the last year?
 The geometric mean would be zero. That would be catastrophic.
 
-\begin{longtable}[]{@{}lll@{}}
-
-\caption{\label{tbl-bh1}Bet Hedging. The entries show annual yields (in
-arbitrary units) over five years for a monoculture and a polyculture.}
-
-\tabularnewline
-
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4600}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2900}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2500}}@{}}
+\caption{Bet Hedging. The entries show annual yields (in arbitrary
+units) over five years for a monoculture and a
+polyculture.}\label{tbl-bh1}\tabularnewline
 \toprule\noalign{}
-Year & Monoculture & Polyculture \\
+\begin{minipage}[b]{\linewidth}\raggedright
+Year
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Monoculture
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Polyculture
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Year
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Monoculture
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Polyculture
+\end{minipage} \\
 \midrule\noalign{}
 \endhead
 \bottomrule\noalign{}
@@ -1105,7 +1121,6 @@ Year & Monoculture & Polyculture \\
 3 & 300 & 200 \\
 4 & 100 & 200 \\
 5 & 50 & 200 \\
-
 \end{longtable}
 
 \begin{longtable}[]{@{}lll@{}}

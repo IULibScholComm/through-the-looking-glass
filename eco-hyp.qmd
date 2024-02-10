@@ -21,51 +21,17 @@ Often the students rightfully want some clarification. They ask, for example, â€
 
 Indeed, Williams' Lottery Model is about bet hedging. The gist of bet hedging in evolutionary theory is that selection can act to reduce the variance in reproductive success over time, even if it also reduces the arithmetic mean across years [review in @philippi1989a]. Suppose, for example, that we have data for both a monoculture and a genetically variable polyculture (@tbl-bh1 & @tbl-bh2). Let's assume that the variation in yield is driven by annual variation in abiotic factors such as temperature or precipitation. The effect of planting a polyculture (bet-hedging) can be estimated from the geometric mean, which incorporates the variation in yield over time. 
 
-In this example, we find that the monoculture has an arithmetic mean of 240, while the polyculture has an arithmetic mean of only 220. So, I might be inclined to plant the monoculture. However, the among-year variance is very high for the monoculture (relative to the polyculture), driven in large part by the low yields in years 4 and 5. By contrast, the geometric mean for the monoculture is 184, while the geometric mean for the polyculture is 219. Based on this, I might be inclined to plant the polyculture, as it reduces the cost of very low yield in bad years. I think the students see this intuitively. Over the long term, it is better to be risk-averse and plant the genetically variable polyculture. What if, for example, the monoculture produced no food in the last year? The geometric mean would be zero. That would be catastrophic.                                         
+In this example, we find that the monoculture has an arithmetic mean of 240, while the polyculture has an arithmetic mean of only 220. So, I might be inclined to plant the monoculture. However, the among-year variance is very high for the monoculture (relative to the polyculture), driven in large part by the low yields in years 4 and 5. By contrast, the geometric mean for the monoculture is 184, while the geometric mean for the polyculture is 219. Based on this, I might be inclined to plant the polyculture, as it reduces the cost of very low yield in bad years. I think the students see this intuitively. Over the long term, it is better to be risk-averse and plant the genetically variable polyculture. What if, for example, the monoculture produced no food in the last year? The geometric mean would be zero. That would be catastrophic.  
 
-::: {#tbl-bh1}
+| Year | Monoculture | Polyculture |
+|------|-------------|-------------|
+| 1    | 350         | 250         |
+| 2    | 400         | 250         |
+| 3    | 300         | 200         |
+| 4    | 100         | 200         |
+| 5    | 50          | 200         |
 
-```{=html}
-<table>
-  <thead>
-    <tr>
-      <th scope="col">Year</th>
-      <th scope="col">Monoculture</th>
-      <th scope="col">Polyculture</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>350</td>
-      <td>250</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>400</td>
-      <td>250</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>300</td>
-      <td>200</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>100</td>
-      <td>200</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>50</td>
-      <td>200</td>
-    </tr>
-  </tbody>
-</table>
-```
-
-Bet Hedging. The entries show annual yields (in arbitrary units) over five years for a monoculture and a polyculture. 
-:::
+: Bet Hedging. The entries show annual yields (in arbitrary units) over five years for a monoculture and a polyculture. {#tbl-bh1 tbl-colwidths="[46,29,25]"}
 
 ::: {#tbl-bh2}
 
