@@ -69,7 +69,7 @@ In this example, we find that the monoculture has an arithmetic mean of 240, whi
 </table>
 ```
 
-Bet Hedging. The entries show annual yields (in arbitrary units) over five years for a monoculture and a polyculture. 
+Bet Hedging. Summary statistics for the data in @tbl-bh1.
 :::
 
 The effect of variance on the geometric mean (GM) can be seen by an approximation [@stearns2000a]:$$\text{GM} \approx \overline{x} - \frac{\text{var}(x)}{2\overline{x}}$$ where $\overline{x}$ is the mean, and var($x$) is the variance in $x$. Note that the approximation is equal to the arithmetic mean when the variance in $x$ is zero. Note too that the geometric mean increases as the variance in $x$ decreases. So, if selection operates to reduce the among-year variance in fitness, the outcome of selection will be reflected by an increase in the geometric mean. In general, evolutionary biologists use the geometric mean (rather than the arithmetic mean) to measure fitness over time.^[The bet-hedging idea dates to Daniel Bernoulli, a mathematical physicist, writing in 1738. Steve Stearns [-@stearns2000a] provides an important, fascinating review of how evolutionary biologists [beginning with @cohen1966a] and economists have borrowed from Bernoulli's conceptual framework.]
