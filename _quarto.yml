@@ -67,6 +67,8 @@ book:
     creator: "@curt_lively"
     image: images/cover-thumbnail.jpg
     image-alt: Book cover with title, author, illustrator, and illustration of red queen chess piece being crawled on by two snails.
+  google-analytics: 
+    tracking-id: "G-2DBK1P7896"
 
 
   chapters:
