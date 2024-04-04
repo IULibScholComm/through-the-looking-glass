@@ -160,7 +160,7 @@ format:
     citeproc: true
     link-citations: true
     lang: "en-US"
-    keywords: ["biology", "evolution", "sexual reproduction", "evolutionary biology"]
+    keywords: ["evolution", "coevolution", "host-parasite interactions", "Muller's ratchet", "parthenogenesis", "Red Queen hypothesis", "sexual reproduction"]
     subject: "evolutionary biology"
     latex-auto-mk: true
     latex-auto-install: True
