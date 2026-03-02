@@ -21,7 +21,7 @@ book:
         url: https://biology.indiana.edu/index.html
     email: clively@indiana.edu
     url: https://biology.indiana.edu/about/faculty/lively-curt.html
-  date: last-modified
+  date: "2024"
   date-format: "YYYY"
   abstract: |
     The following pages represent the first volume of a book. The main goal is to introduce the evolutionary problem of sexual reproduction with a focus on competition between sexual and asexual females. But I also incorporate some ideas on genetic polymorphism and phenotypic plasticity with the goal of exploring "variation strategies" more generally. Finally, I try to weave in some history of the field along with some philosophy of science. 
