@@ -117,6 +117,7 @@ format:
     keywords: ["evolution", "coevolution", "host-parasite interactions", "Muller's ratchet", "parthenogenesis", "Red Queen hypothesis", "sexual reproduction"]
     linkcolor: "#be5350"
     lang: "en-US"
+    include-after-body: _includes/accessibility-fix.html
 
   titlepage-pdf:
     coverpage: true
