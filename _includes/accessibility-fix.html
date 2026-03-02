@@ -1,0 +1,43 @@
+<script>
+  window.addEventListener("DOMContentLoaded", function () {
+    function addVisuallyHiddenText(link, text) {
+      if (!link.querySelector(".visually-hidden")) {
+        const span = document.createElement("span");
+        span.className = "visually-hidden";
+        span.textContent = text;
+        link.appendChild(span);
+      }
+    }
+
+    // ORCID links are <a.quarto-title-author-orcid>
+    document.querySelectorAll(".quarto-title-author-orcid").forEach(orcidLink => {
+      const orcidImg = orcidLink.querySelector("img");
+      if (orcidImg) {
+        orcidImg.setAttribute("role", "presentation");
+        orcidImg.setAttribute("alt", "");
+      }
+      orcidLink.setAttribute("aria-label", "Author's ORCID profile");
+      addVisuallyHiddenText(orcidLink, "Author's ORCID profile");
+    });
+
+    // Email links similarly
+    document.querySelectorAll(".quarto-title-author-email").forEach(emailLink => {
+      const emailImg = emailLink.querySelector("img");
+      if (emailImg) {
+        emailImg.setAttribute("role", "presentation");
+        emailImg.setAttribute("alt", "");
+      }
+      emailLink.setAttribute("aria-label", "Email the author");
+      addVisuallyHiddenText(emailLink, "Email the author");
+    });
+    document.querySelectorAll('a.pagination-link[aria-label=""]').forEach(link => {
+        link.setAttribute('aria-label', 'Next page');
+        // Optionally add visible text if needed
+        const span = link.querySelector('.nav-page-text');
+        if(span && !span.textContent.trim()) {
+            span.textContent = 'Next page';
+        }
+        });
+
+  });
+</script>
