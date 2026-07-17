@@ -1,0 +1,9 @@
+# Errata and Corrections {.unnumbered}
+
+This page is maintained by IU Libraries Publishing and documents post-publication corrections to this edition.
+
+## 2026-07-17
+
+In @fig-6-2, the mean fitness value for time 400, shown in red on the right, was corrected from $\bar{w} = 0.82$ to $\bar{w} = 0.75$.
+
+This correction does not affect the accompanying analysis, interpretation, or conclusions.

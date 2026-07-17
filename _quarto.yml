@@ -7,18 +7,16 @@ book:
   author: 
     name: Curtis M. Lively
     attributes:
-      corresponding: True
+      corresponding: true
     affiliations:
-      - name: | 
-                Indiana University Bloomington
-                Department of Biology
-        department: Biology
+      - name: Indiana University Bloomington
+        department: Department of Biology
         address:  Biology Bldg. 117B
         city: Bloomington
         region: IN
         country: US
-        postal-code: 47405
-    email: clively@indiana.edu
+        postal-code: "47405"
+    email: clively@iu.edu
     url: https://biology.indiana.edu/about/faculty/lively-curt.html
   date: "2024-01-01"
   date-format: "YYYY"
@@ -33,7 +31,7 @@ book:
   downloads: [pdf, epub, docx]
   sidebar:
     style: "docked"
-    # logo: images/cover.png
+    logo: images/cover.png
     search: true
     tools: 
       - icon: twitter-x
@@ -79,6 +77,7 @@ book:
     - over-future.qmd
     - glossary.qmd
     - references.qmd
+    - errata.qmd
 
 citation:
   type: book
@@ -116,6 +115,8 @@ format:
     linkcolor: "#be5350"
     lang: "en-US"
     include-after-body: _includes/accessibility-fix.html
+    # axe: 
+    #  output: document
 
   titlepage-pdf:
     coverpage: true
@@ -160,7 +161,7 @@ format:
     keywords: ["evolution", "coevolution", "host-parasite interactions", "Muller's ratchet", "parthenogenesis", "Red Queen hypothesis", "sexual reproduction"]
     subject: "evolutionary biology"
     latex-auto-mk: true
-    latex-auto-install: True
+    latex-auto-install: true
     header-includes: |
       \widowpenalty=10000         % avoid widows
       \clubpenalty=10000          % avoid orphans

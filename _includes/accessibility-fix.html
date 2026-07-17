@@ -1,43 +1,225 @@
 <script>
-  window.addEventListener("DOMContentLoaded", function () {
-    function addVisuallyHiddenText(link, text) {
-      if (!link.querySelector(".visually-hidden")) {
-        const span = document.createElement("span");
-        span.className = "visually-hidden";
-        span.textContent = text;
-        link.appendChild(span);
-      }
+(() => {
+  function applyAccessibilityFixes() {
+    function labelIconLink(link, label) {
+      if (!link) return;
+
+      link.setAttribute("aria-label", label);
+
+      link.querySelectorAll("img").forEach((image) => {
+        image.setAttribute("alt", "");
+        image.setAttribute("aria-hidden", "true");
+      });
+
+      link.querySelectorAll("svg").forEach((icon) => {
+        icon.setAttribute("aria-hidden", "true");
+        icon.setAttribute("focusable", "false");
+      });
+
+      link.querySelectorAll("i").forEach((icon) => {
+        icon.setAttribute("aria-hidden", "true");
+      });
     }
 
-    // ORCID links are <a.quarto-title-author-orcid>
-    document.querySelectorAll(".quarto-title-author-orcid").forEach(orcidLink => {
-      const orcidImg = orcidLink.querySelector("img");
-      if (orcidImg) {
-        orcidImg.setAttribute("role", "presentation");
-        orcidImg.setAttribute("alt", "");
-      }
-      orcidLink.setAttribute("aria-label", "Author's ORCID profile");
-      addVisuallyHiddenText(orcidLink, "Author's ORCID profile");
-    });
+    /*
+     * Give each navigation landmark a distinct accessible name.
+     */
 
-    // Email links similarly
-    document.querySelectorAll(".quarto-title-author-email").forEach(emailLink => {
-      const emailImg = emailLink.querySelector("img");
-      if (emailImg) {
-        emailImg.setAttribute("role", "presentation");
-        emailImg.setAttribute("alt", "");
-      }
-      emailLink.setAttribute("aria-label", "Email the author");
-      addVisuallyHiddenText(emailLink, "Email the author");
-    });
-    document.querySelectorAll('a.pagination-link[aria-label=""]').forEach(link => {
-        link.setAttribute('aria-label', 'Next page');
-        // Optionally add visible text if needed
-        const span = link.querySelector('.nav-page-text');
-        if(span && !span.textContent.trim()) {
-            span.textContent = 'Next page';
+    const bookSidebar = document.querySelector("#quarto-sidebar");
+
+    if (bookSidebar) {
+      bookSidebar.setAttribute("aria-label", "Book contents");
+    }
+
+    document
+      .querySelectorAll("nav.quarto-secondary-nav")
+      .forEach((navigation, index) => {
+        navigation.setAttribute(
+          "aria-label",
+          index === 0
+            ? "Page controls"
+            : `Page controls ${index + 1}`
+        );
+      });
+
+    const pageToc = document.querySelector("#TOC");
+
+    if (pageToc) {
+      pageToc.setAttribute("aria-label", "On this page");
+      pageToc.removeAttribute("aria-labelledby");
+    }
+
+    document
+      .querySelectorAll("nav.page-navigation")
+      .forEach((navigation, index) => {
+        navigation.setAttribute(
+          "aria-label",
+          index === 0
+            ? "Chapter pagination"
+            : `Chapter pagination ${index + 1}`
+        );
+      });
+
+    /*
+     * Quarto may place role="navigation" on the empty mobile
+     * sidebar-toggle anchor. Remove that role so the anchor does
+     * not create an unnecessary navigation landmark.
+     */
+    document
+      .querySelectorAll(
+        'a[role="navigation"][data-bs-target=".quarto-sidebar-collapse-item"]'
+      )
+      .forEach((link) => {
+        link.removeAttribute("role");
+      });
+
+    /*
+     * Give the sidebar logo link an accessible name.
+     */
+    document
+      .querySelectorAll("a.sidebar-logo-link")
+      .forEach((link) => {
+        labelIconLink(link, "Through the Looking Glass home");
+      });
+
+    /*
+     * Label icon-only ORCID links.
+     */
+    document
+      .querySelectorAll("a.quarto-title-author-orcid")
+      .forEach((link) => {
+        const authorContainer =
+          link.closest(".quarto-title-meta-contents") ||
+          link.closest(".quarto-title-author") ||
+          link.parentElement;
+
+        const authorName =
+          authorContainer
+            ?.querySelector(".quarto-title-author-name")
+            ?.textContent
+            ?.trim() ||
+          authorContainer
+            ?.querySelector(".author")
+            ?.textContent
+            ?.trim() ||
+          "";
+
+        labelIconLink(
+          link,
+          authorName
+            ? `View ${authorName}'s ORCID profile`
+            : "View the author's ORCID profile"
+        );
+      });
+
+    /*
+     * Label icon-only author email links.
+     */
+    document
+      .querySelectorAll("a.quarto-title-author-email")
+      .forEach((link) => {
+        const href = link.getAttribute("href") || "";
+
+        const emailAddress = href.startsWith("mailto:")
+          ? decodeURIComponent(
+              href.slice("mailto:".length).split("?")[0]
+            )
+          : "";
+
+        const authorContainer =
+          link.closest(".quarto-title-meta-contents") ||
+          link.closest(".quarto-title-author") ||
+          link.parentElement;
+
+        const authorElement =
+          authorContainer?.querySelector(".quarto-title-author-name") ||
+          authorContainer?.querySelector(".author");
+
+        let authorName = authorElement?.textContent?.trim() || "";
+
+        if (authorName) {
+          authorName = authorName
+            .replace(/\s+/g, " ")
+            .replace(emailAddress, "")
+            .trim();
         }
-        });
 
-  });
+        let label = "Email the author";
+
+        if (authorName && emailAddress) {
+          label = `Email ${authorName} at ${emailAddress}`;
+        } else if (authorName) {
+          label = `Email ${authorName}`;
+        } else if (emailAddress) {
+          label = `Email ${emailAddress}`;
+        }
+
+        labelIconLink(link, label);
+      });
+
+    /*
+     * Give the reader-mode toggle an accessible name when Quarto
+     * does not supply one.
+     */
+    document
+      .querySelectorAll("a.quarto-reader-toggle")
+      .forEach((link) => {
+        if (!link.getAttribute("aria-label")?.trim()) {
+          link.setAttribute("aria-label", "Toggle reader mode");
+        }
+
+        link.querySelectorAll("i, svg").forEach((icon) => {
+          icon.setAttribute("aria-hidden", "true");
+
+          if (icon.tagName.toLowerCase() === "svg") {
+            icon.setAttribute("focusable", "false");
+          }
+        });
+      });
+
+    /*
+     * Repair unnamed pagination links without overwriting useful
+     * labels already supplied by Quarto.
+     */
+    document
+      .querySelectorAll("a.pagination-link")
+      .forEach((link) => {
+        const visibleText = link.textContent.trim();
+        const existingLabel =
+          link.getAttribute("aria-label")?.trim();
+
+        if (visibleText || existingLabel) return;
+
+        const rel = link.getAttribute("rel");
+        let label = "Go to page";
+
+        if (
+          rel === "next" ||
+          link.classList.contains("nav-page-next") ||
+          link.closest(".nav-page-next")
+        ) {
+          label = "Next page";
+        } else if (
+          rel === "prev" ||
+          rel === "previous" ||
+          link.classList.contains("nav-page-previous") ||
+          link.closest(".nav-page-previous")
+        ) {
+          label = "Previous page";
+        }
+
+        link.setAttribute("aria-label", label);
+      });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener(
+      "DOMContentLoaded",
+      applyAccessibilityFixes,
+      { once: true }
+    );
+  } else {
+    applyAccessibilityFixes();
+  }
+})();
 </script>
