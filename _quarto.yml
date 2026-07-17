@@ -24,7 +24,6 @@ book:
     The following pages represent the first volume of a book. The main goal is to introduce the evolutionary problem of sexual reproduction with a focus on competition between sexual and asexual females. But I also incorporate some ideas on genetic polymorphism and phenotypic plasticity with the goal of exploring "variation strategies" more generally. Finally, I try to weave in some history of the field along with some philosophy of science. 
   description: | 
     Book on the evolutionary problem of sexual reproduction
-  references: references.bib
   cover-image: images/cover.png
   cover-image-alt: Book cover with title, author, illustrator, and illustration of red queen chess piece being crawled on by two snails.
   sharing: [twitter, facebook, linkedin]
@@ -55,17 +54,27 @@ book:
   reader-mode: true
   page-navigation: true
   back-to-top-navigation: true
-  open-graph: 
+  open-graph:
+    title: "Through the Looking Glass: I. Why Cross-Fertilize?"
+    description: >-
+      An introduction to the evolutionary problem of sexual reproduction, focusing on competition between sexual and asexual females.
     image: images/cover-thumbnail.jpg
-    image-alt: Book cover with title, author, illustrator, and illustration of red queen chess piece being crawled on by two snails.
-  twitter-card:  
-    card-style: summary
+    image-alt: >-
+      Cover of Through the Looking Glass: I. Why Cross-Fertilize?, showing a red queen chess piece with two snails crawling on it.
+    locale: en_US
+    site-name: "Through the Looking Glass"
+
+  twitter-card:
+    title: "Through the Looking Glass: I. Why Cross-Fertilize?"
+    description: >-
+      An introduction to the evolutionary problem of sexual reproduction, focusing on competition between sexual and asexual females.
+    image: images/cover-thumbnail.jpg
+    image-alt: >-
+      Cover of Through the Looking Glass: I. Why Cross-Fertilize?, showing a red queen chess piece with two snails crawling on it.
+    card-style: summary_large_image
     creator: "@curt_lively"
-    image: images/cover-thumbnail.jpg
-    image-alt: Book cover with title, author, illustrator, and illustration of red queen chess piece being crawled on by two snails.
   google-analytics: 
     tracking-id: "G-2DBK1P7896"
-
 
   chapters:
     - index.qmd
@@ -82,7 +91,20 @@ book:
 
 citation:
   type: book
+  title: "Through the Looking Glass: I. Why Cross-Fertilize?"
+  author:
+    - given: Curtis M.
+      family: Lively
+  issued: 2024-01-01
+  doi: 10.5967/gbd3-ka07
   publisher: "Indiana University Bloomington Libraries Publishing"
+  publisher-place: "Bloomington, IN"
+  volume: 1
+  url: https://iulibrariespublishing.iu.edu/through-the-looking-glass/
+  abstract: >-
+    The following pages represent the first volume of a book. The main goal is to introduce the evolutionary problem of sexual reproduction, with a
+    focus on competition between sexual and asexual females. The book also incorporates ideas about genetic polymorphism and phenotypic plasticity to explore "variation strategies" more generally, while weaving in the
+    history and philosophy of the field.
 
 google-scholar: true
 csl: ecology-letters.csl
@@ -104,15 +126,12 @@ format:
     fig-cap-location: bottom
     tbl-cap-location: top
     link-external-newwindow: true
-    copyright: Curtis M. Lively
     date-modified: last-modified
-    license: "CC BY ND"
     citeproc: true
     html-q-tags: true
     footnotes-hover: true
     include-in-header: 
       - text: <meta name="google-site-verification" content="eJHds-HZowhP4fOmzTkps1RTCDKNi3ViSQ2BSaFVA7Y" />
-    keywords: ["evolution", "coevolution", "host-parasite interactions", "Muller's ratchet", "parthenogenesis", "Red Queen hypothesis", "sexual reproduction"]
     linkcolor: "#be5350"
     lang: "en-US"
     include-after-body: _includes/accessibility-fix.html
@@ -159,7 +178,6 @@ format:
     citeproc: true
     link-citations: true
     lang: "en-US"
-    keywords: ["evolution", "coevolution", "host-parasite interactions", "Muller's ratchet", "parthenogenesis", "Red Queen hypothesis", "sexual reproduction"]
     subject: "evolutionary biology"
     latex-auto-mk: true
     latex-auto-install: true
