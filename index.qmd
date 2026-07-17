@@ -16,10 +16,11 @@ This book is available in multiple formats for a range of reading preferences an
 
 ### Digital
 
-- **HTML:** Version of Record.
-- **DOCX:** Download via the <i class="bi bi-download"></i> in the left-hand sidebar.
-- **EPUB:** Download via the <i class="bi bi-download"></i> icon in the left-hand sidebar.
-- **PDF:** Download via the <i class="bi bi-download"></i>  icon in the left-hand sidebar.
+- **HTML:** Primary online reading format.
+- **EPUB:** E-reader format. Download via the <i class="bi bi-download"></i> icon in the left-hand sidebar.
+- **PDF:** Fixed-layout format. Download via the <i class="bi bi-download"></i>  icon in the left-hand sidebar.
+
+The HTML, EPUB, and PDF files are published manifestations of the same edition. The edition is identified by its DOI and publication date.
 
 ### Source Files
 
@@ -44,7 +45,22 @@ This project was supported by the NSF OPUS program for the synthesis of biologic
 &copy; 2024 Curtis M. Lively\
 Illustrations &copy; 2024 Zoe Michelle Dinges\
 
-<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><strong>Unless otherwise indicated</strong>, <a property="dct:title" rel="cc:attributionURL" href="https://iulibrariespublishing.iu.edu/through-the-looking-glass/">Through the Looking Glass: I. Why Cross-Fertilize?</a> by <span property="cc:attributionName">Curtis M. Lively and Zoe Michelle Dinges</span> is licensed under <a href="http://creativecommons.org/licenses/by-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution-NoDerivatives 4.0 International <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="Creative Commons CC logo."></img><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="Creative Commons BY logo."></img><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt="Creative Commons No-Derivatives logo."></img></a></p>
+<p xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dct="http://purl.org/dc/terms/">
+  <strong>Unless otherwise indicated</strong>, the text of
+  <a property="dct:title"
+     rel="cc:attributionURL"
+     href="https://iulibrariespublishing.iu.edu/through-the-looking-glass/">
+    <em>Through the Looking Glass: I. Why Cross-Fertilize?</em>
+  </a>
+  by <span property="cc:attributionName">Curtis M. Lively</span>
+  and the illustrations by Zoe Michelle Dinges are licensed under the
+  <a href="https://creativecommons.org/licenses/by-nd/4.0/"
+     target="_blank"
+     rel="license noopener noreferrer">
+    Creative Commons Attribution-NoDerivatives 4.0 International License
+  </a>.
+</p>
 
 ## Publisher
 
@@ -58,4 +74,4 @@ Bloomington, IN 47405
 
 ## How to Cite
 
-Lively, C.M. (2024). [*Through the Looking Glass: I. Why Cross-Fertilize?*](https://doi.org/10.5967/GBD3-KA07) Indiana University Bloomington Libraries Publishing.
+Lively, Curtis M. 2024. *Through the Looking Glass: I. Why Cross-Fertilize?* Indiana University Bloomington Libraries Publishing. <https://doi.org/10.5967/gbd3-ka07>.

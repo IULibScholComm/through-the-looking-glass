@@ -28,7 +28,7 @@ book:
   cover-image: images/cover.png
   cover-image-alt: Book cover with title, author, illustrator, and illustration of red queen chess piece being crawled on by two snails.
   sharing: [twitter, facebook, linkedin]
-  downloads: [pdf, epub, docx]
+  downloads: [epub, pdf]
   sidebar:
     style: "docked"
     logo: images/cover.png
@@ -180,12 +180,12 @@ format:
     lang: "en-US"
     fig-responsive: true
 
-  docx:
-    toc: true
-    toc-title: Contents
-    citeproc: true
-    lang: "en-US"
-    reference-doc: custom-reference-doc.docx
-    fig-align: center
-    link-citations: true
-    subject: evolution, coevolution, "host-parasite interactions", "Muller's ratchet", parthenogenesis, "Red Queen hypothesis", "sexual reproduction"
+#  docx:
+#    toc: true
+#    toc-title: Contents
+#    citeproc: true
+#    lang: "en-US"
+#    reference-doc: custom-reference-doc.docx
+#    fig-align: center
+#    link-citations: true
+#    subject: evolution, coevolution, "host-parasite interactions", "Muller's ratchet", parthenogenesis, "Red Queen hypothesis", "sexual reproduction"
