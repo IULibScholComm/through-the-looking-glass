@@ -32,6 +32,7 @@ book:
   sidebar:
     style: "docked"
     logo: images/cover.png
+    logo-alt: Book cover with title, author, illustrator, and illustration of red queen chess piece being crawled on by two snails.
     search: true
     tools: 
       - icon: twitter-x

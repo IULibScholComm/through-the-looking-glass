@@ -25,9 +25,6 @@ This book is available in multiple formats for a range of reading preferences an
 
 Source files are available via the **View source** link in the right-hand sidebar.
 
-- **Quarto Markdown (QMD):**
-- **TeX:** (```"Through-the-Looking-Glass--I.-Why-Cross-Fertilize-.tex."```)
-
 :::
 
 ## Acknowledgements
